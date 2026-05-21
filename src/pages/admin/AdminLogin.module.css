@@ -1,0 +1,131 @@
+@import '../../styles/variables.css';
+
+.page {
+  min-height: 100vh;
+  background: var(--bb-off-white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.card {
+  background: var(--bb-white);
+  border: 1px solid var(--bb-light-gray);
+  border-radius: 16px;
+  padding: 48px 40px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06);
+}
+
+.logoWrap {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.logo {
+  height: 48px;
+  width: auto;
+  object-fit: contain;
+}
+
+.title {
+  font-family: 'Fredoka One', cursive;
+  font-size: 28px;
+  font-weight: 400;
+  color: var(--bb-charcoal);
+  text-align: center;
+  margin: 0 0 6px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: var(--bb-mid-gray);
+  text-align: center;
+  margin: 0 0 32px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--bb-dark-gray);
+}
+
+.input {
+  border: 1.5px solid var(--bb-light-gray);
+  border-radius: var(--btn-radius);
+  padding: 10px 14px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--bb-charcoal);
+  background: var(--bb-off-white);
+  outline: none;
+  transition: border-color var(--transition), background var(--transition);
+}
+
+.input:focus {
+  border-color: var(--bb-coral);
+  background: var(--bb-white);
+}
+
+.error {
+  font-size: 13px;
+  color: #e05252;
+  margin: 0;
+  padding: 8px 12px;
+  background: #fdf0f0;
+  border-radius: 8px;
+  border: 1px solid #f5c0c0;
+}
+
+.submitBtn {
+  background: var(--bb-coral);
+  color: var(--bb-white);
+  border: none;
+  border-radius: var(--btn-radius-pill);
+  padding: 12px 24px;
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity var(--transition);
+  margin-top: 4px;
+}
+
+.submitBtn:hover:not(:disabled) {
+  opacity: 0.88;
+}
+
+.submitBtn:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+.backBtn {
+  display: block;
+  margin: 20px auto 0;
+  background: none;
+  border: none;
+  font-family: var(--font-body);
+  font-size: 13px;
+  color: var(--bb-mid-gray);
+  cursor: pointer;
+  transition: color var(--transition);
+}
+
+.backBtn:hover {
+  color: var(--bb-coral);
+}

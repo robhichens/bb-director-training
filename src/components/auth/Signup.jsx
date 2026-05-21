@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useAuth } from '../../context/AuthContext'
+import { createUserProfile } from '../../lib/syncProgress'
 import Button from '../shared/Button'
 import styles from './Auth.module.css'
 
@@ -51,6 +52,7 @@ export default function Signup() {
       createdAt: new Date().toISOString(),
     }
     login(user)
+    createUserProfile(user) // fire-and-forget Firestore profile creation
     navigate('/dashboard')
   }
 

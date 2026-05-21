@@ -7,7 +7,9 @@ import {
   markModuleComplete,
   getOverallProgress,
   isReferenceMode,
+  getUser,
 } from '../utils/progressTracker'
+import { syncProgressToFirestore } from '../lib/syncProgress'
 
 const ProgressContext = createContext(null)
 
@@ -17,12 +19,16 @@ export function ProgressProvider({ children }) {
   const persist = useCallback((next) => {
     saveProgress(next)
     setProgress(next)
+    // Fire-and-forget sync to Firestore so the admin page has live data
+    const user = getUser()
+    syncProgressToFirestore(user, next)
   }, [])
 
   const completeSection = useCallback((moduleId, sectionId) => {
     setProgress(prev => {
       const next = markSectionComplete(prev, moduleId, sectionId)
       saveProgress(next)
+      syncProgressToFirestore(getUser(), next)
       return next
     })
   }, [])
@@ -31,6 +37,7 @@ export function ProgressProvider({ children }) {
     setProgress(prev => {
       const next = saveQuizScore(prev, moduleId, quizId, score, passed)
       saveProgress(next)
+      syncProgressToFirestore(getUser(), next)
       return next
     })
   }, [])
@@ -39,6 +46,7 @@ export function ProgressProvider({ children }) {
     setProgress(prev => {
       const next = markModuleComplete(prev, moduleId)
       saveProgress(next)
+      syncProgressToFirestore(getUser(), next)
       return next
     })
   }, [])

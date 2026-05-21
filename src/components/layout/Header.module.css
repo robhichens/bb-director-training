@@ -95,6 +95,23 @@
   white-space: nowrap;
 }
 
+.adminBtn {
+  background: none;
+  border: 1.5px solid var(--bb-light-gray);
+  border-radius: var(--btn-radius);
+  padding: 6px 10px;
+  color: var(--bb-mid-gray);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: border-color var(--transition), color var(--transition);
+}
+.adminBtn:hover {
+  border-color: var(--bb-coral);
+  color: var(--bb-coral);
+}
+
 .logoutBtn {
   background: none;
   border: 1.5px solid var(--bb-light-gray);

@@ -12,6 +12,8 @@ import Module4 from './modules/module4/Module4'
 import Module5 from './modules/module5/Module5'
 import Module6 from './modules/module6/Module6'
 import Module7 from './modules/module7/Module7'
+import AdminLogin from './pages/admin/AdminLogin'
+import AdminDashboard from './pages/admin/AdminDashboard'
 import BirdieChat from './components/shared/BirdieChat'
 
 function ProtectedRoute({ children }) {
@@ -113,6 +115,10 @@ function AppRoutes() {
           </ProtectedRoute>
         }
       />
+
+      {/* Admin — own layout, no sidebar */}
+      <Route path="/admin/login" element={<AdminLogin />} />
+      <Route path="/admin" element={<AdminDashboard />} />
 
       {/* Fallback */}
       <Route path="*" element={<Navigate to="/dashboard" replace />} />
