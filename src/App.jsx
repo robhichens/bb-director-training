@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
 import { AuthProvider, useAuth } from './context/AuthContext'
-import { ProgressProvider } from './context/ProgressContext'
+import { ProgressProvider, useProgress } from './context/ProgressContext'
 import Login from './components/auth/Login'
 import Signup from './components/auth/Signup'
 import ModuleLayout from './components/layout/ModuleLayout'
@@ -11,6 +11,7 @@ import Module3 from './modules/module3/Module3'
 import Module4 from './modules/module4/Module4'
 import Module5 from './modules/module5/Module5'
 import Module6 from './modules/module6/Module6'
+import BirdieChat from './components/shared/BirdieChat'
 
 function ProtectedRoute({ children }) {
   const { user } = useAuth()
@@ -110,12 +111,21 @@ function AppRoutes() {
   )
 }
 
+// Show Birdie once any progress has been made (module 1 started)
+function BirdieGate() {
+  const { user } = useAuth()
+  const { overallPct } = useProgress()
+  if (!user || overallPct === 0) return null
+  return <BirdieChat />
+}
+
 export default function App() {
   return (
     <BrowserRouter>
       <AuthProvider>
         <ProgressProvider>
           <AppRoutes />
+          <BirdieGate />
         </ProgressProvider>
       </AuthProvider>
     </BrowserRouter>

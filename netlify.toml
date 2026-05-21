@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+  functions = "netlify/functions"
+
+[functions]
+  # Use esbuild to bundle each function — handles ESM imports from node_modules
+  node_bundler = "esbuild"
