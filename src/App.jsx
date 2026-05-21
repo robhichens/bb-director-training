@@ -11,6 +11,7 @@ import Module3 from './modules/module3/Module3'
 import Module4 from './modules/module4/Module4'
 import Module5 from './modules/module5/Module5'
 import Module6 from './modules/module6/Module6'
+import Module7 from './modules/module7/Module7'
 import BirdieChat from './components/shared/BirdieChat'
 
 function ProtectedRoute({ children }) {
@@ -101,6 +102,14 @@ function AppRoutes() {
         element={
           <ProtectedRoute>
             <ModuleLayout><Module6 /></ModuleLayout>
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/module/7"
+        element={
+          <ProtectedRoute>
+            <ModuleLayout><Module7 /></ModuleLayout>
           </ProtectedRoute>
         }
       />

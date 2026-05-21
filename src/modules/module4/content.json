@@ -258,6 +258,79 @@
           "explanation": "Day 26 is a final push to convert any tours from that month into enrollments before the month closes. You contact every toured family who hasn't enrolled — some just need a nudge, a second visit offer, or a clarifying question answered. Day 26 recovers enrollments that would otherwise fall off into the next month's backlog."
         }
       ]
+    },
+    {
+      "id": "4.5",
+      "title": "Monthly Calendar: Day-by-Day Detail",
+      "type": "reading",
+      "learningObjectives": [
+        "Know the specific ProCare paths for key monthly reports",
+        "Understand the billing day sequence and when tuition is posted vs. charged",
+        "Know what triggers a deny-care conversation and how to handle it"
+      ],
+      "content": "## The Month in Detail: Critical Days and ProCare Paths\n\nBeyond the general monthly rhythm, certain days have specific, mandatory actions with exact system paths. Know these days before the month begins.\n\n---\n\n### Day 1 — Month Launch\n\n- **Late fees:** Apply late fees to all accounts that did not pay by the prior month's billing deadline. ProCare → Families → select account → Add Transaction → Late Fee.\n- **Voicemail message change:** Update the center voicemail greeting to reference the current month. Voicemail change URL: [site-specific, in admin drive]. Change within the first 2 hours of Day 1.\n- **Fire drill:** Conduct the monthly fire drill on Day 1 or the first business day. Document in the licensing binder: date, time, duration, number of children/staff evacuated, any issues.\n\n---\n\n### Day 2 — Financial Reporting\n\n- **Deposit Report:** Run the prior month's deposit report. ProCare → Reports → Financial → Deposit Report. Submit to admin with DOR.\n- **Revenue Forecast:** Run the forecast for the current month. ProCare → Reports → Financial → Revenue Forecast. Compare to enrollment target and flag any gap.\n- **Immunization Report:** ProCare → Reports → Child → Immunization Expiration Report. Flag any records expiring within the next 60 days. Begin parent outreach immediately.\n- **Staff alerts:** Review any ProCare staff alerts (expiring certifications, required training). Add to the Director Packet.\n\n---\n\n### Day 3 — Licensing Binder Check\n\n- Pull the licensing binder and verify all documents are current, complete, and organized per the Virginia VDSS required format.\n- Check expiration dates: TB tests, CPR certifications, background checks, staff health assessments.\n- Any document expiring within 30 days: initiate the renewal process today, not next week.\n- Update the binder checklist form and sign off.\n\n---\n\n### Day 5 — Bad Debt Deadline\n\n- **Bad Debt Report:** ProCare → Reports → Financial → Aging Report. All accounts 1+ days past due are reviewed.\n- Any account with an outstanding balance: director makes a personal phone call (not just an email) today.\n- If a family refuses to pay or cannot be reached: **deny care until payment or payment plan is arranged.** Notify admin before denying care.\n- Submit the outstanding balance report to admin by end of day.\n\n> Denying care is difficult. It's also necessary. Families who owe money and continue to receive care learn that balances have no consequence. Admin supports you in this — you are not doing it alone.\n\n---\n\n### Day 6 — Brivo Access Management\n\n- **New families starting this month:** Activate Brivo access for authorized pickup persons. Confirm PIN or fob assignment with each family.\n- **Families who ended enrollment last month:** Deactivate Brivo access immediately if not already done. Check the list from last month's departures.\n- Test any new fobs or PINs before giving to families.\n\n---\n\n### Day 20 — Audit Reports\n\nRun all three audit reports and review for discrepancies:\n\n| Report | ProCare Path | Purpose |\n|--------|-------------|--------|\n| Enrollment Audit | Reports → Enrollment → Enrollment Audit Report | Confirms all active enrollments match contracts |\n| Attendance Audit | Reports → Attendance → Attendance Audit Report | Identifies attendance recording errors |\n| Billing Audit | Reports → Financial → Billing Audit Report | Flags any billing discrepancies or missing transactions |\n\nAny discrepancies found: correct immediately and note in the Director Packet.\n\n---\n\n### Day 23 — Tuition Posted\n\n- Tuition for the following month is **posted to family accounts on Day 23.** This is automated in Tuition Express — verify that all accounts are set up correctly and no accounts show errors.\n- Families on manual billing (check or cash): send a paper statement or Tadpoles billing message today.\n- Families on DSS assistance: verify authorization amounts are current before billing runs.\n\n---\n\n### Day 27 — BILLING DAY\n\n> **Day 27 is Billing Day. Tuition Express runs the automatic charge to all enrolled family accounts.**\n\n- Verify all TE (Tuition Express) accounts are active and have valid payment methods before Day 27.\n- Any declined transactions on or after Day 27: contact the family within 24 hours.\n- CCA (Childcare Assistance) families: verify the CCA authorization is current and the account is flagged correctly in ProCare.\n- Enhancement fees ($300 single / $500 family) must appear on every active account — verify before billing runs.\n\n---\n\n### Day 29 — KPI Scorecard\n\n- Complete the monthly KPI scorecard and submit to the admin assistant by end of day.\n- KPI scorecard includes: enrollment vs. target, labor vs. budget, bad debt status, drill completion, Google review count, tour conversion rate for the month.\n- This is separate from the Director Packet — it's a one-page numbers summary."
+    },
+    {
+      "id": "4.6",
+      "title": "Billing Mechanics",
+      "type": "reading",
+      "learningObjectives": [
+        "Know the Tuition Express Merchant IDs and CCA codes for each location",
+        "Understand the enhancement fee requirement and when re-registration applies",
+        "Know the Warrant in Debt process for unpaid balances"
+      ],
+      "content": "## How Billing Actually Works\n\nBilling is one of the areas where director mistakes are most costly — both financially and in family relationships. Know the mechanics cold.\n\n---\n\n### Tuition Express (TE) Merchant IDs\n\nEach location processes payments through a separate Tuition Express merchant account:\n\n| Location | TE Merchant ID |\n|----------|----------------|\n| Crozet (CR) | 7657 |\n| Forest Lakes (FL) | 7660 |\n| Mill Creek (MC) | 7673 |\n\nAlways verify you are processing in the correct location's account. Cross-location transactions create reconciliation errors.\n\n---\n\n### CCA (Childcare Assistance) Codes\n\nFamilies receiving state childcare assistance are billed through CCA codes:\n\n| Location | CCA Code |\n|----------|----------|\n| Forest Lakes (FL) | 2935 |\n| Crozet (CR) | 9252 |\n| Mill Creek (MC) | 9304 |\n\n**CCA Billing Rule:** On any CCA family's ProCare account, the family balance section must include a **^ symbol** next to the CCA-covered amount. This flags the account for correct co-pay calculation. Missing the ^ symbol causes overbilling errors.\n\n---\n\n### Enhancement Fees\n\n> **Every active account must have an enhancement fee. No exceptions.**\n\n| Family Type | Enhancement Fee |\n|-------------|----------------|\n| Single child | $300/year |\n| Family (2+ children) | $500/year |\n\n- Enhancement fee is a non-negotiable part of every enrollment contract\n- It is billed annually on the contract anniversary month — verify timing for each account\n- If a new enrollment is set up without the enhancement fee, correct it before billing runs\n- Enhancement fees appear as a separate line item in the billing transaction, not bundled into tuition\n\n---\n\n### Re-Registration Fee\n\n- Re-registration fee is charged in the **anniversary month** of each family's enrollment\n- Fee amount: per current rate sheet (confirm with admin)\n- ProCare will not auto-apply this — the director must manually post it to the account in the anniversary month\n- Directors who miss re-registration fees miss revenue. Add each family's anniversary month to your monthly calendar notes.\n\n---\n\n### Contract Billing Steps\n\n1. Enrollment meeting: complete the enrollment contract with the family; collect first month's tuition and registration fee at signing\n2. Enter family in ProCare with all billing fields complete\n3. Set up Tuition Express auto-pay: have the family complete the TE authorization form\n4. Verify the correct Merchant ID for your location\n5. Add enhancement fee line item to the account\n6. Note the re-registration anniversary month in your director calendar\n7. Run a test transaction verification before Day 27 of the first billing month\n\n---\n\n### Check Payment Steps\n\n1. Receive check; verify it is made out to **Bright Beginnings** (not the director's name, not cash)\n2. Record receipt in ProCare immediately: Families → select account → Add Payment → Check\n3. Write the ProCare confirmation number on the back of the check\n4. Place check in the locked deposit envelope in the director's office\n5. Submit to the bank with the deposit report by end of business\n6. Scan and upload the deposit receipt to the family's ProCare document folder\n\n---\n\n### DSS Billing Policy (June 2025)\n\n> **Effective June 2025: No new DSS (Department of Social Services) childcare assistance enrollments without explicit approval from KP (Karen Petchel).**\n\n- Existing DSS families: no change — continue billing as established\n- Any prospective family who mentions DSS assistance: do NOT promise a spot or begin enrollment paperwork until you have checked with admin\n- DSS authorization paperwork is slow — families sometimes cannot start on their intended date; manage expectations clearly\n\n---\n\n### Warrant in Debt (Unpaid Balance Collections)\n\nWhen a family owes a balance and refuses to pay or cannot be reached:\n\n1. Document all collection attempts (calls, emails, dates, responses) in ProCare\n2. Send a final written demand letter (template in Google Drive: Finance/Collections)\n3. If unpaid after 30 days of documented attempts: file a **Warrant in Debt** through the Virginia General District Court\n4. Filing location: **Albemarle County General District Court Clerk's Office**\n5. Small claims threshold: up to **$5,000** (no attorney required for amounts under this threshold)\n6. Bring to filing: signed contract, ProCare payment history printout, all written communications\n7. The court fee (approximately $30–50) is added to the claimed amount\n\n> **Never write off a balance without admin approval.** Even old balances may be collectible. Admin reviews all write-off requests.\n\n---\n\n### Monthly Billing Timeline at a Glance\n\n| Day | Action |\n|-----|--------|\n| Day 1 | Apply late fees; change voicemail |\n| Day 2 | Deposit report; revenue forecast |\n| Day 5 | Bad debt deadline; deny care if needed |\n| Day 6 | Brivo access updates |\n| Day 20 | Audit reports (enrollment, attendance, billing) |\n| Day 23 | Tuition posted to accounts |\n| Day 27 | **Billing Day — TE auto-charges run** |\n| Day 29 | KPI scorecard to admin |"
+    },
+    {
+      "id": "4.6-quiz",
+      "title": "Billing Mechanics Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the Tuition Express Merchant ID for the Mill Creek location?",
+          "type": "multiple-choice",
+          "options": ["7657", "7660", "7673", "9304"],
+          "correctAnswer": "7673",
+          "explanation": "Mill Creek's TE Merchant ID is 7673. Crozet is 7657, Forest Lakes is 7660. Using the wrong Merchant ID creates cross-location billing errors that are time-consuming to correct. Always verify you're in the correct location's account before processing any transaction."
+        },
+        {
+          "id": "q2",
+          "question": "A new family with two children enrolls. What enhancement fee applies?",
+          "type": "multiple-choice",
+          "options": ["$150", "$300", "$500", "No enhancement fee for new families"],
+          "correctAnswer": "$500",
+          "explanation": "$500 is the family enhancement fee (2+ children). Single-child families pay $300. Enhancement fees are non-negotiable and must appear on every active account. If a new enrollment is missing the enhancement fee when billing runs, it's a missed revenue item that requires a manual correction."
+        },
+        {
+          "id": "q3",
+          "question": "A CCA (Childcare Assistance) family's account in ProCare is missing the ^ symbol next to their CCA-covered amount. What problem does this cause?",
+          "type": "multiple-choice",
+          "options": [
+            "The account won't appear on the aging report",
+            "The family will receive a duplicate billing statement",
+            "The co-pay calculation will be incorrect, causing overbilling errors",
+            "The TE auto-charge will be skipped on billing day"
+          ],
+          "correctAnswer": "The co-pay calculation will be incorrect, causing overbilling errors",
+          "explanation": "The ^ symbol flags the CCA-covered amount so ProCare calculates the family's co-pay correctly. Without it, the system doesn't know which portion is state-funded vs. family-owed — leading to overbilling the family. Always verify ^ symbols on CCA accounts before billing runs on Day 27."
+        },
+        {
+          "id": "q4",
+          "question": "True or False: A director can approve new DSS childcare assistance enrollments independently as of June 2025.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "False. Effective June 2025, no new DSS enrollments may begin without explicit KP (admin owner) approval. Existing DSS families continue unchanged. For any prospective family mentioning DSS, do not promise a spot or begin paperwork — check with admin first."
+        },
+        {
+          "id": "q5",
+          "question": "When filing a Warrant in Debt for an unpaid family balance, what is the maximum amount that can be claimed without an attorney in Virginia small claims court?",
+          "type": "multiple-choice",
+          "options": ["$2,500", "$5,000", "$7,500", "$10,000"],
+          "correctAnswer": "$5,000",
+          "explanation": "Virginia's General District Court (small claims) handles claims up to $5,000 without requiring an attorney. Filing happens at the Albemarle County General District Court Clerk's Office. Bring the signed contract, ProCare payment history, and all written communications. The court fee is added to the claimed amount."
+        }
+      ]
     }
   ]
 }

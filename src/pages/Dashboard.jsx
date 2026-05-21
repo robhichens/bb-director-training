@@ -13,6 +13,7 @@ const MODULES = [
   { id: 'module4', num: 4, title: 'Business Operations',     time: '90–120 min', desc: 'Monthly duties, enrollment, billing, and CRM workflows.' },
   { id: 'module5', num: 5, title: 'Compliance & Safety',     time: '60–90 min', desc: 'Virginia licensing, health protocols, and incident reporting.' },
   { id: 'module6', num: 6, title: 'Communication & Community', time: '50–65 min', desc: 'Parent relationships, marketing, difficult conversations, and community presence.' },
+  { id: 'module7', num: 7, title: 'Director Reference Library', time: '20–30 min', desc: 'Quick-access contacts, ProCare paths, billing codes, checklists, and key links.' },
 ]
 
 function ModuleCard({ mod, status, onStart }) {

@@ -1,0 +1,243 @@
+@import '../../styles/variables.css';
+
+/* Module header */
+.moduleHeader {
+  margin-bottom: 36px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid var(--bb-light-gray);
+}
+
+.moduleHeaderTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+.moduleLabel {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--bb-coral);
+  margin-bottom: 4px;
+}
+
+.moduleTitle {
+  font-size: 32px;
+  font-weight: 400;
+  color: var(--bb-charcoal);
+  margin-bottom: 6px;
+}
+
+.moduleMeta {
+  font-size: 13px;
+  color: var(--bb-mid-gray);
+  margin: 0;
+}
+
+.moduleProgress {
+  flex-shrink: 0;
+  width: 180px;
+  margin-top: 8px;
+}
+
+/* Section nav */
+.sectionNav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 6px 12px;
+  background: var(--bb-white);
+  border: 1.5px solid var(--bb-light-gray);
+  border-radius: 20px;
+  font-family: var(--font-body);
+  font-size: 12px;
+  color: var(--bb-dark-gray);
+  cursor: pointer;
+  transition: border-color var(--transition), background-color var(--transition), color var(--transition);
+  white-space: nowrap;
+}
+.navItem:hover:not(:disabled) {
+  border-color: var(--bb-coral);
+  color: var(--bb-coral);
+}
+
+.navCurrent {
+  border-color: var(--bb-coral) !important;
+  background: var(--bb-coral) !important;
+  color: var(--bb-white) !important;
+}
+
+.navDone {
+  border-color: var(--bb-green) !important;
+  color: var(--bb-green) !important;
+}
+
+.navLocked {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.navDot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: currentColor;
+  color: var(--bb-white);
+  font-size: 10px;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+.navCurrent .navDot { background: rgba(255,255,255,0.3); }
+.navDone   .navDot  { background: var(--bb-green); color: var(--bb-white); }
+
+.navLabel {
+  max-width: 140px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.navBadge {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: 99px;
+  background: rgba(0,0,0,0.08);
+}
+.navCurrent .navBadge { background: rgba(255,255,255,0.25); }
+
+/* Module complete */
+.complete {
+  text-align: center;
+  padding: 60px 24px;
+}
+
+.completeImg {
+  height: 80px;
+  width: auto;
+  margin-bottom: 24px;
+  opacity: 0.9;
+}
+
+.completeTitle {
+  font-size: 36px;
+  color: var(--bb-charcoal);
+  font-weight: 400;
+  margin-bottom: 12px;
+}
+
+.completeSub {
+  font-size: 16px;
+  color: var(--bb-dark-gray);
+  max-width: 480px;
+  margin: 0 auto 32px;
+  line-height: 1.6;
+}
+
+.completeStats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 32px;
+  padding: 24px;
+  background: var(--bb-white);
+  border: 1px solid var(--bb-light-gray);
+  border-radius: var(--card-radius);
+}
+
+.stat { text-align: center; }
+.statNum {
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--bb-coral);
+  line-height: 1;
+  margin-bottom: 4px;
+}
+.statLabel {
+  font-size: 12px;
+  color: var(--bb-mid-gray);
+  font-weight: 500;
+}
+
+/* Certification card */
+.certCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  background: var(--bb-yellow);
+  border-radius: var(--card-radius);
+  padding: 28px 32px;
+  margin-top: 8px;
+  text-align: left;
+}
+
+.certIcon {
+  height: 48px;
+  width: auto;
+  flex-shrink: 0;
+  margin-top: 4px;
+  opacity: 0.9;
+}
+
+.certText { flex: 1; }
+
+.certLabel {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--bb-charcoal);
+  margin: 0 0 4px;
+}
+
+.certTitle {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--bb-charcoal);
+  margin: 0 0 10px;
+}
+
+.certSub {
+  font-size: 14px;
+  color: var(--bb-charcoal);
+  line-height: 1.6;
+  margin: 0 0 10px;
+  opacity: 0.85;
+}
+
+.certDate {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--bb-coral);
+  margin: 0;
+}
+
+.referenceNote {
+  font-size: 14px;
+  color: var(--bb-mid-gray);
+  margin-top: 24px;
+  font-style: italic;
+}
+
+@media (max-width: 560px) {
+  .certCard { flex-direction: column; }
+}
+
+@media (max-width: 640px) {
+  .moduleHeaderTop { flex-direction: column; }
+  .moduleProgress  { width: 100%; }
+  .completeStats   { gap: 24px; }
+  .moduleTitle     { font-size: 26px; }
+}

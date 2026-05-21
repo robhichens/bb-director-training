@@ -1,7 +1,7 @@
 const USER_KEY     = 'bb-director-user'
 const PROGRESS_KEY = 'bb-director-progress'
 
-const MODULE_ORDER = ['module1', 'module2', 'module3', 'module4', 'module5', 'module6']
+const MODULE_ORDER = ['module1', 'module2', 'module3', 'module4', 'module5', 'module6', 'module7']
 
 const defaultProgress = () =>
   MODULE_ORDER.reduce((acc, id, idx) => {
@@ -39,7 +39,17 @@ export function getProgress() {
     const stored = JSON.parse(raw)
     // Ensure all modules present (handles schema updates)
     const base = defaultProgress()
-    return { ...base, ...stored }
+    const merged = { ...base, ...stored }
+    // Migration: unlock next module if prior module is completed but next is still locked
+    MODULE_ORDER.forEach((id, idx) => {
+      if (merged[id]?.status === 'completed' && idx < MODULE_ORDER.length - 1) {
+        const nextId = MODULE_ORDER[idx + 1]
+        if (merged[nextId]?.status === 'locked') {
+          merged[nextId] = { ...merged[nextId], status: 'not-started' }
+        }
+      }
+    })
+    return merged
   } catch {
     return defaultProgress()
   }

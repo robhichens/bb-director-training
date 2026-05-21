@@ -10,6 +10,7 @@ const MODULES = [
   { id: 'module4', num: 4, title: 'Business Operations',       time: '90–120 min' },
   { id: 'module5', num: 5, title: 'Compliance & Safety',       time: '60–90 min' },
   { id: 'module6', num: 6, title: 'Communication & Community', time: '50–65 min' },
+  { id: 'module7', num: 7, title: 'Director Reference Library', time: '20–30 min' },
 ]
 
 function StatusIcon({ status }) {

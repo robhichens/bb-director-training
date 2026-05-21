@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { useNavigate } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useProgress } from '../../context/ProgressContext'
 import { useAuth } from '../../context/AuthContext'
@@ -8,9 +7,9 @@ import Quiz from '../../components/content/Quiz'
 import ScenarioCard from '../../components/content/ScenarioCard'
 import ProgressBar from '../../components/shared/ProgressBar'
 import content from './content.json'
-import styles from './Module6.module.css'
+import styles from './Module7.module.css'
 
-const MODULE_ID = 'module6'
+const MODULE_ID = 'module7'
 
 function SectionNav({ sections, currentId, completedIds, onSelect }) {
   return (
@@ -41,7 +40,7 @@ function SectionNav({ sections, currentId, completedIds, onSelect }) {
   )
 }
 
-function ModuleComplete({ userName, onGoToRef }) {
+function TrainingComplete({ userName }) {
   return (
     <motion.div
       className={styles.complete}
@@ -50,31 +49,48 @@ function ModuleComplete({ userName, onGoToRef }) {
       transition={{ duration: 0.5, ease: 'easeOut' }}
     >
       <img src="/images/3birds-coral.png" alt="" className={styles.completeImg} aria-hidden="true" />
-      <h2 className={styles.completeTitle}>Module 6 Complete!</h2>
+      <h2 className={styles.completeTitle}>Training Complete!</h2>
       <p className={styles.completeSub}>
-        Excellent work, {userName}. You've completed all six core training modules. One final step: the Director Reference Library.
+        Congratulations, {userName}. You've completed all seven modules of the Bright Beginnings Director Training Program. You are ready to lead.
       </p>
 
-      <div className={styles.nextModuleCard}>
-        <div className={styles.nextModuleText}>
-          <p className={styles.nextModuleLabel}>Up Next</p>
-          <p className={styles.nextModuleTitle}>Module 7 — Director Reference Library</p>
-          <p className={styles.nextModuleSub}>
-            Your permanent quick-access reference: contacts, ProCare paths, billing codes, checklists, and key links. Takes about 20 minutes — and stays useful forever.
-          </p>
+      <div className={styles.completeStats}>
+        <div className={styles.stat}>
+          <span className={styles.statNum}>7</span>
+          <span className={styles.statLabel}>Modules Complete</span>
         </div>
-        <button className={styles.nextModuleBtn} onClick={onGoToRef}>
-          Go to Module 7 →
-        </button>
+        <div className={styles.stat}>
+          <span className={styles.statNum}>100%</span>
+          <span className={styles.statLabel}>Training Done</span>
+        </div>
+        <div className={styles.stat}>
+          <span className={styles.statNum}>★</span>
+          <span className={styles.statLabel}>Certified</span>
+        </div>
       </div>
+
+      <div className={styles.certCard}>
+        <img src="/images/bird-coral.png" alt="" className={styles.certIcon} aria-hidden="true" />
+        <div className={styles.certText}>
+          <p className={styles.certLabel}>Bright Beginnings</p>
+          <p className={styles.certTitle}>Director Training Certification</p>
+          <p className={styles.certSub}>
+            {userName} has completed the full Bright Beginnings Director Operations Training Program — covering foundation and culture, daily operations, people management, business operations, compliance and safety, communication and community, and the director reference library.
+          </p>
+          <p className={styles.certDate}>Completed {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</p>
+        </div>
+      </div>
+
+      <p className={styles.referenceNote}>
+        Module 7 is your permanent reference library — return any time for contacts, ProCare paths, and quick checklists. Birdie is always available for questions.
+      </p>
     </motion.div>
   )
 }
 
-export default function Module6() {
+export default function Module7() {
   const { progress, completeSection, recordQuizScore, completeModule, isSectionComplete } = useProgress()
   const { user } = useAuth()
-  const navigate = useNavigate()
 
   const modProgress  = progress[MODULE_ID]
   const completedIds = modProgress?.sectionsCompleted ?? []
@@ -118,7 +134,7 @@ export default function Module6() {
   const firstName  = user?.name?.split(' ')[0] ?? 'Director'
 
   if (isModuleComplete) {
-    return <div><ModuleComplete userName={firstName} onGoToRef={() => navigate('/module/7')} /></div>
+    return <div><TrainingComplete userName={firstName} /></div>
   }
 
   return (
@@ -126,7 +142,7 @@ export default function Module6() {
       <div className={styles.moduleHeader}>
         <div className={styles.moduleHeaderTop}>
           <div>
-            <p className={styles.moduleLabel}>Module 6</p>
+            <p className={styles.moduleLabel}>Module 7 — Reference Library</p>
             <h1 className={styles.moduleTitle}>{content.title}</h1>
             <p className={styles.moduleMeta}>
               {content.estimatedTime} &nbsp;·&nbsp; {content.sections.length} sections
