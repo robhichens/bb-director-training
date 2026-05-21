@@ -1,0 +1,241 @@
+@import '../styles/variables.css';
+
+/* ── Page wrapper ───────────────────────────────────────────── */
+.page {
+  padding-bottom: 64px;
+}
+
+/* ── Hero banner ─────────────────────────────────────────────── */
+.hero {
+  background: linear-gradient(135deg, var(--bb-coral) 0%, #e87060 100%);
+  border-radius: var(--card-radius);
+  padding: 28px 32px;
+  margin-bottom: 24px;
+  color: var(--bb-white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.heroText {}
+
+.heroTitle {
+  font-family: 'Fredoka One', cursive;
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0 0 4px;
+  color: var(--bb-white);
+}
+
+.heroSub {
+  font-size: 14px;
+  margin: 0;
+  opacity: 0.88;
+}
+
+.heroBird {
+  height: 52px;
+  width: auto;
+  opacity: 0.9;
+  flex-shrink: 0;
+}
+
+/* ── Section groups ──────────────────────────────────────────── */
+.sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.sectionGroup {}
+
+.sectionLabel {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--bb-mid-gray);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.sectionLabelEmoji {
+  font-size: 14px;
+}
+
+/* ── Empty state ─────────────────────────────────────────────── */
+.emptyCard {
+  background: var(--bb-white);
+  border: 1px dashed var(--bb-light-gray);
+  border-radius: var(--card-radius);
+  padding: 20px;
+  text-align: center;
+  color: var(--bb-mid-gray);
+  font-size: 13px;
+}
+
+/* ── Tip cards ───────────────────────────────────────────────── */
+.tipCard {
+  background: var(--bb-white);
+  border: 1px solid var(--bb-light-gray);
+  border-radius: var(--card-radius);
+  padding: 16px 18px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  transition: border-color var(--transition), box-shadow var(--transition);
+  position: relative;
+}
+.tipCard:last-child {
+  margin-bottom: 0;
+}
+.tipCard:hover {
+  border-color: var(--bb-coral);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+/* urgency left-border accent */
+.tipCard::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 12px;
+  bottom: 12px;
+  width: 3px;
+  border-radius: 0 2px 2px 0;
+  background: var(--bb-light-gray);
+}
+.tipCard.high::before  { background: var(--bb-coral); }
+.tipCard.medium::before { background: var(--bb-yellow); }
+.tipCard.low::before    { background: var(--bb-green); }
+
+.tipTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.tipTitle {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--bb-charcoal);
+  margin: 0;
+  line-height: 1.35;
+  flex: 1;
+}
+
+.urgencyBadge {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  padding: 2px 7px;
+  border-radius: 99px;
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.urgencyBadge.high   { background: #fef0ee; color: var(--bb-coral); }
+.urgencyBadge.medium { background: #fef8e1; color: #b07800; }
+.urgencyBadge.low    { background: #edf7f0; color: #2a8a50; }
+
+.tipBody {
+  font-size: 13px;
+  color: var(--bb-dark-gray);
+  line-height: 1.55;
+  margin: 0;
+}
+
+.tipFooter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 2px;
+}
+
+.categoryTag {
+  font-size: 11px;
+  color: var(--bb-mid-gray);
+  background: var(--bb-off-white);
+  border: 1px solid var(--bb-light-gray);
+  border-radius: 99px;
+  padding: 2px 8px;
+  font-weight: 500;
+}
+
+.askBirdieBtn {
+  background: none;
+  border: 1.5px solid var(--bb-coral);
+  border-radius: var(--btn-radius);
+  padding: 5px 12px;
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--bb-coral);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  transition: background-color var(--transition), color var(--transition);
+  white-space: nowrap;
+}
+.askBirdieBtn:hover {
+  background: var(--bb-coral);
+  color: var(--bb-white);
+}
+
+.birdieIcon {
+  height: 14px;
+  width: auto;
+}
+
+/* ── All-clear state ─────────────────────────────────────────── */
+.allClear {
+  background: var(--bb-white);
+  border: 1px solid var(--bb-light-gray);
+  border-radius: var(--card-radius);
+  padding: 40px 32px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.allClearBird {
+  height: 56px;
+  width: auto;
+  margin-bottom: 12px;
+  opacity: 0.5;
+}
+
+.allClearTitle {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--bb-charcoal);
+  margin-bottom: 6px;
+}
+
+.allClearSub {
+  font-size: 14px;
+  color: var(--bb-mid-gray);
+  margin: 0;
+}
+
+/* ── Responsive ──────────────────────────────────────────────── */
+@media (max-width: 800px) {
+  .sections {
+    grid-template-columns: 1fr;
+  }
+  .hero {
+    padding: 20px;
+  }
+  .heroTitle {
+    font-size: 21px;
+  }
+  .heroBird {
+    height: 40px;
+  }
+}

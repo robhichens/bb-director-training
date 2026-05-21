@@ -61,9 +61,57 @@
   line-height: 1;
 }
 
+/* Quick-link section (Daily Brief etc.) */
+.quickLinks {
+  padding: 12px 12px 0;
+}
+
+.quickBtn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 10px 12px;
+  background: none;
+  border: 1.5px solid var(--bb-light-gray);
+  border-radius: 8px;
+  cursor: pointer;
+  text-align: left;
+  transition: border-color var(--transition), background-color var(--transition);
+}
+.quickBtn:hover {
+  border-color: var(--bb-coral);
+  background: #fff8f7;
+}
+.quickBtn.quickActive {
+  border-color: var(--bb-coral);
+  background: #fef0ee;
+}
+
+.quickIcon {
+  font-size: 16px;
+  line-height: 1;
+}
+
+.quickLabel {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--bb-charcoal);
+}
+
+.sectionDivider {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--bb-mid-gray);
+  padding: 16px 20px 4px;
+  margin: 0;
+}
+
 .list {
   list-style: none;
-  padding: 12px 0;
+  padding: 4px 0;
   flex: 1;
 }
 

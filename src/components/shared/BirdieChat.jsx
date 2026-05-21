@@ -1,9 +1,10 @@
 import { useState, useRef, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
+import { useBirdie } from '../../context/BirdieContext'
 import styles from './BirdieChat.module.css'
 
 export default function BirdieChat() {
-  const [open, setOpen]       = useState(false)
+  const { open, setOpen, pendingPrompt, setPendingPrompt } = useBirdie()
   const [messages, setMessages] = useState([])   // [{role:'user'|'assistant', content:''}]
   const [input, setInput]     = useState('')
   const [loading, setLoading] = useState(false)
@@ -16,13 +17,17 @@ export default function BirdieChat() {
     bottomRef.current?.scrollIntoView({ behavior: 'smooth' })
   }, [messages, loading])
 
-  // Focus input when drawer opens
+  // Focus input when drawer opens; inject pendingPrompt if present
   useEffect(() => {
     if (open) {
       setNudge(false)
+      if (pendingPrompt) {
+        setInput(pendingPrompt)
+        setPendingPrompt('')
+      }
       setTimeout(() => inputRef.current?.focus(), 100)
     }
-  }, [open])
+  }, [open, pendingPrompt, setPendingPrompt])
 
   async function send() {
     if (!input.trim() || loading) return

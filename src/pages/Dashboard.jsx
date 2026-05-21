@@ -1,9 +1,11 @@
+import { useMemo } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useAuth } from '../context/AuthContext'
 import { useProgress } from '../context/ProgressContext'
 import Button from '../components/shared/Button'
 import ProgressBar from '../components/shared/ProgressBar'
+import { getTipsForNow } from '../lib/tipEngine'
 import styles from './Dashboard.module.css'
 
 const MODULES = [
@@ -52,6 +54,10 @@ function ModuleCard({ mod, status, onStart }) {
   )
 }
 
+const DAY_NAMES   = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
+const MONTH_NAMES = ['January', 'February', 'March', 'April', 'May', 'June',
+                     'July', 'August', 'September', 'October', 'November', 'December']
+
 export default function Dashboard() {
   const { user }          = useAuth()
   const { progress, overallPct } = useProgress()
@@ -61,6 +67,15 @@ export default function Dashboard() {
   const inProgress = MODULES.find(m => progress[m.id]?.status === 'in-progress')
   const nextUp     = MODULES.find(m => progress[m.id]?.status === 'not-started')
   const resumeTarget = inProgress ?? nextUp
+
+  // Daily Brief preview
+  const now         = useMemo(() => new Date(), [])
+  const activeTips  = useMemo(() => getTipsForNow(now), [now])
+  const tipCount    = activeTips.length
+  const urgentCount = activeTips.filter(t => t.urgency === 'high').length
+  const dayName     = DAY_NAMES[now.getDay()]
+  const monthName   = MONTH_NAMES[now.getMonth()]
+  const dateNum     = now.getDate()
 
   return (
     <div>
@@ -100,6 +115,37 @@ export default function Dashboard() {
           </Button>
         </div>
       )}
+
+      {/* Daily Brief entry card */}
+      <motion.div
+        className={styles.briefCard}
+        initial={{ opacity: 0, y: 12 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.3, delay: 0.05 }}
+        onClick={() => navigate('/briefing')}
+        role="button"
+        tabIndex={0}
+        onKeyDown={e => e.key === 'Enter' && navigate('/briefing')}
+        aria-label="Open Daily Brief"
+      >
+        <div className={styles.briefLeft}>
+          <div className={styles.briefIcon}>
+            <img src="/images/bird-coral.png" alt="" className={styles.briefBird} />
+          </div>
+          <div className={styles.briefText}>
+            <p className={styles.briefTitle}>Daily Brief</p>
+            <p className={styles.briefSub}>
+              {dayName}, {monthName} {dateNum} &nbsp;·&nbsp;
+              {tipCount === 0
+                ? 'All clear — nothing urgent right now'
+                : urgentCount > 0
+                ? `${urgentCount} urgent item${urgentCount !== 1 ? 's' : ''} · ${tipCount} total`
+                : `${tipCount} item${tipCount !== 1 ? 's' : ''} relevant today`}
+            </p>
+          </div>
+        </div>
+        <span className={styles.briefArrow}>→</span>
+      </motion.div>
 
       {/* Module grid */}
       <div className={styles.grid}>

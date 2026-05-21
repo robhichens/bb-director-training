@@ -1,10 +1,12 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { AuthProvider, useAuth } from './context/AuthContext'
 import { ProgressProvider, useProgress } from './context/ProgressContext'
+import { BirdieProvider } from './context/BirdieContext'
 import Login from './components/auth/Login'
 import Signup from './components/auth/Signup'
 import ModuleLayout from './components/layout/ModuleLayout'
 import Dashboard from './pages/Dashboard'
+import Briefing from './pages/Briefing'
 import Module1 from './modules/module1/Module1'
 import Module2 from './modules/module2/Module2'
 import Module3 from './modules/module3/Module3'
@@ -56,6 +58,14 @@ function AppRoutes() {
         element={
           <ProtectedRoute>
             <ModuleLayout><Dashboard /></ModuleLayout>
+          </ProtectedRoute>
+        }
+      />
+      <Route
+        path="/briefing"
+        element={
+          <ProtectedRoute>
+            <ModuleLayout><Briefing /></ModuleLayout>
           </ProtectedRoute>
         }
       />
@@ -126,11 +136,14 @@ function AppRoutes() {
   )
 }
 
-// Show Birdie once any progress has been made (module 1 started)
+// Show Birdie once any progress has been made, or always on /briefing
 function BirdieGate() {
-  const { user } = useAuth()
+  const { user }       = useAuth()
   const { overallPct } = useProgress()
-  if (!user || overallPct === 0) return null
+  const location       = useLocation()
+  const onBriefing     = location.pathname === '/briefing'
+  if (!user) return null
+  if (overallPct === 0 && !onBriefing) return null
   return <BirdieChat />
 }
 
@@ -139,8 +152,10 @@ export default function App() {
     <BrowserRouter>
       <AuthProvider>
         <ProgressProvider>
-          <AppRoutes />
-          <BirdieGate />
+          <BirdieProvider>
+            <AppRoutes />
+            <BirdieGate />
+          </BirdieProvider>
         </ProgressProvider>
       </AuthProvider>
     </BrowserRouter>

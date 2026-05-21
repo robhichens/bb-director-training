@@ -61,6 +61,68 @@
   margin: 0;
 }
 
+/* Daily Brief entry card */
+.briefCard {
+  background: var(--bb-white);
+  border: 1.5px solid var(--bb-coral);
+  border-radius: var(--card-radius);
+  padding: 16px 24px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  cursor: pointer;
+  transition: background-color var(--transition), box-shadow var(--transition);
+}
+.briefCard:hover {
+  background: #fff8f7;
+  box-shadow: 0 2px 12px rgba(240, 135, 130, 0.18);
+}
+
+.briefLeft {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.briefIcon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #fef0ee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.briefBird {
+  height: 22px;
+  width: auto;
+}
+
+.briefText {}
+
+.briefTitle {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--bb-charcoal);
+  margin: 0 0 2px;
+}
+
+.briefSub {
+  font-size: 13px;
+  color: var(--bb-mid-gray);
+  margin: 0;
+}
+
+.briefArrow {
+  font-size: 20px;
+  color: var(--bb-coral);
+  flex-shrink: 0;
+}
+
 /* Module grid */
 .grid {
   display: grid;

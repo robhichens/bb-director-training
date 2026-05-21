@@ -1,4 +1,4 @@
-import { NavLink, useNavigate } from 'react-router-dom'
+import { NavLink, useNavigate, useLocation } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useProgress } from '../../context/ProgressContext'
 import styles from './Sidebar.module.css'
@@ -22,6 +22,7 @@ function StatusIcon({ status }) {
 export default function Sidebar({ open, onClose }) {
   const { progress } = useProgress()
   const navigate     = useNavigate()
+  const location     = useLocation()
 
   function handleModuleClick(mod) {
     const status = progress[mod.id]?.status
@@ -29,6 +30,13 @@ export default function Sidebar({ open, onClose }) {
     navigate(`/module/${mod.num}`)
     onClose?.()
   }
+
+  function handleNavClick(path) {
+    navigate(path)
+    onClose?.()
+  }
+
+  const onBriefing = location.pathname === '/briefing'
 
   return (
     <>
@@ -48,9 +56,22 @@ export default function Sidebar({ open, onClose }) {
 
       <nav className={`${styles.sidebar} ${open ? styles.open : ''}`} aria-label="Training modules">
         <div className={styles.sidebarHeader}>
-          <span className={styles.sidebarTitle}>Training Modules</span>
+          <span className={styles.sidebarTitle}>Navigation</span>
           <button className={styles.closeBtn} onClick={onClose} aria-label="Close menu">✕</button>
         </div>
+
+        {/* Daily Brief quick-link */}
+        <div className={styles.quickLinks}>
+          <button
+            className={`${styles.quickBtn} ${onBriefing ? styles.quickActive : ''}`}
+            onClick={() => handleNavClick('/briefing')}
+          >
+            <span className={styles.quickIcon}>📋</span>
+            <span className={styles.quickLabel}>Daily Brief</span>
+          </button>
+        </div>
+
+        <p className={styles.sectionDivider}>Training Modules</p>
 
         <ul className={styles.list}>
           {MODULES.map(mod => {
