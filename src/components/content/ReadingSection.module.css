@@ -1,0 +1,183 @@
+@import '../../styles/variables.css';
+
+.wrapper {
+  padding-bottom: 24px;
+}
+
+.title {
+  font-size: 28px;
+  color: var(--bb-charcoal);
+  font-weight: 400;
+  margin-bottom: 20px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid var(--bb-light-gray);
+}
+
+/* Learning objectives callout */
+.objectives {
+  background: var(--bb-yellow);
+  border-radius: var(--card-radius);
+  padding: 16px 20px 18px;
+  margin-bottom: 28px;
+}
+.objectivesLabel {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--bb-charcoal);
+  margin-bottom: 8px;
+}
+.objectivesList {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+.objectivesList li {
+  font-size: 14px;
+  color: var(--bb-charcoal);
+  margin-bottom: 4px;
+  line-height: 1.5;
+}
+
+/* Markdown content area */
+.markdown {
+  font-size: 16px;
+  color: var(--bb-dark-gray);
+  line-height: 1.75;
+}
+
+.markdown h2 {
+  font-size: 23px;
+  color: var(--bb-charcoal);
+  font-weight: 400;
+  margin-top: 36px;
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--bb-light-gray);
+}
+.markdown h3 {
+  font-size: 21px;
+  color: var(--bb-coral);
+  font-weight: 700;
+  margin-top: 28px;
+  margin-bottom: 10px;
+}
+.markdown h4 {
+  font-size: 16px;
+  color: var(--bb-coral);
+  font-weight: 700;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+.markdown p {
+  margin-bottom: 14px;
+}
+.markdown ul,
+.markdown ol {
+  padding-left: 1.4rem;
+  margin-bottom: 16px;
+}
+.markdown li {
+  margin-bottom: 6px;
+}
+.markdown strong {
+  font-weight: 700;
+  color: var(--bb-charcoal);
+}
+.markdown blockquote {
+  background: var(--bb-sky);
+  padding: 16px 20px;
+  border-radius: var(--card-radius);
+  border-left: none;
+  margin: 20px 0;
+  font-size: 16px;
+}
+.markdown blockquote p {
+  margin: 0;
+}
+.markdown table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 13px;
+}
+.markdown th {
+  background: var(--bb-coral);
+  color: var(--bb-white);
+  padding: 10px 14px;
+  text-align: left;
+  font-weight: 600;
+}
+.markdown td {
+  padding: 9px 14px;
+  border-bottom: 1px solid var(--bb-light-gray);
+  vertical-align: top;
+}
+.markdown tr:nth-child(even) td {
+  background: var(--bb-off-white);
+}
+.markdown hr {
+  border: none;
+  border-top: 1px solid var(--bb-light-gray);
+  margin: 28px 0;
+}
+
+/* Long-list bar stack (> 5 items) */
+.cardGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin: 16px 0 24px;
+}
+
+.bulletCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: var(--bb-white);
+  border: 1px solid var(--bb-light-gray);
+  border-radius: 8px;
+  padding: 11px 18px;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--bb-dark-gray);
+  transition: border-color var(--transition), background-color var(--transition);
+  width: 100%;
+}
+.bulletCard:hover {
+  border-color: var(--bb-coral);
+  background: var(--bb-off-white);
+}
+
+
+.bulletDot {
+  flex-shrink: 0;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--bb-coral);
+  margin-top: 6px;
+}
+
+.bulletText {
+  flex: 1;
+}
+.bulletText p { margin: 0; }
+.bulletText strong { color: var(--bb-charcoal); }
+
+/* Footer */
+.footer {
+  margin-top: 40px;
+  padding-top: 24px;
+  border-top: 1px solid var(--bb-light-gray);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.completedNote {
+  font-size: 14px;
+  color: var(--bb-green);
+  font-weight: 500;
+  margin: 0;
+}

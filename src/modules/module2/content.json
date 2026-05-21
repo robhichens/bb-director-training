@@ -1,0 +1,320 @@
+{
+  "moduleId": "module2",
+  "title": "Daily Operations",
+  "description": "Master the full operational timeline from opening to close — including morning routines, classroom rounds, tours, parent communications, and end-of-day reporting.",
+  "estimatedTime": "50–65 minutes",
+  "sections": [
+    {
+      "id": "2.1",
+      "title": "The Director's Day: 7:30 AM to Close",
+      "type": "reading",
+      "learningObjectives": [
+        "Know what you should be doing at every hour of the operational day",
+        "Understand why the DOR must be completed before you leave — no exceptions",
+        "Recognize the difference between desk work time and visibility time"
+      ],
+      "content": "## Your Day Has a Shape\n\nA great director's day isn't random — it follows a predictable rhythm. When you know what to do and when, you stop reacting to your day and start running it. This timeline is your operational backbone.\n\n---\n\n### Before Opening\n\n- Manage call-outs; monitor emails; reach out to admin for urgent matters\n- Get mail from the mailbox and sort it\n- **Bleach bottles made fresh daily** — distributed to each classroom, labeled with the correct date, tested with litmus paper\n\n---\n\n### 7:30–9:00 AM | Drop-off\n\n> You are NOT sitting at your desk 7:00–9:00 AM. This is floor time.\n\n- **Disney World approach:** greet parents and children by name; walk to rooms with at least 50% of families\n- Observe for \"funky feelings\" — address anything needed quickly\n- Greet each staff member warmly\n- **Branding check:** music playing, diffuser on, nothing posted on doors or windows, clean and uncluttered\n- **Parent treats 2x/week:** donuts, coffee, mini muffins, fresh fruit, trail mix\n- Staff clocked in only when needed in ratio — wait in kitchen or empty room if not yet needed\n- Phones answered within 3 rings; if unavailable, forward to cell or another location\n- Opening checklist completed and signed by opener\n\n---\n\n### 9:00 AM | Morning Message\n\n- Finalize and print Morning Message for staff (template in Google Docs)\n- Include: tours scheduled, new starts, licensing reminders, break schedule\n- Take to **all classrooms** — quick eye-to-eye; have all staff sign; this is not conversation time\n- Place copy at front desk for late-arriving staff\n- Distribute any injury/accident logs or medication authorization forms\n\n### 9:15 AM | Parent AM Message\n\n- Send via **Tadpoles** — every single day, no exceptions, by 9:15 AM at the latest\n- Topics: upcoming events, billing reminders, staff updates, seasonal topics, policy reminders\n- Template ideas in Google Doc: \"Daily AM Parent Tadpoles Messages and Facebook Posts\"\n\n### 9:15–9:30 AM | Tour Prep\n\n- 5 tour packets per age group, labeled, with literature gift and sticker\n- Make cookies; set out cold water, prepackaged snacks, cookies on branded plate\n- Alert teachers of upcoming tour; remind them about tour takeover protocol\n\n---\n\n### 9:30 AM | Tours Begin\n\n- Plan to spend at least **45 minutes** — visit ALL rooms, listen to their needs\n- 2-page intake form filled out by parent; update CRM immediately after\n\n---\n\n### 9:30 AM – 12:00 Noon | Admin Block\n\n- Follow up on tour families (minimum 3 follow-ups per tour)\n- Schedule enrollments and orientations\n- Return all parent and staff messages\n- Proofread/post any content scheduled for the day\n- Verify all classrooms have been photographed and notes sent via Tadpoles\n- **Monitor classroom cameras** — check transitions, meal times, and recess\n- **Classroom visits:** minimum 15 minutes per room daily — encourage, observe, coach briefly\n- Check break schedules and coverage\n- Check bathrooms mid-morning for cleanliness and supplies\n- Respond to licensing or vendor inquiries\n- Work on monthly or weekly admin tasks\n\n---\n\n### 12:00–1:00 PM | Lunch / Break\n\n> Take a **full hour**. Off-site preferred. Turn off cameras and email if possible.\n\n- This is your reset time — protect it\n- Staff take 30-minute breaks on a rotating schedule; yours is longer as admin\n\n---\n\n### 1:00–3:00 PM | Afternoon Admin\n\n- **Afternoon classroom rounds**\n- ProCare updates: billing adjustments, attendance corrections, tuition changes\n- Review Tadpoles photos; ensure all families have notes\n- Process enrollments or schedule contracts\n- Review labor; adjust afternoon schedules if trending over budget\n- Make calls for tour follow-ups or re-enrollment\n- Pull mail and process payments or documents\n- **Prepare for next day:** print schedules, check staff availability\n- File paperwork; update binders\n\n---\n\n### 3:00–6:00 PM | Pick-up\n\n- **Be visible in the lobby** — greet parents by name, don't hide in your office\n- Address any concerns or updates in person\n- Monitor late pick-ups; send Tadpoles reminder if needed\n- Check that afternoon staff are following closing procedures\n- Review any incidents or accidents; call parents if needed\n- Staff clock out as children leave — avoid overtime\n\n---\n\n### 6:00 PM | Close\n\n- Verify **all children picked up**; check cameras\n- Director or closer completes closing checklist\n- Lock all doors; set alarm\n- Verify all lights off; thermostats adjusted\n- Take out trash to dumpster\n- Verify no staff remain unless cleaning team is scheduled\n- Leave building by 6:15 PM unless working a special event\n\n---\n\n### End of Day: The DOR\n\n> **Complete and submit the Daily Operations Report (DOR) — NO EXCEPTIONS.**\n\nThe DOR is how admin stays informed without micromanaging you. It's also your protection: if something happens, your DOR proves you did your job.\n\n- Confirm tomorrow's staff schedule is in ProCare\n- Check Group Me for any evening messages from staff\n- Set up tomorrow's Morning Message draft (optional but strongly recommended)"
+    },
+    {
+      "id": "2.1-quiz",
+      "title": "Daily Timeline Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the absolute latest time the Parent AM Message must be sent via Tadpoles?",
+          "type": "multiple-choice",
+          "options": ["9:00 AM", "9:15 AM", "9:30 AM", "10:00 AM"],
+          "correctAnswer": "9:15 AM",
+          "explanation": "The parent AM Tadpoles message goes out every single day, no exceptions, by 9:15 AM at the latest. This is a daily non-negotiable — consistency builds parent trust and shows the center is organized and running well."
+        },
+        {
+          "id": "q2",
+          "question": "True or False: A director can catch up on their DOR the following morning if they're running late.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "False — the DOR must be completed before you leave, every day, no exceptions. There are no make-ups. The DOR is both an accountability tool for admin and your documented proof that you ran your center correctly that day."
+        },
+        {
+          "id": "q3",
+          "question": "During the 7:30–9:00 AM drop-off window, where should the director be?",
+          "type": "multiple-choice",
+          "options": ["At their desk completing admin tasks", "On the floor greeting families and staff", "In the break room preparing parent treats", "In their office monitoring cameras"],
+          "correctAnswer": "On the floor greeting families and staff",
+          "explanation": "You are NOT at your desk 7:00–9:00 AM. This is high-visibility time. Use the Disney World approach: greet every parent and child by name, and walk with at least 50% of families to their child's room. Admin tasks happen after 9:30."
+        },
+        {
+          "id": "q4",
+          "question": "How much classroom time should a director spend in each room per day, minimum?",
+          "type": "multiple-choice",
+          "options": ["5 minutes", "10 minutes", "15 minutes", "30 minutes"],
+          "correctAnswer": "15 minutes",
+          "explanation": "Minimum 15 minutes per room per day — observing, encouraging, and briefly coaching. This isn't optional supervision; it's relationship-building, quality monitoring, and coaching all at once. Skipping rooms is the fastest way to lose touch with what's actually happening in your center."
+        }
+      ]
+    },
+    {
+      "id": "2.2",
+      "title": "Morning Routines & Communications",
+      "type": "reading",
+      "learningObjectives": [
+        "Know exactly what goes in the staff Morning Message and why it matters",
+        "Understand the daily parent Tadpoles message and topic formula",
+        "Set up your tour station correctly every morning before 9:30"
+      ],
+      "content": "## Two Messages That Set the Tone for Your Entire Day\n\nEvery morning, two communications go out before 9:30 AM. These aren't optional check-boxes — they're the engine that drives staff alignment and parent engagement all day long.\n\n---\n\n### The Staff Morning Message\n\nThe Morning Message is a **brief daily memo** you print and hand-deliver to every classroom. It takes about 10 minutes to write and 15 minutes to distribute — and it eliminates a dozen hallway questions that would otherwise eat up your morning.\n\n**What to include:**\n\n- **Tours:** name, time, child's age (\"10:00 AM tour — 3-year-old, will visit all rooms\")\n- **New starts:** name, age, classroom, any notes parents shared (\"Jaylen starts today — shy at first, loves trucks\")\n- **Licensing reminders:** any upcoming inspections, documentation due, ratios to watch\n- **Break schedule:** who covers whom and when — published, not improvised\n- **Special announcements:** picture day, school closures, training, parent events\n\n**How to distribute:**\n\n- Print enough copies for every classroom plus the front desk\n- Visit each room in person — don't send it with another staff member\n- Quick eye-to-eye with the lead teacher: 30 seconds, not a conversation\n- Have all staff sign — this is your proof that communication happened\n- Late-arriving staff: copy stays at the front desk\n\n> The Morning Message is a signal: **I'm on top of today.** When it arrives, staff know the director is running the show.\n\n---\n\n### The Parent AM Tadpoles Message\n\nThis goes out **every day by 9:15 AM** — no exceptions, no missed days. Parents see this as the heartbeat of your center. If it stops, they notice.\n\n**The message is short** — 2 to 4 sentences. Topics rotate:\n\n- **Curriculum themes:** \"This week we're learning about the ocean — ask your child what they discovered today!\"\n- **Billing reminders:** \"Tuition is due by the 1st. Contact the office with any questions.\"\n- **Events:** \"Picture Day is Thursday — dress your child in their favorite outfit!\"\n- **Seasonal/community:** \"Happy Monday! We're so glad spring is here. Watch for outdoor learning updates.\"\n- **Policy reminders:** \"Reminder: late pick-up after 6:00 PM incurs a fee per our handbook. Thank you!\"\n- **Staff spotlights:** \"We want to celebrate Ms. Tamara — 5 years with Bright Beginnings this month!\"\n\n> Templates live in Google Doc: **\"Daily AM Parent Tadpoles Messages and Facebook Posts\"** — use these as a starting point and personalize.\n\n---\n\n### Tour Station Setup (9:15–9:30 AM)\n\nEvery tour should arrive to a beautifully prepared welcome station. This takes 15 minutes when you do it daily:\n\n- **5 tour packets per age group:** brochure, rate sheet, enrollment form, branded gift (sticker or small toy)\n- **Refreshments:** homemade cookies, cold water, prepackaged snacks, arranged on a branded plate\n- **Classroom alerts:** visit each room personally — \"We have a tour at 10:00 AM, be ready for your takeover\"\n- **Your desk:** cleared and professional — tour families will sit across from it\n\n#### The Tour Packet Contents\n\n- Bright Beginnings brochure (current version)\n- Age-group rate sheet\n- Blank enrollment form\n- Any current promotional materials\n- Branded gift with sticker inside — something small, memorable\n\n> First impressions are made before the tour even starts. A cookie and a warm greeting before you've said a word about curriculum is already building trust.\n\n---\n\n### Morning Message Best Practices\n\n- **Write it the night before** — set up tomorrow's draft before you leave today\n- Keep it brief: bullet points, not paragraphs\n- Update it live: if a tour cancels after you've printed, update the front desk copy by hand\n- Staff who miss a morning should receive it via Group Me — but the paper copy is still primary\n- The Morning Message is **not** a place for complaints, critiques, or disciplinary notes — those happen in person"
+    },
+    {
+      "id": "2.2-activity",
+      "title": "Morning Routine Decisions",
+      "type": "scenario",
+      "scenarios": [
+        {
+          "situation": "It's 9:10 AM. You've printed the Morning Message and visited three of five classrooms. A parent stops you with a 10-minute question about their invoice. Your 9:15 tour prep hasn't started yet, and the Tadpoles parent message isn't sent.",
+          "question": "What's the right move?",
+          "options": [
+            {
+              "label": "Finish the parent conversation first, then rush through everything else",
+              "correct": false,
+              "feedback": "Parent conversations matter — but this one can be handled differently. Stopping your morning flow for a 10-minute discussion means your tour prep falls apart, your Tadpoles message goes out late, and you've signaled to the parent that detailed billing conversations can happen during your rush hour. That creates a pattern.",
+              "link": "Directors set the expectation for when detailed conversations happen."
+            },
+            {
+              "label": "Acknowledge the parent warmly, set a 9:30 callback, and continue the Morning Message rounds",
+              "correct": true,
+              "feedback": "Exactly right. Acknowledge immediately ('I want to give this my full attention — can I call you at 9:30?'), finish your classroom rounds, send the Tadpoles message by 9:15, then make the callback. You've respected the parent's concern AND protected your morning operations. This is the 1-hour turnaround rule applied correctly.",
+              "link": "The 1-hour turnaround rule: acknowledge immediately, give a timeline for the full answer."
+            },
+            {
+              "label": "Hand the parent off to your assistant and continue with morning prep",
+              "correct": false,
+              "feedback": "If you have an assistant director who can handle billing questions, this is reasonable — but handing off routine parent inquiries too quickly signals that parents don't have access to you. Reserve this for situations where you truly cannot break away for even 30 seconds. The better move is a direct, warm callback commitment from you personally.",
+              "link": "Parents should feel they have access to the director for important concerns."
+            },
+            {
+              "label": "Skip the remaining two classrooms and focus on tour prep instead",
+              "correct": false,
+              "feedback": "Skipping classrooms means staff in those rooms don't get the Morning Message — they'll improvise on the break schedule and may not know about the tour. The 30 seconds it takes to hand off the message is worth more than the time you'd save. Always complete your classroom rounds."
+            }
+          ]
+        },
+        {
+          "situation": "You just realized it's 9:20 AM and you forgot to send the parent Tadpoles AM message. You're 5 minutes late. You have a tour arriving at 9:30.",
+          "question": "How do you handle this?",
+          "options": [
+            {
+              "label": "Send the message now — a few minutes late is better than skipping it",
+              "correct": true,
+              "feedback": "Correct — send it immediately. A 5-minute delay is far better than no message. Use a quick topic from your rotation (a curriculum note, a friendly greeting), keep it 2-3 sentences, and send it now. Then note what caused the delay so you can prevent it tomorrow. Never skip the message entirely.",
+              "link": "Consistency beats perfection — send it late rather than not at all."
+            },
+            {
+              "label": "Skip it today — it's too late and the tour is more important",
+              "correct": false,
+              "feedback": "Never skip the daily Tadpoles message. Parents notice the pattern of daily communication more than they notice a 5-minute delay. Skipping entirely is the wrong call. Send the message, even if brief, and get to your tour prep. You can do both.",
+              "link": "The parent AM message goes out every day — no exceptions."
+            },
+            {
+              "label": "Send a longer, detailed message to make up for the delay",
+              "correct": false,
+              "feedback": "Length doesn't compensate for timing. Parents open short, friendly messages; long catch-up messages often go unread. Send the normal 2-4 sentence message now and move on. Don't over-explain the delay to parents.",
+              "link": "Keep AM messages brief — 2 to 4 sentences."
+            },
+            {
+              "label": "Ask a staff member to send it while you handle the tour",
+              "correct": false,
+              "feedback": "The daily parent Tadpoles message should come from you or be written by you. Delegating it as a workaround teaches staff that it's optional. Take 60 seconds to send the message yourself — it's short enough to do before the tour family arrives.",
+              "link": "Director communications should come from the director."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2.3",
+      "title": "Weekly Rhythm: Monday Through Friday",
+      "type": "reading",
+      "learningObjectives": [
+        "Know the key recurring task for each day of the week",
+        "Understand the Thursday Director Packet deadline and what it includes",
+        "Know why Friday is a hard deadline day for labor and staff records"
+      ],
+      "content": "## The Weekly Cadence\n\nA director who treats every day the same will always feel behind. Each day of the week has its own focus — and knowing that structure lets you plan, not react.\n\n---\n\n### Monday\n\n- Review weekend messages and Tadpoles\n- Confirm staff schedules for the week in ProCare\n- Check labor budget vs. actual for the prior week\n- Process tuition payments from the weekend\n- Update CRM with weekend tour inquiries\n- Plan staff meeting agenda (if meeting this week)\n- **Monday Morning Message to both staff and parents** — sets the tone for the week\n\n---\n\n### Tuesday\n\n- Process new enrollments from Monday tours\n- Update Tadpoles classroom photos and notes\n- Mid-week labor check — adjust if trending over budget\n- Order supplies if needed for the upcoming week\n- Follow up on outstanding parent communications\n- **Social media post** (Facebook and Instagram)\n\n---\n\n### Wednesday\n\n- \"Hump Day\" check-in with staff — quick morale pulse\n- Review attendance patterns; address chronic absences\n- Update licensing binder with any new documentation\n- Verify all medication authorizations are current\n- Plan Thursday staff meeting or training content\n- **Mid-week tour follow-ups** — call or text families toured Monday or Tuesday\n\n---\n\n### Thursday\n\n> **Director Packet Due.** If not complete, notify admin immediately — do not wait for Friday.\n\n- All monthly tasks completed and documented in the Director Packet\n- Prep for staff meeting (if scheduled for this week)\n- Print and distribute staff schedules for the following week\n- Complete weekly classroom observations\n- **Thursday parent communication** via Tadpoles or email\n\n#### What's in the Director Packet?\n\nThe Director Packet is your weekly accountability document submitted to admin each Thursday. It includes:\n\n- Enrollment numbers (current vs. capacity)\n- Labor budget status\n- Incident/accident log for the week\n- Staff schedule for the following week\n- Any pending licensing or compliance items\n- Notes on anything admin needs to know\n\n---\n\n### Friday\n\n> Two hard deadlines — **no exceptions:**\n\n- **All labor entered into ProCare by 5:00 PM**\n- **All new staff information fully entered into ProCare**\n\nAdditional Friday tasks:\n\n- Review week's enrollment activity; celebrate wins with staff\n- Prepare weekend coverage and emergency contact list\n- Deep clean and organize office for Monday — start the week fresh\n- **Friday wins email to staff** — recognize specific, named contributions\n- Confirm Monday's opener and closer schedule\n- Lock up; ensure building is secure for the weekend\n\n---\n\n### The Weekly Pattern at a Glance\n\n| Day | Primary Focus |\n|-----|---------------|\n| Monday | Review, confirm schedules, set the week's tone |\n| Tuesday | Process tours/enrollments, mid-week labor check |\n| Wednesday | Staff check-in, licensing, mid-week follow-ups |\n| Thursday | Director Packet due, observations, next week prep |\n| Friday | Labor entry, staff wins, secure for weekend |\n\n---\n\n### Why Structure Matters\n\nThe goal isn't rigidity — it's predictability. When your staff knows that Friday wins emails come every week, they start doing things worth celebrating. When admin knows the Director Packet arrives every Thursday, they trust you. Consistency is what makes everything else easier."
+    },
+    {
+      "id": "2.3-quiz",
+      "title": "Weekly Duties Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "By what day and time must all labor be entered into ProCare?",
+          "type": "multiple-choice",
+          "options": ["Thursday noon", "Friday 5:00 PM", "Friday midnight", "Monday morning"],
+          "correctAnswer": "Friday 5:00 PM",
+          "explanation": "All labor must be entered into ProCare by Friday at 5:00 PM — no exceptions. All new staff information must also be fully entered by this same deadline. This is a hard rule that affects payroll and compliance across the organization."
+        },
+        {
+          "id": "q2",
+          "question": "The Director Packet is due on which day each week?",
+          "type": "multiple-choice",
+          "options": ["Monday", "Wednesday", "Thursday", "Friday"],
+          "correctAnswer": "Thursday",
+          "explanation": "The Director Packet is due every Thursday. If it won't be complete by Thursday, you notify admin immediately — you don't wait for Friday. The packet includes enrollment numbers, labor status, incident logs, the following week's schedule, and any compliance items."
+        },
+        {
+          "id": "q3",
+          "question": "True or False: New enrollment forms from Monday tours should be processed on Monday itself.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "False — new enrollments from Monday tours are processed on Tuesday. Monday is for reviewing weekends, confirming schedules, and processing weekend tuition payments. Trying to cram enrollment processing into tour day creates errors and delays."
+        },
+        {
+          "id": "q4",
+          "question": "What is the purpose of the Friday 'wins email' to staff?",
+          "type": "multiple-choice",
+          "options": ["To summarize enrollment numbers", "To recognize specific staff contributions from the week", "To announce next week's schedule", "To remind staff of Monday duties"],
+          "correctAnswer": "To recognize specific staff contributions from the week",
+          "explanation": "The Friday wins email is a culture-building tool — it names specific staff members and specific things they did well that week. Vague praise ('great week everyone!') doesn't build culture. Named, specific recognition ('Ms. Tamara — thank you for staying late Tuesday when we had a call-out') does."
+        }
+      ]
+    },
+    {
+      "id": "2.4",
+      "title": "Running a Great Tour",
+      "type": "reading",
+      "learningObjectives": [
+        "Know the five steps of the tour and what happens in each",
+        "Understand the before-tour prep and why it matters",
+        "Know the three-touch follow-up sequence after every tour"
+      ],
+      "content": "## The Tour Is Your Most Important Sales Meeting\n\nGoal: **2 tours per day, 5 enrollments per week, 50% conversion rate.** Every tour is a chance to welcome a family into the Bright Beginnings community — treat it that way.\n\n---\n\n### Before the Tour\n\n- **Confirm appointment 24 hours in advance** — call or text the family\n- Prep tour packets: brochure, rate sheet, enrollment form, branded gift (sticker or small toy)\n- Bake cookies; set out water, snacks, coffee\n- Alert every staff member: **\"We have a tour at 10 AM — be ready for your takeover!\"**\n\n---\n\n### During the Tour (45–60 Minutes)\n\nA great tour follows five steps:\n\n**Step 1: Lobby Greeting (5 minutes)**\n\n- Warm welcome; offer refreshments immediately\n- Open question: *\"Tell me about your family and what you're looking for in a preschool.\"*\n- Complete the 2-page intake form: contact info, child's age, desired start date, concerns or questions\n\n**Step 2: Office / Director Chat (10 minutes)**\n\n- Share the Bright Beginnings story: **family-owned since 1984, 41 years, three Charlottesville locations**\n- Ask about their needs: schedule preferences, child's personality, priorities (learning, play, flexibility, safety)\n- Mention: Reggio-inspired curriculum, hands-on learning, year-round enrollment\n\n**Step 3: Tour All Classrooms (20–25 minutes)**\n\n- Visit **every** age group room — even if their child is a toddler, show the Pre-K room (they're planning ahead)\n- **Teacher takeover:** step back and let teachers share what they're working on with the children\n- Point out: small class sizes, low teacher-to-child ratios, curriculum materials, learning documentation\n- Highlight: Tadpoles app for daily updates, cameras for peace of mind, open communication\n\n**Step 4: Outdoor Spaces (5 minutes)**\n\n- Walk the playgrounds, garden areas, and outdoor learning spaces\n- Describe how outdoor time is used: learning, not just recess\n\n**Step 5: Return to Office — Close the Tour (10 minutes)**\n\n- Answer any remaining questions\n- Walk through rates, schedule options, and the enrollment process\n- Direct close: *\"What do you think? Does Bright Beginnings feel like the right fit?\"*\n- If yes: schedule the enrollment meeting before they leave\n- If hesitant: *\"What questions can I answer?\"* or *\"Would you like to come back for a second visit?\"*\n- Send them home with their tour packet and branded gift\n\n---\n\n### After the Tour\n\n**These three follow-ups are non-negotiable:**\n\n| Timing | Action |\n|--------|--------|\n| Within 2 hours | Update CRM with notes, next step, and child's start date interest; send thank-you email |\n| Day 2 | Text or call: *\"Just checking in — any questions we can answer?\"* |\n| Day 7 | If not enrolled: *\"We'd love to have [child's name] join us! Let's schedule your enrollment meeting.\"* |\n| Day 14 | Final attempt if still not enrolled — offer a second visit or applicable incentive |\n\n---\n\n### The Tour Mindset\n\n> You're not selling a service. You're welcoming a family into a community. The family decides based on how they **feel**, not just what they learn.\n\n- Learn the child's name during intake and use it throughout the tour\n- Watch for emotional signals: a parent tearing up in a classroom, a child who runs toward the books\n- Mirror their priorities: if safety is their concern, emphasize ratios and cameras; if curriculum, spotlight the lesson plans\n\n---\n\n### Common Tour Mistakes to Avoid\n\n- **Rushing:** A 20-minute whirlwind is not a tour. Families feel processed, not welcomed.\n- **Skipping the close:** Never let a family walk out without a next step — even \"let's schedule a second visit\" is a next step.\n- **Forgetting the CRM:** If it's not in the CRM, the follow-up won't happen. Enter notes within 2 hours.\n- **Unalerted staff:** Teachers who don't know a tour is coming will be caught off guard — and that shows.\n- **No gift:** The branded gift is small, but it sends a message about your standards."
+    },
+    {
+      "id": "2.4-activity",
+      "title": "Tour Decisions",
+      "type": "scenario",
+      "scenarios": [
+        {
+          "situation": "A family arrives for a 10:00 AM tour. The parent seems rushed and says, 'We have about 20 minutes — can we just see the classrooms?' You have a full tour planned, the cookies are out, and the teachers are ready for their takeovers.",
+          "question": "How do you handle this?",
+          "options": [
+            {
+              "label": "Give them the 20-minute version — respect their time and show just the classrooms",
+              "correct": false,
+              "feedback": "A 20-minute classroom walk-through without the conversation, the intake form, or the office chat doesn't give the family enough to make a decision — or give you enough information to follow up meaningfully. You'll have no notes for the CRM, no understanding of their needs, and no relationship built. They'll leave politely and likely choose a center where they felt a connection.",
+              "link": "Tours without intake forms leave you with nothing for follow-up."
+            },
+            {
+              "label": "Acknowledge the time constraint, offer refreshments quickly, and do a focused 30-minute version with the intake form",
+              "correct": true,
+              "feedback": "Smart and respectful. Say: 'I completely understand — let me make the most of your time.' Hand them the intake form to fill out while you prep. Do a focused walk (hit every room, let teachers shine, show outdoor spaces), skip the extended close conversation, and schedule a second visit or phone call to answer questions. You've kept them engaged, gathered the intake info you need, and left a door open. That's a great short tour.",
+              "link": "A focused tour with an intake form is always better than an unstructured walk-through."
+            },
+            {
+              "label": "Tell them a proper tour takes 45-60 minutes and suggest rescheduling",
+              "correct": false,
+              "feedback": "Well-intentioned but wrong. A family who showed up deserves to be served right now. Telling them they didn't come at the right time sends them out the door with nothing — and they'll tour your competitor next. Meet them where they are, adapt the tour, and keep the connection alive.",
+              "link": "Always serve a family who walks through your door."
+            },
+            {
+              "label": "Let them walk through on their own while you handle other tasks",
+              "correct": false,
+              "feedback": "An unsupervised walk-through is not a tour. Families see rooms, not stories. They don't know what to look for, they don't meet teachers in context, and they have no one answering their unspoken questions. Self-guided visits almost never convert to enrollments. The director's presence is the product.",
+              "link": "Your presence and narration are what make a tour memorable."
+            }
+          ]
+        },
+        {
+          "situation": "A tour just ended well. The family seemed very interested and said, 'We'll talk it over and let you know.' It's now 4:00 PM and you haven't updated the CRM or sent the thank-you email yet.",
+          "question": "What's the right action?",
+          "options": [
+            {
+              "label": "Update the CRM and send the thank-you email before leaving today, even if it means staying a few minutes later",
+              "correct": true,
+              "feedback": "Yes — do it today, before you leave. The 2-hour follow-up window is already past, but updating the CRM now means Day 2 and Day 7 follow-ups can still happen on schedule. A same-day thank-you email is still meaningful. Families are most receptive in the first 24 hours; after that, momentum fades and your competitor has moved in.",
+              "link": "CRM entries and thank-you emails within 2 hours — catch up before leaving today."
+            },
+            {
+              "label": "Do it tomorrow morning — it's already too late for the 2-hour window anyway",
+              "correct": false,
+              "feedback": "The 2-hour window has passed, but that doesn't mean you skip it. A late thank-you email is still better than no email. More importantly, if you don't enter the CRM today, tomorrow you'll have no notes on what you discussed — and your Day 2 follow-up call will feel generic. Complete it before you leave.",
+              "link": "Late follow-up is far better than no follow-up."
+            },
+            {
+              "label": "Call them right now to follow up verbally instead",
+              "correct": false,
+              "feedback": "A call is great — but the CRM update and thank-you email still need to happen. The email creates a paper trail and gives the family something to reference with their partner. The CRM entry is what ensures Day 7 and Day 14 follow-ups happen. Don't substitute a call for the documented follow-up process.",
+              "link": "The thank-you email and CRM entry are separate from phone follow-ups."
+            },
+            {
+              "label": "Wait for them to reach out — they said they'd let you know",
+              "correct": false,
+              "feedback": "Families who say 'we'll let you know' usually need a nudge — not because they're uninterested, but because life gets busy. The follow-up sequence exists precisely for this moment. Waiting passively means losing a likely enrollment to whoever follows up more warmly. Always send the thank-you email and update the CRM the same day.",
+              "link": "Tour follow-up is expected and welcomed — don't wait for them to call you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2.5",
+      "title": "Enrollment: Tour to First Day",
+      "type": "reading",
+      "learningObjectives": [
+        "Walk through each step of the enrollment process from contract to first day",
+        "Know what must be collected at the enrollment meeting",
+        "Understand the 30-day check-in and why it generates referrals"
+      ],
+      "content": "## The Enrollment Process: Four Steps to a Enrolled Family\n\nConverting a tour into an enrollment isn't just about paperwork — it's about a series of experiences that build trust, confidence, and connection. Each step is intentional.\n\n---\n\n### Step 1: The Enrollment Meeting (30 Minutes)\n\nSchedule this immediately after the family says yes — ideally the same week as the tour.\n\n**Cover in the meeting:**\n\n- Complete enrollment contract and all required forms\n- Review: schedule, rates, late pick-up policy, sick policy, holiday calendar\n- Explain: **Tuition Express** (auto-pay setup), **Tadpoles** (daily notes and photos), camera access\n- Collect:\n  - Registration fee\n  - First month's tuition (or deposit per your location's policy)\n  - Medical records and current immunization certificate\n- Schedule: **start date** and the **Wiggly Family Orientation**\n\n> Never let a family leave the enrollment meeting without a confirmed start date and orientation time. \"We'll figure it out\" almost always delays or cancels.\n\n---\n\n### Step 2: Wiggly Family Orientation (1 Hour, on Start Day)\n\nThis happens on the child's first day — it's a structured welcome experience for the whole family.\n\n- Family meets lead teachers and sees the classroom up close\n- Review: daily routines, communication expectations, drop-off and pick-up procedures\n- Complete: emergency contacts, authorized pick-up list, dietary restrictions and allergy documentation\n- **Take a family photo** — post it on Tadpoles and the classroom board\n\n> The Wiggly Orientation is what turns \"I enrolled my child\" into \"we belong here.\"\n\n---\n\n### Step 3: First Week Check-Ins\n\nTransitions are hard — for children and parents. Your attention during week one signals that Bright Beginnings is different.\n\n- **Director calls the parent on Day 2:** *\"How was [child's name]'s first day?\"*\n- **Daily Tadpoles notes with lots of photos** — especially during the first week\n- **Brief chat at pick-up:** *\"How is the transition going for your family?\"*\n\nThe first week check-in is one of the highest-yield moments you'll have with a new family. A parent who feels seen during this vulnerable time becomes a loyal advocate.\n\n---\n\n### Step 4: The 30-Day Check-In Meeting\n\nAt the 30-day mark, schedule a short formal sit-down with the parents — 15 to 20 minutes.\n\n- How is the child adjusting? Any concerns?\n- How is the family feeling about communication and daily updates?\n- Ask: *\"Is there anything we could do to make this experience even better for your family?\"*\n\n> **This is where referrals are born.** If the family is happy, ask:\n> *\"We'd love to grow our community — is there anyone you know who might be a great fit for Bright Beginnings?\"*\n> If they've had a positive experience, most families are happy to refer. But they need to be asked.\n\n---\n\n### Enrollment Quick Reference\n\n| Step | Timing | Key Action |\n|------|--------|------------|\n| Enrollment Meeting | Same week as tour | Collect contract, fee, medical records; set start date |\n| Wiggly Orientation | Child's first day | Meet teachers, complete emergency docs, take family photo |\n| Day 2 Director Call | 2nd day of attendance | \"How was yesterday?\" — personal, direct, caring |\n| 30-Day Check-In | 30 days after start | Formal meeting; assess, celebrate, and ask for referrals |\n\n---\n\n### Common Enrollment Mistakes\n\n- **No confirmed start date at the enrollment meeting** — families delay indefinitely\n- **Skipping the Day 2 call** — it feels like a small thing; it isn't\n- **Missing the 30-day check-in** — this is where you build loyalty and unlock referrals\n- **Delayed Tadpoles photos during week one** — new families are anxious; daily photo proof calms them\n- **Not asking for the referral** — most happy families will refer if you ask directly. Most directors never ask."
+    },
+    {
+      "id": "2.5-quiz",
+      "title": "Enrollment Process Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "At the enrollment meeting, what four things must be collected from the new family?",
+          "type": "multiple-choice",
+          "options": [
+            "Signed contract, registration fee, first month's tuition, and medical/immunization records",
+            "Signed contract, registration fee, emergency contact form, and a parent photo",
+            "Registration fee, authorized pick-up list, dietary restrictions, and first month's tuition",
+            "Enrollment form, schedule preference, rate sheet signature, and payment method on file"
+          ],
+          "correctAnswer": "Signed contract, registration fee, first month's tuition, and medical/immunization records",
+          "explanation": "The enrollment meeting must produce: the completed enrollment contract, the registration fee, first month's tuition (or deposit), and medical records with current immunization certificate. These aren't optional — a family who hasn't submitted all four isn't fully enrolled."
+        },
+        {
+          "id": "q2",
+          "question": "When should the director personally call a new family after their child's first day?",
+          "type": "multiple-choice",
+          "options": ["Day 1, before the child leaves", "Day 2 of attendance", "End of the first week", "At the 30-day check-in"],
+          "correctAnswer": "Day 2 of attendance",
+          "explanation": "The director calls on Day 2 — the day after the first day. This is a personal check-in: 'How was [child's name]'s first day?' It's a 3-minute call that has a massive impact on how the family feels about their decision. Families who feel seen during week one become your most loyal advocates."
+        },
+        {
+          "id": "q3",
+          "question": "True or False: Referral requests should only be made after the family brings it up first.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "False. Most happy families will refer — but only if you ask them directly. The 30-day check-in is the ideal moment: if the conversation is positive, ask directly: 'Is there anyone you know who might be a great fit for Bright Beginnings?' Don't wait for the family to volunteer it. Most directors never ask; that's why referrals are missed."
+        },
+        {
+          "id": "q4",
+          "question": "What is the Wiggly Family Orientation and when does it happen?",
+          "type": "multiple-choice",
+          "options": [
+            "A 30-minute parent info session held the week before the child starts",
+            "A 1-hour structured welcome held on the child's first day",
+            "A monthly event for all new families who enrolled that month",
+            "A virtual orientation sent via Tadpoles before the start date"
+          ],
+          "correctAnswer": "A 1-hour structured welcome held on the child's first day",
+          "explanation": "The Wiggly Family Orientation is a 1-hour in-person experience on the child's actual first day. The family meets lead teachers, sees the classroom, completes emergency contact and dietary restriction forms, and has a family photo taken. It turns the enrollment paperwork into a belonging experience — 'we belong here' rather than 'I signed up here.'"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,268 @@
+{
+  "moduleId": "module5",
+  "title": "Compliance & Safety",
+  "description": "Stay inspection-ready every day — Virginia licensing requirements, the licensing binder, health and safety protocols, incident reporting, and emergency procedures for every scenario.",
+  "estimatedTime": "50–65 minutes",
+  "sections": [
+    {
+      "id": "5.1",
+      "title": "Virginia Licensing & the Binder",
+      "type": "reading",
+      "learningObjectives": [
+        "Know the Virginia Child Day Center license type, renewal cycle, and inspection pattern",
+        "Know all seven sections of the licensing binder and what belongs in each",
+        "Understand what 'tour-ready' means for your binder at all times"
+      ],
+      "content": "## Licensing Is Not a Once-a-Year Event\n\nA Virginia licensing inspector can walk through your door unannounced at any time. Your binder, your staff records, your drill logs, your medication forms — all of it must be current and organized right now, not when you get a heads-up. Inspection-ready is a daily standard.\n\n---\n\n### Virginia Licensing Basics\n\n| Item | Detail |\n|------|--------|\n| License type | Child Day Center (CDC) |\n| Renewal cycle | Annual — know your site's expiration date |\n| Inspections | Unannounced; typically 1–2 per year |\n| Licensing specialist | Listed in your site's Vendor Directory |\n\n> **A repeat violation is a leadership failure.** A first finding is correctable. The same finding on a second inspection means you didn't fix the root cause — and licensing treats it very differently.\n\n---\n\n### The Licensing Binder: Seven Sections\n\nThis binder must be complete, current, and accessible at all times — including during tours.\n\n#### Section 1: License & Approvals\n- Current Child Day Center license (posted visibly)\n- Fire marshal approval letter\n- Health department approval\n\n#### Section 2: Staff Records\n- Background check documentation for every staff member\n- TB test results (2-step for new hires)\n- Physical exam records (within required timeframe)\n- Transcripts (if staff claim CDA or degree for licensing credit)\n- Training certificates (child abuse, SIDS, medication administration, first aid/CPR)\n\n#### Section 3: Child Records\n- Enrollment forms for every enrolled child\n- Current immunization records (Virginia schedule)\n- Emergency contact forms\n- Medical action plans (for children with allergies, asthma, or chronic conditions)\n\n#### Section 4: Safety\n- Fire drill logs (monthly — date, time, duration, issues noted)\n- Tornado drill logs (monthly, alternating with fire)\n- Lockdown drill logs (quarterly)\n- Site evacuation plan with posted maps\n- Emergency procedures card\n\n#### Section 5: Health\n- Medication Authorization Forms (MAF) for every child currently receiving medication\n- Injury and accident logs\n- Illness and exclusion policies\n\n#### Section 6: Food Service\n- Monthly menus\n- Food handling certifications for applicable staff\n- Kitchen inspection reports\n\n#### Section 7: Policies\n- Current parent handbook (signed acknowledgment on file for each family)\n- Staff handbook (signed acknowledgment on file for each staff member)\n- Operational policies document\n\n---\n\n### Keeping the Binder Current\n\nThe binder goes stale when:\n- A new staff member starts and their records aren't filed within the first week\n- A drill happens but isn't logged the same day\n- A child's immunization record expires and no one follows up\n- A medication authorization form expires and the child is still receiving doses\n\nYour Day 16 monthly task is a full binder review — every section, every document, current or flagged for follow-up.\n\n---\n\n### What Licensing Inspectors Look For\n\nInspectors evaluate three things:\n\n1. **Documentation** — is everything present, signed, and current?\n2. **Ratios** — are classrooms within Virginia-required staff-to-child ratios at all times?\n3. **Environment** — are spaces safe, clean, and appropriate for the age group?\n\nThe most common findings:\n- Expired staff TB tests or physical exams\n- Missing or incomplete drill logs\n- Cleaning supplies accessible to children\n- Expired medication authorization forms\n- Ratios broken during transitions (drop-off, pick-up, outdoor play)\n\nAll of these are preventable with a consistent daily and monthly routine."
+    },
+    {
+      "id": "5.1-quiz",
+      "title": "Licensing & Binder Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "How often are Virginia Child Day Center licensing inspections typically conducted?",
+          "type": "multiple-choice",
+          "options": [
+            "Once a year, scheduled in advance",
+            "Unannounced; typically 1–2 times per year",
+            "Quarterly, with 48-hour notice",
+            "Only when a complaint is filed"
+          ],
+          "correctAnswer": "Unannounced; typically 1–2 times per year",
+          "explanation": "Virginia licensing inspections are unannounced — inspectors can walk in at any time. This is exactly why 'inspection-ready' is a daily standard, not something you prepare for when you get a call. Typically 1–2 inspections per year, but the timing is unpredictable."
+        },
+        {
+          "id": "q2",
+          "question": "Which binder section contains fire drill logs, tornado drill logs, and the site evacuation plan?",
+          "type": "multiple-choice",
+          "options": ["Section 2: Staff Records", "Section 3: Child Records", "Section 4: Safety", "Section 5: Health"],
+          "correctAnswer": "Section 4: Safety",
+          "explanation": "Section 4 (Safety) contains all drill documentation: fire drill logs, tornado drill logs, lockdown drill logs, the evacuation plan, and the emergency procedures card. Section 5 (Health) covers medication forms and injury logs. Mixing these up during an inspection creates problems."
+        },
+        {
+          "id": "q3",
+          "question": "True or False: A staff member who claims a CDA credential only needs to provide verbal confirmation — transcripts are optional.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "False. If a staff member claims a CDA or college degree for Virginia licensing credit, transcripts must be physically on file in the licensing binder (Section 2: Staff Records). Verbal claims are not sufficient — the inspector will ask to see the document."
+        },
+        {
+          "id": "q4",
+          "question": "What is the most important distinction between a first licensing finding and a repeat violation?",
+          "type": "multiple-choice",
+          "options": [
+            "First findings are reported to admin; repeat violations are not",
+            "First findings require a 30-day correction plan; repeat violations require immediate closure",
+            "A repeat violation means the root cause wasn't fixed — licensing treats it much more seriously",
+            "Both are treated the same; only the number of findings in a year matters"
+          ],
+          "correctAnswer": "A repeat violation means the root cause wasn't fixed — licensing treats it much more seriously",
+          "explanation": "A repeat violation is a leadership failure — it signals that a problem was identified, documented, and then allowed to happen again. Licensing treats repeat findings with escalating seriousness: higher fines, more frequent inspections, and potential license action. Fix the root cause the first time, not just the symptom."
+        }
+      ]
+    },
+    {
+      "id": "5.2",
+      "title": "Daily Health & Safety Protocols",
+      "type": "reading",
+      "learningObjectives": [
+        "Complete the morning and afternoon health and safety checklists from memory",
+        "Know the illness symptoms that require a child to go home and the return requirements",
+        "Understand the medication administration requirements and what triggers a compliance issue"
+      ],
+      "content": "## Safety Is a Habit, Not a Response\n\nThe checklists below aren't bureaucracy — they're the daily practice that keeps children safe, keeps your license clean, and catches problems before they become incidents. A director who skips the morning check is a director who finds out about a missing first aid kit only when someone needs it.\n\n---\n\n### Morning Safety Checklist (Before Children Arrive)\n\n- **Bathrooms:** Soap, paper towels, toilet paper, functioning toilets and sinks in every bathroom\n- **Playgrounds:** No hazards (broken equipment, debris, standing water), all equipment secure, gates locked\n- **First aid kits:** Stocked and present in every classroom — check at least weekly that contents are complete\n- **Bleach solution:** Made fresh daily, correct concentration (test with litmus paper), distributed to each classroom and labeled with today's date\n- **Emergency exits:** All exits clear and unlocked from the inside — never prop, block, or lock an exit\n\n---\n\n### Afternoon Safety Checklist\n\n- **Building perimeter walk:** Check for hazards, unlocked gates, trash or debris\n- **Cleaning caddies:** Locked in every classroom — no exceptions\n- **Cleaning supplies:** Not accessible to children anywhere in the building\n- **Medications:** All stored securely in locked cabinet; log is current\n\n---\n\n### Illness Policy: When to Send a Child Home\n\nChildren must be sent home or not admitted if they have any of the following:\n\n- Fever of **100.4°F or higher**\n- Vomiting — 2 or more times in 24 hours\n- Diarrhea — 2 or more watery stools\n- Unexplained rash\n- Pink eye or other contagious infection confirmed or suspected\n- Lice — child may return after treatment and nit-free verification\n\n#### Return-to-School Requirements\n\n- **Fever:** Fever-free for **24 hours without medication**\n- **Vomiting or diarrhea:** Symptom-free for 24 hours\n- **Diagnosed contagious illness:** Doctor's note required before return\n\n> When in doubt, call the parent. It is always safer and more defensible to send a child home than to keep a potentially ill child in a classroom with 19 others.\n\n---\n\n### Medication Administration\n\n#### Requirements Before Any Medication Is Given\n\n- **Prescription medications:** Current, signed Medication Authorization Form (MAF) on file; original bottle with child's name, dosage, and prescribing doctor's name\n- **Over-the-counter medications:** Same requirements as prescription, plus a doctor's note\n- **No expired medications** — verify the expiration date; return expired medications to parents\n- **Storage:** Locked cabinet at all times; refrigerate if required\n- **Every dose logged** on the MAF: date, time, dose given, staff initials\n\n#### Staff Authorization\n\n- Only staff who have completed **annual medication administration training** may give medications\n- Director is responsible for verifying this training is current for every staff member\n- If a trained staff member is unavailable, the director administers the medication — never an untrained person\n\n#### Common Mistakes That Create Compliance Issues\n\n- Child receives medication without a current signed MAF — this is a licensing violation\n- MAF has expired (they're typically written for a school year) — obtain a new one before the next dose\n- Medication given by an untrained staff member\n- Dose not logged immediately after administration\n- Medication stored outside the locked cabinet (even briefly)\n\n---\n\n### Bleach Solution Standards\n\nBleach solution is your primary classroom sanitizer and must be:\n\n- Made **fresh every morning** — bleach loses effectiveness within 24 hours\n- Tested with **litmus paper** to confirm correct concentration before distribution\n- Labeled with the **date it was made**\n- Distributed to every classroom in its labeled container\n- Stored away from children — locked caddy when not in active use"
+    },
+    {
+      "id": "5.2-quiz",
+      "title": "Health & Safety Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "A child arrives at 8:00 AM and a parent mentions she vomited twice last night but 'seems fine now.' What do you do?",
+          "type": "multiple-choice",
+          "options": [
+            "Admit her and monitor closely — she seems recovered",
+            "Admit her but notify the teacher to watch for symptoms",
+            "Do not admit her — she must be symptom-free for 24 hours",
+            "Call the pediatrician before making a decision"
+          ],
+          "correctAnswer": "Do not admit her — she must be symptom-free for 24 hours",
+          "explanation": "Two or more vomiting episodes in 24 hours is an exclusion criterion — and the return requirement is 24 hours symptom-free. 'Last night' plus 'morning arrival' means the 24-hour window has not passed. Admit her and you've violated illness policy and exposed 19 other children. The parent may push back; hold the line kindly but firmly."
+        },
+        {
+          "id": "q2",
+          "question": "Who may administer medications to children at Bright Beginnings?",
+          "type": "multiple-choice",
+          "options": [
+            "Any staff member with parental permission",
+            "Only the director",
+            "Only staff who have completed annual medication administration training",
+            "Any licensed teacher with more than one year of experience"
+          ],
+          "correctAnswer": "Only staff who have completed annual medication administration training",
+          "explanation": "Only staff with current annual medication administration training may administer medications — no exceptions. If no trained staff member is available, the director gives the medication. An untrained person administering medication is a licensing violation regardless of parental consent."
+        },
+        {
+          "id": "q3",
+          "question": "True or False: Bleach solution made on Monday morning can be used through Friday as long as it is stored correctly.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "False. Bleach solution must be made fresh every single morning — it loses its sanitizing effectiveness within 24 hours. Each day's batch must be tested with litmus paper for correct concentration, labeled with that day's date, and distributed to classrooms. Previous days' solution should be discarded."
+        },
+        {
+          "id": "q4",
+          "question": "A parent asks you to give their child a daily vitamin — no prescription, just a children's multivitamin. What is required?",
+          "type": "multiple-choice",
+          "options": [
+            "Verbal permission from the parent is sufficient",
+            "A signed permission note from the parent on file",
+            "A signed Medication Authorization Form and a doctor's note",
+            "Nothing — vitamins are not considered medications under licensing"
+          ],
+          "correctAnswer": "A signed Medication Authorization Form and a doctor's note",
+          "explanation": "Over-the-counter medications — including vitamins — require the same documentation as prescriptions: a current signed MAF and a doctor's note. Virginia licensing does not distinguish between a vitamin and a prescription based on the nature of the substance — if you're administering it to a child at school, you need the paperwork."
+        }
+      ]
+    },
+    {
+      "id": "5.3",
+      "title": "Injury, Accident & Incident Reporting",
+      "type": "reading",
+      "learningObjectives": [
+        "Know the correct response sequence for minor and major injuries",
+        "Understand when licensing must be notified and within what timeframe",
+        "Know what goes in every incident documentation entry"
+      ],
+      "content": "## Document Everything. Every Time.\n\nIncidents happen in childcare. What separates well-run centers from poorly-run ones isn't the absence of incidents — it's the consistency and completeness of how they're handled and documented. Your documentation is your protection.\n\n---\n\n### Minor Injuries (No Medical Attention Required)\n\n*Scratches, small bumps, minor falls, insect bites — injuries that are treated on-site.*\n\n**Response sequence:**\n\n1. Clean and treat the injury (bandage, ice, comfort)\n2. Complete the **injury/accident log** immediately — paper form, on the spot\n3. Call the parent to inform them — *before* pick-up, not at pick-up\n4. Send a Tadpoles note with a photo if the injury is visible\n5. File the completed log in the licensing binder (Section 5: Health)\n\n> \"Minor\" does not mean undocumented. Every injury gets a log entry. A bump on the head that wasn't documented becomes a he-said-she-said problem if the parent notices it at home.\n\n---\n\n### Major Injuries (Medical Attention Required)\n\n*Deep cuts requiring stitches, broken bones, head injuries with loss of consciousness, severe allergic reactions, any injury requiring emergency care.*\n\n**Response sequence:**\n\n1. **Call 911** if emergency — do not delay\n2. Begin first aid or CPR if trained and appropriate\n3. Send a staff member to meet paramedics at the entrance\n4. **Call the parent immediately** — or emergency contact if parent is unreachable\n5. A staff member accompanies the child to the hospital if the parent cannot arrive quickly\n6. Complete a detailed injury/accident report\n7. **Notify admin immediately**\n8. **Notify licensing within 24 hours** if the injury required hospitalization\n9. Follow up with the family — same day and next day\n\n---\n\n### When Licensing Must Be Notified\n\n| Situation | Notification Required? | Timeframe |\n|-----------|----------------------|------------|\n| Child requires hospitalization | Yes | Within 24 hours |\n| Child death on premises | Yes | Immediately |\n| Allegation of child abuse or neglect by staff | Yes | Immediately |\n| Major injury without hospitalization | Director judgment + admin | Same day to admin |\n| Minor injury treated on-site | No licensing notice needed | Log in binder |\n\n---\n\n### What Every Incident Log Must Include\n\n- **Date and time** of the incident\n- **Child's name** and age\n- **Description** — what happened, exactly, in plain language\n- **Location** — which classroom, playground area, hallway\n- **Staff present** at the time\n- **Action taken** — how the injury was treated\n- **Parent notification** — time called, who was spoken to, what was said\n- **Staff member signature** who completed the form\n- **Director signature**\n\n---\n\n### Child Abduction & Missing Child Protocol\n\nIf a child cannot be accounted for:\n\n1. Immediately search the classroom, bathrooms, and adjacent areas\n2. Notify the director — initiate a full building search\n3. If not found within **5 minutes**, call 911\n4. Lock all doors; account for all other children\n5. Call the parent and admin\n6. Review camera footage if available\n7. Provide all information to police\n8. **Do not speak to media** — refer all inquiries to admin\n\n#### Unauthorized Pick-Up Attempt\n\n- Verify identity and check the authorized pick-up list\n- If the person is not on the list: politely refuse and call the custodial parent for authorization\n- If the person becomes aggressive or forceful: **call 911 immediately**\n- **Do not release the child under any circumstances** without explicit parent authorization — even if the person claims to be a grandparent, family friend, or has been before\n\n---\n\n### The Documentation Mindset\n\nEvery performance conversation, every parent concern, every incident, every near-miss — logged in ProCare or on the appropriate paper form, same day it happens.\n\n> If it happened but isn't documented, it functionally didn't happen — legally and in any dispute. Your notes protect the child, the staff, and you."
+    },
+    {
+      "id": "5.3-activity",
+      "title": "Safety Incident Decisions",
+      "type": "scenario",
+      "scenarios": [
+        {
+          "situation": "During outdoor play, a 4-year-old trips and hits his head on the edge of the climbing structure. He cried briefly, calmed down within 2 minutes, and appears alert and normal. There's a small red mark but no cut or swelling. His teacher tells you about it at 10:30 AM. Pick-up isn't until 5:30 PM.",
+          "question": "What is the correct response?",
+          "options": [
+            {
+              "label": "Monitor him through the day and mention it to the parent at pick-up",
+              "correct": false,
+              "feedback": "Head injuries — even mild-appearing ones — require parent notification before pick-up, not at it. A parent who finds out at 5:30 PM about a 10:30 AM head bump will reasonably ask why they weren't called. You also lose 7 hours of potential observation time that the parent might have wanted to be aware of. Call now.",
+              "link": "Call parents before pick-up — never save incident notifications for the end of the day."
+            },
+            {
+              "label": "Complete the injury log immediately, call the parent now, send a Tadpoles note, and continue monitoring him",
+              "correct": true,
+              "feedback": "Exactly right. Log it immediately while the details are fresh, call the parent to inform them ('He's fine and alert, but I wanted to make sure you knew right away'), send a Tadpoles note, and keep eyes on him through the day. If anything changes — vomiting, drowsiness, unusual behavior — you call again and escalate. This is textbook minor injury protocol.",
+              "link": "Minor injury sequence: log → call parent → Tadpoles note → monitor."
+            },
+            {
+              "label": "Call 911 — any head injury in a child must be evaluated by paramedics",
+              "correct": false,
+              "feedback": "A 2-minute cry followed by full alertness and normal behavior is a minor injury presentation, not an emergency. Calling 911 for every bump would be clinically and operationally unworkable. Know the difference: loss of consciousness, vomiting after impact, unusual drowsiness, or severe swelling warrant emergency response. Alert, calm, no visible damage — monitor and call the parent.",
+              "link": "Reserve 911 for true emergencies — know your minor vs. major injury thresholds."
+            },
+            {
+              "label": "Log the incident and notify the parent at pick-up to avoid alarming them unnecessarily",
+              "correct": false,
+              "feedback": "Parent notification happens before pick-up, not at it — and 'avoiding alarm' is not a reason to delay. Parents have the right to know their child was injured the same day it happens. Delaying the call until pick-up looks like concealment, erodes trust, and violates Bright Beginnings protocol. Call now.",
+              "link": "Never delay parent notification to avoid a difficult conversation."
+            }
+          ]
+        },
+        {
+          "situation": "At 2:00 PM you receive a call from a staff member that a 2-year-old in the toddler room has had a severe allergic reaction — hives spreading rapidly, facial swelling starting, and she's having difficulty breathing. The child has a known peanut allergy on file.",
+          "question": "What is your immediate first action?",
+          "options": [
+            {
+              "label": "Call the parent first to ask if the child has an EpiPen",
+              "correct": false,
+              "feedback": "Do not call the parent first when a child is having difficulty breathing. Airway compromise is a life-threatening emergency — every second matters. Call 911 first. While paramedics are en route, check the child's medical action plan for EpiPen authorization (it should already be in the binder and accessible in the classroom). Parent call comes second.",
+              "link": "Life-threatening emergencies: 911 first, parent second."
+            },
+            {
+              "label": "Call 911 immediately, then check for an EpiPen in the child's medical action plan, then call the parent",
+              "correct": true,
+              "feedback": "Correct — this is the exact sequence for a life-threatening medical emergency. Call 911 immediately and describe the symptoms. While staff keeps the child calm and another staff member meets paramedics at the entrance, check the medical action plan for EpiPen instructions (trained staff administer if authorized). Call the parent simultaneously or immediately after 911. Notify admin the same day.",
+              "link": "Medical emergency sequence: 911 → first aid per action plan → parent → admin."
+            },
+            {
+              "label": "Send the child to your office and wait to see if symptoms worsen",
+              "correct": false,
+              "feedback": "Facial swelling and difficulty breathing in an allergic reaction is anaphylaxis — a medical emergency that can become fatal within minutes without intervention. There is no 'wait and see' here. Call 911 immediately.",
+              "link": "Anaphylaxis is a 911 emergency — act immediately."
+            },
+            {
+              "label": "Administer the EpiPen if one is on file, then call the parent",
+              "correct": false,
+              "feedback": "If the child has a medical action plan that authorizes EpiPen use by trained staff, that's an appropriate intervention — but calling 911 must happen at the same time or before, not after. EpiPen administration buys time; it doesn't replace emergency care. The correct sequence is 911 first, action plan second, parent third.",
+              "link": "EpiPen + 911 together — not EpiPen instead of 911."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5.4",
+      "title": "Emergency Procedures",
+      "type": "reading",
+      "learningObjectives": [
+        "Walk through the correct response to fire, tornado, and lockdown emergencies",
+        "Know what triggers facility closure for utility failures",
+        "Know what goes in every classroom emergency backpack"
+      ],
+      "content": "## Every Emergency Has a Sequence — Know Yours Before You Need It\n\nIn an emergency, you don't have time to think — you act on what's already in your head. These procedures exist so that every person in your building knows their role before anything happens.\n\n---\n\n### Fire Emergency\n\n**When the alarm sounds:**\n\n1. Evacuate immediately to the designated outdoor assembly area — no exceptions, no \"let me check first\"\n2. Teachers grab **attendance clipboards** and **emergency backpacks** before leaving the room\n3. Director or closer grabs **sign-in/out sheets** and their **phone**\n4. Account for all children and staff at the assembly area\n5. Call 911 if a real fire (not a drill)\n6. **Do not re-enter the building** until the fire department gives all-clear\n7. If the building is unsafe, relocate to your site's backup location\n\n**Backup relocation sites:**\n- Forest Lakes: Mill Creek location\n- Mill Creek: Forest Lakes location\n- Crozet: Local church or community center (confirm current address with admin)\n\n**Parent notification during evacuation:**\n- Send Tadpoles message with relocation information immediately\n- Group Me to all staff\n- Post on Facebook and website if relocation is extended\n\n---\n\n### Severe Weather (Tornado)\n\n**Tornado watch** (conditions possible — not immediate):\n- Monitor weather closely\n- Prepare to move to interior hallways if a warning is issued\n- Send parents a Tadpoles heads-up\n\n**Tornado warning** (take shelter immediately):\n\n1. Move all children and staff to interior hallways — away from windows and exterior walls\n2. Everyone crouches down and covers their head with their hands\n3. Take attendance\n4. Stay in position until the warning expires or an all-clear is issued\n5. If the building is damaged, evacuate to the backup location\n6. Notify parents immediately via Tadpoles and phone calls\n\n---\n\n### Lockdown (Intruder or Threat on Campus)\n\n**Immediate steps:**\n\n1. Director announces lockdown over intercom or Group Me — all staff act immediately\n2. All classroom doors locked\n3. Lights off; children moved away from doors and windows\n4. Silence — keep children calm\n5. **Do not open the door for anyone** except police with badge verification shown through a window\n6. Director calls 911 and provides location and information\n7. Wait for police all-clear before unlocking\n\n**After lockdown:**\n- Account for all children and staff\n- Notify parents via Tadpoles and phone\n- Debrief with staff as soon as safely possible\n- Offer support resources if needed\n- Document and report to licensing if required\n\n---\n\n### Utility Failures: When to Close\n\n| Situation | Action |\n|-----------|--------|\n| Power outage | Use emergency lighting; if over 2 hours or during extreme heat/cold — **close facility** |\n| Water outage | **Close immediately** — cannot operate without toilets or handwashing |\n| HVAC failure | Monitor temperature; if below 50°F or above 85°F — **close facility** |\n\n> When in doubt about utility failures: call admin, then call parents. Never try to operate in an environment that cannot safely support children.\n\n---\n\n### General Evacuation Procedure\n\n**Reasons to evacuate:**\nFire or smoke, gas leak, bomb threat, building structural damage (earthquake, tornado), chemical or hazardous material spill\n\n**Sequence:**\n\n1. Sound alarm or announce evacuation\n2. Grab attendance clipboards, emergency backpacks, sign-in/out sheets\n3. Exit via the nearest safe route to the outdoor assembly area\n4. Take attendance — report any missing persons immediately\n5. Call 911 if needed\n6. Notify parents via Tadpoles with relocation information\n7. Relocate to backup site if building is unsafe\n8. Do not return until authorities give all-clear\n\n---\n\n### Emergency Backpack Contents (One Per Classroom)\n\nEvery classroom emergency backpack must contain:\n\n- Attendance clipboard with current roster\n- Emergency contact list for all children in that room\n- First aid kit\n- Bottled water and non-perishable snacks\n- Flashlight and batteries\n- Whistle\n- Emergency procedures card\n\nCheck backpack contents **monthly** — supplies expire, rosters change, batteries die.\n\n---\n\n### Drill Schedule\n\n| Drill Type | Frequency | Documentation |\n|------------|-----------|---------------|\n| Fire | Monthly | Log in licensing binder: date, time, duration, issues |\n| Tornado | Monthly (alternate months with fire) | Log in licensing binder |\n| Lockdown | Quarterly | Log in licensing binder; note any issues |\n\nDrills must be documented the **same day they occur** — not end of the week, not when you get around to it."
+    },
+    {
+      "id": "5.4-quiz",
+      "title": "Emergency Procedures Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "During a fire evacuation, what three things must the director or closer grab before leaving the building?",
+          "type": "multiple-choice",
+          "options": [
+            "The licensing binder, first aid kit, and classroom rosters",
+            "Sign-in/out sheets, their phone, and the emergency backpack",
+            "Sign-in/out sheets and their phone",
+            "The emergency binder, car keys, and medication log"
+          ],
+          "correctAnswer": "Sign-in/out sheets and their phone",
+          "explanation": "The director or closer grabs the sign-in/out sheets and their phone. Teachers grab attendance clipboards and emergency backpacks from their rooms. These roles are distinct — the director is not responsible for classroom backpacks. Sign-in/out sheets tell you exactly who was in the building; your phone lets you call 911 and parents."
+        },
+        {
+          "id": "q2",
+          "question": "At what indoor temperature must the facility close due to HVAC failure?",
+          "type": "multiple-choice",
+          "options": [
+            "Below 60°F or above 80°F",
+            "Below 55°F or above 90°F",
+            "Below 50°F or above 85°F",
+            "Below 45°F or above 95°F"
+          ],
+          "correctAnswer": "Below 50°F or above 85°F",
+          "explanation": "Facility must close if indoor temperature drops below 50°F or rises above 85°F due to HVAC failure. These are not comfortable-versus-uncomfortable thresholds — they're safety thresholds. At these extremes, children are at risk of hypothermia or heat-related illness. Close, call admin, call parents."
+        },
+        {
+          "id": "q3",
+          "question": "True or False: During a lockdown, a staff member may open a locked classroom door if they recognize the person knocking.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "False. During a lockdown, doors stay locked until police provide an all-clear — no exceptions. Recognition is not sufficient verification. Intruders can appear familiar, can claim to be a parent or familiar vendor, or can coerce someone to stand at the door. The protocol is clear: badge verification through a window from law enforcement only. Hold the line."
+        },
+        {
+          "id": "q4",
+          "question": "How often must lockdown drills be conducted and documented?",
+          "type": "multiple-choice",
+          "options": ["Monthly", "Every other month", "Quarterly", "Twice a year"],
+          "correctAnswer": "Quarterly",
+          "explanation": "Lockdown drills are conducted quarterly — four times per year. Fire and tornado drills are monthly (alternating). Every drill must be documented in the licensing binder the same day it occurs: date, time, duration, and any issues noted. Missing drill documentation is one of the most common licensing findings."
+        }
+      ]
+    }
+  ]
+}

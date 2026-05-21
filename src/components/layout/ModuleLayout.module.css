@@ -1,0 +1,35 @@
+@import '../../styles/variables.css';
+
+.root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.body {
+  display: flex;
+  flex: 1;
+}
+
+.main {
+  flex: 1;
+  margin-left: var(--sidebar-width);
+  min-height: calc(100vh - var(--header-height));
+  background: var(--bb-off-white);
+  overflow-x: hidden;
+}
+
+.content {
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 40px 32px 80px;
+}
+
+@media (max-width: 960px) {
+  .main {
+    margin-left: 0;
+  }
+  .content {
+    padding: 24px 16px 60px;
+  }
+}

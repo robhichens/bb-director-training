@@ -1,0 +1,33 @@
+:root {
+  /* Brand Colors */
+  --bb-coral:       #F08782;
+  --bb-yellow:      #FFD437;
+  --bb-sky:         #AEDFE5;
+  --bb-mid-gray:    #A7A9AC;
+  --bb-light-gray:  #D1D2D4;
+  --bb-dark-gray:   #6D6E71;
+  --bb-charcoal:    #545454;
+  --bb-white:       #FFFFFF;
+  --bb-off-white:   #FAFAFA;
+  --bb-green:       #6EA91B;
+
+  /* Typography */
+  --font-display: 'Fredoka One', cursive;
+  --font-body:    'Ubuntu', sans-serif;
+
+  /* Spacing */
+  --section-padding: 70px;
+  --card-padding:    35px;
+  --card-radius:     4px;
+  --btn-radius:      4px;
+  --btn-radius-pill: 50px;
+
+  /* Transitions */
+  --transition: 0.2s ease;
+
+  /* Layout */
+  --sidebar-width:     260px;
+  --header-height:     64px;
+  --content-max-width: 800px;
+  --mobile-breakpoint: 960px;
+}

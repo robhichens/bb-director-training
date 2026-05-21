@@ -1,0 +1,18 @@
+@import '../../styles/variables.css';
+
+.card {
+  background: var(--bb-white);
+  border: 1px solid var(--bb-coral);
+  border-radius: var(--card-radius);
+  padding: var(--card-padding);
+  min-height: 170px;
+}
+
+.hoverable {
+  transition: background-color var(--transition), border-color var(--transition);
+  cursor: pointer;
+}
+.hoverable:hover {
+  background: var(--bb-sky);
+  border-color: var(--bb-sky);
+}

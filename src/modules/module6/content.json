@@ -1,0 +1,268 @@
+{
+  "moduleId": "module6",
+  "title": "Communication & Community",
+  "description": "Build lasting parent relationships, grow enrollment through consistent marketing, handle difficult conversations with confidence, and establish Bright Beginnings as a pillar of your community.",
+  "estimatedTime": "50–65 minutes",
+  "sections": [
+    {
+      "id": "6.1",
+      "title": "Building Trust with Every Family",
+      "type": "reading",
+      "learningObjectives": [
+        "Know the daily parent touchpoints that build long-term trust",
+        "Understand the director visibility standard and why it drives retention",
+        "Apply the 1-hour turnaround rule to every parent interaction"
+      ],
+      "content": "## Retention Is Earned Daily, Not at Enrollment\n\nA family chooses Bright Beginnings at enrollment. They choose to stay based on how they feel every single day — at drop-off, at pick-up, when something goes wrong, and when you reach out first. The director is the single biggest factor in whether a family stays or leaves.\n\n---\n\n### The Director Visibility Standard\n\n> **See 90% of parents at least once per day.** Know their names. Know their children's names. Know their situations.\n\nThis isn't aspirational — it's operational. A parent who sees the director every morning feels that the center is led. A parent who goes three weeks without seeing you starts wondering if anyone is in charge.\n\n**Where visibility happens:**\n\n- **Drop-off (7:30–9:00 AM):** Your floor time — walk families to rooms, greet children by name, ask genuine questions\n- **Pick-up (3:00–6:00 PM):** Be in the lobby — brief updates, check-ins, celebrating the child's day\n- **Morning Message Rounds:** When you deliver to classrooms, you're also being seen by any parents lingering in hallways\n\n---\n\n### The 1-Hour Turnaround Rule (Parent Edition)\n\n> No parent should ever have to ask twice. Acknowledge every message immediately and give a timeline if you need time to research.\n\n**Applied to parents:**\n\n- Phone call comes in while you're in a room: call back within the hour — don't let it sit\n- Parent emails about tuition: acknowledge immediately, give a time for your full answer\n- Parent texts via Tadpoles: respond same day, before you leave\n- Parent leaves a voicemail after hours: respond first thing the next morning\n\nThe speed of your response is itself a message. A fast response says: *your child matters here.*\n\n---\n\n### Daily Parent Touchpoints\n\n| Time | Touchpoint | Purpose |\n|------|------------|----------|\n| 7:30–9:00 AM | In-person greeting at drop-off | Trust, relationship, safety check |\n| 9:15 AM | Tadpoles AM message | Engagement, information, connection |\n| Throughout day | Tadpoles notes + photos from classrooms | Evidence of learning, peace of mind |\n| 3:00–6:00 PM | In-person at pick-up | Relationship, updates, retention signal |\n| As needed | Direct call for incidents, concerns | Transparency, accountability |\n\n---\n\n### Pick-Up Conversations That Build Loyalty\n\nPick-up is 2–3 minutes per family — and it's the most underutilized retention tool in early childhood education. Most parents want to know three things:\n\n1. **Was my child happy?** — \"She had a great morning — she was so focused during art time.\"\n2. **Was my child safe?** — Your calm, present demeanor answers this without words\n3. **Do you know my child?** — \"He's been working so hard on sharing this week — I noticed real progress today.\"\n\n> Named, specific observations about a child at pick-up are worth more than any newsletter. Most centers don't do this. You will.\n\n---\n\n### When Things Go Wrong: The Communication Standard\n\nParents can forgive mistakes. They cannot forgive finding out about mistakes from someone other than you.\n\n- **Call the parent first** — before they hear about it from their child, another parent, or social media\n- Be direct and factual: *\"I want to make sure you hear this from me directly.\"*\n- Lead with what happened, then what you did, then what you're doing to prevent it\n- Follow up — the next morning, not two days later\n\nA parent who feels informed and respected during a difficult situation often becomes your most loyal advocate.\n\n---\n\n### The Referral Conversation\n\nReferrals don't happen automatically — they happen when you ask.\n\n**When to ask:**\n- At the 30-day check-in for new families\n- After resolving a concern well (loyalty peaks after a good recovery)\n- At year-end when families express appreciation\n\n**How to ask:**\n*\"We'd love to grow our community with families just like yours. Do you know anyone who might be looking for a preschool?\"*\n\n**Referral incentive:** 2 weeks free tuition for the oldest child when the referred family completes 30 days. Remind families about this — most forget it exists."
+    },
+    {
+      "id": "6.1-quiz",
+      "title": "Parent Communication Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What percentage of parents should the director see in person at least once per day?",
+          "type": "multiple-choice",
+          "options": ["50%", "75%", "90%", "100%"],
+          "correctAnswer": "90%",
+          "explanation": "The director visibility standard is 90% of parents at least once per day — at drop-off, pick-up, or both. It's not 100% because some days a parent sends someone else for drop-off. But the goal is near-universal daily visibility. A parent who goes days without seeing the director starts to feel the center is unled."
+        },
+        {
+          "id": "q2",
+          "question": "A parent sends a Tadpoles message at 2:00 PM with a billing question. It's a busy afternoon. What does the 1-hour turnaround rule require?",
+          "type": "multiple-choice",
+          "options": [
+            "Answer the billing question in full within the hour",
+            "Acknowledge the message immediately and give a timeline for the full answer",
+            "Respond before the end of the day",
+            "Address it at pick-up in person"
+          ],
+          "correctAnswer": "Acknowledge the message immediately and give a timeline for the full answer",
+          "explanation": "The 1-hour turnaround rule requires immediate acknowledgment — not necessarily a full answer. 'Got your message — I'll pull up your account and call you by 4:30 PM' satisfies the rule. What's non-negotiable is that the parent isn't left wondering if you saw it. No one asks twice."
+        },
+        {
+          "id": "q3",
+          "question": "True or False: The best time to ask a family for a referral is during their enrollment meeting.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "False. The best moments for referral asks are at the 30-day check-in (after they've had a positive experience), after resolving a concern well (loyalty peaks post-recovery), and at year-end appreciation moments. Asking at enrollment — before they've experienced anything — is too early and feels transactional."
+        },
+        {
+          "id": "q4",
+          "question": "A child has a minor fall at 10:30 AM. The parent should be called:",
+          "type": "multiple-choice",
+          "options": [
+            "At pick-up — so you can explain in person",
+            "Before pick-up — as soon as the incident log is complete",
+            "Only if the child is still upset at pick-up",
+            "The next morning if the injury was truly minor"
+          ],
+          "correctAnswer": "Before pick-up — as soon as the incident log is complete",
+          "explanation": "Parent notification for any injury happens before pick-up — not at it. A parent who discovers a bump at home and realizes you knew about it at 10:30 AM but said nothing at 5:30 PM pickup will feel deceived. Call as soon as the log is complete. It's a 2-minute call that builds lasting trust."
+        }
+      ]
+    },
+    {
+      "id": "6.2",
+      "title": "Marketing & Enrollment Growth",
+      "type": "reading",
+      "learningObjectives": [
+        "Know the marketing frequency for each channel: daily, weekly, monthly, quarterly, annually",
+        "Understand the re-enrollment timeline from January through August",
+        "Know the referral program terms and when to activate it"
+      ],
+      "content": "## Enrollment Doesn't Maintain Itself\n\nEvery month, some families leave — children age out, families relocate, circumstances change. Your job is to replace every departure and then grow beyond it. That requires a consistent, multi-channel marketing presence that runs whether enrollment is strong or weak.\n\n---\n\n### Marketing Cadence by Frequency\n\n#### Daily (Director Responsibility)\n\n- **AM Tadpoles message** to all current families by 9:15 AM — engagement, community, brand\n- **Respond to all tour inquiries within 1 hour** — speed of response is your first impression\n- Post classroom photos to Tadpoles — current families see evidence of quality\n\n#### 2–3 Times Per Week\n\n- **Facebook and Instagram posts:** classroom activities, staff spotlights, learning moments, parent testimonials\n- Keep content visual — photos of children engaged in activities (with photo permission on file)\n- Update Google Business profile with fresh photos or posts\n\n#### Weekly\n\n- **Email newsletter** to waitlist and prospective families: highlight openings, upcoming events, success stories\n- **Review Google and Facebook reviews** — respond to every review, positive or negative, within 48 hours\n\n#### Monthly\n\n- **Targeted Facebook ad campaign:** local zip codes, parents of children ages 0–5\n- **Host open house or family event** — invite prospective families; light, no-pressure introduction\n- **Referral campaign:** remind current families about the 2-week tuition bonus\n\n#### Quarterly\n\n- Print marketing materials: door hangers, flyers, brochures — refresh annually\n- **Partner with local businesses** for cross-promotion: pediatrician offices, coffee shops, family restaurants\n- **Host community event:** Easter egg hunt, fall festival, holiday party — open to the public\n\n#### Annually\n\n- Update website with fresh photos, testimonials, and current program offerings\n- Review and adjust pricing for the following year\n- **Plan the fall enrollment push** — this begins in January for August enrollment\n\n---\n\n### Re-Enrollment Process (Current Families)\n\nRetaining a current family costs far less than enrolling a new one. The re-enrollment process runs every year on a fixed schedule:\n\n| Timeline | Action |\n|----------|--------|\n| January | Re-enrollment campaign launches; send intent forms to all current families |\n| February | Follow up with families who haven't returned forms |\n| March | Finalize fall rosters; offer open spots to waitlist families |\n| April–May | Confirm schedules; update enrollment contracts |\n| August | Fall semester begins |\n\n#### Re-Enrollment Incentives\n\n- **Early commitment discount** if intent form is returned by February 1\n- **Guaranteed spot and schedule** for families who commit by March 1\n- **Holding fee option** for families taking the summer off who plan to return in fall\n\n---\n\n### The Referral Program\n\nThis is your highest-conversion enrollment tool — a referred family is 3x more likely to enroll than a cold tour inquiry.\n\n**Family referral:**\n- Current family refers a new family\n- New family completes 30 days enrolled\n- Referring family receives **2 weeks of complimentary tuition** for their oldest child\n\n**Staff referral:**\n- Staff member refers a new hire candidate\n- New hire completes 90-day probationary period\n- Referring staff member receives a **$50 bonus**\n\n> Most families don't refer because no one reminded them the program exists. Make it a standing topic at 30-day check-ins and in your monthly Tadpoles messages. \"We're growing — if you know a family who'd be a great fit, we'd love to meet them.\"\n\n---\n\n### Responding to Google & Facebook Reviews\n\nEvery review — positive or negative — gets a response within 48 hours.\n\n**Positive review response:**\n*\"Thank you so much, [Name]! We love having [child's name] in our community. Families like yours are exactly why we do this work every day.\"*\n\n**Negative review response (public, brief):**\n*\"We're sorry to hear about your experience. We take feedback like this seriously and would like to speak with you directly. Please contact our director at [phone/email] so we can address this personally.\"*\n\n> Never debate or defend publicly. Take it offline. A gracious, professional response to a negative review is often more persuasive to prospective families than a five-star review."
+    },
+    {
+      "id": "6.2-activity",
+      "title": "Communication Scenarios",
+      "type": "scenario",
+      "scenarios": [
+        {
+          "situation": "A parent stops you at pick-up and says, 'I saw another child push Jaylen this morning on the playground. No one seemed to do anything about it. I'm really upset.' This is the first you're hearing about it — you weren't on the playground at that time, and no incident report was filed.",
+          "question": "What is your response?",
+          "options": [
+            {
+              "label": "Apologize and explain that you'll look into it tomorrow when the involved teacher is in",
+              "correct": false,
+              "feedback": "Tomorrow is too slow. This parent is upset right now, at pick-up, in the lobby. Deferring to tomorrow signals that their concern isn't urgent to you — and it gives the parent time to post on social media or call other parents tonight. Commit to a same-day follow-up.",
+              "link": "Upset parents at pick-up get a same-day commitment, not a tomorrow."
+            },
+            {
+              "label": "Defend the staff: 'Our teachers are trained for exactly this situation, I'm sure they handled it.'",
+              "correct": false,
+              "feedback": "Defending before you investigate is a mistake — you don't know what happened yet. This response makes the parent feel dismissed and puts you in a difficult position if the investigation reveals something did go wrong. Lead with acknowledgment, not defense.",
+              "link": "Never defend before you investigate."
+            },
+            {
+              "label": "Acknowledge the concern immediately, commit to reviewing cameras and speaking with the teacher today, and offer a callback before 6 PM",
+              "correct": true,
+              "feedback": "This is exactly right. 'Thank you for telling me — I want to make sure I understand what happened. I'm going to review the playground footage and speak with the teacher right now. Can I call you before 6 PM with what I found?' This response validates the concern, takes immediate action, and sets a specific follow-up timeline. The parent leaves feeling heard, not dismissed.",
+              "link": "Acknowledge → investigate → specific callback commitment. Every time."
+            },
+            {
+              "label": "Ask the parent for more details about what they saw and have them write it down",
+              "correct": false,
+              "feedback": "Asking a visibly upset parent to write down their complaint feels bureaucratic and cold. Gather details conversationally, then investigate through your own channels — cameras, the teacher, the incident log. Asking them to document it puts the labor on the parent and slows your response.",
+              "link": "Gather details in conversation, not on a form."
+            }
+          ]
+        },
+        {
+          "situation": "You notice your center's Google rating has dropped from 4.8 to 4.3 after two new 2-star reviews posted this week. One review mentions a specific incident involving a teacher; the other is vague but very negative in tone. You don't recognize either reviewer's name.",
+          "question": "What is your response strategy?",
+          "options": [
+            {
+              "label": "Flag both reviews to Google as fake and request removal",
+              "correct": false,
+              "feedback": "Flagging reviews as fake when you can't confirm they are creates risk — if Google investigates and finds them legitimate, it looks worse for you. Even if the reviews feel unfair, the right first move is to respond professionally, not to attempt removal. Only flag reviews that clearly violate Google's policies.",
+              "link": "Respond professionally first — removal requests are a last resort."
+            },
+            {
+              "label": "Respond to both reviews publicly with a brief, professional message and invite them to contact you directly",
+              "correct": true,
+              "feedback": "Correct. Public response to both, within 48 hours: acknowledge, don't debate, and take it offline. Something like: 'We're sorry to hear about your experience. We take this seriously and would love to speak with you directly — please contact [name] at [phone].' Prospective families reading reviews will see a director who responds with professionalism, not defensiveness. That response is often more convincing than the review itself.",
+              "link": "Every review gets a professional public response — then take it offline."
+            },
+            {
+              "label": "Investigate the incident mentioned, then post a detailed public rebuttal explaining what actually happened",
+              "correct": false,
+              "feedback": "Public rebuttals — even accurate ones — almost always backfire. They look defensive, air internal matters publicly, and can violate staff or family privacy. Address the content privately with the reviewer. Your public response stays brief and professional regardless of what the investigation finds.",
+              "link": "Never air details publicly — brief and professional response only."
+            },
+            {
+              "label": "Ask your best families to leave positive reviews to offset the damage",
+              "correct": false,
+              "feedback": "Soliciting reviews in response to negative ones is fine as part of an ongoing practice — but doing it reactively as a 'fix' looks coordinated and can violate platform guidelines. More importantly, it doesn't address the underlying concern. Respond to the negative reviews first, investigate if there's a real issue, and build your review volume gradually as a standard practice.",
+              "link": "Build reviews consistently over time — not as a crisis response."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6.3",
+      "title": "Scripts for Hard Conversations",
+      "type": "reading",
+      "learningObjectives": [
+        "Apply the correct script structure to common parent complaints",
+        "Know the right language for recurring staff issues: call-outs, lateness, gossip",
+        "Understand what to say — and what never to say — in difficult director conversations"
+      ],
+      "content": "## Hard Conversations Get Easier When You've Already Prepared\n\nEvery director faces the same recurring situations — a parent who's upset, a staff member who keeps calling out, a family questioning your pricing. The words you use in those moments either build trust or erode it. These scripts are starting points, not scripts to memorize word-for-word.\n\n---\n\n### Parent Complaint Scripts\n\n#### \"My child says a teacher was mean to them.\"\n\n> *\"Thank you for bringing this to my attention — I take this very seriously. Can you tell me exactly what your child said? I'll speak with the teacher and observe the classroom today. I'll follow up with you by [specific time] to let you know what I found and what steps we're taking.\"*\n\nThen: Investigate immediately. Speak with the teacher. Observe the classroom. Follow up the same day. Document everything in ProCare.\n\n---\n\n#### \"I don't think my child is learning anything.\"\n\n> *\"I hear your concern — let's sit down and talk about what [child's name] is working on right now. Can I show you our curriculum plans and some of the activities we've done this week? I'd also love to hear what skills you'd like to see [child's name] develop, and we can create a plan together.\"*\n\nThen: Schedule a meeting. Bring lesson plans, classroom photos, and any assessment notes. Make it collaborative.\n\n---\n\n#### \"Your prices are too high.\"\n\n> *\"I understand that childcare is a significant investment for families. Our tuition reflects the quality of care we provide: low ratios, experienced teachers, hands-on curriculum, and daily communication through Tadpoles. We also offer sibling discounts and flexible schedules for families who need them. Would you like to talk through what schedule might work best for your family's budget?\"*\n\nThen: Explore options — part-time schedule, sibling discount, payment plan if applicable.\n\n---\n\n#### \"I saw something concerning on the cameras.\"\n\n> *\"Thank you for letting me know. Can you describe what you saw and approximately what time? I'll review the footage immediately and investigate. I'll call you back within the hour to discuss what I found and any actions we're taking.\"*\n\nThen: Review footage. Assess. If a legitimate concern, address with the staff member immediately. Follow up with the parent the same hour. Document everything.\n\n---\n\n### Staff Issue Scripts\n\n#### Staff member calls out (pattern developing)\n\n> *\"I see you're calling out today. I understand you're not feeling well. However, this is your [3rd] absence this month, and it's affecting the team. When you're back, I need us to meet to discuss attendance expectations and create a plan. Feel better — I'll see you on [next scheduled day].\"*\n\nThen: Document the call-out in ProCare. Schedule the meeting for their first day back. If the pattern continues, launch the 30-day improvement plan.\n\n---\n\n#### Staff member arrives late (recurring)\n\n> *\"Good morning — I'm glad you're here. I noticed you arrived at [time] today; your scheduled start was [time]. This is the [2nd/3rd] time this week. Punctuality matters here because we need to maintain ratios. Let's talk after your shift today about how we make sure you're on time going forward.\"*\n\nThen: Have the conversation at end of shift. Document. If ongoing, escalate to improvement plan.\n\n---\n\n#### Staff member gossips or complains negatively\n\n> *\"I hear you, and I want to make sure I understand your concern. But I need to be clear: speaking negatively about the team, families, or leadership — especially with other staff — isn't okay here. If you have a concern, please bring it directly to me and I'll address it. Can you commit to that going forward?\"*\n\nThen: Document. Monitor. If behavior continues, escalate. Toxic negativity among staff is a C or D indicator — act accordingly.\n\n---\n\n#### Staff member ignores a policy\n\n> *\"I noticed [specific behavior]. Our policy is [state policy clearly and briefly]. I need you to follow this going forward. Can you tell me what happened, and what you'll do differently next time?\"*\n\nThen: Document. For repeated policy violations, escalate. For safety or licensing violations — even a first offense — the response may be immediate termination.\n\n---\n\n### What Never to Say\n\n- **\"I'll look into it\"** without a specific callback time — this feels like dismissal\n- **\"That's not our policy\"** without offering what the policy actually is and what you can do\n- **\"I'm sure it was fine\"** before you've investigated — never minimize before you know\n- **\"I can't discuss other staff or children\"** as a conversation-ender — say instead: \"I take this seriously and I'm going to look into it directly\"\n- **\"Everyone else is fine with it\"** — irrelevant and invalidating\n- **\"You should have told me sooner\"** — even if true, this puts the parent on the defensive and damages trust\n\n---\n\n### The Structure Behind Every Hard Conversation\n\nEvery effective director script follows the same four-part structure:\n\n1. **Acknowledge** — hear the concern without defending\n2. **Commit** — say what you will do and by when\n3. **Investigate** — do it that day, not someday\n4. **Follow up** — close the loop with the specific time you said you would"
+    },
+    {
+      "id": "6.3-quiz",
+      "title": "Scripts & Situations Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "A parent says their pricing concern to you at pick-up. After explaining the value, you mention that flexible schedules are available. What is the next step?",
+          "type": "multiple-choice",
+          "options": [
+            "Give them the rate sheet and let them decide",
+            "Offer to schedule a sit-down conversation to explore schedule options together",
+            "Suggest they speak with admin about discounts",
+            "Ask them to submit a written request for a reduced rate"
+          ],
+          "correctAnswer": "Offer to schedule a sit-down conversation to explore schedule options together",
+          "explanation": "After presenting the value proposition and mentioning flexibility, the next step is to make the conversation collaborative: 'Would you like to talk through what schedule might work best for your family?' This keeps them engaged and gives you a chance to find a workable solution — rather than leaving them with a rate sheet and an open question."
+        },
+        {
+          "id": "q2",
+          "question": "A staff member who gossips is told directly about the policy. What is the follow-up action after the conversation?",
+          "type": "multiple-choice",
+          "options": [
+            "Trust that the conversation was enough and move on",
+            "Document the conversation in ProCare and monitor closely",
+            "Tell the rest of the team that gossip won't be tolerated",
+            "Send a group email reminder about the communication policy"
+          ],
+          "correctAnswer": "Document the conversation in ProCare and monitor closely",
+          "explanation": "Document the conversation in ProCare the same day it happens — date, what was observed, what was said, and the staff member's response. Then monitor. If the behavior continues, escalate to a 30-day improvement plan. Gossip and negativity are C-staff indicators; undocumented conversations give you nothing to stand on if escalation becomes necessary."
+        },
+        {
+          "id": "q3",
+          "question": "True or False: It's appropriate to say 'I can't discuss other children' when a parent raises a concern about another child's behavior toward theirs.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "False — not exactly. While you can't discuss private details about other children, using 'I can't discuss other children' as a conversation-ender makes parents feel stonewalled. The better response: acknowledge their concern fully, commit to investigating, and explain what action you'll take. You can address the behavior concern (which is yours to manage) without disclosing protected information about another family."
+        },
+        {
+          "id": "q4",
+          "question": "What are the four steps in the structure behind every effective hard conversation?",
+          "type": "multiple-choice",
+          "options": [
+            "Listen, document, escalate, resolve",
+            "Acknowledge, commit, investigate, follow up",
+            "Apologize, explain, offer options, document",
+            "Receive, assess, respond, report"
+          ],
+          "correctAnswer": "Acknowledge, commit, investigate, follow up",
+          "explanation": "Every effective director script follows: Acknowledge (hear the concern without defending), Commit (say what you'll do and by when), Investigate (do it that day), Follow up (close the loop at the specific time you promised). This structure works for parent complaints, staff issues, and any other high-stakes conversation."
+        }
+      ]
+    },
+    {
+      "id": "6.4",
+      "title": "Community Presence & Online Reputation",
+      "type": "reading",
+      "learningObjectives": [
+        "Know the social media posting cadence and what content performs best",
+        "Understand how to respond to Google and Facebook reviews to build trust",
+        "Know how community partnerships generate enrollment leads"
+      ],
+      "content": "## Your Reputation Is Built in Public, One Post at a Time\n\nBright Beginnings competes in a market where families research extensively before touring. Your Google rating, your Facebook page, your Instagram feed, and your community presence all answer the question prospective families are asking before they ever call you: *Is this a place I can trust with my child?*\n\n---\n\n### Social Media: What to Post and When\n\n#### What Works\n\n- **Classroom learning moments** — photos of children engaged in hands-on activities (never posed, always authentic)\n- **Staff spotlights** — introduce teachers, celebrate milestones, recognize contributions\n- **Parent testimonials** — with permission, short quotes from families about their experience\n- **Seasonal and curriculum content** — \"This week in the Bee Room, we're learning about...\"\n- **Community involvement** — photos from events, partnerships, field trips\n\n#### What Doesn't Work\n\n- Stock photos — parents can spot them immediately\n- Purely promotional content — every post pitching enrollment feels like an ad\n- Infrequent posting — a Facebook page with 3 posts from last year is worse than no page\n- Posting without photo permission on file — one complaint here creates serious legal exposure\n\n#### Content Calendar Rules\n\n- **2–3 posts per week minimum** on Facebook and Instagram\n- Vary content type: one classroom post, one staff or culture post, one community or event post per week\n- Every post gets a response if someone comments — engagement signals to the algorithm and shows families you're active\n\n---\n\n### Google Business Profile\n\nYour Google Business profile is the first thing families see when they search for preschools near them. Keep it current:\n\n- **Photos:** Add new classroom or event photos monthly — stale profiles hurt rankings\n- **Posts:** Weekly Google posts appear in search results directly\n- **Hours and contact info:** Verify accuracy every quarter\n- **Reviews:** Respond to every review within 48 hours — positive and negative\n\n> A 4.2-star center that responds to every review thoughtfully is often more trusted than a 4.8-star center that doesn't engage at all.\n\n---\n\n### Responding to Reviews\n\n**Positive review:**\n> *\"Thank you so much, [Name]! We love having [child's name] in our community. Families like yours make what we do meaningful every day.\"*\n\n**Negative review:**\n> *\"We're sorry to hear about your experience. We take feedback like this seriously and would like to speak with you directly. Please reach out to [director name] at [phone or email] so we can address this personally.\"*\n\n**Rules for negative review responses:**\n- Never debate the facts publicly\n- Never mention staff names or specific incidents\n- Never match the reviewer's emotional tone\n- Always invite offline resolution\n- Keep it brief — 2–3 sentences maximum\n\n---\n\n### Community Partnerships That Drive Enrollment\n\nThe most effective enrollment marketing happens off your campus:\n\n| Partner Type | How It Works |\n|-------------|-------------|\n| Pediatrician offices | Brochures in waiting rooms; referral relationship with staff |\n| Coffee shops and family restaurants | Flyers, coasters, or table cards in high-traffic family spots |\n| Ob/Gyn and midwife offices | Reach families before their child is even born |\n| Local Facebook parent groups | Organic presence — answer questions, don't just advertise |\n| UVA and community employers | Childcare partnerships or preferred provider status |\n| Library story time programs | Distribute flyers; sponsor a session |\n\n> Community partnerships compound over time. A pediatrician who mentions your name to five families a month generates 60 warm referrals per year — without a single ad dollar.\n\n---\n\n### Community Events\n\nHosting or sponsoring community events positions Bright Beginnings as a neighborhood institution, not just a business.\n\n**Annual events that work:**\n- Easter egg hunt (open to the public — free)\n- Fall festival with activities and tours\n- Holiday party for current families and one guest family each\n- Summer open house targeting fall enrollment\n\n**What makes events work:**\n- Open invitation — low barrier to attend, no hard sell\n- Director is visible and conversational, not in pitch mode\n- Capture names and contact info through a simple sign-in; these are your next tour leads\n- Follow up with every attendee within 48 hours: *\"So great to meet you at the fall festival!\"*\n\n---\n\n### Email Templates That Get Responses\n\nEvery email you send to a prospective or current family is a brand touchpoint. Three that matter most:\n\n**Tour follow-up (within 2 hours):**\n> *Subject: Great meeting you today!*\n> Hi [Name], it was wonderful meeting you and [child's name] today. We hope you enjoyed your visit to Bright Beginnings. Please reach out anytime with questions — we'd love to have [child's name] join our family. Warm regards, [Director Name]*\n\n**Enrollment confirmation:**\n> *Subject: Welcome to Bright Beginnings!*\n> Hi [Name], welcome to the family! We're so excited for [child's name] to join us starting [date]. Here's what to expect: [Orientation details, first day logistics, Tadpoles setup]. Can't wait to see you on [date]!*\n\n**30-day check-in:**\n> *Subject: How is [child's name] settling in?*\n> Hi [Name], it's been 30 days since [child's name] joined us and we'd love to connect. Can we schedule a quick 15-minute chat this week? We want to make sure the experience has been everything you hoped for — and hear how we can make it even better.*"
+    },
+    {
+      "id": "6.4-quiz",
+      "title": "Community & Marketing Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the minimum social media posting frequency for Facebook and Instagram?",
+          "type": "multiple-choice",
+          "options": [
+            "Once a week",
+            "2–3 times per week",
+            "Daily",
+            "Whenever there's something worth sharing"
+          ],
+          "correctAnswer": "2–3 times per week",
+          "explanation": "The minimum is 2–3 posts per week across Facebook and Instagram. Posting less frequently than this means prospective families who check your page see a stale, inactive presence — which reads as disorganized or declining. The content mix: one classroom learning post, one staff or culture post, one community or event post per week."
+        },
+        {
+          "id": "q2",
+          "question": "A 2-star Google review mentions a specific incident involving a named teacher. Your public response should:",
+          "type": "multiple-choice",
+          "options": [
+            "Address the specific incident to show transparency",
+            "Mention the teacher's perspective so readers have full context",
+            "Be brief, professional, and invite the reviewer to contact you directly",
+            "Explain your investigation findings so other families feel reassured"
+          ],
+          "correctAnswer": "Be brief, professional, and invite the reviewer to contact you directly",
+          "explanation": "Public responses to negative reviews must be brief (2–3 sentences), professional, and never mention staff names, incident details, or your investigation findings. Take it offline: 'We take this seriously and would like to speak with you directly — please contact [name] at [contact].' Any detail you add publicly can be quoted, shared, or used against you."
+        },
+        {
+          "id": "q3",
+          "question": "True or False: A pediatrician office partnership generates enrollment leads because pediatricians actively sell Bright Beginnings to parents.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "False. Pediatrician partnerships work through passive referral — brochures in waiting rooms, a staff relationship where the office mentions you when parents ask about childcare. You're not expecting the pediatrician to sell; you're making it easy for them to refer. The compounding effect: even 5 mentions per month from one office is 60 warm referrals per year."
+        },
+        {
+          "id": "q4",
+          "question": "The tour follow-up email should be sent within how many hours of the tour ending?",
+          "type": "multiple-choice",
+          "options": ["1 hour", "2 hours", "24 hours", "48 hours"],
+          "correctAnswer": "2 hours",
+          "explanation": "The tour follow-up email goes out within 2 hours — while the family's memory of the visit is still warm and before they tour your competitor. The 2-hour window is also the same deadline for updating the CRM with tour notes. A same-day email is still good; next-day is too late. Speed of follow-up is part of the first impression."
+        }
+      ]
+    }
+  ]
+}

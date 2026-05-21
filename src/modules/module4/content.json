@@ -1,0 +1,263 @@
+{
+  "moduleId": "module4",
+  "title": "Business Operations",
+  "description": "Master the numbers side of the director role — enrollment KPIs, billing, collections, ProCare, and the monthly Director Packet that keeps admin informed and your site accountable.",
+  "estimatedTime": "55–70 minutes",
+  "sections": [
+    {
+      "id": "4.1",
+      "title": "Director KPIs & Enrollment Targets",
+      "type": "reading",
+      "learningObjectives": [
+        "Know the company-level and site-level KPIs you are accountable for",
+        "Memorize the enrollment targets for all three Bright Beginnings locations",
+        "Understand the daily tour and weekly enrollment goals"
+      ],
+      "content": "## What Gets Measured Gets Managed\n\nAs a director, you're not just running a preschool — you're running a business. Admin tracks specific numbers every week. You should know these numbers before they do.\n\n---\n\n### Company-Level KPIs\n\nThese are the metrics Bright Beginnings monitors across all three locations:\n\n| KPI | Target |\n|-----|--------|\n| Enrollment | 85%+ FTE full-paying |\n| Staff Retention | Fewer than 1 full-time departure per quarter |\n| Revenue | 10% net gain per month |\n| Bad Debt | Zero balance by the 5th of each month |\n| Testimonials & Reviews | Ongoing — always soliciting |\n\n---\n\n### Site-Level KPIs\n\nThese are your daily operational metrics — reviewed by admin weekly:\n\n- **Day Notes:** All children, daily via Tadpoles — no child goes home without a note\n- **Attendance accuracy:** 100% in ProCare — no guessing, no manual catch-up\n- **Curriculum + 1 art project per day:** Every classroom, every day\n- **Perfect licensing:** No repeat violations — the same finding twice is a leadership failure\n\n---\n\n### Enrollment Targets by Location\n\n| Location | Capacity | Target (85%) |\n|----------|----------|--------------|\n| Mill Creek (MC) | 135 | 117 enrolled |\n| Forest Lakes (FL) | 120 | 102 enrolled |\n| Crozet (CR) | 141 | 120 enrolled |\n\n> Know your site's target and your current enrollment number at all times. If you can't answer \"how many enrolled today?\" in 10 seconds, you're not close enough to your business.\n\n---\n\n### Daily & Weekly Enrollment Goals\n\n- **2 tours per day**\n- **5 new enrollments per week**\n- **50% conversion rate** from tour to enrollment\n\nThese aren't aspirational — they're operational. A week with fewer than 5 tours is a week that needs analysis: Why did tours drop? Did we follow up on last week's families? Is the CRM current?\n\n---\n\n### The Zero Bad Debt Standard\n\n> Every account must be current or on an approved payment plan by the **5th of the month** — no exceptions.\n\nBad debt is a director accountability metric. When families fall behind and the director doesn't act in the Day 1–5 window, balances compound, relationships sour, and collections become admin's problem. Act early, act personally, and escalate predictably.\n\n---\n\n### Tracking Your Numbers Daily\n\n**Before 9 AM each morning, know:**\n- Today's enrollment count (children scheduled to attend)\n- Any outstanding balances over $50\n- Any tours scheduled and their preparation status\n- Current labor hours vs. Magic Number budget\n\nThese four numbers tell you whether your day starts in control or in catch-up."
+    },
+    {
+      "id": "4.1-quiz",
+      "title": "KPIs & Enrollment Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the enrollment target for the Forest Lakes location?",
+          "type": "multiple-choice",
+          "options": ["102 enrolled", "117 enrolled", "120 enrolled", "135 enrolled"],
+          "correctAnswer": "102 enrolled",
+          "explanation": "Forest Lakes has a capacity of 120. The 85% full-paying FTE target means 102 enrolled. Mill Creek targets 117 (capacity 135) and Crozet targets 120 (capacity 141). Know your site's number cold — admin will ask."
+        },
+        {
+          "id": "q2",
+          "question": "What is the weekly enrollment goal in terms of new families?",
+          "type": "multiple-choice",
+          "options": ["2 new enrollments per week", "3 new enrollments per week", "5 new enrollments per week", "10 new enrollments per week"],
+          "correctAnswer": "5 new enrollments per week",
+          "explanation": "The goal is 5 new enrollments per week, supported by 2 tours per day and a 50% conversion rate. A week below 5 enrollments is a signal to review: Are tours happening? Are follow-ups being made? Is the CRM current?"
+        },
+        {
+          "id": "q3",
+          "question": "True or False: Bad debt can be carried into the following month as long as a payment arrangement is made verbally with the parent.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "False. All accounts must be current or on an admin-approved, documented payment plan by the 5th of the month — verbal arrangements don't count. Payment plans require written terms signed by the parent and director, with admin approval. Undocumented arrangements create liability and set precedents that hurt you later."
+        },
+        {
+          "id": "q4",
+          "question": "Which of the following is a site-level KPI that directors are measured on daily?",
+          "type": "multiple-choice",
+          "options": [
+            "Social media follower growth",
+            "Day notes for all children via Tadpoles",
+            "Number of Dream Team events per quarter",
+            "Staff self-evaluation completion rate"
+          ],
+          "correctAnswer": "Day notes for all children via Tadpoles",
+          "explanation": "Day notes for all children via Tadpoles is a daily site-level KPI — every child, every day, no exceptions. This is reviewed by admin. Attendance accuracy in ProCare (100%), daily curriculum plus one art project, and perfect licensing are the other three site-level KPIs."
+        }
+      ]
+    },
+    {
+      "id": "4.2",
+      "title": "Billing, Tuition & Collections",
+      "type": "reading",
+      "learningObjectives": [
+        "Know the tuition structure, payment methods, and fee schedule",
+        "Walk through the Day 1–15+ collections process step by step",
+        "Understand when to offer a payment plan and what its terms are"
+      ],
+      "content": "## Money Conversations Are Director Conversations\n\nParents don't love talking about overdue tuition. Directors sometimes don't either. But an unpaid balance that isn't addressed by Day 3 is 10 times harder to collect by Day 15. Prompt, professional, personal action is the whole strategy.\n\n---\n\n### Tuition Structure\n\n| Schedule Type | Description |\n|---------------|-------------|\n| Full-time | 5 days per week |\n| Part-time | 2, 3, or 4 days per week (set schedule required) |\n| Drop-in | Based on availability; premium rate |\n\n### Payment Policies\n\n- **Due date:** 1st of each month\n- **Late fee:** $25 if not paid by the 5th\n- **Returned payment fee:** $35\n- **Required method:** Tuition Express (auto-pay) — credit card, ACH, or check\n\n> All families enroll in Tuition Express at the enrollment meeting. This is not optional. Auto-pay reduces delinquency and removes the monthly friction of manual payment.\n\n---\n\n### The Collections Process: Day by Day\n\n#### Days 1–5: Friendly Reminders\n\n- **Day 1:** Automated Tuition Express billing email goes to family\n- **Day 2:** Text reminder from you — warm, brief: *\"Hi! Just a reminder tuition processed today — let me know if you have any questions.\"*\n- **Day 3:** Personal phone call: *\"Just checking in — did you receive the invoice? Everything okay?\"*\n- **Day 5:** In-person conversation at pick-up if still unpaid\n\n#### Days 6–10: Escalation\n\n- **Day 6:** Formal written notice — email and printed letter:\n  > *\"Payment is overdue. Please remit by [date] to avoid service interruption.\"*\n- **Day 8:** Call to assess the situation — offer a payment plan if genuine financial hardship exists\n- **Day 10:** Final warning: *\"If payment is not received by [date], enrollment will be suspended.\"*\n\n#### Day 11 and Beyond: Suspension & Termination\n\n- **Day 11:** Suspend enrollment — child may **not** attend until balance is paid in full or a payment plan is approved\n- **Day 15:** Terminate enrollment; send account to collections\n- Report to admin — all collections at Day 15+ are handled at HQ level\n\n---\n\n### Payment Plans\n\nOffered **case-by-case** for genuine financial hardship — not routine late payers.\n\n**Requirements:**\n- Must be **approved by admin** before you commit to anything\n- Minimum payment: **$100/week** until the account is current\n- Terms documented in writing; **signed by parent and director**\n- If any payment plan payment is missed: **immediate suspension**\n\n> A payment plan is a good-faith agreement, not an open-ended arrangement. If a family misses their plan payment, act the same day.\n\n---\n\n### Discounts & Scholarships\n\n| Program | Terms |\n|---------|-------|\n| Sibling discount | 10% off second child; 15% off third+ child |\n| Referral credit | 2 weeks free tuition when referred family completes 30 days |\n| Early payment discount | 5% off if full year paid in advance (admin approval required) |\n| Scholarships | Limited; applications reviewed quarterly by admin |\n\n---\n\n### The Director's Role in Collections\n\nThe collections process works because it's **personal, predictable, and prompt**. Families who receive an automated email on Day 1 and then nothing until Day 10 are blindsided. Families who get a warm call on Day 3 from a director they know and trust usually pay.\n\nYour goal is to resolve every balance before Day 6. The formal notice and suspension phases exist — but they're a last resort, not a starting point."
+    },
+    {
+      "id": "4.2-activity",
+      "title": "Collections Decisions",
+      "type": "scenario",
+      "scenarios": [
+        {
+          "situation": "It's Day 3 of the month. The Patel family has an outstanding balance of $320 and hasn't responded to the Day 1 automated email or your Day 2 text. You see their child dropped off this morning. Mrs. Patel smiled and waved at you during morning greeting.",
+          "question": "What do you do today?",
+          "options": [
+            {
+              "label": "Wait until Day 5 — they may still pay without further contact",
+              "correct": false,
+              "feedback": "Day 3 is your personal phone call day — waiting until Day 5 compresses your window and increases the chance of an awkward in-person conversation at pick-up. The Day 3 call is designed to be casual and caring, not confrontational. Make the call today.",
+              "link": "Day 3 is personal phone call day — 'Did you receive the invoice? Everything okay?'"
+            },
+            {
+              "label": "Call Mrs. Patel today: 'Just checking in — did you receive the invoice? Everything okay?'",
+              "correct": true,
+              "feedback": "Exactly right. The Day 3 call is warm and non-confrontational — you're checking in, not collecting. Most families respond well to a personal touch this early. You've seen her this morning, which makes the call natural rather than jarring. If there's a hardship, Day 3 is when you'll learn about it and have time to find a solution before escalation.",
+              "link": "The Day 3 personal call resolves most balances before escalation is ever needed."
+            },
+            {
+              "label": "Mention the balance in person at pick-up today since she's already there",
+              "correct": false,
+              "feedback": "In-person conversations about billing at pick-up are listed as a Day 5 step — and even then, they require care. Approaching a parent about money in front of their child or other families can feel humiliating and damage the relationship. A private phone call is the right Day 3 approach. Save in-person for when it's truly necessary.",
+              "link": "In-person billing conversations are a Day 5 step, not Day 3."
+            },
+            {
+              "label": "Send the formal written notice early to establish urgency",
+              "correct": false,
+              "feedback": "The formal written notice is a Day 6 step. Jumping to it on Day 3 skips two personal touchpoints that work better than formal notices — and it signals to the family that you default to bureaucracy over relationship. Follow the sequence: Day 2 text, Day 3 call, Day 5 in-person if needed, Day 6 formal notice.",
+              "link": "Follow the collections sequence — formal notices come after personal outreach fails."
+            }
+          ]
+        },
+        {
+          "situation": "A family approaches you on Day 9 with $650 outstanding. They explain that a medical emergency last month drained their savings. They've been with Bright Beginnings for 3 years, have always paid on time historically, and are clearly distressed. They ask if they can 'work something out.'",
+          "question": "What is the correct response?",
+          "options": [
+            {
+              "label": "Sympathize but explain that enrollment must be suspended on Day 11 regardless",
+              "correct": false,
+              "feedback": "This is exactly the situation payment plans were designed for. A 3-year family with a strong payment history and a genuine hardship deserves a different path than a chronic late-payer. Jumping straight to suspension without exploring a plan damages a valuable long-term relationship and loses enrollment revenue. Explore the plan first.",
+              "link": "Payment plans exist for genuine hardship — not every overdue account, but this one qualifies."
+            },
+            {
+              "label": "Offer a payment plan verbally so they can keep their child enrolled while working it out",
+              "correct": false,
+              "feedback": "Your instinct is right, but the execution is wrong. Payment plans must be approved by admin before you commit — and they must be documented in writing, signed by both parties. A verbal commitment without admin sign-off creates liability and sets a precedent you can't enforce. Get admin approval first, then formalize in writing.",
+              "link": "Payment plans require admin approval and written documentation before any commitment."
+            },
+            {
+              "label": "Tell them you'll explore a payment plan, get admin approval, and follow up today with the terms",
+              "correct": true,
+              "feedback": "Exactly right. Acknowledge the hardship warmly ('I completely understand, and I want to find a path forward'), explain that payment plans require admin approval, and commit to following up the same day with terms. This demonstrates both empathy and professionalism. Once approved, the plan must be $100/week minimum, in writing, and signed by both parties. Any missed payment triggers immediate suspension.",
+              "link": "Approve → document → sign → enforce. That's the payment plan sequence."
+            },
+            {
+              "label": "Waive the late fee as a goodwill gesture and give them until the end of the month",
+              "correct": false,
+              "feedback": "Waiving late fees and extending informal grace periods without admin approval sets a precedent that undermines your collections process. Other families may expect the same treatment. The formal payment plan process exists for exactly this situation — it's structured, fair, and protects everyone. Use that process, not ad hoc exceptions.",
+              "link": "Exceptions require admin approval — never create informal agreements."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4.3",
+      "title": "ProCare: Your Command Center",
+      "type": "reading",
+      "learningObjectives": [
+        "Know the daily and weekly ProCare tasks and when each must be completed",
+        "Understand the four key ProCare functions: attendance, billing, labor, and reporting",
+        "Know what the AR Aging Report tells you and when to run it"
+      ],
+      "content": "## ProCare Is the System of Record — Treat It That Way\n\nProCare handles billing, attendance, staff scheduling, and reporting for every Bright Beginnings site. If it's not in ProCare, it didn't happen. This isn't a backup system — it's your primary operational record.\n\n---\n\n### Daily ProCare Tasks\n\n#### Morning (Before 9:00 AM)\n\n- Review scheduled staff; adjust for call-outs or changes\n- Clock in staff as they arrive — or verify self-check-in is working\n- Enter child attendance as families arrive\n\n#### Throughout the Day\n\n- Update attendance for late arrivals and early pick-ups\n- Log any incidents, injuries, or behavior notes\n- Adjust staff schedules if coverage changes are needed\n\n#### End of Day (Before You Leave)\n\n- Verify all children are checked out\n- Clock out all staff — no open clock-ins overnight\n- Complete and submit the **Daily Operations Report (DOR)** — mandatory, no exceptions\n\n---\n\n### Weekly ProCare Tasks (By Friday 5:00 PM)\n\n- Enter all labor for the week\n- Enter any new staff information (if hired this week)\n- Review labor budget vs. actual; adjust the following week's schedule if trending over\n\n---\n\n### The Four Key ProCare Functions\n\n#### 1. Attendance\n\n- Mark children present or absent each day\n- Track AM and PM attendance separately for part-time schedules\n- Generate attendance reports for licensing inspectors or parent requests\n- **Accuracy standard: 100%** — no estimating, no retroactive corrections without documentation\n\n#### 2. Billing\n\n- Tuition charges process automatically on the 1st of each month\n- Late fees apply on the 5th — manual or automatic depending on site settings\n- Track all payments and outstanding balances in real time\n- Generate invoices or statements for families on request\n\n#### 3. Labor & Scheduling\n\n- Build staff schedules by date and classroom assignment\n- Clock in/out tracking with manual override capability\n- Run labor reports: hours worked, overtime flags, budget vs. actual\n- This is your primary tool for managing the Magic Number\n\n#### 4. Reporting\n\n- **Daily Operations Report (DOR):** Completed before leaving every day — this is your end-of-day accountability document\n- **AR Aging Report:** Shows every outstanding family balance, grouped by how long it's been overdue\n- **Attendance summaries:** Used for licensing inspections and audits\n- **Labor summaries:** Pulled for payroll processing\n\n---\n\n### The AR Aging Report — Your Collections Starting Point\n\n> Run this report on **Day 1 of every month.** It tells you exactly where every account stands.\n\nThe AR Aging Report shows:\n- Families with balances due **0–30 days** (start your Day 1–5 outreach)\n- Families **31–60 days** overdue (escalation required)\n- Families **60+ days** overdue (admin involvement; possible collections)\n\nPrint it, highlight the actionable accounts, and start your Day 2 calls with the list in hand.\n\n---\n\n### ProCare Best Practices\n\n- **Never manually adjust a clock-out without a documented reason** — this creates audit issues\n- **Enter schedules by Friday 5:00 PM** — late entries affect payroll accuracy across the organization\n- **Log every incident, even minor ones** — ProCare notes are your legal protection if a parent disputes something later\n- **Verify the DOR before submitting** — once submitted, corrections require admin involvement\n- If you're unsure how to do something in ProCare, **call admin before guessing** — incorrect data is harder to fix than a 5-minute phone call"
+    },
+    {
+      "id": "4.3-quiz",
+      "title": "ProCare Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What does the AR Aging Report show, and when should you run it?",
+          "type": "multiple-choice",
+          "options": [
+            "Staff hours vs. budget; run it every Friday",
+            "Outstanding family balances grouped by age; run it on Day 1 of each month",
+            "Child attendance summaries; run it before licensing inspections",
+            "Enrollment vs. capacity; run it weekly"
+          ],
+          "correctAnswer": "Outstanding family balances grouped by age; run it on Day 1 of each month",
+          "explanation": "The AR Aging Report shows every outstanding family balance grouped by how long it's been overdue: 0–30 days, 31–60 days, 60+ days. Run it on Day 1 of every month to launch your collections outreach. It's the starting point for the Day 1–5 friendly reminder phase of the collections process."
+        },
+        {
+          "id": "q2",
+          "question": "By what time must all staff be clocked out and the DOR submitted each day?",
+          "type": "multiple-choice",
+          "options": [
+            "By 6:00 PM sharp",
+            "Before you leave the building",
+            "By 9:00 PM at the latest",
+            "First thing the next morning"
+          ],
+          "correctAnswer": "Before you leave the building",
+          "explanation": "All staff must be clocked out and the DOR completed before you leave — every day, no exceptions. There's no specific clock time because close varies, but the rule is clear: you don't leave without doing both. An open clock-in overnight is a payroll error; a missing DOR is an accountability failure."
+        },
+        {
+          "id": "q3",
+          "question": "True or False: A director can manually adjust a staff member's clock-out time in ProCare without any documentation.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "False. Manual clock-out adjustments require a documented reason — always. This protects you during payroll audits and prevents accusations of wage manipulation. If a staff member forgot to clock out, document: 'Staff member [name] forgot to clock out at [time]; adjusted per their report and confirmed by director.' Short, specific, defensible."
+        },
+        {
+          "id": "q4",
+          "question": "Which ProCare function is your primary tool for managing the Magic Number labor target?",
+          "type": "multiple-choice",
+          "options": [
+            "Attendance tracking",
+            "Billing and invoicing",
+            "Labor & scheduling reports",
+            "The Daily Operations Report"
+          ],
+          "correctAnswer": "Labor & scheduling reports",
+          "explanation": "Labor & scheduling in ProCare is your primary tool for the Magic Number — 10% under approved labor hours. You build schedules, track clock-ins/outs, and run labor vs. budget reports all in this module. If you're trending over by Wednesday, you can see it here and adjust Thursday/Friday coverage before it becomes an overtime issue."
+        }
+      ]
+    },
+    {
+      "id": "4.4",
+      "title": "The Monthly Calendar & Director Packet",
+      "type": "reading",
+      "learningObjectives": [
+        "Know the key action for each phase of the monthly calendar (Days 1–30)",
+        "Understand exactly what goes in the Director Packet and when it's due",
+        "Recognize the monthly rhythm that keeps your site running proactively, not reactively"
+      ],
+      "content": "## The Month Has a Shape — Learn It\n\nJust like the day and the week, the month follows a predictable rhythm. Directors who know what phase of the month they're in make proactive decisions. Directors who don't are always catching up.\n\n---\n\n### Days 1–5: Collections & Month Launch\n\n- **Day 1:** Print AR Aging Report; email reminders to balances over $50; update enrollment projections; set monthly goals with staff\n- **Day 2:** Personal calls on non-payment accounts; process late enrollments; contact next families on waitlist\n- **Day 3:** Post month-themed parent Tadpoles message; update classroom decor and bulletin boards; distribute new curriculum plans\n- **Day 4:** Mid-week labor check for Week 1; verify prior month's training requirements completed\n- **Day 5:** **Zero bad debt deadline** — all accounts current or on approved payment plan; report outstanding balances to admin\n\n---\n\n### Days 6–10: Enrollment & Marketing Push\n\n- **Day 6:** Launch mid-month enrollment push — social media posts, door hangers, referral reminders; tour goal check: aim for 10 tours by mid-month\n- **Day 7:** Follow up on Week 1 tours; schedule second visits or enrollment meetings; update social media with classroom photos\n- **Day 8:** Call dormant CRM leads; re-engage with new promotions or an invitation to revisit\n- **Day 9:** Verify all new enrollments have completed full paperwork and orientation\n- **Day 10:** Mid-month enrollment report to admin; celebrate wins with staff\n\n---\n\n### Days 11–15: Staff Development & Operations\n\n- **Day 11:** Career Ladder prep — schedule reviews with staff due; assign overdue training modules\n- **Day 12:** Classroom observations — 20 minutes per room; written feedback to each lead teacher\n- **Day 13:** Staff meeting (if scheduled this week) — focus on training or curriculum\n- **Day 14:** Update staff schedule for remainder of month; account for PTO and upcoming events\n- **Day 15:** Mid-month labor analysis vs. budget; **Director Packet check-in with admin** if not on track\n\n---\n\n### Days 16–20: Licensing & Safety\n\n- **Day 16:** Monthly licensing binder review — verify all documents current and filed correctly\n- **Day 17:** Safety drill — rotate fire, tornado, or lockdown monthly; document in binder\n- **Day 18:** Review all medication authorizations; contact parents for any expired forms\n- **Day 19:** Playground and outdoor equipment inspection; document any maintenance needs\n- **Day 20:** Full health and safety walk-through; address any issues immediately\n\n---\n\n### Days 21–25: Financial Review & Planning\n\n- **Day 21:** Review month-to-date revenue vs. projections\n- **Day 22:** Update enrollment forecast for next month\n- **Day 23:** Plan next month's parent engagement events or communications\n- **Day 24:** Vendor invoice review — ensure all bills are paid or scheduled\n- **Day 25:** Draft next month's staff schedule; account for known PTO and events\n\n---\n\n### Days 26–30: Month-End Wrap-Up\n\n- **Day 26:** Tour follow-up blitz — contact every family toured this month who hasn't enrolled\n- **Day 27:** Final labor check for the month — confirm within budget\n- **Day 28:** Complete month-end reports: enrollment, labor, incidents, goals; prepare Director Packet for final review\n- **Day 29:** Staff recognition — birthdays, work anniversaries, public kudos\n- **Day 30:** Month-end team meeting: review wins, set goals for next month; **submit Director Packet to admin**\n\n---\n\n### The Director Packet\n\nThe Director Packet is your primary monthly accountability document. It is due to admin **every Thursday** (weekly) and in final form by **Day 30** each month.\n\n**What it contains:**\n\n- **Enrollment numbers** — current vs. capacity and vs. target\n- **Labor budget status** — actual hours vs. approved; Magic Number compliance\n- **Incident and accident log** — all incidents from the month, with resolution notes\n- **Staff schedule** — following week's schedule, attached\n- **Licensing and compliance items** — any open findings, drill documentation, binder updates\n- **Notes for admin** — anything they need to know: staffing changes, parent concerns, upcoming events, facilities issues\n\n> The Director Packet is not a chore — it's proof that you're running your site. Directors who submit complete, accurate packets on time build admin trust. Directors who submit late or incomplete ones invite scrutiny.\n\n---\n\n### The Monthly Mindset\n\nThe monthly calendar exists so you're never blindsided. When Day 5 arrives, you've already done Days 1–4. When the licensing inspector walks in on Day 17, your binder was already reviewed on Day 16. When admin asks for the enrollment number on Day 22, you updated the forecast yesterday.\n\nProactive directors don't have crises — they have schedules."
+    },
+    {
+      "id": "4.4-quiz",
+      "title": "Monthly Operations Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "By which day of the month must all accounts be current or on an approved payment plan?",
+          "type": "multiple-choice",
+          "options": ["Day 1", "Day 3", "Day 5", "Day 10"],
+          "correctAnswer": "Day 5",
+          "explanation": "Day 5 is the zero bad debt deadline — every account must be current or on an admin-approved, written payment plan by this date. Outstanding balances are reported to admin on Day 5. This is a company-level KPI, not just a site goal."
+        },
+        {
+          "id": "q2",
+          "question": "What happens on Day 17 of the monthly calendar?",
+          "type": "multiple-choice",
+          "options": [
+            "Mid-month labor analysis and Director Packet check-in",
+            "A safety drill — rotating fire, tornado, or lockdown",
+            "Career Ladder meetings with staff",
+            "Month-end enrollment report submitted to admin"
+          ],
+          "correctAnswer": "A safety drill — rotating fire, tornado, or lockdown",
+          "explanation": "Day 17 is safety drill day — you rotate between fire, tornado, and lockdown drills monthly and document each one in the licensing binder. The mid-month labor analysis and Director Packet check-in happens on Day 15. Career Ladder prep is Day 11. The enrollment report goes to admin on Day 10."
+        },
+        {
+          "id": "q3",
+          "question": "True or False: The Director Packet is only submitted once per month at the month-end.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "False. The Director Packet is due every Thursday — it's a weekly accountability document. The month-end version (Day 30) is the final comprehensive version. But admin receives an updated packet every Thursday throughout the month. If it won't be ready by Thursday, you notify admin immediately — you don't wait for Friday."
+        },
+        {
+          "id": "q4",
+          "question": "What is the purpose of the Day 26 'tour follow-up blitz'?",
+          "type": "multiple-choice",
+          "options": [
+            "To book tours for next month before the calendar fills",
+            "To contact every family toured that month who hasn't enrolled yet",
+            "To follow up on Day 7 leads that haven't responded",
+            "To review CRM data with admin for accuracy"
+          ],
+          "correctAnswer": "To contact every family toured that month who hasn't enrolled yet",
+          "explanation": "Day 26 is a final push to convert any tours from that month into enrollments before the month closes. You contact every toured family who hasn't enrolled — some just need a nudge, a second visit offer, or a clarifying question answered. Day 26 recovers enrollments that would otherwise fall off into the next month's backlog."
+        }
+      ]
+    }
+  ]
+}

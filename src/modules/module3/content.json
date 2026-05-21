@@ -1,0 +1,272 @@
+{
+  "moduleId": "module3",
+  "title": "People Management",
+  "description": "Hire right, onboard well, schedule smart, and lead your team through the hard conversations that define great directors.",
+  "estimatedTime": "55–70 minutes",
+  "sections": [
+    {
+      "id": "3.1",
+      "title": "Hiring the Right People",
+      "type": "reading",
+      "learningObjectives": [
+        "Know all six steps of the Bright Beginnings hiring process in order",
+        "Identify green flags and red flags during phone screens and interviews",
+        "Understand what must be completed before a new hire's first day"
+      ],
+      "content": "## The Most Important Thing You Do Is Choose Your Team\n\nEvery hire you make shapes your culture, your ratios, and your sanity. A great hire elevates the whole team. A poor one costs $5,000–$8,000 to replace — and that's before you count the morale damage. Hiring is where the work really starts.\n\n---\n\n### Step 1: Sourcing Candidates\n\n- Post openings on **Indeed**, **Handshake** (UVA), and **Facebook local groups**\n- Ask current A-level staff for referrals — **$50 bonus** paid after the new hire completes their 90-day probation\n- Maintain a warm pipeline: keep applications from strong candidates for **6 months**; great people don't always appear when you need them\n\n---\n\n### Step 2: Phone Screen (10 Minutes)\n\nBefore spending 30 minutes on an in-person interview, screen on the phone first.\n\n**Ask about:**\n- Availability and schedule fit\n- Wage expectations vs. your budget\n- Childcare experience and certifications\n\n**Green flags:**\n- Enthusiasm for early childhood education\n- Asks thoughtful questions about the program\n- References a childcare philosophy or approach they believe in\n\n**Red flags:**\n- Gaps in employment with vague explanations\n- Multiple short-term jobs without clear reason\n- Evasive or guarded answers about prior work\n\n---\n\n### Step 3: In-Person Interview (30 Minutes)\n\nThe interview is only part of this visit. The observation is equally important.\n\n- **Tour the facility** — watch how the candidate interacts with children and current staff\n- Structured 30-minute interview (sample questions in Section 14 of the Operations Manual)\n- Candidate must meet **at least 2 current staff members** — how they engage matters\n- Evaluate culture fit: positive attitude, team player, growth mindset\n\n> A candidate who lights up in the classroom but stumbles on interview questions is more promising than the reverse.\n\n---\n\n### Step 4: Reference Checks\n\n- Minimum **2 professional references** required (not personal)\n- Ask about: attendance, reliability, teamwork, reason for leaving\n\n**Red flags in references:**\n- Lukewarm or hesitant tone\n- Cannot or will not confirm employment dates\n- Pauses before answering reliability questions\n\n---\n\n### Step 5: Background Check & Pre-Employment Requirements\n\nNo one starts without completing all of the following:\n\n- **Fingerprints** submitted to Virginia State Police (via Fieldprint)\n- **TB test** — 2-step required for all new hires\n- **Physical exam** — within 30 days of start date\n- **Transcripts** if claiming CDA or college degree for licensing credit\n- Completed **I-9, W-4, state tax forms, and direct deposit**\n- Signed acknowledgment of **handbook and all policies**\n\n> These are not optional or deferrable. Until all items are complete, the candidate is not cleared to be in ratio.\n\n---\n\n### Step 6: Onboarding\n\n| Timeline | What Happens |\n|----------|-------------|\n| Day 1 | Handbook review, facility tour, shadow an A-level staff member |\n| Week 1 | Complete required online training: child abuse, SIDS, medication administration |\n| First 30 days | Daily check-ins, real-time feedback, assigned mentor |\n| 30-day review | Formal meeting: address any concerns, set development goals |\n| 90-day review | Determine long-term fit; pay referral bonus to the staff member who referred them |\n\n---\n\n### Staying Over-Hired\n\n> We stay over-hired so we are never overstaffed — and never desperate.\n\nKeep your pipeline active at all times. When you need to act on a C or D staff member, you shouldn't have to wait 3 weeks for a replacement before you can act. A warm bench is your leverage."
+    },
+    {
+      "id": "3.1-quiz",
+      "title": "Hiring Process Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "A candidate has great enthusiasm but multiple short-term jobs without explanation. What does the hiring process say about this?",
+          "type": "multiple-choice",
+          "options": [
+            "It's a green flag — enthusiasm matters most in childcare",
+            "It's a red flag during the phone screen stage",
+            "It's neutral — short-term jobs are common in childcare",
+            "It should be evaluated only during reference checks, not the screen"
+          ],
+          "correctAnswer": "It's a red flag during the phone screen stage",
+          "explanation": "Multiple short-term jobs without a clear explanation is explicitly listed as a phone-screen red flag. You should probe this during the call. It doesn't automatically disqualify a candidate, but it must be explained — and 'I moved around a lot' isn't sufficient."
+        },
+        {
+          "id": "q2",
+          "question": "True or False: A new hire can begin working in ratio before their TB test results are returned, as long as they've completed the fingerprint step.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "False. All pre-employment requirements must be complete before a hire can be in ratio. This includes fingerprints, TB test (2-step), physical exam (within 30 days), I-9, W-4, direct deposit, and signed policy acknowledgment. No shortcuts — this is a licensing compliance issue."
+        },
+        {
+          "id": "q3",
+          "question": "When is the $50 referral bonus paid to the staff member who referred a new hire?",
+          "type": "multiple-choice",
+          "options": [
+            "On the new hire's first day",
+            "After the new hire's first week",
+            "After the new hire completes 30 days",
+            "After the new hire completes 90 days"
+          ],
+          "correctAnswer": "After the new hire completes 90 days",
+          "explanation": "The $50 referral bonus is paid after the new hire successfully completes their 90-day probationary period. This ensures staff are referring quality candidates who stick, not just warm bodies who leave after two weeks."
+        },
+        {
+          "id": "q4",
+          "question": "During an in-person interview, a candidate is stiff and nervous in conversation but immediately connects with children during the facility tour. How should you interpret this?",
+          "type": "multiple-choice",
+          "options": [
+            "The interview performance is the most reliable signal — they need to be able to communicate",
+            "The classroom behavior is more promising — interview nerves don't predict classroom success",
+            "Both signals are equal; neither outweighs the other",
+            "Disqualify both — strong candidates should excel in both areas"
+          ],
+          "correctAnswer": "The classroom behavior is more promising — interview nerves don't predict classroom success",
+          "explanation": "The operations manual explicitly states: 'A candidate who lights up in the classroom but stumbles on interview questions is more promising than the reverse.' The observation portion of the interview exists precisely because how someone interviews is not always how they teach. Trust the classroom."
+        }
+      ]
+    },
+    {
+      "id": "3.2",
+      "title": "Scheduling, Ratios & Labor Budget",
+      "type": "reading",
+      "learningObjectives": [
+        "Know the Virginia child:staff ratios for every age group",
+        "Understand the 'Magic Number' labor target and how to track it",
+        "Apply scheduling best practices that protect ratios without burning overtime"
+      ],
+      "content": "## Ratios Are Law. The Budget Is Survival.\n\nEvery scheduling decision you make intersects two constraints: **Virginia licensing ratios** (non-negotiable) and your **labor budget** (where your profitability lives). Great directors hold both at once.\n\n---\n\n### Virginia Ratio Requirements\n\n| Age Group | Staff : Children | Max Group Size |\n|-----------|-----------------|----------------|\n| 0–12 months | 1 : 4 | 8 |\n| 12–24 months | 1 : 5 | 10 |\n| 2-year-olds | 1 : 8 | 16 |\n| 3-year-olds | 1 : 10 | 20 |\n| 4–5-year-olds | 1 : 12 | 24 |\n\n> These are the **minimum** ratios required by Virginia VDOE. Bright Beginnings aims to exceed them where enrollment allows.\n\n---\n\n### Scheduling Best Practices\n\n- **37–38 hours per week maximum** per staff member — this protects you from overtime and gives flexibility for meetings and coverage\n- **Build in 15–30 minutes of flexibility** per shift for transition overlap — staff cannot disappear the moment their shift ends\n- Always schedule **1 extra staff during peak hours** (drop-off 7:30–9:00 AM and pick-up 3:00–6:00 PM)\n- **Stagger breaks** — no staff take breaks during meal times or outdoor play\n- **Cross-train staff in multiple age groups** — a teacher who can float between infant, toddler, and Pre-K rooms is worth double the value on your schedule\n- Maintain **opener/closer consistency** — same staff when possible; routine protects children and families\n\n---\n\n### The Magic Number\n\n> **Goal: Operate at 10% under your approved labor hours.**\n\nThis is your weekly labor budget target. Admin sets the approved hours based on enrollment; your job is to run at or below 90% of that number.\n\n**How to track it:**\n- Enter approved schedules in ProCare daily — build in your 15–30 minute per-shift flexibility buffer\n- Monitor actual clock-out times throughout the day\n- If you're trending over by Wednesday, adjust Thursday and Friday coverage\n- **Overtime requires written admin approval in advance** — it is not a fix for poor scheduling\n\n**Why it matters:**\nLabor is your largest controllable expense. Running 5% over budget every week is the difference between a profitable site and one that gets flagged by admin. Running under isn't about cutting corners — it's about not having unnecessary bodies on the clock when children don't need the ratio covered.\n\n---\n\n### Call-Outs and Coverage\n\nCall-outs are the #1 scheduling challenge every director faces. Your approach:\n\n- **Maintain a sub list** — at least 3 reliable on-call staff who know your center and can be reached at 6:00 AM\n- **Check ratios immediately** when a call-out comes in — determine if coverage is needed before you call anyone\n- **Director covers in an emergency** — if no sub is available and you're at minimum ratio, you go in the room\n- Log every call-out in ProCare; pattern tracking is how you identify C and D staff\n\n---\n\n### ProCare & Scheduling\n\n- All schedules entered by **Friday 5:00 PM** for the following week\n- Attendance corrections, schedule changes, and labor adjustments all done in ProCare\n- Never adjust a clock-out manually without a documented reason\n- Your labor report is reviewed by admin weekly — know your numbers before they do"
+    },
+    {
+      "id": "3.2-quiz",
+      "title": "Scheduling & Ratios Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the Virginia-required staff-to-child ratio for a classroom of 2-year-olds?",
+          "type": "multiple-choice",
+          "options": ["1:4", "1:6", "1:8", "1:10"],
+          "correctAnswer": "1:8",
+          "explanation": "Virginia requires a 1:8 ratio for 2-year-old classrooms, with a maximum group size of 16. These are licensing minimums — you must meet them at all times. Dropping below ratio is a licensing violation regardless of the circumstance that caused it."
+        },
+        {
+          "id": "q2",
+          "question": "What is the 'Magic Number' labor target at Bright Beginnings?",
+          "type": "multiple-choice",
+          "options": [
+            "Exactly at approved labor hours",
+            "5% under approved labor hours",
+            "10% under approved labor hours",
+            "15% under approved labor hours"
+          ],
+          "correctAnswer": "10% under approved labor hours",
+          "explanation": "The Magic Number is 10% under your approved labor hours. Admin sets the approved number based on enrollment; your job is to run at or below 90% of that figure. This is tracked weekly in ProCare. It's not about cutting staff — it's about not having unneeded coverage on the clock."
+        },
+        {
+          "id": "q3",
+          "question": "True or False: Overtime can be approved by the director without notifying admin if it's needed to maintain ratios.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "False. Overtime is for emergencies only and requires written admin approval in advance. It is not a solution for poor scheduling. If you're consistently relying on overtime to maintain ratios, the real problem is understaffing or over-enrollment — address the root cause."
+        },
+        {
+          "id": "q4",
+          "question": "Why is cross-training staff in multiple age groups a scheduling priority?",
+          "type": "multiple-choice",
+          "options": [
+            "It allows staff to earn more hours across classrooms",
+            "It gives the director flexibility to cover call-outs without breaking ratios",
+            "It is required by Virginia licensing for all staff",
+            "It reduces the need for a formal sub list"
+          ],
+          "correctAnswer": "It gives the director flexibility to cover call-outs without breaking ratios",
+          "explanation": "A staff member who can float between infant, toddler, and Pre-K rooms is worth double on your schedule. When a call-out happens in the infant room, a cross-trained teacher can cover immediately — you don't have to scramble or call in expensive subs. Cross-training is a resilience strategy."
+        }
+      ]
+    },
+    {
+      "id": "3.3",
+      "title": "Staff Meetings & Appreciation",
+      "type": "reading",
+      "learningObjectives": [
+        "Know the structure and frequency of all three types of staff meetings",
+        "Understand the daily, weekly, monthly, and quarterly appreciation rhythm",
+        "Know what makes a staff meeting effective vs. a waste of time"
+      ],
+      "content": "## Culture Is Built Weekly, Not Annually\n\nYour team's culture isn't set during onboarding — it's built (or eroded) in every staff meeting, every Friday wins email, every morning greeting. The good news: the system is already designed. Your job is to run it consistently.\n\n---\n\n### Three Types of Staff Meetings\n\n#### Weekly Staff Meetings (60–90 Minutes)\n\n- Held **during closed hours** — typically 6:30–8:00 PM on a weeknight\n- **Paid time; attendance is mandatory**\n- Agenda posted **24 hours in advance** (template in Google Drive: \"52 Weeks of Training Agendas\")\n\n**Standard meeting structure:**\n\n- **Wins and celebrations** (5 min) — name specific staff, name specific moments\n- **Training topic** (30 min) — curriculum, behavior guidance, parent communication, licensing, etc.\n- **Operational updates** (10 min) — upcoming schedule, events, reminders, licensing notes\n- **Q&A and team discussion** (15 min) — open floor; let staff voice concerns or ideas\n\n> The training topic is the engine of your meeting. Use the 52-week agenda so you never walk in unprepared.\n\n#### Monthly Work Nights\n\n- One meeting per month shifts from training to **hands-on work**\n- Curriculum planning, toy rotation, deep cleaning of storage areas, reorganizing classrooms\n- Productive and collaborative — builds team cohesion more than any lecture\n\n#### Quarterly Dream Team Events (3–4 Hours)\n\n- **4–6 senior A-level staff only** — this is a privilege, not a right\n- Rotate between the three Bright Beginnings locations\n- Deep cleaning, major reorganization, tackling projects that can't happen during operating hours\n- **Paid time** — typically weekend mornings or evenings\n\n---\n\n### The Appreciation Rhythm\n\nRecognition is not occasional — it follows a predictable pattern that staff begin to count on.\n\n#### Daily\n- Warm, personal greeting to each staff member every morning\n- Verbal praise and encouragement when you observe something great\n\n#### Weekly\n- **Friday wins email** — named, specific contributions from that week\n- Rotate **Staff Spotlight** on social media (Facebook/Instagram) with permission\n\n#### Monthly\n- Birthday and work anniversary recognition — public, not just a quiet card\n- Staff treat: lunch, coffee bar, gift cards — something tangible\n\n#### Quarterly\n- Performance bonuses where KPI targets are met (confirm with admin)\n- Dream Team event for your top performers\n\n#### Annually\n- Holiday bonuses — confirm amounts with admin\n- Raises tied to Career Ladder performance reviews\n- **Staff Appreciation Week** (May): daily treats, gifts, classroom decorations, recognition letters\n\n---\n\n### What Makes Meetings Fail\n\n- **No agenda** — staff arrive not knowing what to expect; energy dissipates\n- **Vague recognition** — \"great week everyone\" is meaningless; \"Ms. Danielle stayed 45 minutes late Tuesday when we had a ratio crisis\" is memorable\n- **Lecture without interaction** — 60 minutes of a director talking is not a team meeting\n- **Starting late** — it signals that your time is more important than theirs\n- **Skipping meetings when things get busy** — this is exactly when culture needs reinforcement most\n\n---\n\n### Career Ladder Meetings (Twice Yearly Minimum)\n\nOne-on-one performance conversations with each staff member:\n\n- Review their current A/B/C/D rating and what it's based on\n- Discuss goals, training interests, and career progression\n- Determine raises, promotions, or improvement plans\n- Document everything in ProCare\n\n> Every staff member should know where they stand, what it would take to advance, and that you're invested in their growth. Surprises at termination time mean you didn't do this."
+    },
+    {
+      "id": "3.3-activity",
+      "title": "Staff Leadership Decisions",
+      "type": "scenario",
+      "scenarios": [
+        {
+          "situation": "It's Wednesday evening — your weekly staff meeting is in 30 minutes. Two staff members just called out sick. You have 8 staff attending, it's been a hard week with two parent complaints and a licensing reminder, and you haven't finalized the agenda.",
+          "question": "What do you do?",
+          "options": [
+            {
+              "label": "Cancel the meeting — attendance is low and you're not prepared",
+              "correct": false,
+              "feedback": "Canceling a staff meeting when things are hard is the worst time to do it. This is exactly when your team needs to gather, process, and hear from you. A canceled meeting during a rough week sends the signal that meetings are optional — and that culture erodes quickly. Run the meeting.",
+              "link": "Never skip meetings when things get busy — that's when culture needs reinforcement most."
+            },
+            {
+              "label": "Run a shortened version — open with wins, address the week's issues, and close with reminders",
+              "correct": true,
+              "feedback": "Exactly right. A 45-minute focused meeting is better than a canceled one. Open with genuine wins (there are always some), acknowledge the hard week directly — staff respect honesty — then address the licensing reminder and parent complaints briefly. Close with a positive operational note. Your team leaves feeling led, not abandoned.",
+              "link": "Staff meetings don't have to be perfect to be effective."
+            },
+            {
+              "label": "Proceed with the full planned agenda and ignore the hard week",
+              "correct": false,
+              "feedback": "Proceeding without acknowledging what staff have lived through feels tone-deaf. They walked through the same hard week you did. Ignoring it doesn't make you look composed — it makes you look disconnected. Acknowledge the difficulty, name what went well anyway, and give them space to speak."
+            },
+            {
+              "label": "Let staff run the meeting while you finalize the agenda in the back",
+              "correct": false,
+              "feedback": "Staff meetings are a director leadership moment. Delegating the room while you finish prep sends the message that this wasn't important enough to prepare for — and staff notice. If you're unprepared, own it briefly: 'Tonight I'm going to keep it simple,' then lead anyway. Presence matters more than a perfect agenda.",
+              "link": "The director must lead the staff meeting — it is not delegatable."
+            }
+          ]
+        },
+        {
+          "situation": "After a strong monthly work night, a staff member named Priya tells you privately: 'I just want you to know how much I appreciate being included in this. I feel like my work actually matters here.' This is a staff member you've identified as a solid B who is trending toward A.",
+          "question": "What's the most effective director response?",
+          "options": [
+            {
+              "label": "Thank her warmly in the moment and move on — she's doing well and doesn't need extra attention",
+              "correct": false,
+              "feedback": "A staff member who shares something like this deserves more than a warm brush-off. This is a relationship-building moment. Acknowledge specifically what you've noticed in her work and give her a clear sense of what the path to A looks like. This conversation can accelerate her trajectory.",
+              "link": "B staff trending toward A deserve specific, directional feedback."
+            },
+            {
+              "label": "Thank her, name a specific thing you've observed in her work, and share what an A path looks like for her",
+              "correct": true,
+              "feedback": "Perfect. Priya opened the door — walk through it. 'I've noticed how you handled the parent drop-off situation on Tuesday — that was an A-level move.' Then: 'Here's what I'd love to see from you consistently.' This is how you turn a B into an A. Named feedback plus a clear next step is the most powerful retention tool you have.",
+              "link": "Named, specific feedback + a clear next step turns B into A."
+            },
+            {
+              "label": "Tell her she's being considered for a Dream Team spot to reward her effort",
+              "correct": false,
+              "feedback": "Not wrong to mention the Dream Team as a future possibility — but leading with a reward before naming what she did well skips the most important part. She needs to know what specifically she's doing right and what the next level looks like. The Dream Team mention can come at the end, not the beginning.",
+              "link": "Recognition should be specific before it is structural."
+            },
+            {
+              "label": "Document the conversation in ProCare and schedule her Career Ladder review",
+              "correct": false,
+              "feedback": "Documentation and scheduling a review are good follow-up actions — but not the response to the moment. She's standing in front of you sharing something real. Respond to the person first. Handle the admin later.",
+              "link": "Respond to the human moment first, document afterward."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3.4",
+      "title": "Performance Management & Termination",
+      "type": "reading",
+      "learningObjectives": [
+        "Know the monthly evaluation process and how to use it",
+        "Understand the 30-day improvement plan and when to launch it",
+        "Walk through the full termination checklist step by step"
+      ],
+      "content": "## Performance Management Is Daily, Not Annual\n\nThe monthly evaluation, the improvement plan, the termination — these are not isolated events. They're the formal checkpoints of a system you're running every single day through observation, feedback, and documentation.\n\n---\n\n### Monthly Staff Evaluations\n\nEvery month:\n\n- All staff complete a **self-evaluation** using the Google Drive template\n- Director privately rates every staff member using the **A/B/C/D framework** from Module 1\n- Review who has shifted ratings since last month — anyone moving from A/B to C or D requires **immediate intervention**, not a wait-and-see\n\n> Monthly evals are 15 minutes of private thinking that prevent 15 hours of crisis management later.\n\n---\n\n### Career Ladder Reviews (Twice Yearly Minimum)\n\nOne-on-one conversations with each staff member covering:\n\n- Their current rating and what specific behaviors earn it\n- Goals, training interests, and development direction\n- Raises, promotions, or formal improvement plans — decided here, not announced later\n- All outcomes documented in ProCare\n\nEvery staff member should leave a Career Ladder review knowing exactly where they stand and what growth looks like for them.\n\n---\n\n### The 30-Day Improvement Plan (C-Level Staff)\n\nWhen a staff member is rated C, the improvement plan launches **immediately** — not after one more observation, not at the next staff meeting.\n\n**The plan must include:**\n\n- Specific, measurable goals with a defined timeline (\"0 call-outs in 30 days\" not \"improve attendance\")\n- Weekly documented check-in meetings\n- Clear statement of consequences: no improvement by Day 30 = termination\n- **Active recruitment of a replacement begins on Day 1 of the plan**\n\n> Do not extend beyond 30 days without significant, documented improvement. Extending the plan without improvement is a signal to the rest of your team that standards are negotiable.\n\n**Common mistake:** Giving vague feedback. \"Do better\" is not a goal. \"Complete all Tadpoles notes by 3:00 PM daily, with zero missed days\" is a goal.\n\n---\n\n### Immediate Termination (D-Level Staff)\n\nD staff do not get improvement plans. They get:\n\n- Swift, decisive action — every day they remain damages team morale\n- No debate, no second chance negotiated in the termination meeting\n- A clear, brief statement of the reason\n- The termination checklist (below)\n\n---\n\n### Termination Checklist\n\n#### Before the Meeting\n- Consult with admin or legal if the situation has any complexity\n- Prepare final paycheck: all hours worked plus unused PTO per policy\n- Gather items to collect: keys, badge, handbook, any company property\n\n#### The Meeting\n- Director **plus a witness** present (another manager or admin — never alone)\n- State the reason clearly and briefly — do not debate\n- No opportunity for \"improvement\" if the decision is final\n- Collect all keys, badges, and company property\n- Explain final pay process\n- **Escort off the property immediately**\n\n#### After the Meeting\n- Change **door codes and alarm codes** the same day\n- Remove from **ProCare and all systems** immediately\n- Notify remaining staff with a brief, factual statement: *\"X is no longer with us; we wish them well.\"*\n- **Do not discuss reasons** with staff or families unless legally required\n- File all documentation in the personnel file\n\n#### Unemployment Claims\n- Respond promptly to any unemployment filings\n- Provide documentation of performance issues or policy violations\n- Admin will handle the response; your role is to supply the supporting records\n\n---\n\n### The Real Cost of Waiting\n\n> Replacing a staff member costs $5,000–$8,000. But keeping a C or D staff member costs far more — in team morale, A/B staff retention, and your own time.\n\nEvery week you delay action on a C or D staff member is a week your A and B staff are watching. They know who isn't carrying their weight. When you act, it sends the right signal. When you wait, it sends the wrong one.\n\n---\n\n### Documentation: Your Protection\n\nEvery performance conversation, coaching session, call-out, and warning must be logged in ProCare:\n\n- Date, time, what was observed\n- What was said in the conversation\n- Staff member's response\n- Next steps agreed upon\n\nIf it's not in ProCare, it didn't happen — legally and practically."
+    },
+    {
+      "id": "3.4-quiz",
+      "title": "Performance Management Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "When a staff member is rated C in a monthly evaluation, when should the 30-day improvement plan launch?",
+          "type": "multiple-choice",
+          "options": [
+            "At the next weekly staff meeting",
+            "Immediately — same day or within 24 hours",
+            "After one more observation period to confirm the rating",
+            "At the next Career Ladder review"
+          ],
+          "correctAnswer": "Immediately — same day or within 24 hours",
+          "explanation": "The improvement plan launches immediately when a C rating is confirmed — not after another observation, not at the next meeting. Delay signals to the rest of your team that C performance is acceptable. The plan includes specific measurable goals, weekly check-ins, and active replacement recruiting from Day 1."
+        },
+        {
+          "id": "q2",
+          "question": "Who must be present at a termination meeting?",
+          "type": "multiple-choice",
+          "options": [
+            "Director only — to keep it private and professional",
+            "Director and the staff member being terminated",
+            "Director plus a witness (another manager or admin)",
+            "Director, admin, and an HR representative"
+          ],
+          "correctAnswer": "Director plus a witness (another manager or admin)",
+          "explanation": "The director must have a witness present at every termination meeting — never conduct it alone. The witness is another manager or admin, not a peer staff member. This protects you, the organization, and ensures there's a second account of what was said."
+        },
+        {
+          "id": "q3",
+          "question": "True or False: After terminating a staff member, you should explain the reasons to remaining staff so they understand what happened.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "False. After a termination, you notify remaining staff with one brief, factual statement: 'X is no longer with us; we wish them well.' Do not discuss the reasons with staff or families unless legally required. Details create drama, invite speculation, and can create legal liability. Say less, not more."
+        },
+        {
+          "id": "q4",
+          "question": "Which of the following is a correctly written improvement plan goal?",
+          "type": "multiple-choice",
+          "options": [
+            "'Improve your attitude toward coworkers over the next month'",
+            "'Be more reliable with attendance going forward'",
+            "'Complete all Tadpoles notes by 3:00 PM daily with zero missed days for 30 days'",
+            "'Show more initiative in the classroom'"
+          ],
+          "correctAnswer": "'Complete all Tadpoles notes by 3:00 PM daily with zero missed days for 30 days'",
+          "explanation": "Improvement plan goals must be specific, measurable, and time-bound. 'Improve your attitude' and 'be more reliable' are too vague to evaluate — what does improvement look like? 'Complete all Tadpoles notes by 3:00 PM daily with zero missed days for 30 days' is concrete, observable, and leaves no room for disagreement about whether it was met."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,282 @@
+{
+  "moduleId": "module1",
+  "title": "Foundation & Culture",
+  "description": "Learn the core principles, values, and expectations that define Bright Beginnings leadership. This is the foundation everything else is built on.",
+  "estimatedTime": "45–60 minutes",
+  "sections": [
+    {
+      "id": "1.1",
+      "title": "Our Rules & Culture",
+      "type": "reading",
+      "learningObjectives": [
+        "Understand the self-sufficient site model and what it means day-to-day",
+        "Know the 1-hour turnaround rule and why it's non-negotiable",
+        "Recognize the staffing philosophy that keeps Bright Beginnings strong"
+      ],
+      "content": "## How Bright Beginnings Operates\n\nBright Beginnings has been the cornerstone of early childhood education in Charlottesville since 1984. The principles below aren't suggestions — they're the operating system that makes every site run well. As a director, you own these.\n\n### The Self-Sufficient Site Model\n\nEach location operates independently:\n\n- **You hire your own staff.** You know your community, your families, and your building. You make the calls.\n- **You manage your own schedules.** Your site's success is directly tied to how well you plan and execute.\n- **You own your results.** Admin is your support team, not your manager on the floor.\n\n### The 1-Hour Turnaround Rule\n\n> No one should ever have to ask twice. Acknowledge every question immediately — from staff, parents, and admin — and give an estimated time for your full answer if you need more time to research it.\n\nThis rule applies universally. A staff member asks about their schedule: respond within the hour. A parent asks about their invoice: acknowledge and give a timeline. Admin sends a question: reply.\n\n### Building Culture Through Staff Meetings\n\nCulture doesn't happen by accident — it's built weekly:\n\n- **Weekly staff meetings** are well-planned and use the 52 Weeks of Staff Training Agendas (Google Drive)\n- **Once a month**, convert the meeting into a work night: curriculum planning, toy rotation, deep cleaning\n- **Once a quarter**, hold a Dream Team event — 4–6 senior, reliable staff; rotate between sites; paid time\n\n### Non-Negotiable Operating Standards\n\n- **Do not avoid uncomfortable conversations.** Address issues the moment they arise.\n- **Do not throw anything away** without a replacement plan in place.\n- Director must read all SOLs before staff leave for the day.\n- Check every room for morning setup and full cleaning (bathrooms included) daily.\n- **Daily, Weekly, Monthly job systems work** — your job is to maintain them consistently.\n- Cleaning caddies keep germs away — keep them stocked and locked when not in use.\n\n### Our Staffing Philosophy\n\n> We only keep A and B staff. Once a staff member is identified as C or D, the exit process begins immediately. This is precisely why we stay over-hired.\n\n- Staff are scheduled **37–38 hours maximum per week** — this leaves room for meetings, early coverage, and unexpected situations\n- We limit sharing staff across sites due to fingerprint and background check requirements\n- We prioritize staff who arrive with a positive attitude every single day"
+    },
+    {
+      "id": "1.1-quiz",
+      "title": "Core Rules Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the required turnaround time for answering staff and parent questions?",
+          "type": "multiple-choice",
+          "options": ["30 minutes", "1 hour", "2 hours", "End of day"],
+          "correctAnswer": "1 hour",
+          "explanation": "The 1-hour turnaround rule is non-negotiable. Acknowledge immediately and give an estimated time for your full answer if you need to research it. No one should have to ask twice."
+        },
+        {
+          "id": "q2",
+          "question": "True or False: Directors should spend most of their day in their office doing paperwork.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "False. Directors must be visible at drop-off and pick-up, working from the front lobby desk. The office is reserved for private meetings only. Paperwork happens in between, not instead of presence."
+        },
+        {
+          "id": "q3",
+          "question": "What staff grades does Bright Beginnings retain long-term?",
+          "type": "multiple-choice",
+          "options": ["A only", "A and B", "A, B, and C", "All staff with proper coaching"],
+          "correctAnswer": "A and B",
+          "explanation": "We only keep A and B staff. Once a staff member is identified as C or D, the exit process begins. This is why staying over-hired is essential — it gives you the flexibility to act swiftly."
+        },
+        {
+          "id": "q4",
+          "question": "How often should Dream Team cleaning and reorganizing events be held?",
+          "type": "multiple-choice",
+          "options": ["Monthly", "Every two months", "Quarterly", "Annually"],
+          "correctAnswer": "Quarterly",
+          "explanation": "Dream Team events happen once a quarter. These are senior, reliable staff only — 4–6 people per location — and they rotate between sites. They're paid time, typically 3–4 hours on a weekend or evening."
+        }
+      ]
+    },
+    {
+      "id": "1.2",
+      "title": "Staff Quality Framework: A, B, C & D",
+      "type": "reading",
+      "learningObjectives": [
+        "Clearly define the characteristics of A, B, C, and D staff",
+        "Know the correct director action for each staff level",
+        "Understand the 30-day rule for C staff and why speed matters with D staff"
+      ],
+      "content": "## The A/B/C/D Staff Framework\n\nThis system is how Bright Beginnings maintains a high-performing, positive team culture. As a director, you must **always know** where every staff member falls — and be actively acting on it.\n\n**Core Principle:** We only keep A and B staff. C gets a 30-day plan. D gets replaced immediately.\n\n---\n\n### Grade A — Exceptional Performers\n*Celebrate, Retain, Promote*\n\n**Who they are:**\n- Consistently positive attitude and high energy every day\n- Perfect or near-perfect attendance (≤2 absences per year)\n- Arrives on time or early; stays when needed\n- Takes initiative without being asked\n- Strong classroom management and genuine child engagement\n- Excellent parent communication\n- Team player: flexible, supportive, helps others\n- Embraces feedback and continuously improves\n- Models professionalism in dress, demeanor, and communication\n\n**Director actions for A staff:**\n- Celebrate publicly and privately\n- Include in leadership: unit leader, assistant director, Dream Team\n- Offer professional development and training opportunities\n- Prioritize for raises and bonuses\n- Protect them from C/D staff negativity\n- Assign as mentors for new staff\n- Seek their input on decisions and improvements\n\n---\n\n### Grade B — Solid Performers\n*Coach Up, Support*\n\n**Who they are:**\n- Generally positive and cooperative\n- Occasional attendance issues (1–2 absences/month)\n- Willing to learn and improve\n- Follows direction but sometimes needs reminders\n- Adequate classroom management\n\n**Director actions for B staff:**\n- Set clear, specific improvement goals\n- Provide targeted training and resources\n- Weekly check-ins to monitor progress\n- Pair with A staff for mentoring\n- Document progress in ProCare\n\n> **Timeline: 90 days to move to A-level performance.** If no improvement after 90 days, reconsider their rating.\n\n---\n\n### Grade C — At-Risk Performers\n*Coach Up or Out — 30 days*\n\n**Who they are:**\n- Occasionally negative or complains\n- Questions decisions or policies regularly\n- Attendance issues (3+ absences/month or chronic call-out patterns)\n- Engages in gossip or creates drama\n- Requires frequent redirecting\n- Inconsistent quality of work\n- May subtly undermine leadership\n\n**Director actions for C staff:**\n- **Launch a 30-day written improvement plan with specific, measurable goals**\n- Hold weekly documented meetings\n- State clear consequences if no improvement by day 30\n- **Actively recruit a replacement during this entire period**\n- Document all interactions in ProCare\n- Be fully prepared to terminate at the end of 30 days\n\n> ⚠️ **Cost reminder:** It costs $5,000–$8,000 to replace a staff member. But keeping a C staff member costs far more — in team morale, culture damage, and A/B staff retention.\n\n**Do not extend beyond 30 days** without significant, documented improvement.\n\n---\n\n### Grade D — Immediate Action Required\n*Replace Immediately — no exceptions*\n\n**Who they are:**\n- Consistently negative attitude\n- Stirs conflict among staff\n- Poor engagement with children and families\n- Unreliable attendance — chronic call-outs\n- Refuses to follow direction\n- Openly undermines leadership\n- Toxic to the team culture\n\n**Director actions for D staff:**\n- **Begin termination process immediately**\n- Do not invest coaching time — it won't work\n- Protect team morale with swift, decisive action\n- Document all issues thoroughly\n- Follow the termination checklist\n- Recruit and hire a replacement as quickly as possible\n\n**Why immediate action matters:** D staff damage compounds every single day they remain. They drive away your A and B staff — the people you can least afford to lose.\n\n---\n\n## How to Rate Each Staff Member\n\nUse these four factors in your private monthly assessment:\n\n| Factor | Weight | What to evaluate |\n|--------|--------|------------------|\n| Attitude | 30% | Energy, positivity, response to feedback, willingness to help |\n| Reliability | 30% | Attendance, punctuality, follow-through, consistency |\n| Skills & Quality | 20% | Classroom management, curriculum, child engagement, parent communication |\n| Teamwork | 20% | Collaboration, support of leadership, culture contribution |\n\n---\n\n## Common Director Mistakes to Avoid\n\n1. **Keeping C staff too long** — hoping they'll improve without intervention. Don't. Launch the plan immediately.\n2. **Over-coaching D staff** — spending time trying to fix a toxic attitude. Start termination instead.\n3. **Tolerating C/D staff because \"we're short-staffed\"** — this is exactly why we stay over-hired.\n4. **Failing to document** — verbal conversations only. Every interaction must be logged in ProCare.\n5. **Giving vague feedback** — \"do better\" is not a goal. Set specific, measurable targets with a timeline."
+    },
+    {
+      "id": "1.2-activity",
+      "title": "Staff Rating Scenarios",
+      "type": "scenario",
+      "scenarios": [
+        {
+          "situation": "Sarah arrives 5 minutes late for the third time this week. When you mention it, she rolls her eyes and says 'Traffic was always bad this time of year.' She's otherwise a decent teacher who knows the kids well.",
+          "question": "How would you rate Sarah right now, and what's your next step?",
+          "options": [
+            {
+              "label": "A Staff — she knows the kids, so overlook the tardiness",
+              "correct": false,
+              "feedback": "A staff have near-perfect attendance and consistently positive attitudes. Eye-rolling and dismissiveness are disqualifying behaviors regardless of classroom skill. A staff doesn't need reminders about being on time.",
+              "link": "Review Section 1.2: A Staff Characteristics"
+            },
+            {
+              "label": "B Staff — coach her up over the next few weeks",
+              "correct": false,
+              "feedback": "B staff may have occasional attendance issues, but the eye-rolling and defensive attitude push this beyond B. Attitude is worth 30% of the rating — and Sarah's is showing cracks. B coaching is also slower; this situation needs a more defined plan.",
+              "link": "Review Section 1.2: B Staff Actions"
+            },
+            {
+              "label": "C Staff — launch a 30-day improvement plan and start recruiting her replacement",
+              "correct": true,
+              "feedback": "Correct. Sarah has attendance issues AND a negative attitude — two of the clearest C-staff signals. Your next step is a written 30-day improvement plan with specific attendance goals and attitude expectations. Begin recruiting a replacement today. If no improvement in 30 days, you move forward with termination.",
+              "link": "Section 1.2: C Staff — 30-Day Plan"
+            },
+            {
+              "label": "D Staff — start the termination process today",
+              "correct": false,
+              "feedback": "D staff are consistently toxic, openly undermining, and require immediate termination. Sarah isn't there yet — this is her first documented pattern. She deserves the 30-day plan. However, if she doesn't improve or her behavior escalates, she'll move to D quickly.",
+              "link": "Review Section 1.2: D Staff — When to Terminate"
+            }
+          ]
+        },
+        {
+          "situation": "Marcus has been on your team for 8 months. He's enthusiastic, great with families, and never misses a day. He sometimes needs reminders to complete his daily Tadpoles notes and occasionally leaves his classroom a bit messy.",
+          "question": "How would you rate Marcus, and what should your focus be?",
+          "options": [
+            {
+              "label": "A Staff — celebrate and consider for leadership",
+              "correct": false,
+              "feedback": "Not yet. A staff consistently complete all responsibilities without reminders. Marcus needs reminders on Tadpoles and classroom standards — that's a B pattern, not A. He has real potential, though!",
+              "link": "Review Section 1.2: A Staff — The Standard"
+            },
+            {
+              "label": "B Staff — set specific goals and pair him with an A-level mentor",
+              "correct": true,
+              "feedback": "Exactly right. Marcus shows strong fundamentals (attendance, family relationships, enthusiasm) but needs targeted coaching on specific responsibilities. Set clear, measurable goals for Tadpoles completion and classroom cleanliness. Pair him with an A-staff mentor and give him 90 days to show consistent improvement. He's on a good track.",
+              "link": "Section 1.2: B Staff — 90-Day Coaching Plan"
+            },
+            {
+              "label": "C Staff — launch a 30-day improvement plan",
+              "correct": false,
+              "feedback": "C staff show negativity, chronic attendance issues, and actively undermine culture. Marcus shows none of that — he's positive, reliable, and engaged. This situation calls for B-level coaching, not C-level urgency.",
+              "link": "Review Section 1.2: C vs. B Staff"
+            },
+            {
+              "label": "D Staff — replace him",
+              "correct": false,
+              "feedback": "D staff are toxic and damaging to team culture. Marcus is the opposite — he's a positive presence with real upside. A D rating here would mean losing someone worth developing.",
+              "link": "Review Section 1.2: D Staff Characteristics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1.3",
+      "title": "Director KPIs & Enrollment Targets",
+      "type": "reading",
+      "learningObjectives": [
+        "Memorize company-level and site-level KPIs",
+        "Know enrollment targets and capacity for all three locations",
+        "Understand what the 85% FTE threshold means in practice"
+      ],
+      "content": "## What Gets Measured Gets Managed\n\nAs a director, you are accountable to two levels of KPIs: company-wide standards that every site must hit, and site-specific metrics you track daily.\n\n---\n\n### Company-Level KPIs\n\nThese are the non-negotiables that every location is measured against:\n\n| KPI | Target | Notes |\n|-----|--------|-------|\n| Enrollment | 85%+ FTE, full-paying | The foundation of everything |\n| Staff Retention | <1 FT departure per quarter | Turnover is expensive and disruptive |\n| Testimonials & Reviews | Ongoing | Google, Facebook — ask happy families |\n| Revenue | 10% net gain/month | Every enrollment and collection matters |\n| Bad Debts | Zero balance by the 5th | All accounts current or on payment plan |\n\n---\n\n### Site-Level KPIs\n\nThese are tracked daily and reported in your Daily Operations Report (DOR):\n\n| KPI | Target | Tool |\n|-----|--------|------|\n| Day Notes | All children, daily | Tadpoles |\n| Attendance Accuracy | 100% | ProCare |\n| Curriculum + 1 art project/day | Daily, every classroom | Lesson plans |\n| Licensing | Zero repeat violations | Licensing binder |\n\n---\n\n### Enrollment Targets by Location\n\n> Your #1 job is keeping enrollment up. Every empty spot is lost revenue and a family that could have found a home with us.\n\n| Location | Enrollment Target | Licensed Capacity | Target % |\n|----------|-------------------|-------------------|----------|\n| Mill Creek | **117** | 135 | 87% |\n| Forest Lakes | **102** | 120 | 85% |\n| Crozet | **120** | 141 | 85% |\n\n**All sites must maintain at least 85% full-paying FTE enrollment.**\n\n### Your Enrollment Goals\n\nTo hit your targets consistently, aim for:\n\n- **2 tours per day**\n- **5 new enrollments per week**\n- **50% conversion rate** (1 in 2 tours becomes an enrollment)\n\n### The Daily Operations Report (DOR)\n\nThe DOR is your daily accountability document. It captures everything that happened at your site that day — enrollment, attendance, labor, incidents, and more.\n\n> **The DOR must be completed before you leave each day — NO EXCEPTIONS.** This is not optional. It is a non-negotiable director responsibility.\n\n### Site-Level KPI Tracking Rhythm\n\n- **Daily:** Tadpoles notes sent, attendance entered, labor checked\n- **Weekly:** Labor vs. budget reviewed, enrollment activity summarized\n- **Monthly:** Full KPI report to admin, AR aging reviewed, enrollment forecast updated"
+    },
+    {
+      "id": "1.3-quiz",
+      "title": "KPI Knowledge Check",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "What is the enrollment target for Mill Creek?",
+          "type": "multiple-choice",
+          "options": ["102", "117", "120", "135"],
+          "correctAnswer": "117",
+          "explanation": "Mill Creek's target is 117 FTE (capacity 135). Forest Lakes is 102 (capacity 120). Crozet is 120 (capacity 141). Know these numbers — they come up in every enrollment conversation."
+        },
+        {
+          "id": "q2",
+          "question": "What is the minimum enrollment threshold as a percentage of capacity?",
+          "type": "multiple-choice",
+          "options": ["75%", "80%", "85%", "90%"],
+          "correctAnswer": "85%",
+          "explanation": "All sites must maintain at least 85% full-paying FTE enrollment. Anything below that is a red flag that requires an immediate enrollment push."
+        },
+        {
+          "id": "q3",
+          "question": "True or False: The Daily Operations Report (DOR) can be completed the next morning if you're running late.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "False. The DOR must be completed before you leave each day — NO EXCEPTIONS. This is explicitly non-negotiable. If you're struggling to get it done, that's a signal to review your afternoon workflow."
+        },
+        {
+          "id": "q4",
+          "question": "What is the enrollment conversion rate goal for tours?",
+          "type": "multiple-choice",
+          "options": ["25%", "33%", "50%", "75%"],
+          "correctAnswer": "50%",
+          "explanation": "The goal is a 50% conversion rate — 1 in 2 tours should become an enrollment. Combined with the goal of 2 tours/day, this means 5 new enrollments per week. Track your conversion rate and adjust your tour technique if you're falling short."
+        }
+      ]
+    },
+    {
+      "id": "1.4",
+      "title": "Core Values & Our Story",
+      "type": "reading",
+      "learningObjectives": [
+        "Know Bright Beginnings' six core values by heart",
+        "Articulate the unique selling points on every tour and phone call",
+        "Understand what makes Bright Beginnings different from competitors"
+      ],
+      "content": "## Who We Are\n\nEvery director needs to be able to tell the Bright Beginnings story fluently — in a tour, on a phone call, at a community event. This is your pitch. Know it cold.\n\n---\n\n### Our Core Values\n\n**Trust · Nurture · Family · Learn · Play · Communicate**\n\n*Sprinkled with kindness.*\n\nThese aren't decorative words on a wall. They're the lens through which every decision is made — from how we handle a parent complaint to how we staff our classrooms.\n\n---\n\n### Our Story (Use This on Every Tour)\n\n> Bright Beginnings has been Charlottesville's #1 Preschool for 41 years — locally owned since 1984 by a hands-on, mother-daughter owner duo. We're the only family-owned preschool in Charlottesville.\n\nWhen you meet a prospective family, lead with this story. It differentiates us immediately from corporate childcare chains.\n\n---\n\n### Unique Selling Points\n\nThese are the reasons families choose us — and the reasons they stay. Use them on every tour and phone call.\n\n**Why Bright Beginnings:**\n\n- **41 years in Charlottesville** — locally owned since 1984; deep community roots\n- **Family-owned** — hands-on mother-daughter owner team; the only family-owned preschool in Charlottesville\n- **Award-winning curriculum** — Reggio-inspired, hands-on, play-based learning\n- **Flexible scheduling** — year-round enrollment; summer/sabbatical holding fee option\n- **Three convenient locations** — Forest Lakes, Mill Creek, Crozet\n- **Wiggly Family Orientation** — every new family gets a personal welcome experience\n- **Easy billing** — Tuition Express auto-pay; no chasing checks\n- **Daily communication** — Facebook, Instagram, YouTube, and daily Tadpoles notes keep families connected\n\n**Referral Program:**\n- Families: **2 weeks complimentary tuition** (oldest child) when a referred family completes 30 days\n- Staff: **$50 bonus** after referred employee completes 90-day probation\n\n---\n\n### How to Use This in a Tour\n\nDon't recite this list. Weave it naturally into your conversation:\n\n- When a parent mentions another center they're considering: *\"One thing that really sets us apart is that we're family-owned — the owners are hands-on and in our centers regularly. You won't find that at a corporate chain.\"*\n- When a parent asks how long you've been open: *\"Since 1984 — 41 years. We've been part of this community longer than most of our families have lived here.\"*\n- When a parent asks about communication: *\"Every child gets daily Tadpoles notes with photos. You'll never wonder what your child did today.\""
+    },
+    {
+      "id": "1.4-quiz",
+      "title": "Values & Story Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "How long has Bright Beginnings been serving Charlottesville families?",
+          "type": "multiple-choice",
+          "options": ["Since 1990", "Since 1984", "Since 2000", "Since 1975"],
+          "correctAnswer": "Since 1984",
+          "explanation": "Bright Beginnings has been locally owned since 1984 — making us Charlottesville's #1 Preschool for 41 years. This is a key differentiator and should be mentioned on every tour."
+        },
+        {
+          "id": "q2",
+          "question": "What is the referral bonus for a current family who refers a new enrolling family?",
+          "type": "multiple-choice",
+          "options": ["1 week free tuition", "2 weeks free tuition (oldest child)", "$50 credit", "$100 gift card"],
+          "correctAnswer": "2 weeks free tuition (oldest child)",
+          "explanation": "Referring families receive 2 weeks of complimentary tuition for their oldest child once the referred family completes 30 days. This is one of the most powerful enrollment tools we have — remind current families about it regularly."
+        },
+        {
+          "id": "q3",
+          "question": "True or False: Bright Beginnings is the only family-owned preschool in Charlottesville.",
+          "type": "true-false",
+          "correctAnswer": "True",
+          "explanation": "True — and this is a key selling point. The hands-on, mother-daughter owner duo is what makes us genuinely different from corporate childcare chains. Families respond to this story."
+        },
+        {
+          "id": "q4",
+          "question": "Which of the following is NOT one of Bright Beginnings' six core values?",
+          "type": "multiple-choice",
+          "options": ["Trust", "Excellence", "Nurture", "Play"],
+          "correctAnswer": "Excellence",
+          "explanation": "The six core values are: Trust, Nurture, Family, Learn, Play, Communicate — sprinkled with kindness. 'Excellence' is not one of them. The values reflect relationship and community, not performance metrics."
+        }
+      ]
+    },
+    {
+      "id": "1.5",
+      "title": "Admin Team Rules & Dress Code",
+      "type": "reading",
+      "learningObjectives": [
+        "Know the admin team standards that apply to you as director",
+        "Understand the dress code expectations and how to enforce them with staff",
+        "Know the lobby and visitor policy and why it matters for safety and professionalism"
+      ],
+      "content": "## The Standards Directors Live By\n\nAs the director, you don't just manage standards — you model them. Everything in this section applies to you first.\n\n---\n\n### Your Presence & Availability\n\n- **Be visible at drop-off and pick-up** — work from the front lobby desk, not your office\n- The office is for private meetings only. If you're in your office during open hours without a meeting, you're in the wrong place.\n- **See 90% of parents at least once per day** — know their names, their children's names, their situations\n- **Both site email and personal BB email on your phone and computer** — check throughout the day\n- **Cameras accessible on your computer or phone at all times** — you should be able to view any classroom in seconds\n\n### Communication Standards\n\n- **1-hour turnaround** — no one asks twice (staff, parents, admin)\n- Phones answered within 3 rings; if unavailable, forward to cell or another location\n- Use **Group Me** for all team communication — no sidebar calls or personal texts\n- Daily Reports (DOR) completed before you leave — **NO EXCEPTIONS**\n\n### Staffing & Labor\n\n- **Be over-hired but never overstaffed** — always have a bench; never have unnecessary bodies on the clock\n- Staff scheduled 37–38 hours max/week — this protects you from overtime and gives flexibility\n- **Labor log daily** — enter approved schedules in ProCare with 15–30 min flexibility; goal is labor at Magic Number (10% less than approved hours)\n- **Overtime only in emergencies** — must be approved in writing by admin in advance\n- **Friday by 5 PM:** all labor in ProCare; all new staff info fully entered\n- **Always know who your C and D staff are** — and be actively working to replace them\n\n### Branding & Office Standards\n\n> Branding is a MUST — everything branded with the Bright Beginnings logo. No homemade signs on doors. No clutter at desks.\n\n- Office spaces must look professional and be tour-ready at all times\n- **Office door locked when director is not present** — use the branded \"Office Closed\" sign at the front desk\n- Staff may never be in the office unless meeting with the director, or as an approved opener/closer, unit leader, or assistant director\n- **Director Binder is ESSENTIAL** — if not completed by Thursday, notify admin so HQ can assist\n- Director Packet printed each month, placed in a 3-ring binder with completion notes\n\n### Staff Cell Phone Policy\n\n> No cell phones for staff — model this yourself except during your own break.\n\nYou cannot enforce a policy you don't follow. If staff see you on your phone, they'll do the same.\n\n---\n\n### Director Dress Code\n\n- **Business professional at all times** — no jeans\n- Hair, makeup, and attire must convey leadership — you are the face of this center\n- **Bring classroom clothes and tennis shoes** for time spent in rooms\n- **Check staff dress code daily** — keep clean BB t-shirts on hand for staff who come in out of dress code\n\n---\n\n### Lobby & Visitor Policy\n\nThe lobby is your first impression for every prospective family. Keep it professional.\n\n**Staff in the lobby:**\n- Staff may **not** hang out in the lobby while waiting to clock in or for a ride — direct them to an empty classroom, the kitchen, or the patio\n- Staff may **not** ride in each other's cars during the work day\n\n**Visitors:**\n- Non-employees or former staff may not enter without showing photo ID\n- All visitors sign in and out on the lobby clipboard\n- **Photograph the visitor's ID**\n- Tours and visitors may **not** take photographs inside the building"
+    },
+    {
+      "id": "1.5-quiz",
+      "title": "Admin Standards Quiz",
+      "type": "quiz",
+      "questions": [
+        {
+          "id": "q1",
+          "question": "Where should a director be working during drop-off and pick-up?",
+          "type": "multiple-choice",
+          "options": ["In the office completing the DOR", "At the front lobby desk", "Circulating between classrooms only", "Wherever they're most needed that day"],
+          "correctAnswer": "At the front lobby desk",
+          "explanation": "Directors must be visible at drop-off and pick-up, working from the front lobby desk. The office is for private meetings only. Your presence in the lobby builds parent trust and keeps the energy of arrival/dismissal positive."
+        },
+        {
+          "id": "q2",
+          "question": "By what time must all labor be entered into ProCare each week?",
+          "type": "multiple-choice",
+          "options": ["Thursday noon", "Friday 5 PM", "Friday at midnight", "Monday morning before opening"],
+          "correctAnswer": "Friday 5 PM",
+          "explanation": "All labor must be entered into ProCare by Friday at 5 PM — no exceptions. All new staff information must also be fully entered by this deadline. This is a hard rule."
+        },
+        {
+          "id": "q3",
+          "question": "True or False: Staff may use their personal cell phones in classrooms for work-related communication.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "False. No cell phones for staff — period. This applies even for work-related communication. Directors must model this themselves except during their own break. Use Group Me from a shared or designated device, not personal phones on the floor."
+        },
+        {
+          "id": "q4",
+          "question": "What should you do when a non-employee visitor arrives at your center?",
+          "type": "multiple-choice",
+          "options": ["Welcome them in and have them sign the clipboard", "Require photo ID, photograph it, and have them sign the clipboard", "Call admin before allowing entry", "Deny entry unless pre-approved by admin"],
+          "correctAnswer": "Require photo ID, photograph it, and have them sign the clipboard",
+          "explanation": "Non-employees and former staff must show photo ID before entering. You photograph the ID and have them sign in/out on the lobby clipboard. Tours and visitors also may not take photographs inside the building. This protects children and staff."
+        }
+      ]
+    }
+  ]
+}

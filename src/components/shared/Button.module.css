@@ -1,0 +1,73 @@
+@import '../../styles/variables.css';
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: var(--font-body);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1;
+  border: none;
+  border-radius: var(--btn-radius);
+  padding: 12px 28px;
+  cursor: pointer;
+  transition: background-color var(--transition), color var(--transition), border-color var(--transition);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn:focus-visible {
+  outline: 2px solid var(--bb-coral);
+  outline-offset: 3px;
+}
+
+/* Variants */
+.primary {
+  background: var(--bb-coral);
+  color: var(--bb-white);
+}
+.primary:hover:not(:disabled) {
+  background: var(--bb-dark-gray);
+}
+
+.secondary {
+  background: transparent;
+  color: var(--bb-dark-gray);
+  border: 1.5px solid var(--bb-dark-gray);
+}
+.secondary:hover:not(:disabled) {
+  background: var(--bb-dark-gray);
+  color: var(--bb-white);
+}
+
+.ghost {
+  background: transparent;
+  color: var(--bb-coral);
+  border: 1.5px solid var(--bb-coral);
+}
+.ghost:hover:not(:disabled) {
+  background: var(--bb-coral);
+  color: var(--bb-white);
+}
+
+.danger {
+  background: #c0392b;
+  color: var(--bb-white);
+}
+.danger:hover:not(:disabled) {
+  background: #922b21;
+}
+
+/* Pill shape */
+.pill {
+  border-radius: var(--btn-radius-pill);
+}
+
+/* Disabled */
+.disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  pointer-events: none;
+}

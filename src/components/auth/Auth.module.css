@@ -1,0 +1,153 @@
+@import '../../styles/variables.css';
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bb-off-white);
+  padding: 24px;
+  position: relative;
+  overflow: hidden;
+}
+
+.bgAccent {
+  position: absolute;
+  top: -120px;
+  right: -120px;
+  width: 400px;
+  height: 400px;
+  background: var(--bb-yellow);
+  border-radius: 50%;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.card {
+  background: var(--bb-white);
+  border: 1px solid var(--bb-light-gray);
+  border-radius: 8px;
+  padding: 48px 40px 40px;
+  width: 100%;
+  max-width: 420px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+}
+
+.logoWrap {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.logo {
+  height: 56px;
+  width: auto;
+  object-fit: contain;
+}
+
+.title {
+  font-size: 24px;
+  color: var(--bb-charcoal);
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 6px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: var(--bb-mid-gray);
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--bb-charcoal);
+}
+
+.input {
+  font-family: var(--font-body);
+  font-size: 14px;
+  color: var(--bb-dark-gray);
+  border: 1.5px solid var(--bb-light-gray);
+  border-radius: var(--btn-radius);
+  padding: 10px 14px;
+  background: var(--bb-white);
+  transition: border-color var(--transition);
+  width: 100%;
+}
+.input:focus {
+  outline: none;
+  border-color: var(--bb-coral);
+}
+.inputError {
+  border-color: #c0392b;
+}
+
+.select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%236D6E71' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 36px;
+  cursor: pointer;
+}
+
+.fieldError {
+  font-size: 12px;
+  color: #c0392b;
+}
+
+.error {
+  font-size: 13px;
+  color: #c0392b;
+  background: #fdf2f2;
+  border: 1px solid #f5c6c6;
+  border-radius: var(--btn-radius);
+  padding: 10px 14px;
+}
+
+.submitBtn {
+  width: 100%;
+  margin-top: 4px;
+}
+
+.switchLink {
+  text-align: center;
+  font-size: 13px;
+  color: var(--bb-mid-gray);
+  margin-top: 20px;
+}
+
+.birds {
+  position: absolute;
+  bottom: 24px;
+  left: 32px;
+  opacity: 0.18;
+  pointer-events: none;
+}
+.birds img {
+  height: 60px;
+  width: auto;
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 32px 24px 28px;
+  }
+}

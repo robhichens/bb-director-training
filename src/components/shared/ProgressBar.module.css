@@ -1,0 +1,26 @@
+@import '../../styles/variables.css';
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+}
+
+.track {
+  width: 100%;
+  background: var(--bb-light-gray);
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.fill {
+  background: var(--bb-coral);
+  border-radius: 99px;
+}
+
+.label {
+  font-size: 12px;
+  color: var(--bb-mid-gray);
+  font-weight: 500;
+}
