@@ -16,6 +16,7 @@
 .welcomeText { flex: 1; }
 
 .welcomeTitle {
+  font-family: 'Fredoka One', cursive;
   font-size: 26px;
   font-weight: 400;
   color: var(--bb-charcoal);
@@ -141,7 +142,8 @@
   transition: border-color var(--transition), background-color var(--transition);
 }
 .moduleCard:hover:not(.locked) {
-  background: var(--bb-off-white);
+  background: var(--bb-sky);
+  border-color: var(--bb-sky);
 }
 
 .moduleCard.locked {

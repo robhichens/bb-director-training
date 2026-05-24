@@ -131,6 +131,7 @@
 }
 
 .completeTitle {
+  font-family: 'Fredoka One', cursive;
   font-size: 36px;
   color: var(--bb-charcoal);
   font-weight: 400;

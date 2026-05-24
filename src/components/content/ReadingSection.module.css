@@ -136,7 +136,7 @@
   gap: 12px;
   background: var(--bb-white);
   border: 1px solid var(--bb-light-gray);
-  border-radius: 8px;
+  border-radius: var(--card-radius);
   padding: 11px 18px;
   font-size: 15px;
   line-height: 1.55;
@@ -145,8 +145,8 @@
   width: 100%;
 }
 .bulletCard:hover {
-  border-color: var(--bb-coral);
-  background: var(--bb-off-white);
+  border-color: var(--bb-sky);
+  background: var(--bb-sky);
 }
 
 
