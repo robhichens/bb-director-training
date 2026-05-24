@@ -1,0 +1,147 @@
+/* Print-optimised layout — no sidebar, no header */
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 40px 60px;
+  font-family: Arial, sans-serif;
+  color: #222;
+}
+
+/* ── Print header ────────────────────────────────────────── */
+.printHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 8px;
+  padding-bottom: 14px;
+  border-bottom: 3px solid #F08782;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #F08782;
+  margin: 0 0 2px;
+}
+
+.subtitle {
+  font-size: 15px;
+  font-weight: 600;
+  color: #3D3D3D;
+  margin: 0;
+}
+
+.meta {
+  text-align: right;
+  font-size: 12px;
+  color: #555;
+  line-height: 1.8;
+}
+.meta p { margin: 0; }
+
+.note {
+  font-size: 12px;
+  color: #888;
+  font-style: italic;
+  margin: 6px 0 16px;
+}
+
+/* ── Print button (hidden on print) ─────────────────────── */
+.printBtn {
+  display: inline-block;
+  margin-bottom: 24px;
+  padding: 8px 20px;
+  background: #F08782;
+  color: #fff;
+  border: none;
+  border-radius: 99px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* ── Category block ──────────────────────────────────────── */
+.category {
+  margin-bottom: 22px;
+  page-break-inside: avoid;
+}
+
+.catHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #F08782;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 4px 4px 0 0;
+}
+
+.catTitle {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.catProgress {
+  font-size: 11px;
+  font-weight: 700;
+  opacity: 0.9;
+}
+
+/* ── Table ────────────────────────────────────────────────── */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 11.5px;
+}
+
+th {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  text-align: left;
+  font-weight: 700;
+  color: #555;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.colItem   { width: 70%; }
+.colStatus { width: 15%; text-align: center; }
+
+.cellItem {
+  border: 1px solid #e8e8e8;
+  padding: 5px 10px;
+  line-height: 1.4;
+  color: #3D3D3D;
+}
+
+.cellStatus {
+  border: 1px solid #e8e8e8;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.rowDone .cellItem {
+  color: #888;
+  text-decoration: line-through;
+  text-decoration-color: #4CAF82;
+}
+
+.checkDone {
+  color: #2d9e5c;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.checkBlank {
+  color: #ccc;
+}
+
+/* ── Print media ─────────────────────────────────────────── */
+@media print {
+  .printBtn { display: none; }
+  .page { padding: 0; }
+  .category { page-break-inside: avoid; margin-bottom: 16px; }
+  .printHeader { page-break-after: avoid; }
+}

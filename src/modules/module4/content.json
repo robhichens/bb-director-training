@@ -24,7 +24,12 @@
           "id": "q1",
           "question": "What is the enrollment target for the Forest Lakes location?",
           "type": "multiple-choice",
-          "options": ["102 enrolled", "117 enrolled", "120 enrolled", "135 enrolled"],
+          "options": [
+            "102 enrolled",
+            "117 enrolled",
+            "120 enrolled",
+            "135 enrolled"
+          ],
           "correctAnswer": "102 enrolled",
           "explanation": "Forest Lakes has a capacity of 120. The 85% full-paying FTE target means 102 enrolled. Mill Creek targets 117 (capacity 135) and Crozet targets 120 (capacity 141). Know your site's number cold — admin will ask."
         },
@@ -32,7 +37,12 @@
           "id": "q2",
           "question": "What is the weekly enrollment goal in terms of new families?",
           "type": "multiple-choice",
-          "options": ["2 new enrollments per week", "3 new enrollments per week", "5 new enrollments per week", "10 new enrollments per week"],
+          "options": [
+            "2 new enrollments per week",
+            "3 new enrollments per week",
+            "5 new enrollments per week",
+            "10 new enrollments per week"
+          ],
           "correctAnswer": "5 new enrollments per week",
           "explanation": "The goal is 5 new enrollments per week, supported by 2 tours per day and a 50% conversion rate. A week below 5 enrollments is a signal to review: Are tours happening? Are follow-ups being made? Is the CRM current?"
         },
@@ -55,6 +65,72 @@
           ],
           "correctAnswer": "Day notes for all children via Tadpoles",
           "explanation": "Day notes for all children via Tadpoles is a daily site-level KPI — every child, every day, no exceptions. This is reviewed by admin. Attendance accuracy in ProCare (100%), daily curriculum plus one art project, and perfect licensing are the other three site-level KPIs."
+        },
+        {
+          "id": "q5",
+          "question": "What is the enrollment target for Mill Creek?",
+          "type": "multiple-choice",
+          "options": [
+            "96",
+            "102",
+            "117",
+            "130"
+          ],
+          "correctAnswer": "117",
+          "explanation": "Mill Creek has the highest enrollment target: 117 children. Forest Lakes targets 102 and Crozet targets 72."
+        },
+        {
+          "id": "q6",
+          "question": "True or False: A verbal payment arrangement with a parent satisfies the Day 5 bad debt deadline.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "Verbal arrangements do not satisfy the Day 5 deadline. The account must be current or on a formally documented and approved payment plan. Verbal commitments are not enforceable and do not protect the center."
+        },
+        {
+          "id": "q7",
+          "question": "What action must be taken on Day 5 for accounts that remain unresolved?",
+          "type": "multiple-choice",
+          "options": [
+            "Send a final reminder email",
+            "Place the account in collections",
+            "Deny care — the child is not admitted until the account is resolved",
+            "Reduce the family's schedule to part-time until caught up"
+          ],
+          "correctAnswer": "Deny care — the child is not admitted until the account is resolved",
+          "explanation": "Day 5 is the denial-of-care deadline. This is non-negotiable. Admitting a child past Day 5 on an unresolved account undercuts the entire billing policy."
+        },
+        {
+          "id": "q8",
+          "question": "When should tuition charges for next month be posted in ProCare?",
+          "type": "multiple-choice",
+          "options": [
+            "Day 1 of the following month",
+            "Day 15 of the current month",
+            "Day 23 of the current month",
+            "Day 27 (billing day)"
+          ],
+          "correctAnswer": "Day 23 of the current month",
+          "explanation": "Next month's tuition is posted on Day 23 so families can see charges before the Day 27 auto-charge runs. This allows time to catch and correct any rate discrepancies."
+        },
+        {
+          "id": "q9",
+          "question": "The KPI scorecard is sent to the admin assistant on which day of the month?",
+          "type": "multiple-choice",
+          "options": [
+            "Day 1",
+            "Day 15",
+            "Day 27",
+            "Day 29"
+          ],
+          "correctAnswer": "Day 29",
+          "explanation": "The monthly KPI scorecard is compiled and sent to the admin assistant by Day 29. It includes enrollment %, attendance rate, Tadpoles engagement, late-fee recovery %, and any licensing events."
+        },
+        {
+          "id": "q10",
+          "question": "True or False: The monthly fire drill can be completed any time during the month as long as it happens at least once.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "While the drill can happen any day, it must be scheduled and tracked. Virginia licensing requires one drill per month, and the Day 1 calendar task includes scheduling the monthly drill to ensure it doesn't get missed."
         }
       ]
     },
@@ -197,6 +273,72 @@
           ],
           "correctAnswer": "Labor & scheduling reports",
           "explanation": "Labor & scheduling in ProCare is your primary tool for the Magic Number — 10% under approved labor hours. You build schedules, track clock-ins/outs, and run labor vs. budget reports all in this module. If you're trending over by Wednesday, you can see it here and adjust Thursday/Friday coverage before it becomes an overtime issue."
+        },
+        {
+          "id": "q5",
+          "question": "What three ProCare audit reports are run on Day 20 of each month?",
+          "type": "multiple-choice",
+          "options": [
+            "Enrollment Audit, Financial Audit, and Attendance Audit",
+            "AR Aging Report, Payroll Summary, and Immunization Due report",
+            "Daily Attendance, Revenue Forecast, and Bad Debt Report",
+            "Labor Report, Tuition Posted report, and Child Count"
+          ],
+          "correctAnswer": "Enrollment Audit, Financial Audit, and Attendance Audit",
+          "explanation": "Day 20 requires three specific audits: Enrollment Audit, Financial Audit, and Attendance Audit. These are reviewed for anomalies before month-end billing runs on Day 27."
+        },
+        {
+          "id": "q6",
+          "question": "True or False: A director may manually adjust a staff member's ProCare time entry without a written explanation.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "Any time entry adjustment in ProCare requires written documentation of the reason. Unexplained time adjustments create payroll compliance risk and audit problems."
+        },
+        {
+          "id": "q7",
+          "question": "The Day 2 report bundle includes which three reports?",
+          "type": "multiple-choice",
+          "options": [
+            "AR Aging, Payroll Summary, Staff Schedule",
+            "Monthly Deposit, Revenue Forecast, and Immunization Due",
+            "Enrollment Count, Tuition Posted, Labor Report",
+            "Child Census, Fire Drill Log, and First Aid Inventory"
+          ],
+          "correctAnswer": "Monthly Deposit, Revenue Forecast, and Immunization Due",
+          "explanation": "Day 2 reports: Monthly Deposit summary, Revenue Forecast, and Immunization Due report. These feed the ownership packet and licensing compliance review."
+        },
+        {
+          "id": "q8",
+          "question": "What is the purpose of running the Brivo access audit on Day 6?",
+          "type": "multiple-choice",
+          "options": [
+            "To verify the alarm system is functioning",
+            "To check that no former employees still have active door access credentials",
+            "To generate a visitor log for the licensing binder",
+            "To update parent pickup authorization codes"
+          ],
+          "correctAnswer": "To check that no former employees still have active door access credentials",
+          "explanation": "Day 6 Brivo audit verifies that terminated employees have been removed and new staff have been properly added. Former employee access is a security and liability issue."
+        },
+        {
+          "id": "q9",
+          "question": "When must the daily labor entry in ProCare be finalized each week?",
+          "type": "multiple-choice",
+          "options": [
+            "Thursday at 5:00 PM",
+            "Friday at 3:00 PM",
+            "Friday at 5:00 PM",
+            "Monday of the following week"
+          ],
+          "correctAnswer": "Friday at 5:00 PM",
+          "explanation": "All labor must be entered in ProCare by Friday at 5:00 PM. Late entry delays payroll processing and creates errors that require corrections."
+        },
+        {
+          "id": "q10",
+          "question": "True or False: The AR Aging Report shows which families have outstanding balances and how long those balances have been unpaid.",
+          "type": "true-false",
+          "correctAnswer": "True",
+          "explanation": "The AR Aging Report groups outstanding balances by time period (0–30 days, 31–60 days, 60+ days). It's the primary tool for identifying accounts at risk and prioritizing collection action."
         }
       ]
     },
@@ -220,7 +362,12 @@
           "id": "q1",
           "question": "By which day of the month must all accounts be current or on an approved payment plan?",
           "type": "multiple-choice",
-          "options": ["Day 1", "Day 3", "Day 5", "Day 10"],
+          "options": [
+            "Day 1",
+            "Day 3",
+            "Day 5",
+            "Day 10"
+          ],
           "correctAnswer": "Day 5",
           "explanation": "Day 5 is the zero bad debt deadline — every account must be current or on an admin-approved, written payment plan by this date. Outstanding balances are reported to admin on Day 5. This is a company-level KPI, not just a site goal."
         },
@@ -256,6 +403,72 @@
           ],
           "correctAnswer": "To contact every family toured that month who hasn't enrolled yet",
           "explanation": "Day 26 is a final push to convert any tours from that month into enrollments before the month closes. You contact every toured family who hasn't enrolled — some just need a nudge, a second visit offer, or a clarifying question answered. Day 26 recovers enrollments that would otherwise fall off into the next month's backlog."
+        },
+        {
+          "id": "q5",
+          "question": "What action triggers a Warrant in Debt filing, and what is the maximum amount for Virginia small claims court?",
+          "type": "multiple-choice",
+          "options": [
+            "Any balance over $500 — filed in Charlottesville City Court",
+            "Balances over $1,000 — filed in Albemarle County General District Court",
+            "Unresolved balances after denial of care — up to $5,000 in Albemarle County General District Court",
+            "Any balance outstanding more than 90 days — filed through a collection agency only"
+          ],
+          "correctAnswer": "Unresolved balances after denial of care — up to $5,000 in Albemarle County General District Court",
+          "explanation": "BB can file a Warrant in Debt in Albemarle County General District Court for unresolved family balances up to $5,000. This does not require an attorney."
+        },
+        {
+          "id": "q6",
+          "question": "True or False: The Director Packet is submitted once per week, every Thursday.",
+          "type": "true-false",
+          "correctAnswer": "True",
+          "explanation": "The Director Packet is a weekly Thursday submission. It includes completed DORs, incident reports, next week's staff schedule, and any licensing correspondence."
+        },
+        {
+          "id": "q7",
+          "question": "What is the re-registration fee structure at Bright Beginnings?",
+          "type": "multiple-choice",
+          "options": [
+            "$100 flat fee regardless of family size",
+            "$300 for a single child, $500 for a family with two or more children",
+            "$200 per child enrolled",
+            "No re-registration fee — only a new enrollment fee"
+          ],
+          "correctAnswer": "$300 for a single child, $500 for a family with two or more children",
+          "explanation": "The enhancement (re-registration) fee is $300 for a single child and $500 for a family with two or more children. This is due annually in the child's anniversary enrollment month."
+        },
+        {
+          "id": "q8",
+          "question": "What is the primary purpose of the Day 26 \"tour follow-up blitz\"?",
+          "type": "multiple-choice",
+          "options": [
+            "To remind current families of upcoming billing on Day 27",
+            "To contact prospective families who toured that month but haven't enrolled",
+            "To verify all pending enrollment paperwork is complete",
+            "To reach out to past families about re-enrollment"
+          ],
+          "correctAnswer": "To contact prospective families who toured that month but haven't enrolled",
+          "explanation": "Day 26 — three days before billing — is a natural urgency window to follow up with tours who haven't committed. \"We have a spot available\" is a genuine and compelling message before the month turns."
+        },
+        {
+          "id": "q9",
+          "question": "True or False: Late fees are applied on Day 5 of each month alongside the denial-of-care deadline.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "Late fees are applied on Day 1. By Day 5, the issue has escalated to denial of care. Late fees and denial of care are separate, sequential actions."
+        },
+        {
+          "id": "q10",
+          "question": "The Day 23 tuition posting serves which primary purpose?",
+          "type": "multiple-choice",
+          "options": [
+            "To generate the monthly revenue report for ownership",
+            "To allow families to see upcoming charges and resolve rate discrepancies before the Day 27 auto-charge",
+            "To notify DSS of the following month's billing amounts",
+            "To trigger the enhancement fee for re-registering families"
+          ],
+          "correctAnswer": "To allow families to see upcoming charges and resolve rate discrepancies before the Day 27 auto-charge",
+          "explanation": "Posting tuition on Day 23 gives a 4-day window before the Day 27 auto-charge. Families can flag errors and directors can correct rates — preventing failed charges and family disputes."
         }
       ]
     },
@@ -290,7 +503,12 @@
           "id": "q1",
           "question": "What is the Tuition Express Merchant ID for the Mill Creek location?",
           "type": "multiple-choice",
-          "options": ["7657", "7660", "7673", "9304"],
+          "options": [
+            "7657",
+            "7660",
+            "7673",
+            "9304"
+          ],
           "correctAnswer": "7673",
           "explanation": "Mill Creek's TE Merchant ID is 7673. Crozet is 7657, Forest Lakes is 7660. Using the wrong Merchant ID creates cross-location billing errors that are time-consuming to correct. Always verify you're in the correct location's account before processing any transaction."
         },
@@ -298,7 +516,12 @@
           "id": "q2",
           "question": "A new family with two children enrolls. What enhancement fee applies?",
           "type": "multiple-choice",
-          "options": ["$150", "$300", "$500", "No enhancement fee for new families"],
+          "options": [
+            "$150",
+            "$300",
+            "$500",
+            "No enhancement fee for new families"
+          ],
           "correctAnswer": "$500",
           "explanation": "$500 is the family enhancement fee (2+ children). Single-child families pay $300. Enhancement fees are non-negotiable and must appear on every active account. If a new enrollment is missing the enhancement fee when billing runs, it's a missed revenue item that requires a manual correction."
         },
@@ -326,9 +549,73 @@
           "id": "q5",
           "question": "When filing a Warrant in Debt for an unpaid family balance, what is the maximum amount that can be claimed without an attorney in Virginia small claims court?",
           "type": "multiple-choice",
-          "options": ["$2,500", "$5,000", "$7,500", "$10,000"],
+          "options": [
+            "$2,500",
+            "$5,000",
+            "$7,500",
+            "$10,000"
+          ],
           "correctAnswer": "$5,000",
           "explanation": "Virginia's General District Court (small claims) handles claims up to $5,000 without requiring an attorney. Filing happens at the Albemarle County General District Court Clerk's Office. Bring the signed contract, ProCare payment history, and all written communications. The court fee is added to the claimed amount."
+        },
+        {
+          "id": "q6",
+          "question": "What is the Tuition Express Merchant ID for the Forest Lakes location?",
+          "type": "multiple-choice",
+          "options": [
+            "7657",
+            "7660",
+            "7673",
+            "2935"
+          ],
+          "correctAnswer": "7657",
+          "explanation": "Forest Lakes Merchant ID: CR-7657. Mill Creek: FL-7660 (note: FL=Forest Lakes abbreviation is reversed in some docs). Crozet: MC-7673. Memorize these for billing troubleshooting."
+        },
+        {
+          "id": "q7",
+          "question": "What does the ^ (caret) symbol next to an amount in ProCare indicate for a CCA family?",
+          "type": "multiple-choice",
+          "options": [
+            "The amount is flagged for review",
+            "The amount is the DSS-covered portion, separate from the family co-pay",
+            "The account is in collections",
+            "The family has a payment plan in place"
+          ],
+          "correctAnswer": "The amount is the DSS-covered portion, separate from the family co-pay",
+          "explanation": "The ^ symbol in ProCare marks the CCA/DSS-covered portion of a family's charges. Missing this symbol causes overbilling errors — the system won't correctly calculate the family's co-pay."
+        },
+        {
+          "id": "q8",
+          "question": "True or False: As of June 2025, a director may approve a new DSS enrollment if the family qualifies and has all required paperwork.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "Effective June 2025, no new DSS enrollments may be approved without KP (ownership) approval. Existing DSS families continue normally. This is a policy freeze — not a permanent end to DSS."
+        },
+        {
+          "id": "q9",
+          "question": "What is the CCA code for the Crozet location?",
+          "type": "multiple-choice",
+          "options": [
+            "2935",
+            "9252",
+            "9304",
+            "7673"
+          ],
+          "correctAnswer": "9304",
+          "explanation": "Crozet CCA code: MC-9304. Forest Lakes: FL-2935. Mill Creek: CR-9252. These codes are required for correct CCA billing setup in ProCare."
+        },
+        {
+          "id": "q10",
+          "question": "When is the enhancement (re-registration) fee due for a returning family?",
+          "type": "multiple-choice",
+          "options": [
+            "January 1st of each year",
+            "On the child's original enrollment anniversary month",
+            "At the start of each new school year in September",
+            "Only when a family changes classrooms"
+          ],
+          "correctAnswer": "On the child's original enrollment anniversary month",
+          "explanation": "The enhancement fee is due in the child's enrollment anniversary month — not at a fixed calendar date. This spreads re-registration revenue across the year rather than concentrating it in one month."
         }
       ]
     }

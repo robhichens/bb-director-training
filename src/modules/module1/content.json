@@ -24,7 +24,12 @@
           "id": "q1",
           "question": "What is the required turnaround time for answering staff and parent questions?",
           "type": "multiple-choice",
-          "options": ["30 minutes", "1 hour", "2 hours", "End of day"],
+          "options": [
+            "30 minutes",
+            "1 hour",
+            "2 hours",
+            "End of day"
+          ],
           "correctAnswer": "1 hour",
           "explanation": "The 1-hour turnaround rule is non-negotiable. Acknowledge immediately and give an estimated time for your full answer if you need to research it. No one should have to ask twice."
         },
@@ -39,7 +44,12 @@
           "id": "q3",
           "question": "What staff grades does Bright Beginnings retain long-term?",
           "type": "multiple-choice",
-          "options": ["A only", "A and B", "A, B, and C", "All staff with proper coaching"],
+          "options": [
+            "A only",
+            "A and B",
+            "A, B, and C",
+            "All staff with proper coaching"
+          ],
           "correctAnswer": "A and B",
           "explanation": "We only keep A and B staff. Once a staff member is identified as C or D, the exit process begins. This is why staying over-hired is essential — it gives you the flexibility to act swiftly."
         },
@@ -47,9 +57,80 @@
           "id": "q4",
           "question": "How often should Dream Team cleaning and reorganizing events be held?",
           "type": "multiple-choice",
-          "options": ["Monthly", "Every two months", "Quarterly", "Annually"],
+          "options": [
+            "Monthly",
+            "Every two months",
+            "Quarterly",
+            "Annually"
+          ],
           "correctAnswer": "Quarterly",
           "explanation": "Dream Team events happen once a quarter. These are senior, reliable staff only — 4–6 people per location — and they rotate between sites. They're paid time, typically 3–4 hours on a weekend or evening."
+        },
+        {
+          "id": "q5",
+          "question": "True or False: A Bright Beginnings director may approve a C-rated staff member for a merit raise.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "C-rated staff are not eligible for merit raises. They must first reach and sustain a B rating through the improvement process."
+        },
+        {
+          "id": "q6",
+          "question": "When should a director conduct classroom walkthroughs?",
+          "type": "multiple-choice",
+          "options": [
+            "Once per week on Monday mornings",
+            "Only when a licensing inspection is scheduled",
+            "Daily — at least one visit to every classroom",
+            "Whenever a staff member requests it"
+          ],
+          "correctAnswer": "Daily — at least one visit to every classroom",
+          "explanation": "Daily walkthroughs are non-negotiable. They catch compliance gaps early, support teachers, and reinforce standards before they slip."
+        },
+        {
+          "id": "q7",
+          "question": "What is the correct first step when you observe a staff member using their cell phone around children?",
+          "type": "multiple-choice",
+          "options": [
+            "Send them home for the rest of the day",
+            "Walk over and verbally redirect immediately, then document in ProCare",
+            "Note it and address it at the next monthly evaluation",
+            "Call the parent and let them know"
+          ],
+          "correctAnswer": "Walk over and verbally redirect immediately, then document in ProCare",
+          "explanation": "Cell phone violations require immediate correction — not waiting. Delayed responses signal tolerance. Always document in ProCare the same day."
+        },
+        {
+          "id": "q8",
+          "question": "What information must appear on the back of every piece of artwork sent home?",
+          "type": "multiple-choice",
+          "options": [
+            "Child's first name only",
+            "First and last name only",
+            "First name, last name, age, and art media used",
+            "Child's full name and classroom"
+          ],
+          "correctAnswer": "First name, last name, age, and art media used",
+          "explanation": "All four elements are required: First Name, Last Name, Age, and Art Media Used. This is a non-negotiable standard and a parent communication touchpoint."
+        },
+        {
+          "id": "q9",
+          "question": "How many staged Tadpoles photos plus accompanying sentences are required per child, per day?",
+          "type": "multiple-choice",
+          "options": [
+            "1 photo, 1 sentence",
+            "2 photos, 2 sentences",
+            "3 photos, 1 sentence",
+            "1 photo, 2 sentences"
+          ],
+          "correctAnswer": "2 photos, 2 sentences",
+          "explanation": "The standard is 2 staged photos and 2 sentences describing the child's activities, submitted by 3:00 PM daily."
+        },
+        {
+          "id": "q10",
+          "question": "True or False: A director's primary job function is completing administrative paperwork in the office.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "A director's primary job is being present on the floor — greeting families, supporting staff, and observing classrooms. Paperwork is secondary and should be done before or after operational hours."
         }
       ]
     },
@@ -151,7 +232,12 @@
           "id": "q1",
           "question": "What is the enrollment target for Mill Creek?",
           "type": "multiple-choice",
-          "options": ["102", "117", "120", "135"],
+          "options": [
+            "102",
+            "117",
+            "120",
+            "135"
+          ],
           "correctAnswer": "117",
           "explanation": "Mill Creek's target is 117 FTE (capacity 135). Forest Lakes is 102 (capacity 120). Crozet is 120 (capacity 141). Know these numbers — they come up in every enrollment conversation."
         },
@@ -159,7 +245,12 @@
           "id": "q2",
           "question": "What is the minimum enrollment threshold as a percentage of capacity?",
           "type": "multiple-choice",
-          "options": ["75%", "80%", "85%", "90%"],
+          "options": [
+            "75%",
+            "80%",
+            "85%",
+            "90%"
+          ],
           "correctAnswer": "85%",
           "explanation": "All sites must maintain at least 85% full-paying FTE enrollment. Anything below that is a red flag that requires an immediate enrollment push."
         },
@@ -174,9 +265,86 @@
           "id": "q4",
           "question": "What is the enrollment conversion rate goal for tours?",
           "type": "multiple-choice",
-          "options": ["25%", "33%", "50%", "75%"],
+          "options": [
+            "25%",
+            "33%",
+            "50%",
+            "75%"
+          ],
           "correctAnswer": "50%",
           "explanation": "The goal is a 50% conversion rate — 1 in 2 tours should become an enrollment. Combined with the goal of 2 tours/day, this means 5 new enrollments per week. Track your conversion rate and adjust your tour technique if you're falling short."
+        },
+        {
+          "id": "q5",
+          "question": "What is the enrollment target for the Crozet location?",
+          "type": "multiple-choice",
+          "options": [
+            "52",
+            "68",
+            "72",
+            "102"
+          ],
+          "correctAnswer": "72",
+          "explanation": "Crozet's enrollment target is 72 children. Each location has its own target based on licensed capacity and operational goals."
+        },
+        {
+          "id": "q6",
+          "question": "What is the enrollment target for Forest Lakes?",
+          "type": "multiple-choice",
+          "options": [
+            "88",
+            "96",
+            "102",
+            "117"
+          ],
+          "correctAnswer": "102",
+          "explanation": "Forest Lakes has an enrollment target of 102 children. Mill Creek is 117, and Crozet is 72."
+        },
+        {
+          "id": "q7",
+          "question": "True or False: The Weekly Operations Report (WOR) is due by 5:00 PM on Fridays.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "The WOR is due by 3:00 PM on Fridays — not 5:00 PM. Getting it done before afternoon pickup prevents last-minute rushes."
+        },
+        {
+          "id": "q8",
+          "question": "The \"Magic Number\" refers to which operational metric?",
+          "type": "multiple-choice",
+          "options": [
+            "The tour conversion rate target",
+            "Running 10% under approved labor hours",
+            "The 85% minimum enrollment threshold",
+            "The 1-hour parent response requirement"
+          ],
+          "correctAnswer": "Running 10% under approved labor hours",
+          "explanation": "The Magic Number is the labor efficiency target: running 10% under approved labor hours. It directly impacts profitability."
+        },
+        {
+          "id": "q9",
+          "question": "A center is at 82% enrollment capacity on the first of the month. What should happen?",
+          "type": "multiple-choice",
+          "options": [
+            "Nothing — 82% is within acceptable range",
+            "Escalate to ownership and launch an aggressive enrollment push immediately",
+            "Wait until the 15th to reassess",
+            "Reduce staff hours to compensate for the lower revenue"
+          ],
+          "correctAnswer": "Escalate to ownership and launch an aggressive enrollment push immediately",
+          "explanation": "85% is the minimum threshold. Falling below it requires an immediate response — ownership notification and a focused enrollment action plan."
+        },
+        {
+          "id": "q10",
+          "question": "What is the primary purpose of the Director Operations Report (DOR)?",
+          "type": "multiple-choice",
+          "options": [
+            "To track staff hours for payroll",
+            "To document the day's operational events, incidents, and key decisions for accountability",
+            "To communicate with parents about their child's day",
+            "To report enrollment numbers to ownership weekly"
+          ],
+          "correctAnswer": "To document the day's operational events, incidents, and key decisions for accountability",
+          "explanation": "The DOR is the director's primary accountability document. It creates a paper trail of the day's events, decisions, and any incidents — critical for licensing, HR, and ownership review."
         }
       ]
     },
@@ -200,7 +368,12 @@
           "id": "q1",
           "question": "How long has Bright Beginnings been serving Charlottesville families?",
           "type": "multiple-choice",
-          "options": ["Since 1990", "Since 1984", "Since 2000", "Since 1975"],
+          "options": [
+            "Since 1990",
+            "Since 1984",
+            "Since 2000",
+            "Since 1975"
+          ],
           "correctAnswer": "Since 1984",
           "explanation": "Bright Beginnings has been locally owned since 1984 — making us Charlottesville's #1 Preschool for 41 years. This is a key differentiator and should be mentioned on every tour."
         },
@@ -208,7 +381,12 @@
           "id": "q2",
           "question": "What is the referral bonus for a current family who refers a new enrolling family?",
           "type": "multiple-choice",
-          "options": ["1 week free tuition", "2 weeks free tuition (oldest child)", "$50 credit", "$100 gift card"],
+          "options": [
+            "1 week free tuition",
+            "2 weeks free tuition (oldest child)",
+            "$50 credit",
+            "$100 gift card"
+          ],
           "correctAnswer": "2 weeks free tuition (oldest child)",
           "explanation": "Referring families receive 2 weeks of complimentary tuition for their oldest child once the referred family completes 30 days. This is one of the most powerful enrollment tools we have — remind current families about it regularly."
         },
@@ -223,9 +401,86 @@
           "id": "q4",
           "question": "Which of the following is NOT one of Bright Beginnings' six core values?",
           "type": "multiple-choice",
-          "options": ["Trust", "Excellence", "Nurture", "Play"],
+          "options": [
+            "Trust",
+            "Excellence",
+            "Nurture",
+            "Play"
+          ],
           "correctAnswer": "Excellence",
           "explanation": "The six core values are: Trust, Nurture, Family, Learn, Play, Communicate — sprinkled with kindness. 'Excellence' is not one of them. The values reflect relationship and community, not performance metrics."
+        },
+        {
+          "id": "q5",
+          "question": "What year was Bright Beginnings founded?",
+          "type": "multiple-choice",
+          "options": [
+            "1978",
+            "1984",
+            "1991",
+            "2002"
+          ],
+          "correctAnswer": "1984",
+          "explanation": "Bright Beginnings was founded in 1984 and has been serving Charlottesville-area families for over 40 years — the longest-running family-owned preschool in the area."
+        },
+        {
+          "id": "q6",
+          "question": "How many Bright Beginnings locations are currently operating?",
+          "type": "multiple-choice",
+          "options": [
+            "Two",
+            "Three",
+            "Four",
+            "Five"
+          ],
+          "correctAnswer": "Three",
+          "explanation": "Bright Beginnings operates three locations: Forest Lakes, Mill Creek, and Crozet."
+        },
+        {
+          "id": "q7",
+          "question": "What is the referral bonus for a current STAFF member who refers a new staff hire who completes 90 days?",
+          "type": "multiple-choice",
+          "options": [
+            "$25",
+            "$50",
+            "$100",
+            "$150"
+          ],
+          "correctAnswer": "$50",
+          "explanation": "Staff receive a $50 referral bonus when a person they referred is hired and completes 90 days of employment. The bonus is paid at the 90-day mark."
+        },
+        {
+          "id": "q8",
+          "question": "True or False: Bright Beginnings' core values include a commitment to never turning away a family for inability to pay.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "While BB values serving the community, an open-ended commitment to never turn away families for financial reasons is not one of the stated core values. Financial sustainability is essential to serving families well."
+        },
+        {
+          "id": "q9",
+          "question": "Which of the following best describes the Bright Beginnings Career Ladder?",
+          "type": "multiple-choice",
+          "options": [
+            "A pay scale based solely on years of service",
+            "A structured progression from Substitute to Lead Teacher based on credentials, performance, and tenure",
+            "A management track for directors only",
+            "An annual merit review with no defined steps"
+          ],
+          "correctAnswer": "A structured progression from Substitute to Lead Teacher based on credentials, performance, and tenure",
+          "explanation": "The Career Ladder defines a clear path from Substitute → Teacher's Aide → Teacher → Lead Teacher, based on a combination of credentials, performance ratings, and time in role."
+        },
+        {
+          "id": "q10",
+          "question": "The Bright Beginnings philosophy centers on which core belief about early childhood?",
+          "type": "multiple-choice",
+          "options": [
+            "Academic readiness is the primary goal for all children under 5",
+            "Children learn best through structured, teacher-led instruction",
+            "Play is children's work — learning happens through doing, exploring, and relationships",
+            "Social-emotional learning is less important than pre-reading skills"
+          ],
+          "correctAnswer": "Play is children's work — learning happens through doing, exploring, and relationships",
+          "explanation": "BB's core educational philosophy is play-based learning. Children at this age learn most effectively through hands-on exploration, social interaction, and guided play — not seat work or direct instruction."
         }
       ]
     },
@@ -249,7 +504,12 @@
           "id": "q1",
           "question": "Where should a director be working during drop-off and pick-up?",
           "type": "multiple-choice",
-          "options": ["In the office completing the DOR", "At the front lobby desk", "Circulating between classrooms only", "Wherever they're most needed that day"],
+          "options": [
+            "In the office completing the DOR",
+            "At the front lobby desk",
+            "Circulating between classrooms only",
+            "Wherever they're most needed that day"
+          ],
           "correctAnswer": "At the front lobby desk",
           "explanation": "Directors must be visible at drop-off and pick-up, working from the front lobby desk. The office is for private meetings only. Your presence in the lobby builds parent trust and keeps the energy of arrival/dismissal positive."
         },
@@ -257,7 +517,12 @@
           "id": "q2",
           "question": "By what time must all labor be entered into ProCare each week?",
           "type": "multiple-choice",
-          "options": ["Thursday noon", "Friday 5 PM", "Friday at midnight", "Monday morning before opening"],
+          "options": [
+            "Thursday noon",
+            "Friday 5 PM",
+            "Friday at midnight",
+            "Monday morning before opening"
+          ],
           "correctAnswer": "Friday 5 PM",
           "explanation": "All labor must be entered into ProCare by Friday at 5 PM — no exceptions. All new staff information must also be fully entered by this deadline. This is a hard rule."
         },
@@ -272,9 +537,80 @@
           "id": "q4",
           "question": "What should you do when a non-employee visitor arrives at your center?",
           "type": "multiple-choice",
-          "options": ["Welcome them in and have them sign the clipboard", "Require photo ID, photograph it, and have them sign the clipboard", "Call admin before allowing entry", "Deny entry unless pre-approved by admin"],
+          "options": [
+            "Welcome them in and have them sign the clipboard",
+            "Require photo ID, photograph it, and have them sign the clipboard",
+            "Call admin before allowing entry",
+            "Deny entry unless pre-approved by admin"
+          ],
           "correctAnswer": "Require photo ID, photograph it, and have them sign the clipboard",
           "explanation": "Non-employees and former staff must show photo ID before entering. You photograph the ID and have them sign in/out on the lobby clipboard. Tours and visitors also may not take photographs inside the building. This protects children and staff."
+        },
+        {
+          "id": "q5",
+          "question": "By what day and time are staff lesson plans due each week?",
+          "type": "multiple-choice",
+          "options": [
+            "Monday at 8:00 AM",
+            "Wednesday at 5:00 PM",
+            "Thursday by end of day",
+            "Friday at 3:00 PM"
+          ],
+          "correctAnswer": "Thursday by end of day",
+          "explanation": "Lesson plans are due every Thursday for the following week — one full week in advance. A plan handed in Monday morning for the current week is late."
+        },
+        {
+          "id": "q6",
+          "question": "True or False: Staff may keep personal food and drinks in the classroom refrigerator without labeling them.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "All personal food items must be clearly labeled with the staff member's name. Unlabeled items in shared refrigerators create sanitation and allergen risks."
+        },
+        {
+          "id": "q7",
+          "question": "What is the correct procedure when a non-employee walks in without an appointment?",
+          "type": "multiple-choice",
+          "options": [
+            "Ask them to wait in the lobby and let the teacher know",
+            "Require photo ID, photograph it, and have them sign the visitor log before proceeding",
+            "Call the parent to verify and then allow entry",
+            "Offer them a tour if they seem interested in enrolling"
+          ],
+          "correctAnswer": "Require photo ID, photograph it, and have them sign the visitor log before proceeding",
+          "explanation": "All non-employees must show photo ID, have it photographed, and sign the visitor log before entering the center. No exceptions — even for delivery drivers."
+        },
+        {
+          "id": "q8",
+          "question": "Nothing may be posted on walls or doors without whose approval?",
+          "type": "multiple-choice",
+          "options": [
+            "The lead teacher's approval",
+            "Parent committee approval",
+            "The director's approval",
+            "Ownership's approval"
+          ],
+          "correctAnswer": "The director's approval",
+          "explanation": "All postings — in classrooms, hallways, and on doors — require director approval before going up. This maintains the professional environment and brand standards."
+        },
+        {
+          "id": "q9",
+          "question": "Where must staff cell phones be kept during their work shift?",
+          "type": "multiple-choice",
+          "options": [
+            "In the classroom on silent",
+            "In their back pocket on vibrate only",
+            "Locked away — not on their person during childcare hours",
+            "In the break room during their classroom time"
+          ],
+          "correctAnswer": "Locked away — not on their person during childcare hours",
+          "explanation": "Cell phones must be locked away — not in a pocket, apron, or bag accessible to staff during classroom hours. Presence of the phone itself creates distraction risk."
+        },
+        {
+          "id": "q10",
+          "question": "True or False: A director may skip completing the DOR on a day when nothing significant happened.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "The DOR is completed every single operating day — there are no exceptions. Even uneventful days must be documented. \"Nothing to report\" is not a DOR."
         }
       ]
     },
@@ -363,6 +699,59 @@
           "type": "true-false",
           "correctAnswer": "False",
           "explanation": "False. If the director covers a missed duty, they teach staff that someone else will handle it — making the system permanently unreliable. The correct response is to address the gap directly with the responsible staff member, document it in ProCare, and enforce the system. The duty system only works when it's enforced, not worked around."
+        },
+        {
+          "id": "q6",
+          "question": "A staff member hasn't submitted a Tadpoles note for three days. What is the correct sequence of actions?",
+          "type": "multiple-choice",
+          "options": [
+            "Wait until the monthly review to address it",
+            "Send a group reminder to all staff via GroupMe",
+            "Have a direct private conversation immediately, document it, and set a clear expectation with a follow-up date",
+            "Write a formal warning letter without first having a conversation"
+          ],
+          "correctAnswer": "Have a direct private conversation immediately, document it, and set a clear expectation with a follow-up date",
+          "explanation": "Persistent missed Tadpoles notes are addressed directly and privately. Group messages dilute accountability. The conversation must be documented in ProCare."
+        },
+        {
+          "id": "q7",
+          "question": "True or False: A director should complete a task a staff member repeatedly fails to do, in order to maintain center standards.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "Directors doing staff work removes accountability and creates dependency. The correct response is to address the performance issue directly through coaching and documentation — not to absorb the task."
+        },
+        {
+          "id": "q8",
+          "question": "A classroom has no current lesson plan posted as of Friday morning. What should you do?",
+          "type": "multiple-choice",
+          "options": [
+            "Post a generic template yourself so the room is covered",
+            "Find the lead teacher before they leave and require the plan be submitted today",
+            "Contact the parent committee for guidance",
+            "Note it in the DOR and address it next week"
+          ],
+          "correctAnswer": "Find the lead teacher before they leave and require the plan be submitted today",
+          "explanation": "Lesson plans are due Thursday. By Friday morning you should be having a direct conversation and getting the plan submitted before end of day — not absorbing the work or waiting another week."
+        },
+        {
+          "id": "q9",
+          "question": "What is the \"Dream Team\" event and how often does it occur?",
+          "type": "multiple-choice",
+          "options": [
+            "A monthly staff performance review meeting",
+            "A quarterly all-hands cleaning and reorganizing event",
+            "A bi-weekly team-building activity for lead teachers",
+            "An annual award ceremony for top-rated staff"
+          ],
+          "correctAnswer": "A quarterly all-hands cleaning and reorganizing event",
+          "explanation": "Dream Team events happen quarterly and involve all staff in deep cleaning and reorganizing the center. They build team cohesion while maintaining facility standards."
+        },
+        {
+          "id": "q10",
+          "question": "True or False: The director's personal behavior in managing their own time and presence directly affects staff culture.",
+          "type": "true-false",
+          "correctAnswer": "True",
+          "explanation": "Directors model the culture. A director who is consistently present, organized, and accountable creates those same expectations on the floor. A director who is late, scattered, or disengaged signals those behaviors are acceptable."
         }
       ]
     }

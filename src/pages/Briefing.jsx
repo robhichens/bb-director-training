@@ -1,8 +1,12 @@
-import { useMemo } from 'react'
-import { motion } from 'framer-motion'
+import { useState, useCallback, useMemo } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
 import { useAuth } from '../context/AuthContext'
 import { useBirdie } from '../context/BirdieContext'
-import { getTipsGrouped } from '../lib/tipEngine'
+import { getRightNowTips, getTodayTips, getAllMonthTips } from '../lib/tipEngine'
+import {
+  isChecked, checkTask, uncheckTask,
+  getAllChecked, formatCheckedAt, formatCheckedAtFull,
+} from '../lib/taskStore'
 import styles from './Briefing.module.css'
 
 const DAY_NAMES   = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
@@ -15,86 +19,205 @@ function greeting(hour) {
   return 'Good evening'
 }
 
-function monthSeasonLabel(month) {
-  // month is 1-based
-  const labels = {
-    1: '❄️ January Focus',  2: '💝 February Focus', 3: '🌸 March Focus',
-    4: '🌷 April Focus',    5: '🏆 May Focus',       6: '☀️ June Focus',
-    7: '🌴 July Focus',     8: '🎒 August Focus',    9: '🍂 September Focus',
-    10: '🎃 October Focus', 11: '🦃 November Focus', 12: '🎄 December Focus',
-  }
-  return labels[month] ?? 'This Season'
-}
-
-function TipCard({ tip, onAskBirdie }) {
+// ── TipModal ─────────────────────────────────────────────────────────────
+function TipModal({ tip, scope, checked, checkedAt, onCheck, onAskBirdie, onClose }) {
   return (
-    <motion.div
-      className={`${styles.tipCard} ${styles[tip.urgency]}`}
-      initial={{ opacity: 0, y: 8 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ duration: 0.22 }}
-    >
-      <div className={styles.tipTop}>
-        <h3 className={styles.tipTitle}>{tip.title}</h3>
-        <span className={`${styles.urgencyBadge} ${styles[tip.urgency]}`}>
-          {tip.urgency === 'high' ? '🔴 Urgent' : tip.urgency === 'medium' ? '🟡 Today' : '🟢 FYI'}
-        </span>
-      </div>
-      <p className={styles.tipBody}>{tip.body}</p>
-      <div className={styles.tipFooter}>
-        <span className={styles.categoryTag}>{tip.category}</span>
-        <button
-          className={styles.askBirdieBtn}
-          onClick={() => onAskBirdie(tip.birdiePrompt)}
-          aria-label={`Ask Birdie about: ${tip.title}`}
+    <AnimatePresence>
+      <motion.div
+        className={styles.modalOverlay}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        exit={{ opacity: 0 }}
+        transition={{ duration: 0.18 }}
+        onClick={onClose}
+      >
+        <motion.div
+          className={styles.modal}
+          initial={{ opacity: 0, y: 24, scale: 0.97 }}
+          animate={{ opacity: 1, y: 0, scale: 1 }}
+          exit={{ opacity: 0, y: 24, scale: 0.97 }}
+          transition={{ duration: 0.22, ease: 'easeOut' }}
+          onClick={e => e.stopPropagation()}
         >
-          <img src="/images/bird-coral.png" alt="" className={styles.birdieIcon} />
-          Ask Birdie →
-        </button>
-      </div>
-    </motion.div>
+          {/* Header */}
+          <div className={styles.modalHeader}>
+            <div className={styles.modalMeta}>
+              <span className={`${styles.urgencyDot} ${styles[tip.urgency]}`} />
+              <span className={styles.modalCategory}>{tip.category}</span>
+            </div>
+            <button className={styles.modalClose} onClick={onClose} aria-label="Close">✕</button>
+          </div>
+
+          {/* Title + body */}
+          <h2 className={styles.modalTitle}>{tip.title}</h2>
+          <p className={styles.modalBody}>{tip.body}</p>
+
+          {/* Task tracker */}
+          {tip.trackable && (
+            <div className={`${styles.taskRow} ${checked ? styles.taskDone : ''}`}>
+              <label className={styles.taskLabel}>
+                <input
+                  type="checkbox"
+                  className={styles.taskCheck}
+                  checked={checked}
+                  onChange={() => {
+                    onCheck(tip.id, scope, checked)
+                    if (!checked) setTimeout(onClose, 280)
+                  }}
+                />
+                <span className={styles.taskText}>
+                  {checked
+                    ? `Completed at ${scope === 'daily' ? formatCheckedAt(checkedAt) : formatCheckedAtFull(checkedAt)}`
+                    : 'Mark as completed'}
+                </span>
+              </label>
+            </div>
+          )}
+
+          {/* Ask Birdie */}
+          <button
+            className={styles.modalBirdieBtn}
+            onClick={() => { onAskBirdie(tip.birdiePrompt); onClose() }}
+          >
+            <img src="/images/bird-coral.png" alt="" className={styles.modalBirdieIcon} />
+            Ask Birdie
+          </button>
+        </motion.div>
+      </motion.div>
+    </AnimatePresence>
   )
 }
 
-function SectionGroup({ emoji, label, tips, onAskBirdie, emptyText }) {
+// ── TipTile ───────────────────────────────────────────────────────────────
+function TipTile({ tip, scope, checked, onOpen }) {
   return (
-    <div className={styles.sectionGroup}>
-      <p className={styles.sectionLabel}>
-        <span className={styles.sectionLabelEmoji}>{emoji}</span>
-        {label}
-      </p>
-      {tips.length === 0 ? (
-        <div className={styles.emptyCard}>{emptyText}</div>
-      ) : (
-        tips.map(tip => (
-          <TipCard key={tip.id} tip={tip} onAskBirdie={onAskBirdie} />
-        ))
+    <motion.button
+      className={`${styles.tile} ${styles[tip.urgency]} ${checked ? styles.tileDone : ''}`}
+      onClick={() => onOpen(tip, scope)}
+      initial={{ opacity: 0, y: 6 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.2 }}
+      aria-label={tip.title}
+    >
+      <div className={styles.tileAccent} />
+      {checked && <span className={styles.tileTick}>✓</span>}
+      <p className={styles.tileTitle}>{tip.title}</p>
+      <span className={styles.tileCat}>{tip.category}</span>
+    </motion.button>
+  )
+}
+
+// ── NotCompletedBar ───────────────────────────────────────────────────────
+function NotCompletedBar({ tip, scope, onOpen }) {
+  return (
+    <motion.button
+      className={styles.ncBar}
+      onClick={() => onOpen(tip, scope)}
+      initial={{ opacity: 0, x: -6 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ duration: 0.18 }}
+    >
+      <span className={`${styles.ncDot} ${styles[tip.urgency]}`} />
+      <span className={styles.ncTitle}>{tip.title}</span>
+      <span className={styles.ncCat}>{tip.category}</span>
+      <span className={styles.ncArrow}>→</span>
+    </motion.button>
+  )
+}
+
+// ── SectionHeading ────────────────────────────────────────────────────────
+function SectionHeading({ emoji, label, count, doneCount }) {
+  const allDone = count > 0 && doneCount === count
+  return (
+    <div className={styles.sectionHead}>
+      <span className={styles.sectionEmoji}>{emoji}</span>
+      <h2 className={styles.sectionLabel}>{label}</h2>
+      {count > 0 && (
+        <span className={`${styles.sectionCount} ${allDone ? styles.sectionCountDone : ''}`}>
+          {allDone ? 'Done!' : `${doneCount}/${count}`}
+        </span>
       )}
     </div>
   )
 }
 
+// ── TileGrid ──────────────────────────────────────────────────────────────
+function TileGrid({ tips, scope, checked, onOpen }) {
+  if (tips.length === 0) return null
+  return (
+    <div className={styles.tileGrid}>
+      {tips.map(tip => (
+        <TipTile
+          key={tip.id}
+          tip={tip}
+          scope={scope}
+          checked={!!checked[tip.id]?.checked}
+          onOpen={onOpen}
+        />
+      ))}
+    </div>
+  )
+}
+
+// ── Main Page ─────────────────────────────────────────────────────────────
 export default function Briefing() {
   const { user }           = useAuth()
   const { openWithPrompt } = useBirdie()
 
-  const now       = new Date()
+  const now       = useMemo(() => new Date(), [])
   const hour      = now.getHours()
   const dayName   = DAY_NAMES[now.getDay()]
   const monthName = MONTH_NAMES[now.getMonth()]
   const dateNum   = now.getDate()
-  const month     = now.getMonth() + 1
 
   const firstName = user?.name?.split(' ')[0] ?? 'Director'
 
-  const grouped = useMemo(() => getTipsGrouped(now), [])  // stable per render
+  // Tips
+  const rightNowTips = useMemo(() => getRightNowTips(now), [now])
+  const todayTips    = useMemo(() => getTodayTips(now), [now])
+  const monthTips    = useMemo(() => getAllMonthTips(), [])
 
-  const totalTips = grouped.rightNow.length + grouped.today.length +
-                    grouped.thisMonth.length + grouped.thisSeason.length
+  // Task state — refreshed on every toggle
+  const [tick, setTick] = useState(0)  // increment to force re-read
+  const dailyChecked  = useMemo(() => getAllChecked('daily'),   [tick])   // eslint-disable-line
+  const monthlyChecked = useMemo(() => getAllChecked('monthly'), [tick])  // eslint-disable-line
+
+  // Modal
+  const [modalTip, setModalTip]     = useState(null)
+  const [modalScope, setModalScope] = useState(null)
+
+  const openModal = useCallback((tip, scope) => {
+    setModalTip(tip)
+    setModalScope(scope)
+  }, [])
+
+  const closeModal = useCallback(() => {
+    setModalTip(null)
+    setModalScope(null)
+  }, [])
+
+  function handleCheck(tipId, scope, currentlyChecked) {
+    if (currentlyChecked) uncheckTask(tipId, scope)
+    else checkTask(tipId, scope)
+    setTick(t => t + 1)
+  }
 
   function handleAskBirdie(prompt) {
     openWithPrompt(prompt)
   }
+
+  // Not Completed: trackable tips that aren't checked
+  const ncToday = todayTips.filter(t => t.trackable && !dailyChecked[t.id]?.checked)
+  const ncMonth = monthTips.filter(t => !monthlyChecked[t.id]?.checked)
+  const hasNC   = ncToday.length > 0 || ncMonth.length > 0
+
+  // Counts for section headers
+  const todayDone  = todayTips.filter(t => t.trackable && !!dailyChecked[t.id]?.checked).length
+  const todayTotal = todayTips.filter(t => t.trackable).length
+  const monthDone  = monthTips.filter(t => !!monthlyChecked[t.id]?.checked).length
+
+  const totalTrackable = todayTotal + monthTips.length
+  const totalDone      = todayDone + monthDone
 
   return (
     <div className={styles.page}>
@@ -106,84 +229,97 @@ export default function Briefing() {
         transition={{ duration: 0.3 }}
       >
         <div className={styles.heroText}>
-          <h1 className={styles.heroTitle}>
-            {greeting(hour)}, {firstName}
-          </h1>
+          <h1 className={styles.heroTitle}>{greeting(hour)}, {firstName}</h1>
           <p className={styles.heroSub}>
-            {dayName}, {monthName} {dateNum} &nbsp;·&nbsp;
-            {totalTips > 0
-              ? `${totalTips} item${totalTips !== 1 ? 's' : ''} relevant right now`
-              : 'All clear — nothing urgent at this moment'}
+            {dayName}, {monthName} {dateNum}
+            {totalTrackable > 0 && (
+              <> &nbsp;·&nbsp; {totalDone} of {totalTrackable} tasks done</>
+            )}
           </p>
         </div>
-        <img src="/images/bird-coral.png" alt="Birdie" className={styles.heroBird}
+        <img src="/images/bird-coral.png" alt="" className={styles.heroBird}
           style={{ filter: 'brightness(0) invert(1)', opacity: 0.8 }} />
       </motion.div>
 
-      {/* All-clear state */}
-      {totalTips === 0 && (
-        <motion.div
-          className={styles.allClear}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.3, delay: 0.1 }}
-        >
-          <img src="/images/bird-coral.png" alt="" className={styles.allClearBird} />
-          <h2 className={styles.allClearTitle}>You're all caught up!</h2>
-          <p className={styles.allClearSub}>
-            No time-sensitive items right now. Check back during active hours or on key dates.
-          </p>
-        </motion.div>
+      {/* ── RIGHT NOW ───────────────────────────────── */}
+      {rightNowTips.length > 0 && (
+        <section className={styles.section}>
+          <SectionHeading emoji="⏰" label="Right Now" count={0} doneCount={0} />
+          <TileGrid tips={rightNowTips} scope="daily" checked={{}} onOpen={openModal} />
+        </section>
       )}
 
-      {/* Tip sections */}
-      {totalTips > 0 && (
-        <motion.div
-          className={styles.sections}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.25, delay: 0.1 }}
-        >
-          {grouped.rightNow.length > 0 && (
-            <SectionGroup
-              emoji="⏰"
-              label="Right Now"
-              tips={grouped.rightNow}
-              onAskBirdie={handleAskBirdie}
-              emptyText="Nothing time-sensitive at the moment."
-            />
+      {/* ── TODAY ───────────────────────────────────── */}
+      {todayTips.length > 0 && (
+        <section className={styles.section}>
+          <SectionHeading
+            emoji="📋"
+            label={`Today — ${dayName}`}
+            count={todayTotal}
+            doneCount={todayDone}
+          />
+          <TileGrid tips={todayTips} scope="daily" checked={dailyChecked} onOpen={openModal} />
+        </section>
+      )}
+
+      {/* ── MONTH FOCUS ─────────────────────────────── */}
+      <section className={styles.section}>
+        <SectionHeading
+          emoji="📅"
+          label={`${monthName} Tasks`}
+          count={monthTips.length}
+          doneCount={monthDone}
+        />
+        <TileGrid tips={monthTips} scope="monthly" checked={monthlyChecked} onOpen={openModal} />
+      </section>
+
+      {/* ── NOT COMPLETED ───────────────────────────── */}
+      {hasNC && (
+        <section className={styles.section}>
+          <div className={styles.sectionHead}>
+            <span className={styles.sectionEmoji}>🚨</span>
+            <h2 className={`${styles.sectionLabel} ${styles.ncLabel}`}>Not Completed</h2>
+          </div>
+
+          {ncToday.length > 0 && (
+            <div className={styles.ncGroup}>
+              <p className={styles.ncSubhead}>Today</p>
+              <div className={styles.ncGrid}>
+                {ncToday.map(tip => (
+                  <NotCompletedBar key={tip.id} tip={tip} scope="daily" onOpen={openModal} />
+                ))}
+              </div>
+            </div>
           )}
 
-          {grouped.today.length > 0 && (
-            <SectionGroup
-              emoji="📋"
-              label={`Today — ${dayName}`}
-              tips={grouped.today}
-              onAskBirdie={handleAskBirdie}
-              emptyText="No specific tasks scheduled for today."
-            />
+          {ncMonth.length > 0 && (
+            <div className={styles.ncGroup}>
+              <p className={styles.ncSubhead}>This Month</p>
+              <div className={styles.ncGrid}>
+                {ncMonth.map(tip => (
+                  <NotCompletedBar key={tip.id} tip={tip} scope="monthly" onOpen={openModal} />
+                ))}
+              </div>
+            </div>
           )}
+        </section>
+      )}
 
-          {grouped.thisMonth.length > 0 && (
-            <SectionGroup
-              emoji="📅"
-              label={`This Month — Day ${dateNum}`}
-              tips={grouped.thisMonth}
-              onAskBirdie={handleAskBirdie}
-              emptyText="No date-specific tasks for today."
-            />
-          )}
-
-          {grouped.thisSeason.length > 0 && (
-            <SectionGroup
-              emoji="🗓"
-              label={monthSeasonLabel(month)}
-              tips={grouped.thisSeason}
-              onAskBirdie={handleAskBirdie}
-              emptyText="No seasonal focus items this month."
-            />
-          )}
-        </motion.div>
+      {/* Modal */}
+      {modalTip && (
+        <TipModal
+          tip={modalTip}
+          scope={modalScope}
+          checked={modalScope === 'daily'
+            ? !!dailyChecked[modalTip.id]?.checked
+            : !!monthlyChecked[modalTip.id]?.checked}
+          checkedAt={modalScope === 'daily'
+            ? dailyChecked[modalTip.id]?.checkedAt
+            : monthlyChecked[modalTip.id]?.checkedAt}
+          onCheck={handleCheck}
+          onAskBirdie={handleAskBirdie}
+          onClose={closeModal}
+        />
       )}
     </div>
   )

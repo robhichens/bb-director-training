@@ -14,6 +14,8 @@ import Module4 from './modules/module4/Module4'
 import Module5 from './modules/module5/Module5'
 import Module6 from './modules/module6/Module6'
 import Module7 from './modules/module7/Module7'
+import Competencies from './pages/Competencies'
+import CompetenciesPrint from './pages/CompetenciesPrint'
 import AdminLogin from './pages/admin/AdminLogin'
 import AdminDashboard from './pages/admin/AdminDashboard'
 import BirdieChat from './components/shared/BirdieChat'
@@ -124,6 +126,20 @@ function AppRoutes() {
             <ModuleLayout><Module7 /></ModuleLayout>
           </ProtectedRoute>
         }
+      />
+
+      <Route
+        path="/competencies"
+        element={
+          <ProtectedRoute>
+            <ModuleLayout><Competencies /></ModuleLayout>
+          </ProtectedRoute>
+        }
+      />
+      {/* Print view — standalone, no sidebar */}
+      <Route
+        path="/competencies/print"
+        element={<ProtectedRoute><CompetenciesPrint /></ProtectedRoute>}
       />
 
       {/* Admin — own layout, no sidebar */}

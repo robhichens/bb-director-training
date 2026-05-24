@@ -6,6 +6,8 @@
  *   section      – 'rightNow' | 'today' | 'thisMonth' | 'thisSeason'
  *   category     – label string
  *   urgency      – 'high' | 'medium' | 'low'
+ *   trackable    – false for time-based (rightNow) tips; true for all others
+ *   scope        – 'daily' (today/season) | 'monthly' (date-based) — set automatically
  *   title        – short headline (emoji prefix encouraged)
  *   body         – 1–3 sentence detail
  *   birdiePrompt – pre-filled question sent to Birdie
@@ -499,20 +501,30 @@ const TIPS = [
   },
 ]
 
+// ── Post-process: stamp every tip with trackable + scope ──────────────
+const PROCESSED_TIPS = TIPS.map(tip => ({
+  ...tip,
+  trackable: tip.triggers.timeStart === undefined, // time-based = not trackable
+  scope: tip.triggers.dates !== undefined ? 'monthly' : 'daily',
+}))
+
+const URGENCY_ORDER = { high: 0, medium: 1, low: 2 }
+
+function urgencySort(a, b) {
+  return URGENCY_ORDER[a.urgency] - URGENCY_ORDER[b.urgency]
+}
+
 /**
- * Returns all tips that apply right now, sorted by urgency (high → medium → low).
- * @param {Date} [now] — inject a date for testing; defaults to current time
+ * Returns all tips that apply right now, sorted high→low urgency.
  */
 export function getTipsForNow(now = new Date()) {
-  const hour      = now.getHours() + now.getMinutes() / 60   // decimal hours
-  const dayOfWeek = now.getDay()                             // 0=Sun
-  const date      = now.getDate()                            // 1–31
-  const month     = now.getMonth() + 1                       // 1–12
+  const hour      = now.getHours() + now.getMinutes() / 60
+  const dayOfWeek = now.getDay()
+  const date      = now.getDate()
+  const month     = now.getMonth() + 1
   const dayOfYear = Math.floor((now - new Date(now.getFullYear(), 0, 0)) / 86400000)
 
-  const URGENCY_ORDER = { high: 0, medium: 1, low: 2 }
-
-  const matched = TIPS.filter(tip => {
+  return PROCESSED_TIPS.filter(tip => {
     const t = tip.triggers
     if (t.timeStart !== undefined) return hour >= t.timeStart && hour < t.timeEnd
     if (t.days)                    return t.days.includes(dayOfWeek)
@@ -520,13 +532,54 @@ export function getTipsForNow(now = new Date()) {
     if (t.months)                  return t.months.includes(month)
     if (t.always)                  return (dayOfYear % 4) === t.rotateIndex
     return false
-  })
-
-  return matched.sort((a, b) => URGENCY_ORDER[a.urgency] - URGENCY_ORDER[b.urgency])
+  }).sort(urgencySort)
 }
 
 /**
- * Returns tips grouped by section.
+ * Right Now tips (time-window, not trackable).
+ */
+export function getRightNowTips(now = new Date()) {
+  const hour = now.getHours() + now.getMinutes() / 60
+  return PROCESSED_TIPS
+    .filter(t => t.triggers.timeStart !== undefined && hour >= t.triggers.timeStart && hour < t.triggers.timeEnd)
+    .sort(urgencySort)
+}
+
+/**
+ * Today tips: day-of-week + always-rotating + month-based seasonal.
+ * Trackable with daily scope.
+ */
+export function getTodayTips(now = new Date()) {
+  const dayOfWeek = now.getDay()
+  const month     = now.getMonth() + 1
+  const dayOfYear = Math.floor((now - new Date(now.getFullYear(), 0, 0)) / 86400000)
+
+  return PROCESSED_TIPS.filter(tip => {
+    const t = tip.triggers
+    if (t.days)   return t.days.includes(dayOfWeek)
+    if (t.months) return t.months.includes(month)
+    if (t.always) return (dayOfYear % 4) === t.rotateIndex
+    return false
+  }).sort(urgencySort)
+}
+
+/**
+ * All date-triggered tips for Month Focus — every tip with a `dates` trigger,
+ * sorted by date number then urgency. Trackable with monthly scope.
+ */
+export function getAllMonthTips() {
+  return PROCESSED_TIPS
+    .filter(tip => tip.triggers.dates !== undefined)
+    .sort((a, b) => {
+      const aDate = a.triggers.dates[0]
+      const bDate = b.triggers.dates[0]
+      if (aDate !== bDate) return aDate - bDate
+      return urgencySort(a, b)
+    })
+}
+
+/**
+ * Legacy grouped export — still used by Dashboard tip count.
  */
 export function getTipsGrouped(now = new Date()) {
   const tips = getTipsForNow(now)

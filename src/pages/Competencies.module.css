@@ -1,0 +1,109 @@
+@import '../styles/variables.css';
+
+.page {
+  max-width: 860px;
+  padding-bottom: 72px;
+}
+
+/* ── Hero ────────────────────────────────────────────────── */
+.hero {
+  background: linear-gradient(135deg, var(--bb-coral) 0%, #e87060 100%);
+  border-radius: var(--card-radius);
+  padding: 22px 28px 20px;
+  margin-bottom: 24px;
+  color: var(--bb-white);
+}
+
+.heroTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.heroTitle {
+  font-family: 'Fredoka One', cursive;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0 0 4px;
+  color: var(--bb-white);
+}
+
+.heroSub {
+  font-size: 12px;
+  margin: 0;
+  opacity: 0.9;
+}
+
+.heroActions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.actionBtn {
+  font-family: var(--font-body);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 14px;
+  border-radius: 99px;
+  border: 1.5px solid rgba(255,255,255,0.7);
+  background: rgba(255,255,255,0.15);
+  color: var(--bb-white);
+  cursor: pointer;
+  transition: background-color var(--transition), border-color var(--transition);
+  white-space: nowrap;
+}
+.actionBtn:hover {
+  background: rgba(255,255,255,0.28);
+  border-color: rgba(255,255,255,0.95);
+}
+.actionBtnReset {
+  border-color: rgba(255,255,255,0.4);
+  background: rgba(255,255,255,0.08);
+}
+
+/* ── Progress bar ────────────────────────────────────────── */
+.progressWrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.progressTrack {
+  flex: 1;
+  height: 8px;
+  background: rgba(255,255,255,0.3);
+  border-radius: 99px;
+  overflow: hidden;
+}
+
+.progressFill {
+  height: 100%;
+  background: var(--bb-white);
+  border-radius: 99px;
+  transition: width 0.4s ease;
+}
+
+.progressLabel {
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  opacity: 0.9;
+}
+
+/* ── Categories ──────────────────────────────────────────── */
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+/* ── Responsive ──────────────────────────────────────────── */
+@media (max-width: 600px) {
+  .heroTop { flex-direction: column; gap: 12px; }
+  .heroActions { width: 100%; }
+  .actionBtn { flex: 1; text-align: center; }
+  .hero { padding: 18px 20px 16px; }
+}

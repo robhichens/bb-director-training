@@ -1,6 +1,8 @@
-import { NavLink, useNavigate, useLocation } from 'react-router-dom'
+import { useNavigate, useLocation } from 'react-router-dom'
+import { useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useProgress } from '../../context/ProgressContext'
+import { getQuickPct } from '../../utils/competencyTracker'
 import styles from './Sidebar.module.css'
 
 const MODULES = [
@@ -36,7 +38,9 @@ export default function Sidebar({ open, onClose }) {
     onClose?.()
   }
 
-  const onBriefing = location.pathname === '/briefing'
+  const onBriefing     = location.pathname === '/briefing'
+  const onCompetencies = location.pathname.startsWith('/competencies')
+  const competencyPct  = useMemo(() => getQuickPct(), [])
 
   return (
     <>
@@ -60,7 +64,7 @@ export default function Sidebar({ open, onClose }) {
           <button className={styles.closeBtn} onClick={onClose} aria-label="Close menu">✕</button>
         </div>
 
-        {/* Daily Brief quick-link */}
+        {/* Quick links */}
         <div className={styles.quickLinks}>
           <button
             className={`${styles.quickBtn} ${onBriefing ? styles.quickActive : ''}`}
@@ -68,6 +72,16 @@ export default function Sidebar({ open, onClose }) {
           >
             <span className={styles.quickIcon}>📋</span>
             <span className={styles.quickLabel}>Daily Brief</span>
+          </button>
+          <button
+            className={`${styles.quickBtn} ${onCompetencies ? styles.quickActive : ''}`}
+            onClick={() => handleNavClick('/competencies')}
+          >
+            <span className={styles.quickIcon}>✅</span>
+            <span className={styles.quickLabel}>Competency Tracker</span>
+            {competencyPct > 0 && (
+              <span className={styles.quickBadge}>{competencyPct}%</span>
+            )}
           </button>
         </div>
 

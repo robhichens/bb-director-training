@@ -24,7 +24,12 @@
           "id": "q1",
           "question": "What is the absolute latest time the Parent AM Message must be sent via Tadpoles?",
           "type": "multiple-choice",
-          "options": ["9:00 AM", "9:15 AM", "9:30 AM", "10:00 AM"],
+          "options": [
+            "9:00 AM",
+            "9:15 AM",
+            "9:30 AM",
+            "10:00 AM"
+          ],
           "correctAnswer": "9:15 AM",
           "explanation": "The parent AM Tadpoles message goes out every single day, no exceptions, by 9:15 AM at the latest. This is a daily non-negotiable — consistency builds parent trust and shows the center is organized and running well."
         },
@@ -39,7 +44,12 @@
           "id": "q3",
           "question": "During the 7:30–9:00 AM drop-off window, where should the director be?",
           "type": "multiple-choice",
-          "options": ["At their desk completing admin tasks", "On the floor greeting families and staff", "In the break room preparing parent treats", "In their office monitoring cameras"],
+          "options": [
+            "At their desk completing admin tasks",
+            "On the floor greeting families and staff",
+            "In the break room preparing parent treats",
+            "In their office monitoring cameras"
+          ],
           "correctAnswer": "On the floor greeting families and staff",
           "explanation": "You are NOT at your desk 7:00–9:00 AM. This is high-visibility time. Use the Disney World approach: greet every parent and child by name, and walk with at least 50% of families to their child's room. Admin tasks happen after 9:30."
         },
@@ -47,9 +57,80 @@
           "id": "q4",
           "question": "How much classroom time should a director spend in each room per day, minimum?",
           "type": "multiple-choice",
-          "options": ["5 minutes", "10 minutes", "15 minutes", "30 minutes"],
+          "options": [
+            "5 minutes",
+            "10 minutes",
+            "15 minutes",
+            "30 minutes"
+          ],
           "correctAnswer": "15 minutes",
           "explanation": "Minimum 15 minutes per room per day — observing, encouraging, and briefly coaching. This isn't optional supervision; it's relationship-building, quality monitoring, and coaching all at once. Skipping rooms is the fastest way to lose touch with what's actually happening in your center."
+        },
+        {
+          "id": "q5",
+          "question": "At what time should the center voicemail be updated each month?",
+          "type": "multiple-choice",
+          "options": [
+            "Every Monday morning",
+            "The first of each month",
+            "Whenever a major policy changes",
+            "At the start of each new enrollment season"
+          ],
+          "correctAnswer": "The first of each month",
+          "explanation": "The voicemail is updated on Day 1 of each month to reflect current hours, upcoming events, and any relevant announcements."
+        },
+        {
+          "id": "q6",
+          "question": "True or False: A director must be present to open the center every day it operates.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "A qualified lead teacher or designated opener may open the center. However, the director must be reachable and must have systems in place to ensure the opening checklist is followed correctly."
+        },
+        {
+          "id": "q7",
+          "question": "What time does the core director workday typically begin?",
+          "type": "multiple-choice",
+          "options": [
+            "6:30 AM",
+            "7:30 AM",
+            "8:00 AM",
+            "8:30 AM"
+          ],
+          "correctAnswer": "7:30 AM",
+          "explanation": "Directors are expected on-site by 7:30 AM to oversee morning drop-off. The first 90 minutes of the day set the tone for everything that follows."
+        },
+        {
+          "id": "q8",
+          "question": "When should a director personally call a new family for a first-day check-in call?",
+          "type": "multiple-choice",
+          "options": [
+            "Day 1, within 30 minutes of drop-off",
+            "End of Day 1 after the child leaves",
+            "Day 2 of attendance",
+            "At the end of the first full week"
+          ],
+          "correctAnswer": "Day 2 of attendance",
+          "explanation": "The director personally calls the new family on Day 2 to check in on the transition. Day 1 gets a 30-minute staff text; Day 2 is the director's personal outreach call."
+        },
+        {
+          "id": "q9",
+          "question": "What is the required frequency for fire drills at a Virginia childcare center?",
+          "type": "multiple-choice",
+          "options": [
+            "Annually",
+            "Semi-annually",
+            "Monthly",
+            "Quarterly"
+          ],
+          "correctAnswer": "Monthly",
+          "explanation": "Virginia licensing requires fire drills to be conducted monthly. Each drill must be logged with the date, time, evacuation time, and number of children present."
+        },
+        {
+          "id": "q10",
+          "question": "True or False: The afternoon closing checklist is the lead teacher's responsibility — directors do not need to verify it.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "Directors own the daily checklists. While lead teachers execute many closing duties, the director is responsible for verifying that all items are completed before locking up."
         }
       ]
     },
@@ -150,7 +231,12 @@
           "id": "q1",
           "question": "By what day and time must all labor be entered into ProCare?",
           "type": "multiple-choice",
-          "options": ["Thursday noon", "Friday 5:00 PM", "Friday midnight", "Monday morning"],
+          "options": [
+            "Thursday noon",
+            "Friday 5:00 PM",
+            "Friday midnight",
+            "Monday morning"
+          ],
           "correctAnswer": "Friday 5:00 PM",
           "explanation": "All labor must be entered into ProCare by Friday at 5:00 PM — no exceptions. All new staff information must also be fully entered by this same deadline. This is a hard rule that affects payroll and compliance across the organization."
         },
@@ -158,7 +244,12 @@
           "id": "q2",
           "question": "The Director Packet is due on which day each week?",
           "type": "multiple-choice",
-          "options": ["Monday", "Wednesday", "Thursday", "Friday"],
+          "options": [
+            "Monday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
           "correctAnswer": "Thursday",
           "explanation": "The Director Packet is due every Thursday. If it won't be complete by Thursday, you notify admin immediately — you don't wait for Friday. The packet includes enrollment numbers, labor status, incident logs, the following week's schedule, and any compliance items."
         },
@@ -173,9 +264,80 @@
           "id": "q4",
           "question": "What is the purpose of the Friday 'wins email' to staff?",
           "type": "multiple-choice",
-          "options": ["To summarize enrollment numbers", "To recognize specific staff contributions from the week", "To announce next week's schedule", "To remind staff of Monday duties"],
+          "options": [
+            "To summarize enrollment numbers",
+            "To recognize specific staff contributions from the week",
+            "To announce next week's schedule",
+            "To remind staff of Monday duties"
+          ],
           "correctAnswer": "To recognize specific staff contributions from the week",
           "explanation": "The Friday wins email is a culture-building tool — it names specific staff members and specific things they did well that week. Vague praise ('great week everyone!') doesn't build culture. Named, specific recognition ('Ms. Tamara — thank you for staying late Tuesday when we had a call-out') does."
+        },
+        {
+          "id": "q5",
+          "question": "By what time must the Wednesday maintenance list be emailed each week?",
+          "type": "multiple-choice",
+          "options": [
+            "9:00 AM",
+            "12:00 PM",
+            "3:00 PM",
+            "5:00 PM"
+          ],
+          "correctAnswer": "12:00 PM",
+          "explanation": "The weekly maintenance list must be sent to robhichens84@gmail.com by 12:00 PM every Wednesday — not end of day."
+        },
+        {
+          "id": "q6",
+          "question": "What happens to paychecks on Thursday and when are they distributed?",
+          "type": "multiple-choice",
+          "options": [
+            "Paychecks are left in staff mailboxes before 3 PM",
+            "Paychecks are held at the front desk and distributed to each employee directly after 5 PM",
+            "Paychecks are mailed directly to staff home addresses",
+            "Staff pick up checks from the admin office anytime Thursday"
+          ],
+          "correctAnswer": "Paychecks are held at the front desk and distributed to each employee directly after 5 PM",
+          "explanation": "Paychecks are held at the front desk on Thursdays and distributed directly to each employee — after 5 PM. They are never left in mailboxes or given to another staff member."
+        },
+        {
+          "id": "q7",
+          "question": "True or False: The Friday \"wins email\" is optional and only sent during strong performance weeks.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "The Friday wins email is sent every week without exception. Consistent positive recognition is a culture-building tool — it shouldn't only appear when things go well."
+        },
+        {
+          "id": "q8",
+          "question": "What is the purpose of the mid-week overtime check on Wednesdays?",
+          "type": "multiple-choice",
+          "options": [
+            "To approve overtime for that week in advance",
+            "To identify staff approaching 40 hours so schedules can be adjusted before Friday",
+            "To calculate the weekly labor percentage for the Director Packet",
+            "To confirm all staff have taken their required meal breaks"
+          ],
+          "correctAnswer": "To identify staff approaching 40 hours so schedules can be adjusted before Friday",
+          "explanation": "Wednesday is the right moment to catch overtime risk. A staff member at 32+ hours by Wednesday is likely to hit 40 before Friday. Catching it Wednesday means you can adjust — catching it Friday means the overtime already happened."
+        },
+        {
+          "id": "q9",
+          "question": "The Thursday leadership meeting is described as which of the following?",
+          "type": "multiple-choice",
+          "options": [
+            "Optional unless there are performance issues to discuss",
+            "Mandatory — no exceptions without prior ownership approval",
+            "Required only for lead teachers and above",
+            "A bi-weekly meeting held on alternating Thursdays"
+          ],
+          "correctAnswer": "Mandatory — no exceptions without prior ownership approval",
+          "explanation": "The Thursday leadership meeting is mandatory. Missing it without prior ownership approval is a performance issue. It's the primary alignment touchpoint between the director and the leadership team."
+        },
+        {
+          "id": "q10",
+          "question": "True or False: The DSS portal should be checked on the first business day of each week.",
+          "type": "true-false",
+          "correctAnswer": "True",
+          "explanation": "The DSS portal is checked every Monday (first business day of the week) to review authorizations, updates, and any pending actions. Regular monitoring prevents billing errors and compliance gaps."
         }
       ]
     },
@@ -290,7 +452,12 @@
           "id": "q2",
           "question": "When should the director personally call a new family after their child's first day?",
           "type": "multiple-choice",
-          "options": ["Day 1, before the child leaves", "Day 2 of attendance", "End of the first week", "At the 30-day check-in"],
+          "options": [
+            "Day 1, before the child leaves",
+            "Day 2 of attendance",
+            "End of the first week",
+            "At the 30-day check-in"
+          ],
           "correctAnswer": "Day 2 of attendance",
           "explanation": "The director calls on Day 2 — the day after the first day. This is a personal check-in: 'How was [child's name]'s first day?' It's a 3-minute call that has a massive impact on how the family feels about their decision. Families who feel seen during week one become your most loyal advocates."
         },
@@ -313,6 +480,72 @@
           ],
           "correctAnswer": "A 1-hour structured welcome held on the child's first day",
           "explanation": "The Wiggly Family Orientation is a 1-hour in-person experience on the child's actual first day. The family meets lead teachers, sees the classroom, completes emergency contact and dietary restriction forms, and has a family photo taken. It turns the enrollment paperwork into a belonging experience — 'we belong here' rather than 'I signed up here.'"
+        },
+        {
+          "id": "q5",
+          "question": "What is the estimated lifetime enrollment value of a single child at Bright Beginnings?",
+          "type": "multiple-choice",
+          "options": [
+            "$8,600",
+            "$12,900",
+            "$25,800",
+            "$51,600"
+          ],
+          "correctAnswer": "$25,800",
+          "explanation": "At an average of 3 years enrollment × $8,600/year, one child represents approximately $25,800 in lifetime value. A two-child family is approximately $51,600."
+        },
+        {
+          "id": "q6",
+          "question": "True or False: The tour follow-up call should be made within 24 hours if the family didn't enroll that day.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "The follow-up system calls for same-day contact (within 2 hours), then Day 3, then Day 7. A 24-hour-only follow-up doesn't capture the structured cadence that maximizes conversion."
+        },
+        {
+          "id": "q7",
+          "question": "During the in-person tour, when should you show the prospective family the target classroom?",
+          "type": "multiple-choice",
+          "options": [
+            "At the end of the tour as a grand finale",
+            "In the middle after building rapport",
+            "First — it's what they came to see",
+            "Only if the classroom looks particularly good that day"
+          ],
+          "correctAnswer": "First — it's what they came to see",
+          "explanation": "The child's target classroom should be shown first. Families came specifically to see where their child would be. Starting there keeps them engaged and anchors everything else to what matters most to them."
+        },
+        {
+          "id": "q8",
+          "question": "The 10-step phone script is designed primarily to accomplish which goal?",
+          "type": "multiple-choice",
+          "options": [
+            "Qualify whether a family can afford the center's tuition",
+            "Convert a phone inquiry into a scheduled in-person tour",
+            "Gather child health information before enrollment",
+            "Explain all center policies before the family visits"
+          ],
+          "correctAnswer": "Convert a phone inquiry into a scheduled in-person tour",
+          "explanation": "The phone script's sole objective is to schedule the tour. Everything else — pricing, policies, availability — is handled in person. A tour booked is a potential enrollment. A tour not booked is a lost opportunity."
+        },
+        {
+          "id": "q9",
+          "question": "True or False: You should tell a prospective family the exact price over the phone if they ask directly.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "Price conversations happen in person, after the family has seen the center and connected emotionally. Giving price over the phone without value context almost always ends the conversation. Redirect: \"I'd love to go over everything with you in person so you can see what's included.\""
+        },
+        {
+          "id": "q10",
+          "question": "After an in-person tour, what is the ideal next action to take before the family leaves?",
+          "type": "multiple-choice",
+          "options": [
+            "Give them a brochure and follow up in a week",
+            "Ask for a deposit to hold the spot, or confirm a specific follow-up date and time",
+            "Email them the enrollment paperwork that evening",
+            "Let them know you'll call if a spot opens up"
+          ],
+          "correctAnswer": "Ask for a deposit to hold the spot, or confirm a specific follow-up date and time",
+          "explanation": "Letting a family leave without either a deposit or a confirmed follow-up date is the most common enrollment miss. Ask directly — a family who loved the tour is ready to be asked."
         }
       ]
     },

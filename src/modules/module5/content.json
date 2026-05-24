@@ -37,7 +37,12 @@
           "id": "q2",
           "question": "Which binder section contains fire drill logs, tornado drill logs, and the site evacuation plan?",
           "type": "multiple-choice",
-          "options": ["Section 2: Staff Records", "Section 3: Child Records", "Section 4: Safety", "Section 5: Health"],
+          "options": [
+            "Section 2: Staff Records",
+            "Section 3: Child Records",
+            "Section 4: Safety",
+            "Section 5: Health"
+          ],
           "correctAnswer": "Section 4: Safety",
           "explanation": "Section 4 (Safety) contains all drill documentation: fire drill logs, tornado drill logs, lockdown drill logs, the evacuation plan, and the emergency procedures card. Section 5 (Health) covers medication forms and injury logs. Mixing these up during an inspection creates problems."
         },
@@ -60,6 +65,72 @@
           ],
           "correctAnswer": "A repeat violation means the root cause wasn't fixed — licensing treats it much more seriously",
           "explanation": "A repeat violation is a leadership failure — it signals that a problem was identified, documented, and then allowed to happen again. Licensing treats repeat findings with escalating seriousness: higher fines, more frequent inspections, and potential license action. Fix the root cause the first time, not just the symptom."
+        },
+        {
+          "id": "q5",
+          "question": "True or False: Self-reporting a compliance gap to your licensor before an inspection is viewed negatively by VDSS.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "Self-reporting shows good faith and professionalism. A director who proactively identifies and corrects a gap — before an inspection finds it — builds a more cooperative relationship with their licensor."
+        },
+        {
+          "id": "q6",
+          "question": "Who is the Bright Beginnings VDSS licensing contact for Charlottesville-area inspections?",
+          "type": "multiple-choice",
+          "options": [
+            "Jennifer Watkins",
+            "Chrystal King",
+            "Maria Hernandez",
+            "David Park"
+          ],
+          "correctAnswer": "Chrystal King",
+          "explanation": "Chrystal King (804-297-4469) is the BB licensing contact. Building a professional relationship with your licensor is part of effective compliance management."
+        },
+        {
+          "id": "q7",
+          "question": "Which of the following items must be in every staff licensing file?",
+          "type": "multiple-choice",
+          "options": [
+            "Direct deposit form and W-4",
+            "TB screening, CPR certification, background check clearance, and orientation completion",
+            "Only the background check clearance",
+            "Performance reviews from the past two years"
+          ],
+          "correctAnswer": "TB screening, CPR certification, background check clearance, and orientation completion",
+          "explanation": "The licensing file requires TB screening, CPR/First Aid, background check clearance, and orientation hours. These are distinct from the BB HR file and are what licensing inspectors review."
+        },
+        {
+          "id": "q8",
+          "question": "What Virginia regulation governs Child Day Center licensing standards?",
+          "type": "multiple-choice",
+          "options": [
+            "Title 19",
+            "8VAC20-780",
+            "VA Code § 63.2-1701",
+            "VDSS Bulletin 22-C"
+          ],
+          "correctAnswer": "8VAC20-780",
+          "explanation": "8VAC20-780 is the Virginia Child Day Center Regulations document. Directors should be familiar with this regulation by name — it's what inspectors cite in any violation."
+        },
+        {
+          "id": "q9",
+          "question": "How often must a licensing binder be reviewed and updated at a minimum?",
+          "type": "multiple-choice",
+          "options": [
+            "Annually before the scheduled inspection",
+            "Monthly — Day 3 of each month",
+            "Quarterly",
+            "Only when a new hire joins or leaves"
+          ],
+          "correctAnswer": "Monthly — Day 3 of each month",
+          "explanation": "The licensing binder review is a Day 3 monthly task. Monthly review catches expiring documents before they become violations — annual review is too infrequent."
+        },
+        {
+          "id": "q10",
+          "question": "True or False: A licensing inspector may conduct an unannounced visit at any time, including in response to a parent complaint.",
+          "type": "true-false",
+          "correctAnswer": "True",
+          "explanation": "Unannounced inspections are a standard VDSS practice. They're triggered by complaints, as routine follow-ups to prior violations, or randomly. Treat every day as inspection-ready."
         }
       ]
     },
@@ -124,6 +195,72 @@
           ],
           "correctAnswer": "A signed Medication Authorization Form and a doctor's note",
           "explanation": "Over-the-counter medications — including vitamins — require the same documentation as prescriptions: a current signed MAF and a doctor's note. Virginia licensing does not distinguish between a vitamin and a prescription based on the nature of the substance — if you're administering it to a child at school, you need the paperwork."
+        },
+        {
+          "id": "q5",
+          "question": "A child has been on an antibiotic for 48 hours for strep throat. They have no fever and seem well. Can they return to the center?",
+          "type": "multiple-choice",
+          "options": [
+            "No — they must wait a full week after a strep diagnosis",
+            "Yes — 48 hours on antibiotics with no fever is the standard",
+            "Only if they bring a doctor's note clearing them",
+            "Only if they wear a mask for the first day back"
+          ],
+          "correctAnswer": "Yes — 48 hours on antibiotics with no fever is the standard",
+          "explanation": "The 48-hour antibiotic rule with no fever is the standard return-to-care guideline for strep throat and most bacterial infections. Document the parent's confirmation in the child's daily note."
+        },
+        {
+          "id": "q6",
+          "question": "True or False: Staff are permitted to give a child over-the-counter pain reliever (Tylenol/ibuprofen) without a Medication Authorization Form if the dose is the package's recommended amount.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "No medication — including OTC pain relievers — may be given without a completed Medication Authorization Form. Only prescription inhalers and EpiPens may be stored at the center without a full administration plan."
+        },
+        {
+          "id": "q7",
+          "question": "What must be documented after every diapering procedure?",
+          "type": "multiple-choice",
+          "options": [
+            "Nothing — diapering is a routine task that doesn't require documentation",
+            "Time, child's name, and any unusual observations in the diapering log",
+            "Only unusual findings — normal changes don't need to be logged",
+            "The diaper brand used for billing purposes"
+          ],
+          "correctAnswer": "Time, child's name, and any unusual observations in the diapering log",
+          "explanation": "Every diaper change must be logged with time and child's name. The log is a licensing requirement and creates accountability for health monitoring. Unusual observations (rashes, marks) must also be noted."
+        },
+        {
+          "id": "q8",
+          "question": "Bleach solution for sanitizing surfaces must be mixed at what concentration (ppm)?",
+          "type": "multiple-choice",
+          "options": [
+            "50 ppm",
+            "100 ppm",
+            "200 ppm",
+            "500 ppm"
+          ],
+          "correctAnswer": "200 ppm",
+          "explanation": "Surface sanitizing bleach solution is 200 ppm. The concentration for disinfecting (higher contamination risk areas) is different. All bleach solutions must be mixed fresh daily and labeled with the date."
+        },
+        {
+          "id": "q9",
+          "question": "True or False: A parent may request that staff administer sunscreen to their child without a Medication Authorization Form.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "Sunscreen is considered a topical product requiring written parent authorization before staff may apply it. A blanket authorization form signed at enrollment can cover this, but verbal permission on a given day is not sufficient."
+        },
+        {
+          "id": "q10",
+          "question": "What is the correct response if a staff member notices unexplained bruising on a child during a routine diaper change?",
+          "type": "multiple-choice",
+          "options": [
+            "Ask the child about it and document their response",
+            "Document what was observed with description and location, report to the director immediately, and the director initiates the mandatory reporter process",
+            "Call the parent immediately to ask for an explanation before reporting",
+            "Monitor for additional signs before taking action"
+          ],
+          "correctAnswer": "Document what was observed with description and location, report to the director immediately, and the director initiates the mandatory reporter process",
+          "explanation": "Any unexplained injury or bruising observed on a child must be immediately reported to the director. The director then follows the mandatory reporter protocol — including calling the hotline if there's reasonable suspicion. Staff should never investigate independently."
         }
       ]
     },
@@ -258,9 +395,80 @@
           "id": "q4",
           "question": "How often must lockdown drills be conducted and documented?",
           "type": "multiple-choice",
-          "options": ["Monthly", "Every other month", "Quarterly", "Twice a year"],
+          "options": [
+            "Monthly",
+            "Every other month",
+            "Quarterly",
+            "Twice a year"
+          ],
           "correctAnswer": "Quarterly",
           "explanation": "Lockdown drills are conducted quarterly — four times per year. Fire and tornado drills are monthly (alternating). Every drill must be documented in the licensing binder the same day it occurs: date, time, duration, and any issues noted. Missing drill documentation is one of the most common licensing findings."
+        },
+        {
+          "id": "q5",
+          "question": "True or False: If a fire alarm activates during an active-shooter situation reported nearby, you should evacuate per normal fire drill protocol.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "In an active-shooter situation, a fire alarm may be used to draw people outside. Do not automatically evacuate — call 911 and follow law enforcement guidance. The normal response protocols are secondary to law enforcement direction."
+        },
+        {
+          "id": "q6",
+          "question": "Where must emergency contact information be located for each child?",
+          "type": "multiple-choice",
+          "options": [
+            "In the director's office only",
+            "In a central binder at the front desk",
+            "Accessible in each classroom — not only in the office",
+            "On the Tadpoles app which staff can access from any device"
+          ],
+          "correctAnswer": "Accessible in each classroom — not only in the office",
+          "explanation": "Emergency contact information must be accessible in every classroom. In an emergency evacuation, teachers cannot leave the group to retrieve files from the office."
+        },
+        {
+          "id": "q7",
+          "question": "What is the required outdoor square footage per child for a Virginia childcare outdoor play area?",
+          "type": "multiple-choice",
+          "options": [
+            "35 sq ft",
+            "50 sq ft",
+            "75 sq ft",
+            "100 sq ft"
+          ],
+          "correctAnswer": "75 sq ft",
+          "explanation": "Virginia requires 75 square feet of outdoor play space per child. Indoor requirement is 35 sq ft per child. Both are measured usable space — not total square footage."
+        },
+        {
+          "id": "q8",
+          "question": "What action should a director take if the building loses power for more than 4 hours in winter?",
+          "type": "multiple-choice",
+          "options": [
+            "Continue operations using emergency lighting",
+            "Contact ownership and prepare for potential early closure if temperature drops below 50°F",
+            "Send all children home immediately",
+            "Move all children to one classroom to conserve heat"
+          ],
+          "correctAnswer": "Contact ownership and prepare for potential early closure if temperature drops below 50°F",
+          "explanation": "Centers must close if indoor temperature drops below 50°F or rises above 85°F. A 4-hour winter outage warrants immediate ownership notification and preparation for potential closure."
+        },
+        {
+          "id": "q9",
+          "question": "True or False: Lockdown drills must be conducted and documented at least once per quarter.",
+          "type": "true-false",
+          "correctAnswer": "True",
+          "explanation": "Lockdown (and other emergency) drills are required quarterly. Fire drills are monthly. All drills must be documented in the licensing binder with date, time, and participant count."
+        },
+        {
+          "id": "q10",
+          "question": "What is the correct procedure when an unknown adult attempts to enter the building during operating hours?",
+          "type": "multiple-choice",
+          "options": [
+            "Greet them warmly and ask their purpose — if they seem harmless, let them in",
+            "Require photo ID, photograph it, have them sign the visitor log, and verify their purpose before allowing entry beyond the lobby",
+            "Lock the door and call 911 immediately",
+            "Have a teacher come to the front to escort them if needed"
+          ],
+          "correctAnswer": "Require photo ID, photograph it, have them sign the visitor log, and verify their purpose before allowing entry beyond the lobby",
+          "explanation": "Every non-employee entering the building follows the same protocol: photo ID required, photographed, visitor log signed. No exceptions — not for delivery drivers, vendors, or apparent parents of enrolled children."
         }
       ]
     },
@@ -297,7 +505,12 @@
           "id": "q2",
           "question": "What bleach concentration is used to sanitize a diaper changing surface?",
           "type": "multiple-choice",
-          "options": ["50 ppm", "100 ppm", "200 ppm", "600 ppm"],
+          "options": [
+            "50 ppm",
+            "100 ppm",
+            "200 ppm",
+            "600 ppm"
+          ],
           "correctAnswer": "200 ppm",
           "explanation": "Diaper changing surfaces require 200 ppm bleach solution — approximately 2 tablespoons of bleach per gallon of water. This is the same concentration used for mouthed toys and bathroom surfaces. Higher concentrations (500–600 ppm) are reserved for blood/body fluid spills. Solutions must be made fresh daily and labeled with concentration, date, and intended use."
         },
@@ -333,6 +546,59 @@
           "type": "true-false",
           "correctAnswer": "False",
           "explanation": "False — no exceptions, no circumstances. Propped bottles are both a safety hazard (choking, aspiration) and a regulatory violation. Bottle feeding must always be supervised and held. If staffing is insufficient to individually feed an infant, that is a ratio violation that must be addressed immediately — not worked around."
+        },
+        {
+          "id": "q6",
+          "question": "True or False: Infant cribs may be shared between children if both children are healthy and there are no infections present.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "Each infant must have their own designated crib. Crib sharing is never permitted — it's both a licensing violation and a safety risk regardless of health status."
+        },
+        {
+          "id": "q7",
+          "question": "What is required on the infant room whiteboard at all times?",
+          "type": "multiple-choice",
+          "options": [
+            "Daily attendance only",
+            "Current sleep/wake times and feeding log for each infant in the room",
+            "Staff names and ratios for the current shift",
+            "Emergency contact numbers for all families"
+          ],
+          "correctAnswer": "Current sleep/wake times and feeding log for each infant in the room",
+          "explanation": "The infant room whiteboard must be current at all times with each infant's sleep and feeding information. Inspectors check this. A blank or outdated whiteboard is a common deficiency."
+        },
+        {
+          "id": "q8",
+          "question": "What items are permitted in the center medicine box?",
+          "type": "multiple-choice",
+          "options": [
+            "Any prescription medication with a signed authorization form",
+            "OTC pain relievers, prescription medications, inhalers, and EpiPens",
+            "Prescription inhalers and EpiPens only",
+            "Any medication brought in by a parent, properly labeled"
+          ],
+          "correctAnswer": "Prescription inhalers and EpiPens only",
+          "explanation": "The medicine box is restricted to prescription inhalers and EpiPens only. No OTC medications, vitamins, or other items may be stored there. A family asking staff to administer Tylenol requires a separate, formal medication authorization process."
+        },
+        {
+          "id": "q9",
+          "question": "The 72-hour emergency kit is required to contain which of the following?",
+          "type": "multiple-choice",
+          "options": [
+            "First aid supplies only",
+            "Water, non-perishable food, first aid supplies, flashlights, blankets, and critical child/staff information",
+            "Emergency contact lists and medication records",
+            "Fire extinguisher, AED, and first aid kit"
+          ],
+          "correctAnswer": "Water, non-perishable food, first aid supplies, flashlights, blankets, and critical child/staff information",
+          "explanation": "The 72-hour emergency kit must support the full center population for 72 hours without outside resources. It includes water, food, medical supplies, light sources, and documentation — not just a first aid kit."
+        },
+        {
+          "id": "q10",
+          "question": "True or False: Nap mats used by different children must be sanitized between uses.",
+          "type": "true-false",
+          "correctAnswer": "True",
+          "explanation": "Nap mats must be sanitized between uses by different children. Each child should have a designated mat stored with their belongings, or mats must be sanitized according to the bleach concentration table before reassignment."
         }
       ]
     },
@@ -481,6 +747,72 @@
           ],
           "correctAnswer": "Current proof of insurance, valid driver's license, and a completed Volunteer Driver Form",
           "explanation": "Parent volunteer drivers must provide: current proof of insurance, valid driver's license, and a completed Volunteer Driver Form (all on file before the trip). Additionally, a parent may only drive their own child and other children with explicit admin approval and written family consent."
+        },
+        {
+          "id": "q5",
+          "question": "How far in advance should a field trip be planned and all logistics confirmed?",
+          "type": "multiple-choice",
+          "options": [
+            "One week",
+            "Two weeks",
+            "One month",
+            "Two months"
+          ],
+          "correctAnswer": "One month",
+          "explanation": "Field trips require a one-month planning timeline. This allows time to collect parent permission slips, arrange transportation, confirm venue, manage staffing, and prepare communication to families."
+        },
+        {
+          "id": "q6",
+          "question": "True or False: A parent who verbally confirms they will bring a car seat can transport additional children on a field trip without completing a Volunteer Driver Form.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "A Volunteer Driver Form must be on file before any parent drives children — regardless of verbal commitments about car seats. The form includes proof of insurance and valid driver's license verification."
+        },
+        {
+          "id": "q7",
+          "question": "What is the minimum group size required to use an Albemarle County school bus for a field trip?",
+          "type": "multiple-choice",
+          "options": [
+            "1 or more",
+            "3 or more",
+            "4 or more",
+            "8 or more"
+          ],
+          "correctAnswer": "4 or more",
+          "explanation": "Albemarle County school buses are available for groups of 4 or more children. Groups of fewer than 4 must use alternative transportation options."
+        },
+        {
+          "id": "q8",
+          "question": "Which Virginia regulation specifically governs field trip requirements for licensed childcare centers?",
+          "type": "multiple-choice",
+          "options": [
+            "8VAC20-780-460",
+            "8VAC20-780-580",
+            "Title 22, Section 12B",
+            "VA Code § 63.2-1733"
+          ],
+          "correctAnswer": "8VAC20-780-580",
+          "explanation": "8VAC20-780-580 is the specific Virginia regulation governing field trip requirements. Directors should know this citation by number — it comes up in licensing discussions and parent questions about field trip procedures."
+        },
+        {
+          "id": "q9",
+          "question": "True or False: Staff must maintain normal classroom ratios during a field trip.",
+          "type": "true-false",
+          "correctAnswer": "True",
+          "explanation": "Virginia ratio requirements apply everywhere children are in care — including off-site field trips. You cannot take 20 preschoolers to a farm with 2 staff and claim that ratios don't apply away from the building."
+        },
+        {
+          "id": "q10",
+          "question": "What is required on every child permission slip for a field trip to be valid?",
+          "type": "multiple-choice",
+          "options": [
+            "Child's name, date, and parent signature",
+            "Child's name, destination, date, transportation method, and parent signature — per 8VAC20-780-580",
+            "A notarized parent signature only",
+            "Parent signature and a copy of the child's health form"
+          ],
+          "correctAnswer": "Child's name, destination, date, transportation method, and parent signature — per 8VAC20-780-580",
+          "explanation": "Per 8VAC20-780-580, a valid field trip permission slip must include the child's name, destination, date, transportation method, and parent signature. Incomplete slips do not satisfy the regulation."
         }
       ]
     }

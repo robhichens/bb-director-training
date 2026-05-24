@@ -24,7 +24,12 @@
           "id": "q1",
           "question": "What percentage of parents should the director see in person at least once per day?",
           "type": "multiple-choice",
-          "options": ["50%", "75%", "90%", "100%"],
+          "options": [
+            "50%",
+            "75%",
+            "90%",
+            "100%"
+          ],
           "correctAnswer": "90%",
           "explanation": "The director visibility standard is 90% of parents at least once per day — at drop-off, pick-up, or both. It's not 100% because some days a parent sends someone else for drop-off. But the goal is near-universal daily visibility. A parent who goes days without seeing the director starts to feel the center is unled."
         },
@@ -60,6 +65,66 @@
           ],
           "correctAnswer": "Before pick-up — as soon as the incident log is complete",
           "explanation": "Parent notification for any injury happens before pick-up — not at it. A parent who discovers a bump at home and realizes you knew about it at 10:30 AM but said nothing at 5:30 PM pickup will feel deceived. Call as soon as the log is complete. It's a 2-minute call that builds lasting trust."
+        },
+        {
+          "id": "q5",
+          "question": "True or False: A director should personally call every new family on their child's first day.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "The Day 1 check-in is a staff text within 30 minutes of drop-off. The personal director call happens on Day 2. This distinction matters — Day 1 is immediate reassurance; Day 2 is relationship-building."
+        },
+        {
+          "id": "q6",
+          "question": "What is the \"30-minute text\" protocol for new families?",
+          "type": "multiple-choice",
+          "options": [
+            "Text parents to confirm pickup instructions within 30 minutes of closing",
+            "Send a brief update with the child's status within 30 minutes of their first drop-off",
+            "Respond to any parent Tadpoles message within 30 minutes",
+            "Complete the DOR within 30 minutes of last child departing"
+          ],
+          "correctAnswer": "Send a brief update with the child's status within 30 minutes of their first drop-off",
+          "explanation": "Every new family gets a text within 30 minutes of their first drop-off — a brief, warm update on how the child is doing. This single action dramatically reduces parent anxiety and sets a trust foundation."
+        },
+        {
+          "id": "q7",
+          "question": "When a child has a minor fall, at what point should the parent be called?",
+          "type": "multiple-choice",
+          "options": [
+            "Only if the child cries for more than 5 minutes",
+            "As soon as the incident log is complete — before pickup",
+            "At pickup — verbally, no documentation needed for minor incidents",
+            "Only if a visible mark (bruise, bump) develops"
+          ],
+          "correctAnswer": "As soon as the incident log is complete — before pickup",
+          "explanation": "Parents should be notified before pickup whenever a fall or incident occurs — even minor ones. Finding out at pickup from a teacher rather than getting a proactive call from the director is a trust-damager."
+        },
+        {
+          "id": "q8",
+          "question": "True or False: The best time to ask a new family for a referral is during their enrollment meeting.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "Referral requests are most effective after the family has had a positive experience — typically at the 30-day mark or after the child is well-settled. Asking at enrollment is premature; the family hasn't experienced the center yet."
+        },
+        {
+          "id": "q9",
+          "question": "A parent leaves a voicemail at 8 AM with a billing question. It's a hectic morning. What must happen by 9 AM?",
+          "type": "multiple-choice",
+          "options": [
+            "A full answer to their question with documentation",
+            "An acknowledgment of the message and a timeline for the full answer",
+            "A call back whenever the morning rush is over",
+            "A text message asking them to resend the question via email"
+          ],
+          "correctAnswer": "An acknowledgment of the message and a timeline for the full answer",
+          "explanation": "The 1-hour turnaround rule requires acknowledgment within 60 minutes — not necessarily a complete answer. \"I got your message and will call you back at 10:30 with the full details\" satisfies the rule."
+        },
+        {
+          "id": "q10",
+          "question": "True or False: A director should match a parent's emotional intensity when they are upset, to show empathy.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "The director's job is to de-escalate, not match intensity. A calm, composed tone communicates control and invites the parent to regulate. Matching their energy escalates the situation and reduces the chance of resolution."
         }
       ]
     },
@@ -202,6 +267,72 @@
           ],
           "correctAnswer": "Acknowledge, commit, investigate, follow up",
           "explanation": "Every effective director script follows: Acknowledge (hear the concern without defending), Commit (say what you'll do and by when), Investigate (do it that day), Follow up (close the loop at the specific time you promised). This structure works for parent complaints, staff issues, and any other high-stakes conversation."
+        },
+        {
+          "id": "q5",
+          "question": "A parent says \"I've heard from other parents that Ms. Johnson isn't paying attention to the kids.\" What is the correct response?",
+          "type": "multiple-choice",
+          "options": [
+            "Tell them you'll look into it and share what you find",
+            "Explain that you can't discuss other parents' observations, then directly investigate the concern yourself",
+            "Defend Ms. Johnson based on your own observations",
+            "Ask the parent to identify which other parents made the complaint"
+          ],
+          "correctAnswer": "Explain that you can't discuss other parents' observations, then directly investigate the concern yourself",
+          "explanation": "You can't share what other families have said, and you don't dismiss the concern. Acknowledge it, commit to looking into it personally, and follow up with the parent within your 1-hour window."
+        },
+        {
+          "id": "q6",
+          "question": "True or False: It is appropriate to say \"I understand\" when a parent shares a concern, even if you disagree with their interpretation of events.",
+          "type": "true-false",
+          "correctAnswer": "True",
+          "explanation": "\"I understand\" acknowledges that you've heard them — it doesn't mean you agree. Acknowledging before responding is the foundation of every difficult conversation structure. Jumping to defense before acknowledgment escalates conflict."
+        },
+        {
+          "id": "q7",
+          "question": "A parent threatens to post a negative Google review unless you give them a billing credit. What is the correct response?",
+          "type": "multiple-choice",
+          "options": [
+            "Offer the credit to avoid the review — reputation is more valuable than one credit",
+            "Acknowledge the frustration, address the legitimate billing issue if it exists, and let them know reviews are their right but won't change policy decisions",
+            "Tell them their review will be reported as extortion",
+            "Escalate directly to ownership without addressing the parent"
+          ],
+          "correctAnswer": "Acknowledge the frustration, address the legitimate billing issue if it exists, and let them know reviews are their right but won't change policy decisions",
+          "explanation": "Never let review threats drive billing decisions. Address any legitimate underlying issue, but make clear that the policy applies to everyone. Giving in to threats invites more of the same behavior."
+        },
+        {
+          "id": "q8",
+          "question": "After a hard conversation with a staff member, what is the required documentation step?",
+          "type": "multiple-choice",
+          "options": [
+            "Nothing — verbal conversations don't require documentation",
+            "A brief email to the staff member summarizing what was discussed",
+            "A ProCare documentation entry with the date, topic, and outcome",
+            "A signed acknowledgment from the staff member only"
+          ],
+          "correctAnswer": "A ProCare documentation entry with the date, topic, and outcome",
+          "explanation": "Every significant staff conversation — corrective or otherwise — must be documented in ProCare the same day. The entry creates a record that protects both the center and the employee in any future dispute."
+        },
+        {
+          "id": "q9",
+          "question": "True or False: When a parent gossips about another family to you, the appropriate response is to redirect and decline to engage.",
+          "type": "true-false",
+          "correctAnswer": "True",
+          "explanation": "Directors never participate in gossip about families. Redirect professionally: \"I can't speak to other families' situations, but if you have a concern about your own experience here, I'd love to talk about that.\" Participating even passively creates trust and liability problems."
+        },
+        {
+          "id": "q10",
+          "question": "What is the maximum time window for following up after a difficult parent conversation?",
+          "type": "multiple-choice",
+          "options": [
+            "48 hours",
+            "1 business day",
+            "1 hour",
+            "End of the same day"
+          ],
+          "correctAnswer": "1 hour",
+          "explanation": "The 1-hour resolution window applies to difficult conversations too. After an irate parent interaction, the director circles back within 1 hour with an update or a confirmed timeline. Silence after conflict is interpreted as indifference."
         }
       ]
     },
@@ -258,9 +389,74 @@
           "id": "q4",
           "question": "The tour follow-up email should be sent within how many hours of the tour ending?",
           "type": "multiple-choice",
-          "options": ["1 hour", "2 hours", "24 hours", "48 hours"],
+          "options": [
+            "1 hour",
+            "2 hours",
+            "24 hours",
+            "48 hours"
+          ],
           "correctAnswer": "2 hours",
           "explanation": "The tour follow-up email goes out within 2 hours — while the family's memory of the visit is still warm and before they tour your competitor. The 2-hour window is also the same deadline for updating the CRM with tour notes. A same-day email is still good; next-day is too late. Speed of follow-up is part of the first impression."
+        },
+        {
+          "id": "q5",
+          "question": "True or False: A negative Google review with false information can be legally required to be removed.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "Google rarely removes reviews even if the content is disputed. The correct response is a professional public reply that demonstrates your values and invites resolution — not a removal request that rarely succeeds."
+        },
+        {
+          "id": "q6",
+          "question": "A Tadpoles parent message reads: \"I saw the classroom today and it looked messy. Is this normal?\" What is the ideal response?",
+          "type": "multiple-choice",
+          "options": [
+            "Explain that active learning environments naturally look busy",
+            "Apologize and promise it won't happen again",
+            "Acknowledge the concern, follow up on what they observed, and report back with what you found",
+            "Transfer the message to the lead teacher to handle"
+          ],
+          "correctAnswer": "Acknowledge the concern, follow up on what they observed, and report back with what you found",
+          "explanation": "The director responds personally, investigates, and follows up. Dismissing it as \"normal\" or deflecting to the teacher misses an opportunity to demonstrate responsiveness and catch a real issue."
+        },
+        {
+          "id": "q7",
+          "question": "What is the Canva login username for Bright Beginnings social and newsletter content?",
+          "type": "multiple-choice",
+          "options": [
+            "bbdirector@gmail.com",
+            "brightbeginnings1984@gmail.com",
+            "mollypetchel@gmail.com",
+            "robhichens84@gmail.com"
+          ],
+          "correctAnswer": "mollypetchel@gmail.com",
+          "explanation": "Canva login: mollypetchel@gmail.com / BBIteach1984!. This is the shared account used for all Bright Beginnings newsletters, social content, and marketing materials."
+        },
+        {
+          "id": "q8",
+          "question": "True or False: Posting 5+ times per week on social media is always better than 2–3 times per week for a preschool audience.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "Quality over quantity. For a preschool audience, 2–3 posts per week of genuine, warm content outperforms 5+ generic or filler posts. Oversaturation leads to unfollows; consistent, authentic content builds community."
+        },
+        {
+          "id": "q9",
+          "question": "What type of social media content performs best for preschool parent audiences?",
+          "type": "multiple-choice",
+          "options": [
+            "Formal school announcements and policy updates",
+            "Promotional content about tuition and enrollment",
+            "Authentic photos and videos of children engaged in learning activities (with proper photo permissions)",
+            "Staff bios and center history posts"
+          ],
+          "correctAnswer": "Authentic photos and videos of children engaged in learning activities (with proper photo permissions)",
+          "explanation": "Photos and videos of children learning — especially candid, joyful moments — consistently outperform all other content types. Parents share this content with friends, which is the highest-value organic marketing available."
+        },
+        {
+          "id": "q10",
+          "question": "True or False: Pediatrician office partnerships generate enrollment leads because pediatricians actively recommend Bright Beginnings to parents.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "Pediatricians don't actively sell BB. The value of the partnership is passive referrals — a flyer in the waiting room, a bulletin board placement, or a word-of-mouth mention when a parent asks about childcare. It's brand visibility, not active sales."
         }
       ]
     },
@@ -331,6 +527,72 @@
           ],
           "correctAnswer": "An introduction to the replacement teacher",
           "explanation": "Always introduce the replacement in the same message as the departure. Families (especially parents of infants and toddlers) experience teacher transitions as losses — they need the reassurance of a 'who's coming next' immediately, not in a separate message days later. Frame the departure positively, introduce the replacement warmly, and mention the transition overlap period."
+        },
+        {
+          "id": "q5",
+          "question": "True or False: The peak enrollment period at Bright Beginnings is in November and December.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "The peak enrollment surge months are March and August. November/December are slower for new enrollments as families have typically made childcare decisions for the year."
+        },
+        {
+          "id": "q6",
+          "question": "What is the correct tone for a staff transition letter sent to families?",
+          "type": "multiple-choice",
+          "options": [
+            "Apologetic — acknowledge that this is difficult for the class",
+            "Explanatory — give the reason the teacher is leaving so families understand",
+            "Positive and forward-looking — celebrate the teacher and introduce the replacement in the same message",
+            "Neutral and brief — families don't need details"
+          ],
+          "correctAnswer": "Positive and forward-looking — celebrate the teacher and introduce the replacement in the same message",
+          "explanation": "Staff transition letters follow a specific tone formula: positive framing, no explanation of why the teacher is leaving, celebration of their contributions, and immediate introduction of the replacement. Separating these two messages creates anxiety."
+        },
+        {
+          "id": "q7",
+          "question": "A toddler bites another child for the third time this week. What is the multi-step response?",
+          "type": "multiple-choice",
+          "options": [
+            "Call the parents of both children and schedule a conference for the biting child",
+            "Document the incident, notify both families, consult the lead teacher on antecedent patterns, and consider a behavior plan",
+            "Send the biting child home for the day",
+            "Separate the biting child from group activities until the behavior stops"
+          ],
+          "correctAnswer": "Document the incident, notify both families, consult the lead teacher on antecedent patterns, and consider a behavior plan",
+          "explanation": "Toddler biting is developmentally common but requires systematic response: document everything, notify families (neither child is named in communications to the other family), analyze the pattern, and develop a plan with the teacher."
+        },
+        {
+          "id": "q8",
+          "question": "True or False: A director may share the name of the biting child with the parents of the child who was bitten.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "Student confidentiality applies to incident communication between families. Parents of the bitten child are told their child was bitten and what BB is doing about it — never the other child's name."
+        },
+        {
+          "id": "q9",
+          "question": "At public events (Easter Egg Hunt, Fall Festival), what information should be captured from prospective families?",
+          "type": "multiple-choice",
+          "options": [
+            "Just their email for the newsletter",
+            "Name, phone number, email, and child's age — followed up within 48 hours",
+            "Child's age and current childcare provider",
+            "Full enrollment interest form on the spot"
+          ],
+          "correctAnswer": "Name, phone number, email, and child's age — followed up within 48 hours",
+          "explanation": "Events are enrollment opportunities. Capture the minimum viable information: name, phone, email, child's age. Follow up within 48 hours while the experience is fresh. A sign-in sheet or iPad form works best."
+        },
+        {
+          "id": "q10",
+          "question": "How many months does the Bright Beginnings seasonal operations guide cover?",
+          "type": "multiple-choice",
+          "options": [
+            "Six months (September through February)",
+            "Nine months (September through May)",
+            "Ten months (August through May)",
+            "All twelve months of the year"
+          ],
+          "correctAnswer": "All twelve months of the year",
+          "explanation": "The seasonal operations guide covers all 12 months. Childcare doesn't have an \"off season\" — there are enrollment cycles, events, compliance milestones, and leadership priorities in every calendar month."
         }
       ]
     }

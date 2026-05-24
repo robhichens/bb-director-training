@@ -61,9 +61,12 @@
   line-height: 1;
 }
 
-/* Quick-link section (Daily Brief etc.) */
+/* Quick-link section */
 .quickLinks {
   padding: 12px 12px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
 }
 
 .quickBtn {
@@ -97,6 +100,17 @@
   font-size: 13px;
   font-weight: 600;
   color: var(--bb-charcoal);
+  flex: 1;
+}
+
+.quickBadge {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--bb-white);
+  background: var(--bb-green);
+  border-radius: 99px;
+  padding: 1px 7px;
+  flex-shrink: 0;
 }
 
 .sectionDivider {

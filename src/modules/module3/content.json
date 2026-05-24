@@ -65,6 +65,72 @@
           ],
           "correctAnswer": "The classroom behavior is more promising — interview nerves don't predict classroom success",
           "explanation": "The operations manual explicitly states: 'A candidate who lights up in the classroom but stumbles on interview questions is more promising than the reverse.' The observation portion of the interview exists precisely because how someone interviews is not always how they teach. Trust the classroom."
+        },
+        {
+          "id": "q5",
+          "question": "True or False: A director can allow a new hire to begin work before their background check is cleared if the hire has strong references.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "This is absolute: no new hire enters the building in any capacity until their fingerprint background check is cleared. References and qualifications are irrelevant to this rule."
+        },
+        {
+          "id": "q6",
+          "question": "What is the Day 1 orientation priority for every new hire?",
+          "type": "multiple-choice",
+          "options": [
+            "Reviewing the employee handbook cover to cover",
+            "Observing in the classroom they'll be assigned to",
+            "Completing all required state orientation hours and paperwork",
+            "Shadowing the director for a full day"
+          ],
+          "correctAnswer": "Completing all required state orientation hours and paperwork",
+          "explanation": "Day 1 is focused on the required state orientation hours and completing the full new hire document checklist. Every document has a compliance purpose — none can wait."
+        },
+        {
+          "id": "q7",
+          "question": "Which of the following documents must be uploaded to the new hire's licensing file — not just kept in the BB staff file?",
+          "type": "multiple-choice",
+          "options": [
+            "W-4 tax form",
+            "Background check clearance",
+            "Direct deposit form",
+            "Emergency contact card"
+          ],
+          "correctAnswer": "Background check clearance",
+          "explanation": "The background check clearance, TB test, CPR certification, and orientation completion all go into the licensing file. The licensing file is what inspectors review — it must be airtight."
+        },
+        {
+          "id": "q8",
+          "question": "What is the structured check-in timeline for a new hire's first 90 days?",
+          "type": "multiple-choice",
+          "options": [
+            "Check-ins at 30 and 90 days only",
+            "Check-ins at Day 1, 7, 20, 30, 60, and 90",
+            "Monthly check-ins for the first quarter",
+            "A single formal review at the 90-day mark"
+          ],
+          "correctAnswer": "Check-ins at Day 1, 7, 20, 30, 60, and 90",
+          "explanation": "The onboarding timeline includes check-ins at Day 1, 7, 20, 30, 60, and 90. Each serves a specific purpose — early check-ins address confusion, later ones assess fit and performance."
+        },
+        {
+          "id": "q9",
+          "question": "During a hiring interview, a candidate says she's \"flexible with hours\" but her childcare availability is only 8 AM–3 PM. What should you do?",
+          "type": "multiple-choice",
+          "options": [
+            "Hire her and adjust the schedule around her availability",
+            "Note the discrepancy and ask specifically about afternoon and closing shift availability before proceeding",
+            "Decline immediately — closing availability is required for all positions",
+            "Accept her answer at face value and move forward"
+          ],
+          "correctAnswer": "Note the discrepancy and ask specifically about afternoon and closing shift availability before proceeding",
+          "explanation": "Availability mismatches are one of the most common early-exit reasons. Clarify specifically before extending an offer — \"flexible\" and \"8–3 only\" are not compatible at most centers."
+        },
+        {
+          "id": "q10",
+          "question": "True or False: A $50 staff referral bonus is paid as soon as the referred person is hired.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "The $50 referral bonus is paid after the referred hire completes 90 days of employment. This ensures the referral was a quality recommendation, not just a name."
         }
       ]
     },
@@ -88,7 +154,12 @@
           "id": "q1",
           "question": "What is the Virginia-required staff-to-child ratio for a classroom of 2-year-olds?",
           "type": "multiple-choice",
-          "options": ["1:4", "1:6", "1:8", "1:10"],
+          "options": [
+            "1:4",
+            "1:6",
+            "1:8",
+            "1:10"
+          ],
           "correctAnswer": "1:8",
           "explanation": "Virginia requires a 1:8 ratio for 2-year-old classrooms, with a maximum group size of 16. These are licensing minimums — you must meet them at all times. Dropping below ratio is a licensing violation regardless of the circumstance that caused it."
         },
@@ -124,6 +195,72 @@
           ],
           "correctAnswer": "It gives the director flexibility to cover call-outs without breaking ratios",
           "explanation": "A staff member who can float between infant, toddler, and Pre-K rooms is worth double on your schedule. When a call-out happens in the infant room, a cross-trained teacher can cover immediately — you don't have to scramble or call in expensive subs. Cross-training is a resilience strategy."
+        },
+        {
+          "id": "q5",
+          "question": "What is the Virginia-required staff-to-child ratio for an infant classroom (under 16 months)?",
+          "type": "multiple-choice",
+          "options": [
+            "1:3",
+            "1:4",
+            "1:5",
+            "1:6"
+          ],
+          "correctAnswer": "1:4",
+          "explanation": "Virginia licensing requires a 1:4 ratio in infant classrooms (children under 16 months). This is the most restrictive ratio across all age groups."
+        },
+        {
+          "id": "q6",
+          "question": "True or False: A director may combine two classrooms temporarily if one teacher calls out, as long as the total child count stays under 20.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "Classroom combination is only legal if ratio requirements are met for both age groups represented AND the combined group doesn't exceed the classroom's licensed square footage. Total count alone is not the standard."
+        },
+        {
+          "id": "q7",
+          "question": "What is the Virginia staff-to-child ratio for preschool (3–4 year olds)?",
+          "type": "multiple-choice",
+          "options": [
+            "1:8",
+            "1:10",
+            "1:12",
+            "1:15"
+          ],
+          "correctAnswer": "1:10",
+          "explanation": "Virginia requires a 1:10 ratio for preschool-age children (3–4 year olds). Exceeding this ratio at any point is a licensing violation."
+        },
+        {
+          "id": "q8",
+          "question": "Why is cross-training staff across multiple age groups a scheduling priority?",
+          "type": "multiple-choice",
+          "options": [
+            "It allows staff to earn higher pay rates",
+            "It satisfies a Virginia licensing requirement for versatile staff",
+            "It gives the director flexibility to cover call-outs without breaking ratio",
+            "It reduces the number of lead teachers needed in the building"
+          ],
+          "correctAnswer": "It gives the director flexibility to cover call-outs without breaking ratio",
+          "explanation": "A staff member who can legally work in both the toddler and preschool rooms is twice as useful in a coverage crisis. Cross-training is a direct investment in operational resilience."
+        },
+        {
+          "id": "q9",
+          "question": "When does overtime require notification to admin (ownership)?",
+          "type": "multiple-choice",
+          "options": [
+            "Only when a staff member requests it in advance",
+            "Any time a staff member is projected to exceed 40 hours in a week",
+            "Only when it happens — after the fact is fine",
+            "Overtime never requires admin notification at BB"
+          ],
+          "correctAnswer": "Any time a staff member is projected to exceed 40 hours in a week",
+          "explanation": "Overtime is not a director's unilateral decision. Any time a staff member is projected to hit 40+ hours, admin must be notified. Unauthorized overtime is a performance issue for the director."
+        },
+        {
+          "id": "q10",
+          "question": "True or False: Scheduling staff at exactly 40 hours per week is the target for the \"Magic Number\" efficiency goal.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "The Magic Number target is to run 10% UNDER approved labor hours — not at 40 hours. Running right at 40 leaves no buffer for callouts, overtime risk, and provides no efficiency benefit."
         }
       ]
     },
@@ -265,6 +402,72 @@
           ],
           "correctAnswer": "'Complete all Tadpoles notes by 3:00 PM daily with zero missed days for 30 days'",
           "explanation": "Improvement plan goals must be specific, measurable, and time-bound. 'Improve your attitude' and 'be more reliable' are too vague to evaluate — what does improvement look like? 'Complete all Tadpoles notes by 3:00 PM daily with zero missed days for 30 days' is concrete, observable, and leaves no room for disagreement about whether it was met."
+        },
+        {
+          "id": "q5",
+          "question": "After a staff termination, what should you tell the remaining team?",
+          "type": "multiple-choice",
+          "options": [
+            "A full explanation so the team understands what happened",
+            "\"[Name] is no longer with us. We're handling coverage and I'll keep you updated.\" Nothing more.",
+            "Ask them to keep it quiet until a replacement is hired",
+            "Share that the separation was mutual to avoid morale issues"
+          ],
+          "correctAnswer": "\"[Name] is no longer with us. We're handling coverage and I'll keep you updated.\" Nothing more.",
+          "explanation": "Termination details are private. The team gets a brief, professional statement — nothing more. Sharing reasons opens legal exposure and creates team gossip. Protecting confidentiality is policy, not preference."
+        },
+        {
+          "id": "q6",
+          "question": "True or False: A 30-day improvement plan can be extended to 60 days if the staff member shows partial improvement.",
+          "type": "true-false",
+          "correctAnswer": "False",
+          "explanation": "The 30-day plan has a hard deadline. If the staff member hasn't met the stated goals by Day 30, the conversation moves to the next step — not an extension. Extensions erode accountability and signal that deadlines aren't real."
+        },
+        {
+          "id": "q7",
+          "question": "A C-rated staff member leaves the building without notifying anyone during their shift. What rating issue does this represent and what is the first action?",
+          "type": "multiple-choice",
+          "options": [
+            "D-level behavior — begin immediate separation process",
+            "C-level — update their improvement plan goal to include attendance",
+            "B-level — a first verbal warning is sufficient",
+            "Not ratable — it could be an emergency"
+          ],
+          "correctAnswer": "D-level behavior — begin immediate separation process",
+          "explanation": "Abandoning a shift is D-level behavior. Leaving children without adequate supervision creates immediate licensing and safety risk. This is a separation-level event — not a coaching moment."
+        },
+        {
+          "id": "q8",
+          "question": "What is the minimum wage obligation for a staff member who resigns with less than two weeks' notice?",
+          "type": "multiple-choice",
+          "options": [
+            "Standard rate through their last day",
+            "Minimum wage ($12.71/hr) from the moment they give notice",
+            "No pay obligation after notice is given without two weeks",
+            "Time-and-a-half for any shifts after notice"
+          ],
+          "correctAnswer": "Minimum wage ($12.71/hr) from the moment they give notice",
+          "explanation": "If a staff member resigns with less than two weeks' notice, their rate drops to minimum wage ($12.71/hr) from the moment of notice. This is policy — not optional — and must be applied consistently."
+        },
+        {
+          "id": "q9",
+          "question": "Which of the following deductions can legally be made from a final paycheck at Bright Beginnings?",
+          "type": "multiple-choice",
+          "options": [
+            "None — all deductions are illegal at separation",
+            "CPR certification ($75), AMAT/MAT ($150), CDA ($200) if the staff member leaves before completing required tenure",
+            "Only the cost of uniforms and badges",
+            "Any equipment not returned, at replacement value"
+          ],
+          "correctAnswer": "CPR certification ($75), AMAT/MAT ($150), CDA ($200) if the staff member leaves before completing required tenure",
+          "explanation": "BB may deduct training investment costs — CPR ($75), AMAT/MAT ($150), CDA ($200) — from a final paycheck if the staff member leaves before the agreed tenure period. These amounts and terms are disclosed at hiring."
+        },
+        {
+          "id": "q10",
+          "question": "True or False: When a director or admin staff member is terminated, the process includes changing Gmail/Google Drive passwords and Instagram/TikTok/Facebook credentials.",
+          "type": "true-false",
+          "correctAnswer": "True",
+          "explanation": "Director and admin terminations require an expanded access revocation checklist that includes digital accounts: camera access, Gmail/Drive passwords, social media credentials (Instagram, TikTok, Facebook), Bluehost, LineLeader, ITK, and org chart removal."
         }
       ]
     },

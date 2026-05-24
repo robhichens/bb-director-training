@@ -1,0 +1,162 @@
+@import '../../styles/variables.css';
+
+.item {
+  padding: 12px 0;
+  border-bottom: 1px solid var(--bb-light-gray);
+  transition: background-color var(--transition);
+}
+.item:last-child {
+  border-bottom: none;
+}
+.item.itemDone {
+  background: rgba(76, 175, 130, 0.06);
+  border-radius: 6px;
+  padding: 10px 10px;
+  margin: 0 -10px;
+  border-bottom: none;
+  margin-bottom: 2px;
+}
+
+/* ── Label row ────────────────────────────────────────────── */
+.labelRow {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 7px;
+}
+
+.label {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--bb-charcoal);
+  line-height: 1.4;
+  flex: 1;
+}
+.label.labelDone {
+  color: var(--bb-mid-gray);
+  text-decoration: line-through;
+  text-decoration-color: var(--bb-green);
+}
+
+.infoBtn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  color: var(--bb-mid-gray);
+  padding: 0 2px;
+  line-height: 1;
+  flex-shrink: 0;
+  transition: color var(--transition);
+  margin-top: 1px;
+}
+.infoBtn:hover,
+.infoBtn.infoBtnOpen { color: var(--bb-coral); }
+
+/* ── Detail panel ─────────────────────────────────────────── */
+.detail {
+  font-size: 12px;
+  color: var(--bb-mid-gray);
+  line-height: 1.55;
+  background: var(--bb-off-white);
+  border-left: 3px solid var(--bb-coral);
+  border-radius: 0 6px 6px 0;
+  padding: 8px 12px;
+  margin: 0 0 8px 0;
+}
+
+/* ── Status + action row ──────────────────────────────────── */
+.statusRow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+/* Status pill buttons */
+.statusBtn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: none;
+  border: 1.5px solid var(--bb-light-gray);
+  border-radius: 99px;
+  padding: 3px 10px 3px 6px;
+  cursor: pointer;
+  transition: border-color var(--transition), background-color var(--transition);
+}
+.statusBtn:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+.statusBtn.statusDone {
+  border-color: var(--bb-green);
+  background: rgba(76, 175, 130, 0.08);
+}
+.statusBtn.statusDone:hover:not(:disabled) {
+  border-color: #c0392b;
+  background: rgba(192, 57, 43, 0.06);
+}
+.statusBtn.statusAvailable {
+  border-color: var(--bb-coral);
+}
+.statusBtn.statusAvailable:hover {
+  background: rgba(240, 135, 130, 0.08);
+}
+.statusBtn.statusPending:hover:not(:disabled) {
+  border-color: var(--bb-mid-gray);
+}
+.statusBtn.statusLocked {
+  opacity: 0.4;
+  cursor: default;
+}
+
+/* Dot */
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.dot.dotDone    { background: var(--bb-green); }
+.dot.dotPending { background: var(--bb-light-gray); }
+
+/* Status label text */
+.statusLabel {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--bb-mid-gray);
+  white-space: nowrap;
+}
+.statusDone .statusLabel { color: #2d9e5c; }
+
+/* ── Action button ────────────────────────────────────────── */
+.action {
+  margin-left: auto;
+}
+
+.actionBtn {
+  font-family: var(--font-body);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 12px;
+  border-radius: 99px;
+  border: 1.5px solid var(--bb-mid-gray);
+  background: var(--bb-white);
+  color: var(--bb-charcoal);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: border-color var(--transition), background-color var(--transition), color var(--transition);
+}
+.actionBtn:hover {
+  border-color: var(--bb-charcoal);
+  background: var(--bb-off-white);
+}
+.actionBtn.actionBtnComplete {
+  border-color: var(--bb-coral);
+  color: var(--bb-coral);
+}
+.actionBtn.actionBtnComplete:hover {
+  background: var(--bb-coral);
+  color: var(--bb-white);
+}

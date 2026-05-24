@@ -5,7 +5,7 @@ import { recordQuizAttempt } from '../../lib/analytics'
 import Button from '../shared/Button'
 import styles from './Quiz.module.css'
 
-const PASS_THRESHOLD = 0.8
+const PASS_THRESHOLD = 1.0
 
 export default function Quiz({ title, questions, onComplete, completed, previousScore, moduleId, sectionId }) {
   const { user } = useAuth()
@@ -101,7 +101,7 @@ export default function Quiz({ title, questions, onComplete, completed, previous
     >
       <div className={styles.quizHeader}>
         <h2 className={styles.title}>{title}</h2>
-        <p className={styles.meta}>{questions.length} questions · 80% to pass</p>
+        <p className={styles.meta}>{questions.length} questions · 100% to pass</p>
       </div>
 
       {results && (
@@ -119,7 +119,7 @@ export default function Quiz({ title, questions, onComplete, completed, previous
               <span className={styles.resultIcon}>✗</span>
               <div>
                 <p className={styles.resultTitle}>Not quite — give it another try.</p>
-                <p className={styles.resultSub}>{results.score}% — need 80% to pass. Review the explanations below.</p>
+                <p className={styles.resultSub}>{results.numCorrect} of {questions.length} correct — need 100% to pass. Review the explanations below.</p>
               </div>
             </>
           )}
