@@ -3,6 +3,7 @@ import { useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useProgress } from '../../context/ProgressContext'
 import { getQuickPct } from '../../utils/competencyTracker'
+import { IconCheck, IconArrowRight, IconLock, IconX, IconNotes, IconListCheck } from '@tabler/icons-react'
 import styles from './Sidebar.module.css'
 
 const MODULES = [
@@ -16,9 +17,9 @@ const MODULES = [
 ]
 
 function StatusIcon({ status }) {
-  if (status === 'completed')   return <span className={`${styles.icon} ${styles.done}`}>✓</span>
-  if (status === 'in-progress') return <span className={`${styles.icon} ${styles.active}`}>→</span>
-  return <span className={`${styles.icon} ${styles.locked}`}>🔒</span>
+  if (status === 'completed')   return <IconCheck className={`${styles.icon} ${styles.done}`} size={14} />
+  if (status === 'in-progress') return <IconArrowRight className={`${styles.icon} ${styles.active}`} size={14} />
+  return <IconLock className={`${styles.icon} ${styles.locked}`} size={13} />
 }
 
 export default function Sidebar({ open, onClose }) {
@@ -61,7 +62,7 @@ export default function Sidebar({ open, onClose }) {
       <nav className={`${styles.sidebar} ${open ? styles.open : ''}`} aria-label="Training modules">
         <div className={styles.sidebarHeader}>
           <span className={styles.sidebarTitle}>Navigation</span>
-          <button className={styles.closeBtn} onClick={onClose} aria-label="Close menu">✕</button>
+          <button className={styles.closeBtn} onClick={onClose} aria-label="Close menu"><IconX size={16} /></button>
         </div>
 
         {/* Quick links */}
@@ -70,14 +71,14 @@ export default function Sidebar({ open, onClose }) {
             className={`${styles.quickBtn} ${onBriefing ? styles.quickActive : ''}`}
             onClick={() => handleNavClick('/briefing')}
           >
-            <span className={styles.quickIcon}>📋</span>
+            <IconNotes size={18} className={styles.quickIcon} />
             <span className={styles.quickLabel}>Daily Brief</span>
           </button>
           <button
             className={`${styles.quickBtn} ${onCompetencies ? styles.quickActive : ''}`}
             onClick={() => handleNavClick('/competencies')}
           >
-            <span className={styles.quickIcon}>✅</span>
+            <IconListCheck size={18} className={styles.quickIcon} />
             <span className={styles.quickLabel}>Competency Tracker</span>
             {competencyPct > 0 && (
               <span className={styles.quickBadge}>{competencyPct}%</span>

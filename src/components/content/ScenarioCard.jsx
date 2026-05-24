@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useAuth } from '../../context/AuthContext'
 import { recordScenarioChoice } from '../../lib/analytics'
+import { IconCheck, IconX } from '@tabler/icons-react'
 import Button from '../shared/Button'
 import styles from './ScenarioCard.module.css'
 
@@ -49,7 +50,7 @@ export default function ScenarioCard({ title, scenarios, onComplete, completed, 
     return (
       <div className={styles.wrapper}>
         <div className={styles.doneBanner}>
-          <span className={styles.doneIcon}>✓</span>
+          <IconCheck size={22} className={styles.doneIcon} />
           <p>Scenarios completed</p>
         </div>
       </div>
@@ -128,7 +129,7 @@ export default function ScenarioCard({ title, scenarios, onComplete, completed, 
                 exit={{ opacity: 0, height: 0 }}
                 transition={{ duration: 0.25 }}
               >
-                <span className={styles.feedbackIcon}>{chosen.correct ? '✓' : '✗'}</span>
+                {chosen.correct ? <IconCheck size={22} className={styles.feedbackIcon} /> : <IconX size={22} className={styles.feedbackIcon} />}
                 <div>
                   <p className={styles.feedbackText}>{chosen.feedback}</p>
                   {chosen.link && (
@@ -160,7 +161,7 @@ export default function ScenarioCard({ title, scenarios, onComplete, completed, 
 
       {allDone && !completed && (
         <div className={styles.doneBanner}>
-          <span className={styles.doneIcon}>✓</span>
+          <IconCheck size={22} className={styles.doneIcon} />
           <p>All scenarios complete! Great work.</p>
         </div>
       )}

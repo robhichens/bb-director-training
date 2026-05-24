@@ -4,6 +4,7 @@ import { collection, getDocs, orderBy, query } from 'firebase/firestore'
 import { motion } from 'framer-motion'
 import { db } from '../../lib/firebase'
 import { isAdminAuthed, clearAdminSession } from './adminAuth'
+import { IconCheck, IconPlayerPlay, IconLock, IconArrowLeft, IconSelector, IconChevronUp, IconChevronDown } from '@tabler/icons-react'
 import styles from './AdminDashboard.module.css'
 
 const MODULE_ORDER = ['module1', 'module2', 'module3', 'module4', 'module5', 'module6', 'module7']
@@ -26,10 +27,10 @@ function statusClass(status) {
 }
 
 function statusLabel(status) {
-  if (status === 'completed')   return '✓'
-  if (status === 'in-progress') return '▶'
+  if (status === 'completed')   return <IconCheck size={12} />
+  if (status === 'in-progress') return <IconPlayerPlay size={11} />
   if (status === 'not-started') return '—'
-  return '🔒'
+  return <IconLock size={12} />
 }
 
 function formatDate(ts) {
@@ -136,8 +137,8 @@ export default function AdminDashboard() {
   })
 
   function SortIcon({ k }) {
-    if (sortKey !== k) return <span className={styles.sortNeutral}>↕</span>
-    return <span className={styles.sortActive}>{sortDir === 'asc' ? '↑' : '↓'}</span>
+    if (sortKey !== k) return <IconSelector size={13} className={styles.sortNeutral} />
+    return sortDir === 'asc' ? <IconChevronUp size={13} className={styles.sortActive} /> : <IconChevronDown size={13} className={styles.sortActive} />
   }
 
   if (!isAdminAuthed()) return null
@@ -155,7 +156,7 @@ export default function AdminDashboard() {
         </div>
         <div className={styles.headerRight}>
           <button className={styles.backBtn} onClick={() => navigate('/dashboard')}>
-            ← Training Portal
+            <><IconArrowLeft size={16} style={{verticalAlign:'middle', marginRight:4}} /> Training Portal</>
           </button>
           <button className={styles.logoutBtn} onClick={handleLogout}>
             Sign Out
@@ -301,10 +302,10 @@ export default function AdminDashboard() {
         {/* Legend */}
         {!loading && sorted.length > 0 && (
           <div className={styles.legend}>
-            <span className={`${styles.legendPip} ${styles.statusDone}`}>✓</span> Completed &nbsp;&nbsp;
-            <span className={`${styles.legendPip} ${styles.statusActive}`}>▶</span> In Progress &nbsp;&nbsp;
+            <IconCheck size={14} className={`${styles.legendPip} ${styles.statusDone}`} /> Completed &nbsp;&nbsp;
+            <IconPlayerPlay size={13} className={`${styles.legendPip} ${styles.statusActive}`} /> In Progress &nbsp;&nbsp;
             <span className={`${styles.legendPip} ${styles.statusNotStarted}`}>—</span> Not Started &nbsp;&nbsp;
-            <span className={`${styles.legendPip} ${styles.statusLocked}`}>🔒</span> Locked
+            <IconLock size={14} className={`${styles.legendPip} ${styles.statusLocked}`} /> Locked
           </div>
         )}
       </main>

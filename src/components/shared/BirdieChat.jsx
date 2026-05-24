@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useBirdie } from '../../context/BirdieContext'
+import { IconRefresh, IconX, IconArrowRight } from '@tabler/icons-react'
 import styles from './BirdieChat.module.css'
 
 export default function BirdieChat() {
@@ -90,10 +91,10 @@ export default function BirdieChat() {
               <div className={styles.headerActions}>
                 {messages.length > 0 && (
                   <button className={styles.clearBtn} onClick={clearChat} title="Clear chat">
-                    ↺
+                    <IconRefresh size={16} />
                   </button>
                 )}
-                <button className={styles.closeBtn} onClick={() => setOpen(false)}>✕</button>
+                <button className={styles.closeBtn} onClick={() => setOpen(false)}><IconX size={16} /></button>
               </div>
             </div>
 
@@ -102,7 +103,7 @@ export default function BirdieChat() {
               {messages.length === 0 ? (
                 <div className={styles.welcome}>
                   <img src="/images/bird-coral.png" alt="Birdie" className={styles.welcomeBird} />
-                  <p className={styles.welcomeText}>Hi! I'm Birdie 👋</p>
+                  <p className={styles.welcomeText}>Hi! I'm Birdie</p>
                   <p className={styles.welcomeSub}>
                     Ask me anything about Bright Beginnings operations, Virginia licensing (Title 22), or ECE best practices.
                   </p>
@@ -162,7 +163,7 @@ export default function BirdieChat() {
                 onClick={send}
                 disabled={loading || !input.trim()}
               >
-                →
+                <IconArrowRight size={18} />
               </button>
             </div>
           </motion.div>

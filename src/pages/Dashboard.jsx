@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { useAuth } from '../context/AuthContext'
 import { useProgress } from '../context/ProgressContext'
+import { IconLock, IconCheck, IconArrowRight } from '@tabler/icons-react'
 import Button from '../components/shared/Button'
 import ProgressBar from '../components/shared/ProgressBar'
 import { getTipsForNow } from '../lib/tipEngine'
@@ -33,7 +34,7 @@ function ModuleCard({ mod, status, onStart }) {
       <div className={styles.cardTop}>
         <span className={styles.modNum}>Module {mod.num}</span>
         <span className={`${styles.badge} ${styles[status]}`}>
-          {completed ? '✓ Complete' : active ? 'In Progress' : locked ? '🔒 Locked' : 'Not Started'}
+          {completed ? <><IconCheck size={11} /> Complete</> : active ? 'In Progress' : locked ? <><IconLock size={11} /> Locked</> : 'Not Started'}
         </span>
       </div>
       <h3 className={styles.cardTitle}>{mod.title}</h3>
@@ -111,7 +112,7 @@ export default function Dashboard() {
             <p className={styles.resumeTitle}>Module {resumeTarget.num}: {resumeTarget.title}</p>
           </div>
           <Button variant="primary" pill onClick={() => navigate(`/module/${resumeTarget.num}`)}>
-            {inProgress ? 'Resume →' : 'Start →'}
+            {inProgress ? <><span>Resume</span><IconArrowRight size={16} /></> : <><span>Start</span><IconArrowRight size={16} /></>}
           </Button>
         </div>
       )}
@@ -144,7 +145,7 @@ export default function Dashboard() {
             </p>
           </div>
         </div>
-        <span className={styles.briefArrow}>→</span>
+        <IconArrowRight size={20} className={styles.briefArrow} />
       </motion.div>
 
       {/* Module grid */}

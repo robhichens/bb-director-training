@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useProgress } from '../../context/ProgressContext'
 import { useAuth } from '../../context/AuthContext'
+import { IconCheck, IconArrowRight } from '@tabler/icons-react'
 import ReadingSection from '../../components/content/ReadingSection'
 import Quiz from '../../components/content/Quiz'
 import ScenarioCard from '../../components/content/ScenarioCard'
@@ -29,7 +30,7 @@ function SectionNav({ sections, currentId, completedIds, onSelect }) {
             aria-current={current ? 'step' : undefined}
           >
             <span className={styles.navDot}>
-              {done ? '✓' : idx + 1}
+              {done ? <IconCheck size={11} /> : idx + 1}
             </span>
             <span className={styles.navLabel}>{sec.title}</span>
             {sec.type === 'quiz' && <span className={styles.navBadge}>Quiz</span>}
@@ -64,7 +65,7 @@ function ModuleComplete({ userName, onGoToRef }) {
           </p>
         </div>
         <button className={styles.nextModuleBtn} onClick={onGoToRef}>
-          Go to Module 7 →
+          Go to Module 7 <IconArrowRight size={16} style={{verticalAlign:'middle', marginLeft:4}} />
         </button>
       </div>
     </motion.div>

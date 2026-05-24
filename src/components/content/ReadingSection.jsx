@@ -2,6 +2,7 @@ import { createContext, useContext } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { motion } from 'framer-motion'
+import { IconCheck } from '@tabler/icons-react'
 import Button from '../shared/Button'
 import styles from './ReadingSection.module.css'
 
@@ -63,7 +64,7 @@ export default function ReadingSection({ title, content, learningObjectives = []
 
       <div className={styles.footer}>
         {completed ? (
-          <p className={styles.completedNote}>✓ Section complete — continue in the sidebar</p>
+          <p className={styles.completedNote}><IconCheck size={16} style={{verticalAlign:'middle', marginRight:4}} /> Section complete — continue in the sidebar</p>
         ) : (
           <Button variant="primary" pill onClick={onComplete}>
             Mark as Read &amp; Continue

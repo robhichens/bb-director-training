@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useAuth } from '../../context/AuthContext'
 import { recordQuizAttempt } from '../../lib/analytics'
+import { IconCheck, IconX, IconArrowRight } from '@tabler/icons-react'
 import Button from '../shared/Button'
 import styles from './Quiz.module.css'
 
@@ -45,7 +46,7 @@ export default function Quiz({ title, questions, onComplete, completed, previous
     return (
       <div className={styles.wrapper}>
         <div className={styles.passedBanner}>
-          <span className={styles.passedIcon}>✓</span>
+          <span className={styles.passedIcon}><IconCheck size={18} /></span>
           <div>
             <p className={styles.passedTitle}>Quiz Passed</p>
             <p className={styles.passedSub}>You scored {previousScore}% — review the answers below.</p>
@@ -75,7 +76,7 @@ export default function Quiz({ title, questions, onComplete, completed, previous
                   })}
                 </div>
                 <div className={`${styles.explanation} ${styles.explCorrect}`}>
-                  <span className={styles.explIcon}>✓</span>
+                  <span className={styles.explIcon}><IconCheck size={18} /></span>
                   <span>{q.explanation}</span>
                 </div>
               </div>
@@ -85,7 +86,7 @@ export default function Quiz({ title, questions, onComplete, completed, previous
 
         <div className={styles.footer}>
           <Button variant="primary" pill onClick={() => onComplete?.(previousScore, true)}>
-            Next →
+            Next <IconArrowRight size={16} />
           </Button>
         </div>
       </div>
@@ -108,7 +109,7 @@ export default function Quiz({ title, questions, onComplete, completed, previous
         <div className={`${styles.resultBanner} ${results.passed ? styles.resultPass : styles.resultFail}`}>
           {results.passed ? (
             <>
-              <span className={styles.resultIcon}>✓</span>
+              <span className={styles.resultIcon}><IconCheck size={18} /></span>
               <div>
                 <p className={styles.resultTitle}>Excellent! You passed.</p>
                 <p className={styles.resultSub}>{results.score}% — {results.numCorrect} of {questions.length} correct</p>
@@ -116,7 +117,7 @@ export default function Quiz({ title, questions, onComplete, completed, previous
             </>
           ) : (
             <>
-              <span className={styles.resultIcon}>✗</span>
+              <span className={styles.resultIcon}><IconX size={18} /></span>
               <div>
                 <p className={styles.resultTitle}>Not quite — give it another try.</p>
                 <p className={styles.resultSub}>{results.numCorrect} of {questions.length} correct — need 100% to pass. Review the explanations below.</p>
@@ -177,7 +178,7 @@ export default function Quiz({ title, questions, onComplete, completed, previous
                     exit={{ opacity: 0, height: 0 }}
                     transition={{ duration: 0.25 }}
                   >
-                    <span className={styles.explIcon}>{result.correct ? '✓' : '✗'}</span>
+                    <span className={styles.explIcon}>{result.correct ? <IconCheck size={18} /> : <IconX size={18} />}</span>
                     <span>{q.explanation}</span>
                   </motion.div>
                 )}

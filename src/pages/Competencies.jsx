@@ -3,6 +3,7 @@ import { motion } from 'framer-motion'
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import { CATEGORIES } from '../data/competenciesData'
+import { IconPrinter, IconRefresh } from '@tabler/icons-react'
 import {
   loadCompetencies,
   markIntroduced,
@@ -73,10 +74,10 @@ export default function Competencies() {
           </div>
           <div className={styles.heroActions}>
             <button className={styles.actionBtn} onClick={() => navigate('/competencies/print')} title="Open print view">
-              🖨 Print View
+              <><IconPrinter size={16} style={{verticalAlign:'middle', marginRight:6}} /> Print View</>
             </button>
             <button className={`${styles.actionBtn} ${styles.actionBtnReset}`} onClick={handleResetAll} title="Reset all progress">
-              ↺ Reset All
+              <><IconRefresh size={16} style={{verticalAlign:'middle', marginRight:6}} /> Reset All</>
             </button>
           </div>
         </div>

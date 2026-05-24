@@ -1,5 +1,6 @@
 import { getCategoryProgress } from '../../utils/competencyTracker'
 import CompetencyItem from './CompetencyItem'
+import { IconChevronRight, IconCheck } from '@tabler/icons-react'
 import styles from './CategoryAccordion.module.css'
 
 export default function CategoryAccordion({ category, data, isOpen, onToggle, onMarkIntroduced, onMarkCompleted, onUncheckIntroduced, onUncheckCompleted }) {
@@ -11,11 +12,11 @@ export default function CategoryAccordion({ category, data, isOpen, onToggle, on
       {/* Header */}
       <button className={styles.header} onClick={onToggle} aria-expanded={isOpen}>
         <div className={styles.headerLeft}>
-          <span className={`${styles.chevron} ${isOpen ? styles.chevronOpen : ''}`}>›</span>
+          <IconChevronRight className={`${styles.chevron} ${isOpen ? styles.chevronOpen : ''}`} size={18} />
           <span className={`${styles.title} ${allDone ? styles.titleDone : ''}`}>{category.title}</span>
         </div>
         <span className={`${styles.pill} ${allDone ? styles.pillDone : ''}`}>
-          {allDone ? 'Done! ✓' : `${completed}/${total}`}
+          {allDone ? <>Done! <IconCheck size={12} /></> : `${completed}/${total}`}
         </span>
       </button>
 

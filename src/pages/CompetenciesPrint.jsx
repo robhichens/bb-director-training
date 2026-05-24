@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import { useAuth } from '../context/AuthContext'
 import { CATEGORIES } from '../data/competenciesData'
 import { loadCompetencies, getOverallProgress, fmtDate } from '../utils/competencyTracker'
+import { IconPrinter, IconCheck } from '@tabler/icons-react'
 import styles from './CompetenciesPrint.module.css'
 
 export default function CompetenciesPrint() {
@@ -31,7 +32,7 @@ export default function CompetenciesPrint() {
 
       {/* Print button — hidden when printing */}
       <button className={styles.printBtn} onClick={() => window.print()}>
-        🖨 Print / Save as PDF
+        <><IconPrinter size={16} style={{verticalAlign:'middle', marginRight:6}} /> Print / Save as PDF</>
       </button>
 
       {/* Categories */}
@@ -62,12 +63,12 @@ export default function CompetenciesPrint() {
                     <td className={styles.cellItem}>{label}</td>
                     <td className={styles.cellStatus}>
                       {itemData.introduced
-                        ? <span className={styles.checkDone}>✓ {fmtDate(itemData.introducedDate)}</span>
+                        ? <span className={styles.checkDone}><IconCheck size={12} style={{verticalAlign:'middle', marginRight:2}} /> {fmtDate(itemData.introducedDate)}</span>
                         : <span className={styles.checkBlank}>—</span>}
                     </td>
                     <td className={styles.cellStatus}>
                       {itemData.completed
-                        ? <span className={styles.checkDone}>✓ {fmtDate(itemData.completedDate)}</span>
+                        ? <span className={styles.checkDone}><IconCheck size={12} style={{verticalAlign:'middle', marginRight:2}} /> {fmtDate(itemData.completedDate)}</span>
                         : <span className={styles.checkBlank}>—</span>}
                     </td>
                   </tr>

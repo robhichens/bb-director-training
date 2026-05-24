@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { fmtDate } from '../../utils/competencyTracker'
+import { IconInfoCircle } from '@tabler/icons-react'
 import styles from './CompetencyItem.module.css'
 
 export default function CompetencyItem({ item, itemData, onMarkIntroduced, onMarkCompleted, onUncheckIntroduced, onUncheckCompleted }) {
@@ -40,7 +41,7 @@ export default function CompetencyItem({ item, itemData, onMarkIntroduced, onMar
             aria-label={detailOpen ? 'Hide detail' : 'Show detail'}
             title={detailOpen ? 'Hide detail' : 'Show detail'}
           >
-            ⓘ
+            <IconInfoCircle size={14} />
           </button>
         )}
       </div>

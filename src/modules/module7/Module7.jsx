@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { useProgress } from '../../context/ProgressContext'
 import { useAuth } from '../../context/AuthContext'
+import { IconCheck, IconStar } from '@tabler/icons-react'
 import ReadingSection from '../../components/content/ReadingSection'
 import Quiz from '../../components/content/Quiz'
 import ScenarioCard from '../../components/content/ScenarioCard'
@@ -28,7 +29,7 @@ function SectionNav({ sections, currentId, completedIds, onSelect }) {
             aria-current={current ? 'step' : undefined}
           >
             <span className={styles.navDot}>
-              {done ? '✓' : idx + 1}
+              {done ? <IconCheck size={11} /> : idx + 1}
             </span>
             <span className={styles.navLabel}>{sec.title}</span>
             {sec.type === 'quiz' && <span className={styles.navBadge}>Quiz</span>}
@@ -64,7 +65,7 @@ function TrainingComplete({ userName }) {
           <span className={styles.statLabel}>Training Done</span>
         </div>
         <div className={styles.stat}>
-          <span className={styles.statNum}>★</span>
+          <IconStar size={24} className={styles.statNum} />
           <span className={styles.statLabel}>Certified</span>
         </div>
       </div>

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { motion } from 'framer-motion'
 import { checkAdminCredentials, setAdminSession } from './adminAuth'
+import { IconArrowLeft } from '@tabler/icons-react'
 import styles from './AdminLogin.module.css'
 
 export default function AdminLogin() {
@@ -84,7 +85,7 @@ export default function AdminLogin() {
         </form>
 
         <button className={styles.backBtn} onClick={() => navigate('/dashboard')}>
-          ← Back to Training
+          <><IconArrowLeft size={16} style={{verticalAlign:'middle', marginRight:4}} /> Back to Training</>
         </button>
       </motion.div>
     </div>

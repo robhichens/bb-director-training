@@ -7,6 +7,7 @@ import {
   isChecked, checkTask, uncheckTask,
   getAllChecked, formatCheckedAt, formatCheckedAtFull,
 } from '../lib/taskStore'
+import { IconX, IconCheck, IconArrowRight, IconClock, IconNotes, IconCalendar, IconAlertTriangle } from '@tabler/icons-react'
 import styles from './Briefing.module.css'
 
 const DAY_NAMES   = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
@@ -45,7 +46,7 @@ function TipModal({ tip, scope, checked, checkedAt, onCheck, onAskBirdie, onClos
               <span className={`${styles.urgencyDot} ${styles[tip.urgency]}`} />
               <span className={styles.modalCategory}>{tip.category}</span>
             </div>
-            <button className={styles.modalClose} onClick={onClose} aria-label="Close">✕</button>
+            <button className={styles.modalClose} onClick={onClose} aria-label="Close"><IconX size={18} /></button>
           </div>
 
           {/* Title + body */}
@@ -100,7 +101,7 @@ function TipTile({ tip, scope, checked, onOpen }) {
       aria-label={tip.title}
     >
       <div className={styles.tileAccent} />
-      {checked && <span className={styles.tileTick}>✓</span>}
+      {checked && <IconCheck size={44} className={styles.tileTick} />}
       <p className={styles.tileTitle}>{tip.title}</p>
       <span className={styles.tileCat}>{tip.category}</span>
     </motion.button>
@@ -120,17 +121,17 @@ function NotCompletedBar({ tip, scope, onOpen }) {
       <span className={`${styles.ncDot} ${styles[tip.urgency]}`} />
       <span className={styles.ncTitle}>{tip.title}</span>
       <span className={styles.ncCat}>{tip.category}</span>
-      <span className={styles.ncArrow}>→</span>
+      <IconArrowRight size={16} className={styles.ncArrow} />
     </motion.button>
   )
 }
 
 // ── SectionHeading ────────────────────────────────────────────────────────
-function SectionHeading({ emoji, label, count, doneCount }) {
+function SectionHeading({ icon: Icon, label, count, doneCount }) {
   const allDone = count > 0 && doneCount === count
   return (
     <div className={styles.sectionHead}>
-      <span className={styles.sectionEmoji}>{emoji}</span>
+      <Icon size={18} className={styles.sectionEmoji} />
       <h2 className={styles.sectionLabel}>{label}</h2>
       {count > 0 && (
         <span className={`${styles.sectionCount} ${allDone ? styles.sectionCountDone : ''}`}>
@@ -244,7 +245,7 @@ export default function Briefing() {
       {/* ── RIGHT NOW ───────────────────────────────── */}
       {rightNowTips.length > 0 && (
         <section className={styles.section}>
-          <SectionHeading emoji="⏰" label="Right Now" count={0} doneCount={0} />
+          <SectionHeading icon={IconClock} label="Right Now" count={0} doneCount={0} />
           <TileGrid tips={rightNowTips} scope="daily" checked={{}} onOpen={openModal} />
         </section>
       )}
@@ -253,7 +254,7 @@ export default function Briefing() {
       {todayTips.length > 0 && (
         <section className={styles.section}>
           <SectionHeading
-            emoji="📋"
+            icon={IconNotes}
             label={`Today — ${dayName}`}
             count={todayTotal}
             doneCount={todayDone}
@@ -265,7 +266,7 @@ export default function Briefing() {
       {/* ── MONTH FOCUS ─────────────────────────────── */}
       <section className={styles.section}>
         <SectionHeading
-          emoji="📅"
+          icon={IconCalendar}
           label={`${monthName} Tasks`}
           count={monthTips.length}
           doneCount={monthDone}
@@ -277,7 +278,7 @@ export default function Briefing() {
       {hasNC && (
         <section className={styles.section}>
           <div className={styles.sectionHead}>
-            <span className={styles.sectionEmoji}>🚨</span>
+            <IconAlertTriangle size={18} className={styles.sectionEmoji} />
             <h2 className={`${styles.sectionLabel} ${styles.ncLabel}`}>Not Completed</h2>
           </div>
 
