@@ -10,6 +10,7 @@ import {
   getUser,
 } from '../utils/progressTracker'
 import { syncProgressToFirestore } from '../lib/syncProgress'
+import { syncCompleted, isAllModulesComplete } from '../lib/platformSync'
 
 const ProgressContext = createContext(null)
 
@@ -47,6 +48,8 @@ export function ProgressProvider({ children }) {
       const next = markModuleComplete(prev, moduleId)
       saveProgress(next)
       syncProgressToFirestore(getUser(), next)
+      // Platform mode: notify bb-platform when all 7 modules are complete
+      if (isAllModulesComplete(next)) syncCompleted()
       return next
     })
   }, [])

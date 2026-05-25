@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { AuthProvider, useAuth } from './context/AuthContext'
 import { ProgressProvider, useProgress } from './context/ProgressContext'
@@ -19,15 +20,19 @@ import CompetenciesPrint from './pages/CompetenciesPrint'
 import AdminLogin from './pages/admin/AdminLogin'
 import AdminDashboard from './pages/admin/AdminDashboard'
 import BirdieChat from './components/shared/BirdieChat'
+import { getPlatformUid, syncStarted, syncCompleted, isAllModulesComplete } from './lib/platformSync'
+import { getProgress } from './utils/progressTracker'
 
 function ProtectedRoute({ children }) {
   const { user } = useAuth()
-  return user ? children : <Navigate to="/login" replace />
+  // Platform mode: allow through when opened from bb-platform with ?uid=
+  return (user || getPlatformUid()) ? children : <Navigate to="/login" replace />
 }
 
 function PublicRoute({ children }) {
   const { user } = useAuth()
-  return user ? <Navigate to="/dashboard" replace /> : children
+  // Platform mode: skip login/signup pages and go straight to the training dashboard
+  return (user || getPlatformUid()) ? <Navigate to="/dashboard" replace /> : children
 }
 
 function ComingSoon({ num }) {
@@ -45,6 +50,13 @@ function ComingSoon({ num }) {
 }
 
 function AppRoutes() {
+  // Platform mode init: fire started event and detect already-complete state
+  useEffect(() => {
+    if (!getPlatformUid()) return
+    syncStarted()
+    if (isAllModulesComplete(getProgress())) syncCompleted()
+  }, [])
+
   return (
     <Routes>
       {/* Root redirect */}
@@ -158,7 +170,7 @@ function BirdieGate() {
   const { overallPct } = useProgress()
   const location       = useLocation()
   const onBriefing     = location.pathname === '/briefing'
-  if (!user) return null
+  if (!user && !getPlatformUid()) return null
   if (overallPct === 0 && !onBriefing) return null
   return <BirdieChat />
 }
