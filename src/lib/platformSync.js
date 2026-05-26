@@ -20,6 +20,14 @@ export function setPlatformUid(uid) {
   try { sessionStorage.setItem(PLATFORM_UID_KEY, uid) } catch {}
 }
 
+export function clearPlatformUid() {
+  try {
+    sessionStorage.removeItem(PLATFORM_UID_KEY)
+    sessionStorage.removeItem(PLATFORM_STARTED_KEY)
+    sessionStorage.removeItem(PLATFORM_DONE_KEY)
+  } catch {}
+}
+
 // ── Progress helpers ──────────────────────────────────────────────────────────
 
 export function isAllModulesComplete(progress) {
