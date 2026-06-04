@@ -1,6 +1,8 @@
 // Platform integration for bb-director-training
-// When opened from bb-platform with ?uid=, this module stores the uid in
-// sessionStorage and notifies bb-platform when training milestones are reached.
+// When opened from bb-platform with ?token=, main.jsx signs in via
+// signInWithCustomToken and calls setPlatformUid() with the real uid.
+// This module stores that uid in sessionStorage and notifies bb-platform
+// when training milestones are reached.
 
 const PLATFORM_UID_KEY     = 'bb-platform-uid'
 const PLATFORM_STARTED_KEY = 'bb-platform-started'

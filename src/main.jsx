@@ -1,15 +1,22 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { signInWithCustomToken } from 'firebase/auth'
 import './styles/global.css'
 import App from './App.jsx'
+import { auth } from './lib/firebase.js'
 import { setPlatformUid, clearPlatformUid } from './lib/platformSync.js'
 
-// Capture ?uid= from the initial URL before React Router navigates away.
-// If there's no ?uid=, clear any leftover platform-mode session so that
-// direct visitors always go through the normal sign-in flow.
-const _uid = new URLSearchParams(window.location.search).get('uid')
-if (_uid) {
-  setPlatformUid(_uid)
+// Capture ?token= from the initial URL before React Router navigates away.
+// Sign in with the custom token so the spoke app has a real Firebase auth session.
+// If there's no token, clear any leftover platform-mode session.
+const _token = new URLSearchParams(window.location.search).get('token')
+if (_token) {
+  signInWithCustomToken(auth, _token)
+    .then(cred => setPlatformUid(cred.user.uid))
+    .catch(err => {
+      console.warn('Spoke token sign-in failed:', err)
+      clearPlatformUid()
+    })
 } else {
   clearPlatformUid()
 }
