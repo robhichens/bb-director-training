@@ -1,0 +1,42 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // quizAttempts — append-only analytics. Client creates docs, never reads them.
+    match /quizAttempts/{docId} {
+      allow create: if request.resource.data.keys().hasAll(['userId', 'moduleId', 'score', 'timestamp'])
+                    && request.resource.data.score is number
+                    && request.resource.data.score >= 0
+                    && request.resource.data.score <= 100;
+      allow read, update, delete: if false;
+    }
+
+    // scenarioChoices — append-only analytics. Same pattern as quizAttempts.
+    match /scenarioChoices/{docId} {
+      allow create: if request.resource.data.keys().hasAll(['userId', 'moduleId', 'chosenLabel', 'timestamp'])
+                    && request.resource.data.chosenLabel is string;
+      allow read, update, delete: if false;
+    }
+
+    // userProgress — keyed by makeDocId(email).
+    // get  (single doc): allowed — the passwordless login restores a session on a
+    //                    new device by looking up the exact email. Consistent with
+    //                    the email-only login model (no secret beyond the address).
+    // list (enumeration): denied — nobody can dump the roster from the browser.
+    //                     The admin dashboard reads the full collection server-side
+    //                     via the admin-progress function (Admin SDK).
+    match /userProgress/{docId} {
+      allow get:  if true;
+      allow list: if false;
+      allow write: if request.resource.data.userId is string
+                   && request.resource.data.userId.size() > 0
+                   && request.resource.data.userId.size() < 256;
+    }
+
+    // Deny everything not explicitly matched above.
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
