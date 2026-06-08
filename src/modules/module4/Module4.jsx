@@ -101,6 +101,7 @@ export default function Module4() {
   const [currentId, setCurrentId] = useState(firstIncomplete?.id ?? content.sections[0].id)
 
   const isModuleComplete = modProgress?.status === 'completed'
+  const [reviewMode, setReviewMode] = useState(false)
   const currentSection   = content.sections.find(s => s.id === currentId)
 
   function goToNext() {
@@ -134,16 +135,35 @@ export default function Module4() {
 
   const sectionPct = Math.round((completedIds.length / content.sections.length) * 100)
 
-  if (isModuleComplete) {
+  if (isModuleComplete && !reviewMode) {
     return (
       <div>
         <ModuleComplete userName={user?.name?.split(' ')[0] ?? 'Director'} />
+        <div style={{ textAlign: 'center', paddingBottom: 32 }}>
+          <button
+            onClick={() => setReviewMode(true)}
+            style={{ background: 'transparent', border: '1.5px solid var(--bb-coral)', color: 'var(--bb-coral)', borderRadius: '999px', padding: '10px 24px', fontSize: 14, fontWeight: 600, cursor: 'pointer' }}
+          >
+            Review this module
+          </button>
+        </div>
       </div>
     )
   }
 
   return (
     <div>
+      {isModuleComplete && (
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12, background: 'var(--bb-sky)', color: 'var(--bb-charcoal)', borderRadius: 'var(--card-radius)', padding: '10px 16px', marginBottom: 16, fontSize: 14 }}>
+          <span>You've completed this module — you're reviewing it.</span>
+          <button
+            onClick={() => setReviewMode(false)}
+            style={{ background: 'none', border: 'none', color: 'var(--bb-coral)', fontWeight: 600, cursor: 'pointer', fontSize: 14, whiteSpace: 'nowrap' }}
+          >
+            Back to summary
+          </button>
+        </div>
+      )}
       <div className={styles.moduleHeader}>
         <div className={styles.moduleHeaderTop}>
           <div>
