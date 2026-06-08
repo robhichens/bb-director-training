@@ -6,3 +6,5 @@
 [functions]
   # Use esbuild to bundle each function — handles ESM imports from node_modules
   node_bundler = "esbuild"
+  # firebase-admin uses dynamic requires/native deps; leave it unbundled
+  external_node_modules = ["firebase-admin"]

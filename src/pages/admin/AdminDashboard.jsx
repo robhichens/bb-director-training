@@ -1,9 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { collection, getDocs, orderBy, query } from 'firebase/firestore'
 import { motion } from 'framer-motion'
-import { db } from '../../lib/firebase'
-import { isAdminAuthed, clearAdminSession } from './adminAuth'
+import { isAdminAuthed, clearAdminSession, getAdminCred } from './adminAuth'
 import { IconCheck, IconPlayerPlay, IconLock, IconArrowLeft, IconSelector, IconChevronUp, IconChevronDown } from '@tabler/icons-react'
 import styles from './AdminDashboard.module.css'
 
@@ -81,21 +79,38 @@ export default function AdminDashboard() {
     }
   }, [navigate])
 
-  // Fetch from Firestore
+  // Fetch from the admin-progress Netlify function (reads via Admin SDK)
   useEffect(() => {
     if (!isAdminAuthed()) return
+    const cred = getAdminCred()
+    if (!cred) {
+      navigate('/admin/login', { replace: true })
+      return
+    }
     setLoading(true)
-    getDocs(query(collection(db, 'userProgress')))
-      .then(snap => {
-        const rows = snap.docs.map(d => ({ id: d.id, ...d.data() }))
-        setUsers(rows)
+    fetch('/.netlify/functions/admin-progress', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ username: cred.username, password: cred.password }),
+    })
+      .then(async res => {
+        if (res.status === 401) {
+          clearAdminSession()
+          navigate('/admin/login', { replace: true })
+          return null
+        }
+        if (!res.ok) throw new Error('load failed')
+        return res.json()
+      })
+      .then(data => {
+        if (data) setUsers(data.users || [])
       })
       .catch(e => {
         console.error(e)
-        setError('Could not load user data. Check Firestore permissions.')
+        setError('Could not load user data. Please try signing in again.')
       })
       .finally(() => setLoading(false))
-  }, [])
+  }, [navigate])
 
   function handleLogout() {
     clearAdminSession()
@@ -128,8 +143,8 @@ export default function AdminDashboard() {
     if (sortKey === 'location') { av = (a.location || '').toLowerCase(); bv = (b.location || '').toLowerCase() }
     if (sortKey === 'pct')      { av = a.overallPct || 0; bv = b.overallPct || 0 }
     if (sortKey === 'lastUpdated') {
-      av = a.lastUpdated?.toDate?.() ?? new Date(0)
-      bv = b.lastUpdated?.toDate?.() ?? new Date(0)
+      av = a.lastUpdated ? new Date(a.lastUpdated) : new Date(0)
+      bv = b.lastUpdated ? new Date(b.lastUpdated) : new Date(0)
     }
     if (av < bv) return sortDir === 'asc' ? -1 : 1
     if (av > bv) return sortDir === 'asc' ?  1 : -1

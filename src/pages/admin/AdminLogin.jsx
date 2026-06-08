@@ -17,13 +17,15 @@ export default function AdminLogin() {
     if (error) setError('')
   }
 
-  function handleSubmit(e) {
+  async function handleSubmit(e) {
     e.preventDefault()
     setLoading(true)
     setError('')
 
-    if (checkAdminCredentials(form.username.trim(), form.password)) {
-      setAdminSession()
+    const username = form.username.trim()
+    const ok = await checkAdminCredentials(username, form.password)
+    if (ok) {
+      setAdminSession(username, form.password)
       navigate('/admin')
     } else {
       setError('Invalid username or password.')
