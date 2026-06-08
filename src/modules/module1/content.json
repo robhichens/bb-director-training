@@ -279,13 +279,13 @@
           "question": "What is the enrollment target for the Crozet location?",
           "type": "multiple-choice",
           "options": [
-            "52",
-            "68",
-            "72",
-            "102"
+            "102",
+            "117",
+            "120",
+            "141"
           ],
-          "correctAnswer": "72",
-          "explanation": "Crozet's enrollment target is 72 children. Each location has its own target based on licensed capacity and operational goals."
+          "correctAnswer": "120",
+          "explanation": "Crozet's enrollment target is 120 FTE — that's 85% of its 141 licensed capacity. (141 is the capacity, not the target.) Each site's target reflects its capacity and the 85% minimum threshold."
         },
         {
           "id": "q6",
@@ -298,7 +298,7 @@
             "117"
           ],
           "correctAnswer": "102",
-          "explanation": "Forest Lakes has an enrollment target of 102 children. Mill Creek is 117, and Crozet is 72."
+          "explanation": "Forest Lakes has an enrollment target of 102 children. Mill Creek is 117, and Crozet is 120."
         },
         {
           "id": "q7",
