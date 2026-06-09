@@ -2,7 +2,24 @@
 
 **Scope:** All 7 modules (`src/modules/module1–7/content.json`) — every reading, quiz, and scenario.
 **Method:** Internal-consistency + grounding review. Each quiz answer checked against its section's reading and against the rest of the course; numbers/policies cross-checked across modules.
-**Status:** Report only — **no fixes applied yet.** Awaiting your review and ground-truth on the "Verify with source" items.
+**Status:** Pass 1 applied (see Update Log). Remaining items still open.
+
+---
+
+## Update Log
+
+**Pass 1 — applied & deployed to both apps (training + manual):**
+
+- ✅ **P1 credentials removed** — Canva login/password (`6.4-quiz` q7, `7.2`) and voicemail PIN (`7.1`, `7.2`). ⚠️ **You must still rotate the Canva password** — it shipped in prior bundles and is in git history.
+- ✅ **C2** Crozet target 72 → **120** (`4.1-quiz` q5)
+- ✅ **C3** Forest Lakes Merchant ID 7657 → **7660** (`4.6-quiz` q6)
+- ✅ **C4** Crozet CCA code 9304 → **9252** (`4.6-quiz` q9)
+- ✅ **X1/X2** Collections → **Day 5 deny-care**; billing cycle stated as **due 1st / late 5th / charged 27th** (`4.2` reading + activity)
+- ✅ **X3** DOR (daily) vs **WOR (Friday 3 PM)** split (`2.6`, `7.5`)
+- ✅ **X4** Medication → staff give **only inhalers/EpiPens (MAT-trained)**; **parents handle OTC** (`5.2` reading + quiz)
+- ✅ **Licensing authority** standardized **VDSS → VDOE** (`4.5`, `5.x`, `7.1`)
+
+**Still open (need your decision or source):** X5 (strep return), X6 (ratio age-bands — needs VDOE numbers), X7 (Day-1 onboarding), X8 (binder Day 3 vs 16), X9 (tour "target room first"); the low-risk standardizations X10/X11/X12; all of **P3** (replace ungrounded questions — incl. the approved `1.1-quiz` q7–q9), **P4** (verify-with-source facts), and **P5** (duplicate questions, typo, emoji).
 
 ---
 
