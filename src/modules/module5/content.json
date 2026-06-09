@@ -118,12 +118,12 @@
           "type": "multiple-choice",
           "options": [
             "Annually before the scheduled inspection",
-            "Monthly — Day 3 of each month",
+            "Monthly — a full review on Day 16",
             "Quarterly",
             "Only when a new hire joins or leaves"
           ],
-          "correctAnswer": "Monthly — Day 3 of each month",
-          "explanation": "The licensing binder review is a Day 3 monthly task. Monthly review catches expiring documents before they become violations — annual review is too infrequent."
+          "correctAnswer": "Monthly — a full review on Day 16",
+          "explanation": "The full licensing binder review is a monthly Day 16 task (with a lighter binder check earlier in the month on Day 3). Monthly review catches expiring documents before they become violations — annual review is too infrequent."
         },
         {
           "id": "q10",
@@ -198,16 +198,16 @@
         },
         {
           "id": "q5",
-          "question": "A child has been on an antibiotic for 48 hours for strep throat. They have no fever and seem well. Can they return to the center?",
+          "question": "A child was diagnosed with strep throat. They've been on antibiotics for 48 hours and have no fever. What does our policy require before they return?",
           "type": "multiple-choice",
           "options": [
-            "No — they must wait a full week after a strep diagnosis",
-            "Yes — 48 hours on antibiotics with no fever is the standard",
-            "Only if they bring a doctor's note clearing them",
-            "Only if they wear a mask for the first day back"
+            "Nothing — they can return as soon as the fever is gone",
+            "48 hours on antibiotics is enough; no documentation needed",
+            "A doctor's note clearing them to return",
+            "A full week at home regardless of symptoms"
           ],
-          "correctAnswer": "Yes — 48 hours on antibiotics with no fever is the standard",
-          "explanation": "The 48-hour antibiotic rule with no fever is the standard return-to-care guideline for strep throat and most bacterial infections. Document the parent's confirmation in the child's daily note."
+          "correctAnswer": "A doctor's note clearing them to return",
+          "explanation": "Strep is a diagnosed contagious illness, and our return-to-care policy requires a doctor's note before a child returns from any diagnosed contagious illness. Antibiotics for 24+ hours and no fever are part of the picture, but the note is what clears the return."
         },
         {
           "id": "q6",

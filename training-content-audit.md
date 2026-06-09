@@ -28,12 +28,22 @@
 - ✅ **P5 duplicates** de-duped: `3.2` q8, `4.4` q8, `5.7` q6 & q7, `6.1` q7/q8/q9, `6.4` q10, `6.5` q5/q6/q9 — each replaced with a distinct, section-grounded question
 - ✅ **P5** typo "a Enrolled" → "an Enrolled" (`2.5`); removed ⚠️ emoji (`1.2`)
 
-**Still open (need your decision or source):**
+**Pass 3 — applied & deployed (source: VDOE 8VAC20-780, 10/2021):**
 
-- **P2 policy calls:** X5 (strep return rule), X7 (Day-1 onboarding), X8 (binder Day 3 vs 16), X9 (tour "target room first")
-- **P2 + P4 — ratios (X6):** age-band inconsistency *and* the actual VDOE numbers — needs your licensing doc
-- **P4 verify-with-source:** min wage, indoor/outdoor sq ft, bleach ppm, reg subsections, vendor contacts, the "<2 weeks notice → min wage" policy (legal review), training-deduction amounts, the "41 years" phrasing
-- **P3 remaining misplaced questions:** e.g. `1.4` q9 (Career Ladder), `2.1` q9 (fire drills) — and the broader "quiz tests later-section content" pattern
+- ✅ **X6 ratios — CORRECTED to VDOE** (`3.2` reading): birth–16mo 1:4 (max 12) · 16–24mo 1:5 (max 15) · 2yo 1:8 (max 24) · 3yo–school age 1:10 (max 30). Removed the bogus **"4–5yo 1:12"** row — 1:12 actually *exceeded* the legal 1:10 max (a real compliance error). Fixed 12→16-month age boundary. Quizzes (`3.2` q1/q5/q7) were already correct.
+- ✅ **X5 strep** (`5.2-quiz` q5) — aligned to the reading: diagnosed contagious illness needs a **doctor's note** to return
+- ✅ **X7 Day-1 onboarding** (`3.1-quiz` q6) — rewritten to match the readings (welcome, tour, systems setup, handbook, paperwork) instead of a false either/or
+- ✅ **X8 binder review** (`5.1-quiz` q9) — aligned to its section: **Day 16 full review** (Day 3 is a lighter check)
+- ✅ **X9 tour flow** (`2.5-quiz` q7) — rewritten to match the documented 5-step tour (no "target room first")
+
+**Source-confirmed as already correct (no change needed):** indoor/outdoor square footage (35 / 75 sq ft per child); field-trip reg citation 8VAC20-780-580.
+
+**Flag (your call):** VDOE drill *minimums* are evacuation monthly · shelter-in-place 2×/yr · lockdown annually. The course runs **tornado monthly and lockdown quarterly** — stricter than required. Left as-is (stricter is fine); change only if you want to match the legal floor.
+
+**Still open:**
+
+- **P4 verify-with-source (not in the licensing PDF):** min wage figure ($12.71 — changes yearly), bleach ppm values, vendor contacts/phone numbers, the "<2 weeks notice → min wage" policy (worth a legal check), training-deduction amounts, the hard-coded "41 years" phrasing
+- **P3 remaining misplaced questions:** e.g. `1.4` q9 (Career Ladder), `2.1` q9 (fire drills) — the broader "quiz tests later-section content" pattern
 
 ---
 

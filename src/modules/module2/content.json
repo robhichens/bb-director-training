@@ -503,16 +503,16 @@
         },
         {
           "id": "q7",
-          "question": "During the in-person tour, when should you show the prospective family the target classroom?",
+          "question": "In the five-step tour, what comes immediately after the lobby greeting?",
           "type": "multiple-choice",
           "options": [
-            "At the end of the tour as a grand finale",
-            "In the middle after building rapport",
-            "First — it's what they came to see",
-            "Only if the classroom looks particularly good that day"
+            "A walk through every classroom",
+            "The office / director chat — share the BB story and learn their needs",
+            "The outdoor spaces",
+            "Closing the tour and asking for the enrollment"
           ],
-          "correctAnswer": "First — it's what they came to see",
-          "explanation": "The child's target classroom should be shown first. Families came specifically to see where their child would be. Starting there keeps them engaged and anchors everything else to what matters most to them."
+          "correctAnswer": "The office / director chat — share the BB story and learn their needs",
+          "explanation": "The five-step tour is: (1) lobby greeting, (2) office/director chat — share the Bright Beginnings story and complete the intake form, (3) tour all classrooms, (4) outdoor spaces, (5) return to the office and close. You visit every age-group room in step 3 — not just the target room."
         },
         {
           "id": "q8",
