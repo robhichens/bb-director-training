@@ -279,13 +279,13 @@
           "question": "What three ProCare audit reports are run on Day 20 of each month?",
           "type": "multiple-choice",
           "options": [
-            "Enrollment Audit, Financial Audit, and Attendance Audit",
+            "Enrollment Audit, Billing Audit, and Attendance Audit",
             "AR Aging Report, Payroll Summary, and Immunization Due report",
             "Daily Attendance, Revenue Forecast, and Bad Debt Report",
             "Labor Report, Tuition Posted report, and Child Count"
           ],
-          "correctAnswer": "Enrollment Audit, Financial Audit, and Attendance Audit",
-          "explanation": "Day 20 requires three specific audits: Enrollment Audit, Financial Audit, and Attendance Audit. These are reviewed for anomalies before month-end billing runs on Day 27."
+          "correctAnswer": "Enrollment Audit, Billing Audit, and Attendance Audit",
+          "explanation": "Day 20 requires three specific audits: the Enrollment Audit, the Attendance Audit, and the Billing Audit. These are reviewed for anomalies before month-end billing runs on Day 27."
         },
         {
           "id": "q6",
@@ -439,16 +439,16 @@
         },
         {
           "id": "q8",
-          "question": "What is the primary purpose of the Day 26 \"tour follow-up blitz\"?",
+          "question": "What is the Day 30 action on the monthly calendar?",
           "type": "multiple-choice",
           "options": [
-            "To remind current families of upcoming billing on Day 27",
-            "To contact prospective families who toured that month but haven't enrolled",
-            "To verify all pending enrollment paperwork is complete",
-            "To reach out to past families about re-enrollment"
+            "Apply late fees to overdue accounts",
+            "Run the AR Aging Report",
+            "Hold the month-end team meeting and submit the Director Packet to admin",
+            "Conduct the monthly fire drill"
           ],
-          "correctAnswer": "To contact prospective families who toured that month but haven't enrolled",
-          "explanation": "Day 26 — three days before billing — is a natural urgency window to follow up with tours who haven't committed. \"We have a spot available\" is a genuine and compelling message before the month turns."
+          "correctAnswer": "Hold the month-end team meeting and submit the Director Packet to admin",
+          "explanation": "Day 30 closes the month: hold the month-end team meeting (review wins, set next month's goals) and submit the final Director Packet to admin."
         },
         {
           "id": "q9",

@@ -231,16 +231,16 @@
         },
         {
           "id": "q8",
-          "question": "Why is cross-training staff across multiple age groups a scheduling priority?",
+          "question": "How many extra staff should be scheduled during peak drop-off and pick-up hours?",
           "type": "multiple-choice",
           "options": [
-            "It allows staff to earn higher pay rates",
-            "It satisfies a Virginia licensing requirement for versatile staff",
-            "It gives the director flexibility to cover call-outs without breaking ratio",
-            "It reduces the number of lead teachers needed in the building"
+            "None — the base ratio is enough",
+            "1 extra staff member",
+            "2 extra staff members",
+            "Double the normal staff"
           ],
-          "correctAnswer": "It gives the director flexibility to cover call-outs without breaking ratio",
-          "explanation": "A staff member who can legally work in both the toddler and preschool rooms is twice as useful in a coverage crisis. Cross-training is a direct investment in operational resilience."
+          "correctAnswer": "1 extra staff member",
+          "explanation": "Always schedule 1 extra staff member during peak hours — drop-off (7:30–9:00 AM) and pick-up (3:00–6:00 PM). These transitions are exactly when ratios are most likely to slip."
         },
         {
           "id": "q9",

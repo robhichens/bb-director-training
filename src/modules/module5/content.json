@@ -763,23 +763,29 @@
         },
         {
           "id": "q6",
-          "question": "True or False: A parent who verbally confirms they will bring a car seat can transport additional children on a field trip without completing a Volunteer Driver Form.",
-          "type": "true-false",
-          "correctAnswer": "False",
-          "explanation": "A Volunteer Driver Form must be on file before any parent drives children — regardless of verbal commitments about car seats. The form includes proof of insurance and valid driver's license verification."
+          "question": "Before a new field-trip destination can be scheduled with children, what is required?",
+          "type": "multiple-choice",
+          "options": [
+            "Nothing beyond admin booking approval",
+            "A director site visit to the destination first",
+            "A signed waiver from every parent",
+            "A health-department inspection of the venue"
+          ],
+          "correctAnswer": "A director site visit to the destination first",
+          "explanation": "All destinations must be pre-approved by admin, and any new destination requires a director site visit before scheduling children. You don't take a group somewhere you haven't personally checked."
         },
         {
           "id": "q7",
-          "question": "What is the minimum group size required to use an Albemarle County school bus for a field trip?",
+          "question": "When children ride a school bus on a field trip, what is the minimum staffing?",
           "type": "multiple-choice",
           "options": [
-            "1 or more",
-            "3 or more",
-            "4 or more",
-            "8 or more"
+            "1 adult per bus",
+            "1 adult per 10 children, plus 1 adult in the back row",
+            "2 adults total regardless of group size",
+            "1 adult per 5 children"
           ],
-          "correctAnswer": "4 or more",
-          "explanation": "Albemarle County school buses are available for groups of 4 or more children. Groups of fewer than 4 must use alternative transportation options."
+          "correctAnswer": "1 adult per 10 children, plus 1 adult in the back row",
+          "explanation": "On the bus, staffing is at least 1 adult per 10 children plus 1 adult seated in the back row. All children must be seated (and buckled if applicable) before the bus departs."
         },
         {
           "id": "q8",
