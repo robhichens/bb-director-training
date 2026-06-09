@@ -19,7 +19,21 @@
 - ✅ **X4** Medication → staff give **only inhalers/EpiPens (MAT-trained)**; **parents handle OTC** (`5.2` reading + quiz)
 - ✅ **Licensing authority** standardized **VDSS → VDOE** (`4.5`, `5.x`, `7.1`)
 
-**Still open (need your decision or source):** X5 (strep return), X6 (ratio age-bands — needs VDOE numbers), X7 (Day-1 onboarding), X8 (binder Day 3 vs 16), X9 (tour "target room first"); the low-risk standardizations X10/X11/X12; all of **P3** (replace ungrounded questions — incl. the approved `1.1-quiz` q7–q9), **P4** (verify-with-source facts), and **P5** (duplicate questions, typo, emoji).
+**Pass 2 — applied & deployed to both apps (no-decision cleanup):**
+
+- ✅ **P3** Replaced `1.1-quiz` q7–q9 (cell/art/Tadpoles) with questions grounded in the 1.1 reading (37–38 hr cap; self-sufficient site model; don't-discard-without-replacement)
+- ✅ **X10** Day-20 audit renamed **"Billing Audit"** (`4.3-quiz` q5)
+- ✅ **X11** Wednesday OT threshold **32 → 35 hrs** (`2.3-quiz` q8)
+- ✅ **X12** Tour follow-up **Day 3 → Day 2** (`2.5-quiz` q6)
+- ✅ **P5 duplicates** de-duped: `3.2` q8, `4.4` q8, `5.7` q6 & q7, `6.1` q7/q8/q9, `6.4` q10, `6.5` q5/q6/q9 — each replaced with a distinct, section-grounded question
+- ✅ **P5** typo "a Enrolled" → "an Enrolled" (`2.5`); removed ⚠️ emoji (`1.2`)
+
+**Still open (need your decision or source):**
+
+- **P2 policy calls:** X5 (strep return rule), X7 (Day-1 onboarding), X8 (binder Day 3 vs 16), X9 (tour "target room first")
+- **P2 + P4 — ratios (X6):** age-band inconsistency *and* the actual VDOE numbers — needs your licensing doc
+- **P4 verify-with-source:** min wage, indoor/outdoor sq ft, bleach ppm, reg subsections, vendor contacts, the "<2 weeks notice → min wage" policy (legal review), training-deduction amounts, the "41 years" phrasing
+- **P3 remaining misplaced questions:** e.g. `1.4` q9 (Career Ladder), `2.1` q9 (fire drills) — and the broader "quiz tests later-section content" pattern
 
 ---
 
