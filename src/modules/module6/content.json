@@ -420,16 +420,16 @@
         },
         {
           "id": "q7",
-          "question": "What is the Canva login username for Bright Beginnings social and newsletter content?",
+          "question": "How quickly should you respond to every Google and Facebook review — positive or negative?",
           "type": "multiple-choice",
           "options": [
-            "bbdirector@gmail.com",
-            "brightbeginnings1984@gmail.com",
-            "mollypetchel@gmail.com",
-            "robhichens84@gmail.com"
+            "Only respond to negative reviews",
+            "Within 48 hours",
+            "Within one week",
+            "Only when you have time"
           ],
-          "correctAnswer": "mollypetchel@gmail.com",
-          "explanation": "Canva login: mollypetchel@gmail.com / BBIteach1984!. This is the shared account used for all Bright Beginnings newsletters, social content, and marketing materials."
+          "correctAnswer": "Within 48 hours",
+          "explanation": "Respond to every review — positive and negative — within 48 hours. A center that engages thoughtfully with all its reviews reads as active and trustworthy to prospective families; a 4.2-star center that responds well often out-converts a 4.8-star center that never engages."
         },
         {
           "id": "q8",
